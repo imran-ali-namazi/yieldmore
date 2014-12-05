@@ -1,0 +1,29 @@
+/*
+Theme Name: Imperishable
+Theme URI: https://github.com/ImranCS/wp-cselian/wiki/Imperishable
+Description: The theme for biblios.cselian.com, based on Desaindigital (.7) by Indaam 
+Author: <a href="mailto:imran@cselian.com">Imran Ali Namazi</a>
+Author URI: http://cselian.com/blog/about
+Version: 1.0
+Tags: gray, green, one-column, two-columns, custom-header, threaded-comments, sticky-post, post-formats, left-sidebar, full-width-template, flexible-width, editor-style, featured-images
+
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/* Import CSS Styling */
+@import url(css/default.css);
+@import url(css/class.css);
+@import url(font/font.css);
+@import url(css/template.css);
+@import url(css/comments.css);
+@import url(css/print.css);
+@import url(css/1280px.css);
+@import url(css/800px.css);
+@import url(css/650px.css);
+@import url(css/400px.css);
+@import url(css/240px.css);
+/* End import CSS Styling */
+
+#wrap-upper { min-height:100%; margin-bottom:-60px; }
+#wrap-footer { height: 30px; }

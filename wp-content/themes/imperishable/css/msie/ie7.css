@@ -1,0 +1,32 @@
+.searchform input[type='text']{
+	width:190px;
+	display:inline
+	}
+
+.searchform input[type='submit']{
+	display:inline;
+	position:relative;
+	top:-26px;
+	right:8px;
+	margin:0
+	}
+
+#wrap-footer .themeby p.alignright{
+	margin-top:6px
+	}
+
+#wrap-sidebar .sidebar .widget li a{
+	display:block
+	}
+
+#wrap-sidebar .sidebar .widget li a:focus,
+#wrap-sidebar .sidebar .widget li a:active,
+#wrap-sidebar .sidebar .widget li a:hover{
+	background-position:0 -20px
+	}
+
+.navigation .alignright a,
+.navigation .alignleft a{
+	padding:5px 12px 5px 12px;
+	text-align:center!important
+	}

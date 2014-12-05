@@ -1,0 +1,40 @@
+-- ChangeLog:
+	* Version 0.0.6 - 2012/07/20
+		* Minor bugfix Image Wide
+
+	* Version 0.0.6 - 2012/06/20	
+		* Remove Commented-out functions/features on functions.php
+		* Set font weight--sidebar widget title from bold to normal
+		* Delete double dot(:) permalink on entry meta
+		* Disable comment closed on page
+		* Add padding top if no image header/logo
+		* Set line height to 20px on content(Readability Test)
+		* Change URL footer credit from desaindigital.com to indaam.com
+		* Minor bugfix: searchform
+		* Minor bugfix: Search Result
+		* Minor bugfix: archive.php Thumbnail title atribute
+		* Minor bugfix: Recent comment widget
+		* Minor bugfix: Widget sidebar long content
+		* Minor bugfix: (Editor)Image test--wide image resized
+		* Minor bugfix: Author archive not display
+
+	* Version 0.0.5 - 2012/06/16
+		* Edit core for WordPress 3.4
+			* Custom header
+		* Minor bugfix: Sidebar Widget
+
+	* Version 0.0.4 - 2012/06/14
+		* Edit core
+
+	* Version 0.0.3 - 2012/06/09
+		* Set avatar comments size to 80
+
+	* Version 0.0.2 - 2012/05/19
+		* Add chengelog.txt File
+		* Edit CSS : on 400px.css, add property white-space to tag pre and blockquote
+		* Edit CSS : If content hover change color to #555
+		* Minor bugfix: Theme URI
+		* Change string on footer.php line 4 from: "Convert by Indaam" To "Convert To: "XHTML/CSS plus WP theme by Indaam"
+
+	* Version 0.0.1 - 2012/05/07
+		Release

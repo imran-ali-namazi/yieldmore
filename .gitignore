@@ -1,0 +1,12 @@
+/wp-admin
+/wp-content/plugins/akismet
+/wp-content/data/hindu/gita
+/wp-content/index.php
+/wp-content/plugins/index.php
+/wp-content/themes/index.php
+/wp-includes/
+wp-*.php
+/license.txt
+/readme.html
+/index.php
+/xmlrpc.php

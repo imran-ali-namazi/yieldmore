@@ -1,0 +1,73 @@
+@media (max-width: 400px){		
+	img{
+		padding: 0
+		}
+
+	pre,
+	blockquote{
+		margin-left: 1%;
+		/* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+		white-space: pre-wrap; /* CSS 2.1 */
+		white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+		word-wrap: break-word; /* IE */
+		}
+
+	ul ul,
+	ol ol,
+	ul ol,
+	ol ul{
+		margin-left: 4%
+		}
+
+	#wrap-header .header h1#logo img{
+		min-width: 50%
+		}
+
+	.searchform{
+		margin: 24px auto 12px auto;
+		width: 264px;
+		max-width: 98%
+		}
+
+	#wrap-content .hentry{
+		padding: 12px 0 32px 0
+		}
+
+	#wrap-content .hentry .post-format{
+		margin: 0 0 0 12px;
+		width: 97px;
+		height: 25px;
+		background-position: -8px -1px;
+		}
+
+	#respond form#commentform p.comment-form-url,
+	#respond form#commentform p.comment-form-email,
+	#respond form#commentform p.comment-form-author{
+		width: 160px
+		}
+
+	#respond form#commentform p.comment-form-url input#url/* [type="text"] */,
+	#respond form#commentform p.comment-form-email input#email/* [type="text"] */,
+	#respond form#commentform p.comment-form-author input#author/* [type="text"] */{
+		width: 84px
+		}
+
+	#respond form#commentform p.comment-form-url input#url: focus,
+	#respond form#commentform p.comment-form-email input#email: focus,
+	#respond form#commentform p.comment-form-author input#author: focus{
+		width: 136px
+		}
+
+	#respond form#commentform p.comment-form-comment textarea#comment{
+		width: 50%
+		}
+
+	#wrap-footer .themeby p + p{
+		padding: 0;
+		margin-bottom: 12px;
+		}
+
+	#wrap-footer .themeby .alignright{
+		float: none
+		}	
+}

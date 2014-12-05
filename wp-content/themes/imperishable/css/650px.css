@@ -1,0 +1,77 @@
+@media (max-width: 650px){
+	#wrap-content .hentry{
+		margin: 0;
+		padding-top: 24px
+		}
+
+	#wrap-content .hentry .post-content,
+	#wrap-content .hentry .post-meta{
+		float: none;
+		width: auto;
+		margin: 0 4%
+		}
+
+	#wrap-content .hentry .post-format{
+		}
+
+	#wrap-content .hentry .post-content .post-title{
+		text-align: left
+		}
+
+	#wrap-content .hentry .post-meta .post-meta-in{
+		margin: 0;
+		min-height: 0;
+		padding-top: 8px
+		}
+		
+	#wrap-content .hentry .post-meta .post-meta-in .post-meta-title,
+	#wrap-content .hentry .post-meta .post-meta-in .post-meta-content{
+		display: inline
+		}
+
+	.navigation{
+		width: auto;
+		margin-left: 4%;
+		margin-right: 4%
+		}
+
+	#comment-wrap{
+		width: auto;
+		margin: 0 4%
+		}
+
+	#wrap-sidebar .sidebar .widget{
+		float: none;
+		width: auto;
+		margin-right: 0		
+		}
+
+	#respond form#commentform p.comment-form-url,
+	#respond form#commentform p.comment-form-email,
+	#respond form#commentform p.comment-form-author{
+		width: 260px
+		}
+
+	#respond form#commentform p.comment-form-url input#url/* [type="text"] */,
+	#respond form#commentform p.comment-form-email input#email/* [type="text"] */,
+	#respond form#commentform p.comment-form-author input#author/* [type="text"] */{
+		width: 184px
+		}
+
+	#respond form#commentform p.comment-form-url input#url: focus,
+	#respond form#commentform p.comment-form-email input#email: focus,
+	#respond form#commentform p.comment-form-author input#author: focus{width: 236px
+		}
+		
+	#respond form#commentform p.comment-form-comment textarea#comment{width: 60%
+		}
+
+	#wrap-footer .themeby .alignright{
+		margin-top: 6px
+		}
+		
+	#wrap-footer .themeby a.alignright{
+		margin: 0;
+		padding: 0 4px
+		}	
+}

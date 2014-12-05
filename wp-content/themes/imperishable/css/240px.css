@@ -1,0 +1,7 @@
+@media (max-width: 240px){
+	#wrap-header,
+	#wrap-content,
+	#wrap-sidebar{
+		width: 96%
+		}	
+}

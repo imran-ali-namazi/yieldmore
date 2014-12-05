@@ -1,0 +1,37 @@
+@media (max-width: 800px){
+	body{
+		background: transparent
+		}
+
+	html{
+		background: transparent url('../images/basic-layout2.png') repeat top right;
+		}
+
+	#wrap-header,
+	#wrap-content,
+	#wrap-sidebar{
+		float: none;
+		width: auto;
+		width: 92%;
+		margin: 0 auto
+		}
+
+	#wrap-header,
+	#wrap-sidebar{
+		background-size: auto auto;
+		}
+		
+	#wrap-content .hentry .post-format{
+		margin-left: -23px;
+		}
+
+	#wrap-sidebar .sidebar{
+		margin: 0;
+		}
+
+	#wrap-sidebar .sidebar .widget{
+		float: left;
+		width: 48%;
+		margin-right: 2%
+		}
+}

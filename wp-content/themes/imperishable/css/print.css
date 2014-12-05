@@ -1,0 +1,35 @@
+@media print{
+	*{
+	background:transparent!important
+		}
+
+	#wrap-header,
+	#wrap-sidebar,
+	#wrap-footer,
+	#comment-wrap,
+	.post-format,
+	.post-meta,
+	.navigation,
+	.clear:after{
+		display:none
+		}
+
+	#wrap-content{float:none;
+		width:auto;
+		min-height:700px;
+		padding:0;
+		margin: 0 auto
+		}
+
+	#wrap-content .hentry{
+		clear:both;
+		padding:0;
+		margin:0
+	}
+
+	#wrap-content .hentry .post-content{float:none;
+		width:80%;
+		margin:24px auto;
+		min-height:400px
+	}
+}

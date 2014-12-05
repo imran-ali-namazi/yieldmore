@@ -1,0 +1,38 @@
+body{
+	min-height:1000px;
+	color:#898484;
+	width:1024px;
+	margin:0 auto;
+	background:transparent url('../../images/basic-layout.png') repeat-y -93px 0
+	}
+
+#wrap-header,
+#wrap-sidebar{
+	background:transparent
+	}
+
+#wrap-header{
+	background:transparent url('../../images/sidebar.png') no-repeat top right
+	}
+
+.searchform{
+	margin:30px auto 25px auto;
+	display:block;
+	width:268px;
+	height:44px
+	}
+
+.searchform *:focus,
+.searchform *{
+	line-height:16px
+	}
+
+.searchform input[type='text']{
+	font:italic bold 15px/16px georgia, serif;
+	margin-left:12px
+	}
+
+.searchform input[type='submit']{
+	margin-right:8px;
+	margin-top:4px
+	}
