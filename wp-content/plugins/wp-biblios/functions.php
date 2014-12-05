@@ -42,7 +42,7 @@ function cs_work_read($id, $retKey = null, $subKey = null)
 	if (!$wk)
 	{
 		$wk = cs_work($id);
-		if ($wk['fol'] != '')
+		if (!isset($wk['fol']) || $wk['fol'] != '')
 			$wk = WorkConfig::read($id, $wk);
 		cs_var($key, $wk); // cache in memory
 	}
