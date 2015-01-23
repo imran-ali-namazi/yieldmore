@@ -19,7 +19,8 @@ class WorkContent
 		$data = array();
 		include $wk['contentFile'];
 		if (isset($wk['config']['itemFormat'])) self::$itemFormat = $wk['config']['itemFormat'];
-		$node = $data[WorkMenu::getNodeId($wk)];
+		$nodeKey = $a ? $a['node'] : WorkMenu::getNodeId($wk);
+		$node = $data[$nodeKey];
 		self::nodeTabs($node, $a);
 	}
 	
@@ -132,9 +133,9 @@ if (WorkNav::search() || WorkNav::quote() || isset($contentInc)) return;
 	<form id="frmQuote" action="" target="_blank" method="get" onsubmit="QuoteSubmit();">
 		<span id="qtext" title="Click the links below to begin / end quoting">Pg: 1, Itm: 2 End Pg:1</span><span>Name:</span>
 		<input type="hidden" name="quote" value="1">
+		<input type="text" name="qname" id="qname">
 		<input type="hidden" name="qnode" value="<?php echo WorkContent::getInfo('node'); ?>">
 		<input type="hidden" name="qpage" value="<?php echo WorkContent::getInfo('page'); ?>">
-		<input type="text" name="qname" id="qname">
 		<input type="hidden" name="qdata" id="qdata" value="">
 		<input type="submit" id="qsubmit" value="Q Save">
 		<input type="button" onclick="QuoteClear();" value="Clear">
