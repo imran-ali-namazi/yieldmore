@@ -4,6 +4,10 @@ class WorkMenu
 	function render($id, $wk)
 	{
 		_nl(CHtml::link('Home', WorkNav::post($id)), 1);
+		_nl(CHtml::link('Quotes', WorkNav::post($id) . '?quote=1'), 1);
+		if (WorkNav::node() && get_current_user_id() != 0) _nl('<a id="quotetoggler" href="javascript:toggleQuoting();" title="Toggle Quoting">Add Quote</a>', 1);
+		_nl('', 1);
+		
 		if (!$wk['cfgOk'])
 		{
 			echo $wk['cfgError'];

@@ -128,7 +128,6 @@ class WorkContent
 if (WorkNav::search() || WorkNav::quote() || isset($contentInc)) return;
 ?>
 
-<a id="quotetoggler" href="javascript:toggleQuoting();" title="Toggle Quoting">Add Quote</a>
 <div id="quotebar" style="display: none;">
 	<form id="frmQuote" action="" target="_blank" method="get" onsubmit="QuoteSubmit();">
 		<span id="qtext" title="Click the links below to begin / end quoting">Pg: 1, Itm: 2 End Pg:1</span><span>Name:</span>

@@ -3,8 +3,21 @@ class WorkQuote
 {
 	function render()
 	{
-		include_once 'csb-content.php';
 		$id = get_the_ID();
+
+		if (!isset($_GET['qname']))
+		{
+			_nl('<h3>Quotes</h3>', 1);
+			_nl('To add a quote, please visit one of the chapters on the left and click Add Quote.', 1);
+			if (get_current_user_id() == 0) _nl('You must be signed in to do this.', 1);
+			$names = self::getQuotes($id);
+			$url = WorkNav::post($id) . '?quote=1&qname=';
+			foreach ($names as $name)
+				_nl(CHtml::link($name, $url . $name), 1);
+			return;
+		}
+
+		include_once 'csb-content.php';
 		$cfg = isset($_GET['qnode']) ? self::readForm() : self::readQuote($id, $_GET['qname']);
 
 		$content = WorkContent::nodeQuote($id, $cfg);
@@ -51,6 +64,20 @@ class WorkQuote
 			$op[$kv[0]] = $kv[1];
 		}
 
+		return $op;
+	}
+	
+	function getQuotes($id)
+	{
+		global $wpdb;
+		$rows = $wpdb->get_results($wpdb->prepare(
+			"SELECT quote_name FROM wp_quotes WHERE quote_post_ID = %s", $id));
+
+		$op = array();
+		foreach ($rows as $row)
+		{
+			$op[] = $row->quote_name;
+		}
 		return $op;
 	}
 
