@@ -19,7 +19,12 @@ class WorkContent
 		$data = array();
 		include $wk['contentFile'];
 		if (isset($wk['config']['itemFormat'])) self::$itemFormat = $wk['config']['itemFormat'];
-		$nodeKey = $a ? $a['node'] : WorkMenu::getNodeId($wk);
+
+		if ($a)
+			$nodeKey = sprintf($wk['config']['keyFormat'], $a['node'], $a['subnode']);
+		else
+			$nodeKey = WorkMenu::getNodeId($wk);
+
 		$node = $data[$nodeKey];
 		self::nodeTabs($node, $a);
 	}
