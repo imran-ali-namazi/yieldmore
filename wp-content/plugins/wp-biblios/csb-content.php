@@ -3,6 +3,7 @@ class WorkContent
 {
 	private static $itemFormat = '<p>%s</p>
 ';
+
 	public function display($wk, $a = 0)
 	{
 		$id = get_the_ID();
@@ -20,15 +21,14 @@ class WorkContent
 		include $wk['contentFile'];
 		if (isset($wk['config']['itemFormat'])) self::$itemFormat = $wk['config']['itemFormat'];
 
-		if ($a)
+		$nodeKey = $a ? $a['node'] . $a['subnode'] : WorkMenu::getNodeId($wk);
+		if ($a && !array_key_exists($nodeKey, $data))
 			$nodeKey = sprintf($wk['config']['keyFormat'], $a['node'], $a['subnode']);
-		else
-			$nodeKey = WorkMenu::getNodeId($wk);
 
 		$node = $data[$nodeKey];
 		self::nodeTabs($node, $a);
 	}
-	
+
 	function showData($id, $a)
 	{
 		$bars = array(
@@ -58,7 +58,7 @@ class WorkContent
 		if (isset($a['endpage'])) $a['endpage'] = intval($a['endpage']);
 		if (isset($a['endpara'])) $a['endpara'] = intval($a['endpara']);
 		ob_start();
-		//print_r($a);
+
 		echo '<blockquote class="quote">';
 		if (!isset($a['nolink']))
 				echo 'Quote from: ' . WorkMenu::nodeLink($id, $a, $a['content']) . '<br />';
@@ -68,7 +68,7 @@ class WorkContent
 		ob_clean();
 		return $res;
 	}
-	
+
 	private function nodeTabs($node, $a)
 	{
 		foreach ($node as $i=>$items)
@@ -84,7 +84,7 @@ class WorkContent
 			{
 				//echo '<br/><b>Para: ' . $j . '</b>';
 				if ($a && $a['page'] == $i && $a['para'] > $j) continue;
-				if ($a && isset($a['endpara']) && $a['endpage'] == $i && $a['endpara'] < $j) continue;
+				if ($a && isset($a['endpara']) && $a['endpage'] == $i && ($a['endpara'] < $j && $a['endpara'] != '')) continue;
 				echo self::formatItem($items[$j], false, $i, $i - $tabOffs, $node);
 		
 				if (!$a && $nextPgLink) echo $nextPgLink;
@@ -92,7 +92,7 @@ class WorkContent
 			if (!$a) self::tabberTab(0);
 		}
 	}
-	
+
 	private function tabberTab($heading, $selected = 0)
 	{
 		if (!$heading)
@@ -100,7 +100,7 @@ class WorkContent
 			echo '</div>';
 			return;
 		}
-		
+
 		$act = $selected ? " tabbertabdefault" : "";
 		echo sprintf('<div class="tabbertab%s">
 	<h2>%s</h2>
@@ -111,14 +111,14 @@ class WorkContent
 	{
 		return $search ? $txt : sprintf(self::$itemFormat, $txt);
 	}
-	
+
 	function getInfo($what)
 	{
 		$id = get_the_ID();
 		$wk = cs_work_read($id);
 		if ($what == 'node')
 			return WorkMenu::getNodeId($wk);
-		
+
 		if ($what == 'page')
 		{
 			$data = array();
