@@ -10,3 +10,6 @@ wp-*.php
 /readme.html
 /index.php
 /xmlrpc.php
+/wp-content/plugins/wordpress-wiki-plugin
+/wp-content/plugins/wp-mvc
+/wp-content/themes/twentyfifteen

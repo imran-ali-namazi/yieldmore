@@ -4,6 +4,34 @@ function _nl($txt, $br = 0)
 	echo $txt . PHP_EOL . ($br ? '<br />' : '');
 }
 
+// from microvic
+function tsv_to_array($data, &$cols = null)
+{
+	$r = array();
+	$lines = explode('
+', $data);
+	foreach ($lines as $lin)
+	{
+    if ($lin == '' || $lin[0] == '#')
+    {
+      if ($cols != null && $lin != '')
+        tsv_set_cols($lin, $cols);
+      continue;
+    }
+		$r[] = explode("	", $lin);
+	}
+	return $r;
+}
+
+function tsv_set_cols($lin, &$c)
+{
+	$lin = substr($lin, 1);
+	$r = explode("	", $lin);
+	$c = new stdClass();
+	foreach ($r as $key => $value)
+		$c->$value = $key;
+}
+
 if (!function_exists('cs_var')) {
 function cs_var($name, $val = null)
 {
@@ -69,9 +97,9 @@ function cs_work_get($what)
 	} else if ($what == 'hasnav') {
 		return $wk['fol'] != '';
 	} else if ($what == 'hascontent') {
-		return WorkNav::nodeOrSearch();
+		return WorkNav::nodeOrSearchOrQuote();
 	} else if ($what == 'content') {
-		include 'csb-' . (WorkNav::search() ? 'search' : 'content') . '.php';
+		include 'csb-' . (WorkNav::quote() ? 'quote' : (WorkNav::search() ? 'search' : 'content')) . '.php';
 	} else if ($what == 'sidebar') {
 		_nl('<div class="widget bib-nav">');
 		WorkMenu::render($id, $wk);

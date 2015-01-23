@@ -1,0 +1,77 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultDir=D:\Imran\xampp\htdocs\cs\subds\ym\wp-content\plugins\wp-biblios
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+Extensions=*.*
+[Project tree]
+biblios
+	-imperishable
+		..\..\themes\imperishable\404.php
+		..\..\themes\imperishable\archive.php
+		..\..\themes\imperishable\changelog.txt
+		..\..\themes\imperishable\comments.php
+		..\..\themes\imperishable\editor-style.css
+		..\..\themes\imperishable\footer.php
+		..\..\themes\imperishable\functions.php
+		..\..\themes\imperishable\header.php
+		..\..\themes\imperishable\image.php
+		..\..\themes\imperishable\index.php
+		..\..\themes\imperishable\page.php
+		..\..\themes\imperishable\readme.txt
+		..\..\themes\imperishable\search.php
+		..\..\themes\imperishable\searchform.php
+		..\..\themes\imperishable\sidebar.php
+		..\..\themes\imperishable\single.php
+		..\..\themes\imperishable\single-work.php
+		..\..\themes\imperishable\style.css
+	-ref
+		..\..\..\..\..\..\..\..\yield\books\eg caf_files\biblios.js
+		..\..\..\..\..\..\..\..\yield\books\eg caf.html
+		..\..\..\..\..\..\..\..\yield\books\eg caf_files\quoter.js
+		..\..\..\..\..\..\..\..\yield\books\eg caf_files\series1-chapter7-the-creed-of-the-aryan-fighter.html
+	+wp-biblios
+		-3p
+			3p\CHtml.php
+		+assets
+			assets\quoter.js
+			assets\tabber.css
+			assets\tabber-minimized.js
+			assets\work.png
+			assets\works.css
+			assets\works.js
+		csb-cache.php
+		csb-config.php
+		csb-content.php
+		csb-header.php
+		csb-menu.php
+		csb-nav.php
+		csb-quote.php
+		csb-scripts.php
+		csb-search.php
+		csb-shortcodes.php
+		csb-widgets.php
+		csb-work.php
+		functions.php
+		functions-dep.php
+		work-config.php
+		wp-biblios.php
+[Open project files]
+0=csb-cache.php
+1=assets\quoter.js
+[Selected Project Files]
+Main=
+Selected=assets\quoter.js
+[csb-cache.php]
+TopLine=1
+Caret=1,1
+[assets\quoter.js]
+TopLine=1
+Caret=1,1

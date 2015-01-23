@@ -14,7 +14,7 @@ if (!isset($_GET['id']))
 	foreach ($wks as $itm)
 	{
 		$wk = cs_work($itm->ID);
-		if (!$wk || $wk['fol'] == '') continue;
+		if (!$wk || (isset($wk['fol']) && $wk['fol'] == '')) continue;
 		_nl(CHtml::link($itm->post_title, get_permalink($itm))
 			. ' - ' . cs_work_read($itm->ID, 'cfgSummary'), 1);
 	}

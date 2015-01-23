@@ -32,9 +32,9 @@ class WorkContent
 		$dataFol = WorkConfig::fol($id, '');
 		include cs_work_read($id, 'contentFile');
 		$op = sprintf('<div class="data-%s">', $a['type']);
-		$op .= '<div class="tbar">' . $bars[$a['type']] . '</div>';
+		//$op .= '<div class="tbar">' . $bars[$a['type']] . '</div>';
 		foreach ($data as $itm)
-			$op .= sprintf('<div class="item">%s</div>', $itm) . PHP_EOL;
+			$op .= sprintf('<div class="item">%s</div>', substr($itm, strlen('<br/>' . PHP_EOL)) ) . PHP_EOL;
 		$op .= '</div>';
 		return $op;
 	}
@@ -105,10 +105,41 @@ class WorkContent
 	{
 		return $search ? $txt : sprintf(self::$itemFormat, $txt);
 	}
+	
+	function getInfo($what)
+	{
+		$id = get_the_ID();
+		$wk = cs_work_read($id);
+		if ($what == 'node')
+			return WorkMenu::getNodeId($wk);
+		
+		if ($what == 'page')
+		{
+			$data = array();
+			include $wk['contentFile'];
+			$node = $data[WorkMenu::getNodeId($wk)];
+			foreach ($node as $i=>$page)
+				return $i;
+		}
+	}
 }
 
-if (WorkNav::search() || isset($contentInc)) return;
+if (WorkNav::search() || WorkNav::quote() || isset($contentInc)) return;
 ?>
+
+<a id="quotetoggler" href="javascript:toggleQuoting();" title="Toggle Quoting">Add Quote</a>
+<div id="quotebar" style="display: none;">
+	<form id="frmQuote" action="" target="_blank" method="get" onsubmit="QuoteSubmit();">
+		<span id="qtext" title="Click the links below to begin / end quoting">Pg: 1, Itm: 2 End Pg:1</span><span>Name:</span>
+		<input type="hidden" name="quote" value="1">
+		<input type="hidden" name="qnode" value="<?php echo WorkContent::getInfo('node'); ?>">
+		<input type="hidden" name="qpage" value="<?php echo WorkContent::getInfo('page'); ?>">
+		<input type="text" name="qname" id="qname">
+		<input type="hidden" name="qdata" id="qdata" value="">
+		<input type="submit" id="qsubmit" value="Q Save">
+		<input type="button" onclick="QuoteClear();" value="Clear">
+	</form>
+</div>
 <div class="tabber">
 <?php WorkContent::display($wk); ?>
 </div>

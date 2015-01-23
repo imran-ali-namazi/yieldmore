@@ -16,8 +16,19 @@ body { cursor: default; }
 
 blockquote.quote { max-height: 100%; margin: 0; font-style: normal; }
 
-.data-slide { border: 2px maroon solid; margin: auto;
-	background-color: #fff; padding: 30px; 
+.data-slide .item { border: 1px maroon solid; margin: auto auto 15px auto;
+	background-color: #fff; padding: 10px;
 	-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
-.data-slide .item { display: none; max-width: 80%; min-width: 400px; font-style: italic; }
+.data-slide .item { max-width: 80%; min-width: 400px; font-style: italic; }
 .data-slide .tbar { text-align: center; width: 340px; }
+
+/* Quotes */
+#quote u { margin-bottom: 6px; display: inline-block; }
+.qt { border: 1px solid #3366CC; padding: 1px 4px 1px 4px; margin-right: 4px;
+	text-decoration: none; color: #3366CC; }
+#quotebar { padding: 4px 0px 4px 25px; background-color: #d5dbf1; border-top: 1px solid #757fd2; }
+#quotebar form { margin: 0px; }
+#quotebar span { font-size: x-small; padding-right: 4px; margin-left: 4px; }
+#quotebar #qtext { border-right: 1px solid #3366CC; }
+#quotebar #qname { width: 100px; }
+

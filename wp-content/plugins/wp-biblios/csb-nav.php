@@ -15,6 +15,9 @@ class WorkNav
 		wp_register_script('bibworks-js', cs_var('bib-base') . '/assets/works.js', array('jquery'));
 		wp_enqueue_script('bibworks-js');
 		
+		wp_register_script('bibquotes-js', cs_var('bib-base') . '/assets/quoter.js', array('jquery'));
+		wp_enqueue_script('bibquotes-js');
+		
 		if (!cs_work_get('hascontent')) return; 
 		CSScripts::tabber();
 	}
@@ -62,9 +65,9 @@ class WorkNav
 	}
 	
 // These are getters from url
-	function nodeOrSearch()
+	function nodeOrSearchOrQuote()
 	{
-		return self::node() || self::search();
+		return self::node() || self::search() || self::quote();
 	}
 
 	function node()
@@ -77,6 +80,12 @@ class WorkNav
 	{
 		if (!isset($_GET['s'])) return 0;
 		return $_GET['s'];
+	}
+
+	function quote()
+	{
+		if (!isset($_GET['quote'])) return 0;
+		return $_GET['quote'];
 	}
 }
 new WorkNav();
