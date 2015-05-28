@@ -119,7 +119,7 @@ class WorkContent
 			$pages = $data[$key];
 			foreach ($pages as $page => $items)
 			{
-				$content .= sprintf('<a name="page%s"></a><h3 class="page">Page %s <a href="#top">top</a></h3><br/>' . PHP_EOL, $page, $page);
+				$content .= sprintf('<a name="page%s"></a><h3 class="page"><a href="#page%s">Page %s</a> <a href="#top">top</a></h3><br/>' . PHP_EOL, $page, $page, $page);
 				foreach ($items as $item)
 				{
 					$content .= self::formatItem($item, false);
