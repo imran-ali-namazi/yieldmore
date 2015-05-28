@@ -15,7 +15,11 @@ body{
 	background:transparent url('../images/basic-layout.png') repeat-y top right
 	}
 
-#wrap-left { float: left; width: 200px; }
+#wrap-left { float: left; width: 100%; }
+@media screen and (min-width: 1000px) {
+	#wrap-left { width: 200px; }
+	#wrap-content{ position: absolute; }
+}
 
 #wrap-header{
 	min-height:19px
@@ -63,7 +67,6 @@ body{
 	}
 
 #wrap-content{
-	position: absolute; /* TODO: Fix Footer */
 	margin-left: 200px;
 	min-height:700px;
 	}
@@ -262,6 +265,8 @@ body{
 	}
 
 #wrap-footer{
+	position: absolute;
+	width: 100%;
 	padding:12px 0 18px 0;
 	border-top:1px solid #f8f8f8;
 	background:#e5e5e5 url(../images/bg-footer.png) top center

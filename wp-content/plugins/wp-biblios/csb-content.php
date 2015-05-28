@@ -21,6 +21,12 @@ class WorkContent
 		include $wk['contentFile'];
 		if (isset($wk['config']['itemFormat'])) self::$itemFormat = $wk['config']['itemFormat'];
 
+		if (WorkNav::all())
+		{
+			self::all($wk, $data);
+			return;
+		}
+
 		$nodeKey = $a ? $a['node'] . $a['subnode'] : WorkMenu::getNodeId($wk);
 		if ($a && !array_key_exists($nodeKey, $data))
 			$nodeKey = sprintf($wk['config']['keyFormat'], $a['node'], $a['subnode']);
@@ -91,6 +97,38 @@ class WorkContent
 			}
 			if (!$a) self::tabberTab(0);
 		}
+	}
+
+	private function all($wk, $data)
+	{
+		$nodes = WorkMenu::getNodeId($wk, 1);
+		$errors = '';
+		$menu = '';
+		$content = '';
+		foreach ($nodes as $key => $title)
+		{
+			$menu .= sprintf('<a href="#%s">%s</a><br/>' . PHP_EOL, $key, $title);
+			$content .= sprintf('<a name="%s"></a><h2>%s</h2><br/>' . PHP_EOL, $key, $title);
+
+			if (!isset($data[$key]))
+			{
+				$errors .= $key . count($data['s3c1']) . ', ';
+				continue;
+			}
+
+			$pages = $data[$key];
+			foreach ($pages as $page => $items)
+			{
+				$content .= sprintf('<a name="page%s"></a><h3 class="page">Page %s <a href="#top">top</a></h3><br/>' . PHP_EOL, $page, $page);
+				foreach ($items as $item)
+				{
+					$content .= self::formatItem($item, false);
+				}
+				$content .= PHP_EOL;
+			}
+			$content .= PHP_EOL;
+		}
+		echo $errors . $menu . PHP_EOL . $content;
 	}
 
 	private function tabberTab($heading, $selected = 0)

@@ -16,4 +16,9 @@ $(document).ready(function() {
 		if ($nxt.length == 0) $nxt = $(".data-slide .item:first");
 		$nxt.show();
 	});
+	$(window).trigger('resize');	
+});
+$(window).resize(function() {
+  var biggerHeight = $('#wrap-left').height() > $('#wrap-content').height() ? $('#wrap-left').height() : $('#wrap-content').height();
+  $('#wrap-footer').css('top', biggerHeight + 60);  
 });

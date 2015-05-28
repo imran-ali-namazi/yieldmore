@@ -44,6 +44,7 @@ $showNames = $node == 'mixed' || $node == 'names' ? '' : ' style="display:none;"
 <?php
 $data = tsv_to_array(file_get_contents($dataFol . 'content.tsv'));
 
+if (!function_exists('row_r')) {
 function row_r($row)
 {
 	global $showVerse; global $showNames;
@@ -54,7 +55,7 @@ function row_r($row)
   <td class="names"%s>%s
   </td>
  </tr>', $row['nr'], $row['nr'], $showVerse, $row['verse'], $showNames, $row['names']);
-}
+} }
 
 foreach ($data as $ix=>$r)
 {

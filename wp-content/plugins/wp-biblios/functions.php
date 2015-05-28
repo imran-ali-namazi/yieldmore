@@ -97,7 +97,7 @@ function cs_work_get($what)
 	} else if ($what == 'hasnav') {
 		return $wk['fol'] != '';
 	} else if ($what == 'hascontent') {
-		return WorkNav::nodeOrSearchOrQuote();
+		return WorkNav::nodeOrSearchOrQuoteOrAll();
 	} else if ($what == 'content') {
 		include 'csb-' . (WorkNav::quote() ? 'quote' : (WorkNav::search() ? 'search' : 'content')) . '.php';
 	} else if ($what == 'sidebar') {

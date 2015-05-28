@@ -13,6 +13,7 @@ ProjectFilesOnly=0
 Extensions=*.*
 [Project tree]
 biblios
+	-content
 	-imperishable
 		..\..\themes\imperishable\404.php
 		..\..\themes\imperishable\archive.php
@@ -37,7 +38,7 @@ biblios
 		..\..\..\..\..\..\..\..\yield\books\eg caf.html
 		..\..\..\..\..\..\..\..\yield\books\eg caf_files\quoter.js
 		..\..\..\..\..\..\..\..\yield\books\eg caf_files\series1-chapter7-the-creed-of-the-aryan-fighter.html
-	+wp-biblios
+	-wp-biblios
 		-3p
 			3p\CHtml.php
 		+assets
@@ -64,14 +65,10 @@ biblios
 		work-config.php
 		wp-biblios.php
 [Open project files]
-0=csb-cache.php
-1=assets\quoter.js
+0=..\..\data\hindu\stotrams\vs\content.php
 [Selected Project Files]
 Main=
-Selected=assets\quoter.js
-[csb-cache.php]
-TopLine=1
-Caret=1,1
-[assets\quoter.js]
-TopLine=1
-Caret=1,1
+Selected=..\..\data\hindu\stotrams\vs\content.php
+[..\..\data\hindu\stotrams\vs\content.php]
+TopLine=39
+Caret=1,46

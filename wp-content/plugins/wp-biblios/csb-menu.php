@@ -5,6 +5,7 @@ class WorkMenu
 	{
 		_nl(CHtml::link('Home', WorkNav::post($id)), 1);
 		_nl(CHtml::link('Quotes', WorkNav::post($id) . '?quote=1'), 1);
+		_nl(CHtml::link('Single Page', WorkNav::post($id) . '?all=1'), 1);
 		if (WorkNav::node() && get_current_user_id() != 0) _nl('<a id="quotetoggler" href="javascript:toggleQuoting();" title="Toggle Quoting">Add Quote</a>', 1);
 		_nl('', 1);
 		
@@ -101,8 +102,9 @@ class WorkMenu
 	}
 
 // These are for building
-	function getNodeId($wk)
+	function getNodeId($wk, $array = 0)
 	{
+		$nodes = array();
 		$node = WorkNav::node();
 		extract($wk['config']);
 		$tcnt = count($titles);
@@ -112,7 +114,9 @@ class WorkMenu
 			for ($i = 1; $i < $tcnt; $i++)
 			{
 				$n = $slug . $i;
-				if ($node == $n) return sprintf($keyFormat, $i);
+				$item = sprintf($keyFormat, $i);
+				if ($node == $n && $array == false) return $item;
+				if ($array) $nodes[$item] = $titles[$i];
 			}
 		}
 		else
@@ -125,11 +129,14 @@ class WorkMenu
 				for ($j = 1; $j < $scnt; $j++)
 				{
 					$n = $slug0 . '-' . $slug2 . $j;
-					if ($node == $n) return sprintf($keyFormat, $i, $j);
+					$item = sprintf($keyFormat, $i, $j);
+					if ($node == $n && $array == false) return $item;
+					if ($array) $nodes[$item] = $titles[$i][$j];
 				}
 			}
 		}
-		
+		if ($array) return $nodes;
+
 		echo 'Couldnt find node ' . $node;
 	}
 }

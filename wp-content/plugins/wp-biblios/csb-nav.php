@@ -65,9 +65,9 @@ class WorkNav
 	}
 	
 // These are getters from url
-	function nodeOrSearchOrQuote()
+	function nodeOrSearchOrQuoteOrAll()
 	{
-		return self::node() || self::search() || self::quote();
+		return self::node() || self::search() || self::quote() || self::all();
 	}
 
 	function node()
@@ -86,6 +86,12 @@ class WorkNav
 	{
 		if (!isset($_GET['quote'])) return 0;
 		return $_GET['quote'];
+	}
+
+	function all()
+	{
+		if (!isset($_GET['all'])) return 0;
+		return $_GET['all'];
 	}
 }
 new WorkNav();
