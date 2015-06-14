@@ -1,0 +1,5 @@
+Addin
+bin
+obj
+*.user
+*.suo

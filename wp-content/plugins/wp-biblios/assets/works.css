@@ -32,3 +32,4 @@ blockquote.quote { max-height: 100%; margin: 0; font-style: normal; }
 #quotebar #qtext { border-right: 1px solid #3366CC; }
 #quotebar #qname { width: 100px; }
 
+a.top { float: right; }
