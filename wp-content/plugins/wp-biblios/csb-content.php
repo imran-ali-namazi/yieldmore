@@ -183,6 +183,6 @@ if (WorkNav::search() || WorkNav::quote() || isset($contentInc)) return;
 		<input type="button" onclick="QuoteClear();" value="Clear">
 	</form>
 </div>
-<div class="tabber">
+<div class="<?php echo isset($_GET['notabs']) ? '' : 'tabber'; ?>">
 <?php WorkContent::display($wk); ?>
 </div>

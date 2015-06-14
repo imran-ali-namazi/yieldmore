@@ -39,6 +39,7 @@ class WorkNav
 		$qs = array();
 		if ($node != '') $qs[] = 'node=' . $node;
 		if ($page != '') $qs[] = 'page=' . $page;
+		if (isset($_GET['notabs'])) $qs[] = 'notabs=1';
 		$qs = count($qs) == 0 ? '' : '?' . implode('&', $qs);
 		return get_permalink($id) . $qs;
 	}
@@ -92,6 +93,12 @@ class WorkNav
 	{
 		if (!isset($_GET['all'])) return 0;
 		return $_GET['all'];
+	}
+
+	function notabs()
+	{
+		$qs = $_SERVER['QUERY_STRING'];
+		return './?' . (stripos($qs, 'notabs') === false ? $qs . '&notabs=1' : str_replace('&notabs=1', '', $qs));
 	}
 }
 new WorkNav();
