@@ -14,7 +14,10 @@ Extensions=*.*
 [Project tree]
 biblios
 	-content
-	-imperishable
+	+imperishable
+		+css
+			..\..\themes\imperishable\css\yield.css
+			..\..\themes\imperishable\css\template.css
 		..\..\themes\imperishable\404.php
 		..\..\themes\imperishable\archive.php
 		..\..\themes\imperishable\changelog.txt
@@ -65,10 +68,5 @@ biblios
 		work-config.php
 		wp-biblios.php
 [Open project files]
-0=..\..\data\hindu\stotrams\vs\content.php
 [Selected Project Files]
 Main=
-Selected=..\..\data\hindu\stotrams\vs\content.php
-[..\..\data\hindu\stotrams\vs\content.php]
-TopLine=39
-Caret=1,46

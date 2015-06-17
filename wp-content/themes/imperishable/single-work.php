@@ -22,8 +22,13 @@
 			</div><!-- End <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>> -->
 
 			<div class='navigation clear'>
-				<?php previous_post_link('<span class=\'alignleft\'> %link </span><!-- End .previous-post -->') ?>
-				<?php next_post_link('<span class=\'alignright\'> %link </span><!-- End .next-post -->') ?>	
+				<?php if (WorkMenu::$previous || WorkMenu::$next) {
+					if (WorkMenu::$previous) echo '<span class=\'alignleft\'> ' . WorkMenu::$previous . ' </span>';
+					if (WorkMenu::$next) echo '<span class=\'alignright\'> ' . WorkMenu::$next . ' </span>';
+				} else {
+					previous_post_link('<span class=\'alignleft\'> %link </span><!-- End .previous-post -->');
+					next_post_link('<span class=\'alignright\'> %link </span><!-- End .next-post -->');
+				}?>	
 			</div><!-- End .navigation .clear -->
 			
 		<?php else: ?>

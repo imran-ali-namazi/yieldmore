@@ -16,8 +16,10 @@ body{
 	}
 
 #wrap-left { float: left; width: 100%; }
+.jump-to-contents { display: block; }
 @media screen and (min-width: 1000px) {
 	#wrap-left { width: 200px; }
+	.jump-to-contents { display: none; }
 	#wrap-content{ position: absolute; }
 }
 
@@ -222,7 +224,8 @@ body{
 	}
 
 #wrap-sidebar .sidebar .widget a:active,
-#wrap-sidebar .sidebar .widget a:hover{
+#wrap-sidebar .sidebar .widget a:hover,
+#wrap-sidebar .sidebar .widget a.selected{
 	text-decoration:underline;
 	color:#1e8921
 	}
