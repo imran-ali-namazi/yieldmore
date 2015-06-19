@@ -13,7 +13,14 @@ ProjectFilesOnly=0
 Extensions=*.*
 [Project tree]
 biblios
-	-content
+	+admin
+		..\cs-admin\csadmin.php
+		..\cs-admin\csa-scripts.php
+		..\cs-admin\htmlgen.php
+		..\cs-admin\reseed.php
+	+content
+		+bg
+			..\..\data\hindu\gita\content.php
 	+imperishable
 		+css
 			..\..\themes\imperishable\css\yield.css
@@ -36,13 +43,13 @@ biblios
 		..\..\themes\imperishable\single.php
 		..\..\themes\imperishable\single-work.php
 		..\..\themes\imperishable\style.css
-	-ref
+	+ref
 		..\..\..\..\..\..\..\..\yield\books\eg caf_files\biblios.js
 		..\..\..\..\..\..\..\..\yield\books\eg caf.html
 		..\..\..\..\..\..\..\..\yield\books\eg caf_files\quoter.js
 		..\..\..\..\..\..\..\..\yield\books\eg caf_files\series1-chapter7-the-creed-of-the-aryan-fighter.html
-	-wp-biblios
-		-3p
+	+wp-biblios
+		+3p
 			3p\CHtml.php
 		+assets
 			assets\quoter.js

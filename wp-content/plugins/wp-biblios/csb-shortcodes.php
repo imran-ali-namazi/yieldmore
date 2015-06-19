@@ -7,8 +7,9 @@ class WorksShortcodes
 		add_shortcode('tab', array($cls, 'do_tab'));
 		add_shortcode('works', array($cls, 'do_works'));
 		add_shortcode('work', array($cls, 'do_work'));
+		add_shortcode('data', array($cls, 'do_data'));
 	}
-	
+
 	function do_tab($a, $content = null)
 	{
 		if ($a[0] == 'start') {
@@ -25,7 +26,7 @@ class WorksShortcodes
 			_nl('</div>');
 		}
 	}
-	
+
 	function do_works($a, $content = null)
 	{
 		$types = 0; $works = 0;
@@ -34,7 +35,7 @@ class WorksShortcodes
 		$links = self::types_r($types, count($works));
 		self::works_r($works, $links);
 	}
-	
+
 	function do_work($a, $content = null)
 	{
 		$id = isset($a['id']) ? $a['id'] : get_the_ID();
@@ -51,7 +52,12 @@ class WorksShortcodes
 				return WorkContent::nodeQuote($id, $a);
 		}
 	}
-	
+
+	function do_data($a, $content = null)
+	{
+		return WorkConfig::fol(get_the_ID(), '', true);
+	}
+
 	private function types_r($types, $all)
 	{
 		$links = array();
