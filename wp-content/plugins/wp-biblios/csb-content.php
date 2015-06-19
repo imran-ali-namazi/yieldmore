@@ -31,6 +31,19 @@ class WorkContent
 		if ($a && !array_key_exists($nodeKey, $data))
 			$nodeKey = sprintf($wk['config']['keyFormat'], $a['node'], $a['subnode']);
 
+		if (!$nodeKey)
+		{
+			$nodeKey = WorkNav::node();
+			$file = cs_var('bib-data') . '/' . $wk['fol'] . '/' . $nodeKey . '.html';
+
+			if (file_exists($file))
+				echo file_get_contents($file);
+			else
+				echo 'Node ' . $nodeKey . ' not found';
+
+			return;
+		}
+
 		$node = $data[$nodeKey];
 		self::nodeTabs($node, $a);
 	}

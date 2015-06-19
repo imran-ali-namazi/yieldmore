@@ -76,7 +76,7 @@ class WorkMenu
 	
 	private function name($customTitles, $title)
 	{
-		return $customTitles ? '&name=' . str_replace(' ', '-', strtolower($title)) : '';
+		return $customTitles ? '&title=' . str_replace(' ', '-', strtolower($title)) : '';
 	}
 	
 	private function two($id, $wk)
@@ -84,30 +84,32 @@ class WorkMenu
 		$cur = isset($_GET['node']) ? $_GET['node'] : '';
 		extract($wk['config']);
 		$tcnt = count($titles);
+		$pre = cs_var('bib-data') . '/' . $wk['fol'] . '/';
 		for ($i = 1; $i < $tcnt; $i++)
 		{
-		$d = $titles[$i];
-		$slug0 = $slug . $i;
-		if (isset($slugKey0) && isset($slugKey0[$i]))
-			$slug0 = $slugKey0[$i];
+			$d = $titles[$i];
+			$slug0 = $slug . $i;
+			if (isset($slugKey0) && isset($slugKey0[$i]))
+				$slug0 = $slugKey0[$i];
 		
-		echo sprintf('<span class="sect">%s) %s</span>', $i, $d[0]);
+			echo sprintf('<span class="sect">%s) %s</span>', $i, $d[0]);
+			$preTitles = array('intro' => 'Introduction', 'preface' => 'Preface');
+			foreach ($preTitles as $title=>$text) {
+				$file = $pre . $slug0 . '-' . $title . '.html';
+				$class = WorkNav::node() == $slug0 . '-' . $title ? ' class="selected"' : '';
+				if (!file_exists($file)) continue;
+					echo sprintf('	<a href="%s-%s"%s>%s</a><br/>' . PHP_EOL, 
+						WorkNav::post($id, $slug0), $title, $class, $text);
+			}
+
 			echo '<ul type="1">';
 			$scnt = count($d);
-			if (isset($preTitle) && isset($preTitle[$i]))
-			{
-				foreach ($preTitle[$i] as $file=>$text) {
-					echo sprintf('<a class="sp" href="%s-%s">%s</a><br/>
-			', 
-						$slug0, $file, $text);
-				}
-			}
+
 			for ($j = 1; $j < $scnt; $j++)
 			{
 				if (isset($customTitles))
 				{
-					echo sprintf('<li><a href="%s-%s%s-%s">%s</a>%s</li>
-				', 
+					echo sprintf('	<li><a href="%s-%s%s-%s">%s</a>%s</li>' . PHP_EOL,
 						$slug0, $slug2, $j, $d[$j][2], $d[$j][1], $pg);
 					continue;
 				}
@@ -170,9 +172,7 @@ class WorkMenu
 				}
 			}
 		}
-		if ($array) return $nodes;
-
-		echo 'Couldnt find node ' . $node;
+		return $array ? $nodes : false;
 	}
 }
 ?>
