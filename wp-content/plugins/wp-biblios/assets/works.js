@@ -18,7 +18,20 @@ $(document).ready(function() {
 	});
 	$(window).trigger('resize');	
 });
+
+$.doTabberInit = true;
 $(window).resize(function() {
+  if ($.doTabberInit)
+  {
+    $.doTabberInit = false;
+    setTimeout(tabberInit, 2000);
+    return;
+  }
+
   var biggerHeight = $('#wrap-left').height() > $('#wrap-content').height() ? $('#wrap-left').height() : $('#wrap-content').height();
-  $('#wrap-footer').css('top', biggerHeight + 60);  
+  $('#wrap-footer').css('top', biggerHeight + 60);
 });
+function tabberInit()
+{
+	$(window).trigger('resize');
+}

@@ -196,6 +196,9 @@ if (WorkNav::search() || WorkNav::quote() || isset($contentInc)) return;
 		<input type="button" onclick="QuoteClear();" value="Clear">
 	</form>
 </div>
+
+<blockquote><a href="javascript:$('.terms').parent().hide();" class="terms" style="float: right; margin: 0 0 10px 10px">X</a><b>Terms of Use</b>: My purpose in using this site is to read or use as a reference, books that I have already read or own. Also I'd like to preview unread books. I do declare that my intention is not to read books for free, denying due royalty owed to the Author and Publishers.</blockquote>
+
 <a name="contents"></a>
 <?php if (WorkMenu::$title) echo '<h1>' . WorkMenu::$title . '</h1>'; ?>
 <div class="<?php echo isset($_GET['notabs']) ? '' : 'tabber'; ?>">

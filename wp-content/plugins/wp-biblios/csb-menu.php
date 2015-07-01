@@ -96,7 +96,7 @@ class WorkMenu
 			$preTitles = array('intro' => 'Introduction', 'preface' => 'Preface');
 			foreach ($preTitles as $title=>$text) {
 				$file = $pre . $slug0 . '-' . $title . '.html';
-				$class = WorkNav::node() == $slug0 . '-' . $title ? ' class="selected"' : '';
+				$class = WorkNav::node() === $slug0 . '-' . $title ? ' class="selected"' : '';
 				if (!file_exists($file)) continue;
 					echo sprintf('	<a href="%s-%s"%s>%s</a><br/>' . PHP_EOL, 
 						WorkNav::post($id, $slug0), $title, $class, $text);

@@ -1,9 +1,3 @@
-@media (min-width: 1280px){
-	#wrap-content .hentry{
-		max-width: 900px
-		}	
-	}
-
 @media (max-width: 10000px){
 	body{
 		width: auto;

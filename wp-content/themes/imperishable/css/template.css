@@ -308,10 +308,10 @@ body{
 	margin-top:-26px
 	}
 
-body:after{
+#wrap-footer:after{
 	display:block;
 	clear:both;
-	margin-top:-8px;
+	margin-top:16px;
 	content:'';
 	height:8px;
 	background:transparent url(../images/ruler.png) repeat-x bottom left
