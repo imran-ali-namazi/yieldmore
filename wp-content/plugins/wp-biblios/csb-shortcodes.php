@@ -8,6 +8,7 @@ class WorksShortcodes
 		add_shortcode('works', array($cls, 'do_works'));
 		add_shortcode('work', array($cls, 'do_work'));
 		add_shortcode('data', array($cls, 'do_data'));
+		add_shortcode('info', array($cls, 'do_info'));
 	}
 
 	function do_tab($a, $content = null)
@@ -98,6 +99,34 @@ class WorksShortcodes
 		$op .= '</table>';
 		echo sprintf('<b style="float: right;">%s %s</b>', $cnt, $t ? WorkConfig::formatType($t) : 'Works');
 		echo $op;
+	}
+
+	function do_info($a, $content = null)
+	{
+		$op = array();
+		$lines = explode('<br />', $content);
+		foreach ($lines as $line)
+		{
+			$line = trim($line);
+			if ($line == '') continue;
+			if (strpos($line, ':') !== false) {
+				$bits = explode(':', $line, 2);
+				$bits[1] = trim($bits[1]);
+				$lnk = '<a href="%s" target="_blank">%s</a>';
+				if (strcasecmp($bits[0], 'Wiki') == 0) {
+					$bits[1] = sprintf($lnk, 'https://en.wikipedia.org/wiki/' . str_replace(' ', '_', $bits[1]), $bits[1]);
+				} else if (strcasecmp($bits[0], 'Source') == 0) {
+					$bits[1] = sprintf($lnk, $bits[1], get_domain($bits[1])); 
+				} else if (strcasecmp($bits[0], 'link') == 0) {
+					$url = explode('|', $bits[1]);
+					$bits[1] = sprintf($lnk, $url[0], count($url) == 1 ? $url[0] : $url[1] );
+				} 
+				$op[] = '<b>' . $bits[0] . ':</b> ' . $bits[1];
+			} else {
+				$op[] = $line;
+			}
+		}
+		return PHP_EOL . '<blockquote class="info">' . implode('<br/>' . PHP_EOL, $op) . '</blockquote>';
 	}
 }
 WorksShortcodes::init();

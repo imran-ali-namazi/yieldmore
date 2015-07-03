@@ -38,8 +38,7 @@ class WorkConfig
 	
 	function dirLink($txt = 'Works')
 	{
-		$id = $_SERVER['HTTP_HOST'] == 'localhost' ? 12 : 13;
-		$url = get_permalink($id);
+		$url = get_permalink(3);
 		return $txt == 'url' ? $url : CHtml::link($txt, $url);
 	}
 	

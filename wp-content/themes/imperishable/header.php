@@ -31,7 +31,9 @@
 			<?php
 			if (cs_work_get('hasnav')) {?>
 				<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> <?php echo WorkConfig::dirLink('./'); ?></h2>
-				<?php cs_work_get('header'); 
+				<?php
+				if (!is_user_logged_in()) { echo '<p align="center"><a href="' . wp_login_url() . '">Login / Register</a></p>'; }
+				cs_work_get('header'); 
 			} else {
 				$header_image = get_header_image();
 				if ( ! empty( $header_image ) ) :
@@ -47,7 +49,9 @@
 			<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
 			<h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
 			
-			<?php get_search_form();
+			<?php
+				if (!is_user_logged_in()) { echo '<p align="center"><a href="' . wp_login_url() . '">Login / Register</a></p>'; }
+				get_search_form();
 			} ?>
 
 		</div><!-- End .header -->

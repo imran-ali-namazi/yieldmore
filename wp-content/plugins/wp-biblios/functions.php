@@ -43,6 +43,17 @@ function cs_var($name, $val = null)
 		return isset($cscore[$name]) ? $cscore[$name] : false;
 } }
 
+function cs_get($key, $default = false)
+{
+	return isset($_GET[$key]) ? $_GET[$key] : $default;
+}
+
+function get_domain($url)
+{
+	$url = str_replace('www.', '', str_replace('://', '', str_replace('http', '', str_replace('https', '', $url))));
+	return substr($url, 0, strpos($url, '/'));
+}
+
 function cs_work($id, $data = null)
 {
 	if ($data != null)
