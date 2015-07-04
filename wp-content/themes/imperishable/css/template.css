@@ -1,5 +1,6 @@
 html,
-#wrap-content{
+#wrap-content,
+#post-preview{
 	background:#f0f0f0 url('../images/background.png') repeat fixed center
 	}
 
