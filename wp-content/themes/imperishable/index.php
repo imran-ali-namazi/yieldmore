@@ -15,7 +15,7 @@
 		<?php if (have_posts()) :  ?>
 		<?php while (have_posts()) : the_post(); ?>
 
-			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<div id="post-<?php the_ID(); ?>" <?php post_class('post-thumb'); ?>>
 
 				<?php desaindigital_post_format(); ?>
 				
@@ -59,4 +59,5 @@
 	<?php
 		get_sidebar(); //Include sidebar.php
 		get_footer(); //Include footer.php
+		//echo $GLOBALS['wp_query']->request;
 	?>

@@ -41,7 +41,7 @@ add_action( 'widgets_init', 'desaindigital_widgets_init');
 function desaindigital_post_format(){
 	$fmt = '<span class="post-format %s"><span>%s</span></span>';
 	
-	$wk = cs_work_get('workType');
+	$wk = get_post_type() == 'page' ? 'page' : cs_work_get('workType');
 	if ($wk)
 	{
 		_e(sprintf($fmt, $wk, $wk), 'desaindigital');
@@ -58,7 +58,13 @@ function desaindigital_post_format(){
 		}
 	}
 
-	
+	$cat = get_the_category(get_the_ID());
+	if (count($cat))
+	{
+		_e(sprintf($fmt, $cat[0]->name, $cat[0]->name), 'desaindigital');
+		return;
+	}
+
 	_e('<span class="post-format"><span>Article</span></span>', 'desaindigital');		
 } // End desaindigital_post_format()
 

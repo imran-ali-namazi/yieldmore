@@ -9,7 +9,7 @@
 
 .post-thumbnails blockquote { display: none; }
 .post-thumbnails post-format { position: relative; float: left; }
-.post-thumbnails .post { width: 250px; float: left; cursor: hand; }
+.post-thumbnails .post-thumb { width: 250px; float: left; cursor: hand; }
 .post-thumbnails .post-content { height: 220px; overflow: hidden; clear: both; }
 #wrap-content.post-thumbnails .hentry { clear: none; }
 .post-thumbnails .post-title { font-size: 16px!important; }

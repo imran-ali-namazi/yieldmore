@@ -92,7 +92,6 @@ function cs_work_read($id, $retKey = null, $subKey = null)
 
 function cs_work_get($what)
 {
-	if (!is_single()) return false;
 	$id = get_the_ID();
 	if (get_post_type($id) != 'work') return false;
 	if ($what == 'bool') {
