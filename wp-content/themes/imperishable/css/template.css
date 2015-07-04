@@ -86,7 +86,7 @@ body{
 
 	}
 
-#wrap-content .hentry .post-format{
+.hentry .post-format{
 	text-shadow:1px 1px 0 #444, 0.5px 0.5px 0 #555;
 	text-align:center;
 	text-transform:capitalize;
@@ -100,11 +100,11 @@ body{
 	background:transparent url('../images/bg-post-format.png') no-repeat top left
 	}
 
-#wrap-content .hentry .post-content{
+.hentry .post-content{
 	padding: 20px;
 	}
 
-#wrap-content .hentry .post-content .post-title{
+.hentry .post-content .post-title{
 	font:normal normal 30px lobster;
 	color:rgba(137, 132, 132, 0.9);
 	background:transparent url('../images/bg-title.png') repeat-x bottom center;
@@ -115,13 +115,13 @@ body{
 	text-shadow:2px 2px 1px #fefefe
 	}
 
-#wrap-content .hentry .post-content .post-title a:hover{
+.hentry .post-content .post-title a:hover{
 	text-shadow:none;
 	text-decoration:none;
 	color:#828282
 	}
 
-#wrap-content .hentry .post-content .content{
+.hentry .post-content .content{
 	font:normal 500 16px/20px georgia, serif;
 	color:#898484;
 	text-shadow:0 1px 0 #fefefe;
@@ -132,8 +132,8 @@ body{
 	-o-text-shadow:1px 1px 0 rgba(255, 255, 255, 0.7)
 	}
 
-#wrap-content .hentry .post-content .content:hover,
-#wrap-content .sticky .post-content .content{
+.hentry .post-content .content:hover,
+.sticky .post-content .content{
 	color:#777;
 	}
 

@@ -3,10 +3,13 @@ $(document).ready(function(){
 	$('.post-thumbnails .post-title a').click(function(e){
 		e.preventDefault();
 	});
+	$('.post-thumbnails .more-link').click(function(e){
+		e.preventDefault();
+	});
 	$('.post-thumbnails .post-thumb').click(function(e){
 		$('#post-preview-content').html($(this).html());
 		$postShown = $(this);
-		$posts = $('.post-thumbnails .post');
+		$posts = $('.post-thumbnails .post-thumb');
 		$postCount = $posts.length;
 		$postIndex = $posts.index($(this)) + 1;
 		$('#post-preview-index').html($postIndex + ' of ' + $postCount);
@@ -14,13 +17,24 @@ $(document).ready(function(){
 		//$('#post-preview-content').tinyscrollbar();
 	});
 	$('#post-preview .nav').click(function(e){
-		if ($(this).attr('id') == 'post-preview-close')
+		$id = $(this).attr('id');
+		if ($id == 'post-preview-close')
 		{
 			$('#post-preview').bPopup().close();
 			return;
 		}
+		else if ($id == 'post-preview-about')
+		{
+			$('.post-thumbnails #post-1').trigger('click');
+			return;
+		}
+		else if ($id == 'post-preview-works')
+		{
+			$('.post-thumbnails #post-3').trigger('click');
+			return;
+		}
 
-		if ($(this).attr('id') == 'post-preview-next') {
+		if ($id == 'post-preview-next') {
 			$next = $postShown.next('.post-thumb');
 			$postIndex += 1;
 			if ($next.length == 0) {

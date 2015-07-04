@@ -1,8 +1,16 @@
 <?php
+	CSScripts::post_thumbnails();
 	get_header();// Include header.php
 ?>
 
-	<div id='wrap-content'>
+	<div id="post-preview" class="hentry" style="display: none;">
+		<a id="post-preview-close" class="nav">Close</a>
+		<a id="post-preview-next" class="nav">Next</a>
+		<a id="post-preview-prev" class="nav">Prev</a>
+		<b id="post-preview-index" style="float: right;padding: 8px;">1 of 4</b>
+		<div id="post-preview-content"></div>
+	</div>
+	<div id='wrap-content' class='post-thumbnails'>
 
 		<?php if (have_posts()) : the_post(); ?>
 
@@ -28,7 +36,7 @@
 
 			while (have_posts()) : the_post(); ?>
 
-			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<div id="post-<?php the_ID(); ?>" <?php post_class('post-thumb'); ?>>
 
 				<?php desaindigital_post_format(); ?>
 				

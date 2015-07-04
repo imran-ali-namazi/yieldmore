@@ -7,7 +7,7 @@ function csb_home_query($query)
 	//print_r($query); die();
 	$query->query_vars['post_type'] = array('page', 'post', 'work');
 	$query->query_vars['post__not_in'] = array(
-		3, //works
+		//3, //works
 		21, //users
 	);
 	$query->query_vars['posts_per_page'] = -1;

@@ -7,7 +7,9 @@
 		<a id="post-preview-close" class="nav">Close</a>
 		<a id="post-preview-next" class="nav">Next</a>
 		<a id="post-preview-prev" class="nav">Prev</a>
-		<b id="post-preview-index" style="float: right;padding: 10px;">1 of 4</b>
+		<b id="post-preview-index" style="float: right;padding: 8px;">1 of 4</b>
+		<a id="post-preview-works" class="nav">Works</a>
+		<a id="post-preview-about" class="nav">About</a>
 		<div id="post-preview-content"></div>
 	</div>
 	<div id='wrap-content' class='post-thumbnails'>
