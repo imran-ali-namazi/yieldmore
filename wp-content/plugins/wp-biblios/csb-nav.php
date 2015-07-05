@@ -38,7 +38,7 @@ class WorkNav
 		if ($node == 'search') return get_permalink($id);
 		$qs = array();
 		if ($node != '') $qs[] = 'node=' . $node;
-		if ($page != '') $qs[] = 'page=' . $page;
+		if ($page != '') $qs[] = 'pg=' . $page;
 		if (isset($_GET['notabs'])) $qs[] = 'notabs=1';
 		$qs = count($qs) == 0 ? '' : '?' . implode('&', $qs);
 		return get_permalink($id) . $qs;

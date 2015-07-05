@@ -94,7 +94,7 @@ class WorkContent
 		{
 			if ($a && $a['page'] > $i) continue;
 			if ($a && isset($a['endpage']) && $a['endpage'] < $i) continue;
-			$pg = $_GET['page']; if ($pg != null) $pg = intval($pg);
+			$pg = $_GET['pg']; if ($pg != null) $pg = intval($pg);
 			if (!$a) self::tabberTab($tabPrefix . $i, $i == $pg);
 			else echo '<b>Page: ' . $i . ($i == $a['page'] && $a['para'] > 1 ? ' (' . $a['para'] . ')' : '') . '</b>';
 			$icnt = count($items);

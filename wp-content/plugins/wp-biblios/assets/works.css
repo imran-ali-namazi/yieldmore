@@ -11,6 +11,7 @@ body { cursor: default; }
 #wrap-sidebar .sidebar .widget ol, #wrap-sidebar .sidebar .widget ol li { list-style: decimal!important; }
 #wrap-sidebar .sidebar .widget ol { margin-left: 20px; }
 
+span.match { background-color: ff7; }
 .sb-what { margin: 6px 0 3px 0; text-shadow: 0 0 0 #fff!important; }
 .sb-what a { color: #fff!important; }
 
