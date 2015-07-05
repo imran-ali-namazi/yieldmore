@@ -7,7 +7,8 @@
 .sb-sib .arr { border-left-color: #000; left: 2px; }
 .sb-sub .arr { border-top-color: #000; }
 
-.post-thumbnails blockquote { display: none; }
+.post-thumbnails blockquote.info, .post-thumbnails div.right { display: none; }
+.post-thumbnails blockquote { overflow: hidden; }
 .post-thumbnails post-format { position: relative; float: left; }
 .post-thumbnails .post-thumb { width: 250px; float: left; cursor: hand; border: 1px solid #ccc; margin: 10px 0 10px 20px!important; padding-top: 5px!important; }
 .post-thumbnails .post-thumb:hover { background-color: #CCE4CC; }

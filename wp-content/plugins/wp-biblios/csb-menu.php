@@ -83,6 +83,7 @@ class WorkMenu
 	{
 		$cur = isset($_GET['node']) ? $_GET['node'] : '';
 		extract($wk['config']);
+		$exclude = isset($exclude) ? explode(',', $exclude) : array();
 		$tcnt = count($titles);
 		$pre = cs_var('bib-data') . '/' . $wk['fol'] . '/';
 		for ($i = 1; $i < $tcnt; $i++)
@@ -115,6 +116,7 @@ class WorkMenu
 				}
 
 				$url = $slug0 . '-' . $slug2 . $j;
+				if (array_search($url, $exclude) !== false) continue;
 				$atts = array();
 				if ($d[$j] == '') continue;
 				if (self::$previous && self::$next === false)

@@ -49,8 +49,7 @@
 								<p class='the-post-thumbnail'><a href='<?php the_permalink() ?>' rel='bookmark' title='<?php printf( esc_attr__( 'Permalink to %s', 'desaindigital' ), the_title_attribute( 'echo=0' ) ); ?>'><?php
 									the_post_thumbnail(); ?></a></p>
 								<?php } ?>	
-						<?php
-						the_excerpt();?>
+						<?php the_content( __( 'Read more ...', 'desaindigital' ) ); ?>
 					</div><!-- End .content -->
 				</div><!-- End .post-content -->
 

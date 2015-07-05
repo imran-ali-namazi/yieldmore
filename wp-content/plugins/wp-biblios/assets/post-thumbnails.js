@@ -1,9 +1,6 @@
 $(document).ready(function(){
 	var $postShown, $postIndex, $postCount, $posts;
-	$('.post-thumbnails .post-title a').click(function(e){
-		e.preventDefault();
-	});
-	$('.post-thumbnails .more-link').click(function(e){
+	$('.post-thumbnails a').click(function(e){
 		e.preventDefault();
 	});
 	$('.post-thumbnails .post-thumb').click(function(e){
