@@ -18,4 +18,5 @@
 #wrap-content.post-thumbnails .hentry { clear: none; }
 .post-thumbnails .post-title { font-size: 16px!important; }
 #post-preview { width: 80%; background-color: #fff; padding: 20px ; margin: 40px 0 40px 0; border-radius: 25px; }
+#post-preview .post-format { height: 30px!important; margin-left: -43px; }
 #post-preview .nav { float: right; background-color: #fff; padding: 6px; border-radius: 10px; margin-left: 10px; color: #000; font-weight: bold; }

@@ -13,4 +13,27 @@ function csb_home_query($query)
 	$query->query_vars['posts_per_page'] = -1;
 	$query->query_vars['orderby'] = 'ID';
 }
+
+//http://wordpress.stackexchange.com/a/170640
+function highlight_results($text)
+{
+	if(is_search() && !is_admin())
+	{
+		$keys = implode('|', explode(' ', get_search_query()));
+		$r = '<span class="match">\0</span>';
+
+		if (stripos($text, '[info]') === false) {
+			$text = preg_replace('/(' . $keys .')/iu', $r, $text);
+		} else {
+			$top = substr($text, 0, stripos($text, '[/info]')) . '[/info]';
+			$bot = substr($text, strlen($top));
+			$bot = preg_replace('/(' . $keys .')/iu', $r, $bot);
+			$text = $top . $bot;
+		}
+	}
+	return $text;
+}
+add_filter('the_content', 'highlight_results');
+add_filter('the_title', 'highlight_results');
+
 ?>

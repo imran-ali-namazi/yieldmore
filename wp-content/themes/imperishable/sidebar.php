@@ -3,7 +3,7 @@
 				<div class='sidebar clear'>
 
 					<?php
-						if (cs_work_get('hasnav')) {
+						if (is_single() && cs_work_get('hasnav')) {
 							cs_work_get('sidebar');
 						} else if ( !dynamic_sidebar( 'sidebar' ) ) {
 
