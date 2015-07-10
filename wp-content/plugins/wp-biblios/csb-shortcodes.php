@@ -105,6 +105,7 @@ class WorksShortcodes
 	{
 		$op = array();
 		$lines = explode('<br />', $content);
+		$in = is_user_logged_in();
 		foreach ($lines as $line)
 		{
 			$line = trim($line);
@@ -115,9 +116,13 @@ class WorksShortcodes
 				$lnk = '<a href="%s" target="_blank">%s</a>';
 				if (strcasecmp($bits[0], 'Wiki') == 0) {
 					$bits[1] = sprintf($lnk, 'https://en.wikipedia.org/wiki/' . str_replace(' ', '_', $bits[1]), $bits[1]);
+				} else if (strcasecmp($bits[0], 'youtube') == 0) {
+					$url = explode('|', $bits[1]);
+					$bits[1] = sprintf($lnk, 'https://www.youtube.com/watch?v=' . $url[0], count($url) == 1 ? $url[0] : $url[1]);
 				} else if (strcasecmp($bits[0], 'Source') == 0) {
 					$bits[1] = sprintf($lnk, $bits[1], get_domain($bits[1])); 
 				} else if (strcasecmp($bits[0], 'pdf') == 0) {
+					if (!$in) continue;
 					$bits[1] = sprintf($lnk, $bits[1], get_domain($bits[1])); 
 				} else if (strcasecmp($bits[0], 'link') == 0) {
 					$url = explode('|', $bits[1]);
@@ -128,6 +133,7 @@ class WorksShortcodes
 				$op[] = $line;
 			}
 		}
+		if (!count($op)) return; //if only pdf and not logged in
 		return PHP_EOL . '<blockquote class="info">' . implode('<br/>' . PHP_EOL, $op) . '</blockquote>';
 	}
 }
