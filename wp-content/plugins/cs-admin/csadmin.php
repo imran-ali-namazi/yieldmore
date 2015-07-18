@@ -44,6 +44,7 @@ class CSAdmin
 	public static $reseedSlug = 'csadmin-reseed';
 	public static $htmlSlug = 'csadmin-htmlgen';
 	public static $multisiteSlug = 'csadmin-multisite';
+	public static $cleanDBSlug = 'csadmin-clean';
 	
 	function register_admin()
 	{
@@ -54,12 +55,16 @@ class CSAdmin
 		add_submenu_page('tools.php', 'Generate Html for Pages', 'Html Gen', 'manage_options', 
 			self::$htmlSlug, array($this, 'pages_htmlgen'));
 
+		add_submenu_page('tools.php', 'Clean DB', 'Clean DB', 'manage_options', 
+			self::$cleanDBSlug, array($this, 'pages_clean'));
+
 		add_submenu_page('tools.php', 'View Plugins / Themes in All Sites', 'Multisite Overview', 'manage_options', 
 			self::$multisiteSlug, array($this, 'pages_multisite'));
 	}
-	
+
 	function pages_reseed() { include 'reseed.php'; }
 	function pages_htmlgen() { include 'htmlgen.php'; }
+	function pages_clean() { include 'clean.php'; }
 	function pages_multisite() { include 'multisite.php'; }
 }
 new CSAdmin();
