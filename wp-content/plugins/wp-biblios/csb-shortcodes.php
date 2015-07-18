@@ -39,8 +39,9 @@ class WorksShortcodes
 
 	function do_work($a, $content = null)
 	{
+		if (array_search('config', $a) !== false) { global $postConfig; $postConfig = WorkConfig::read(get_the_ID(), $a); return ''; }
 		$id = isset($a['id']) ? $a['id'] : get_the_ID();
-			
+
 		if (!isset($a['page']) && !isset($a['type'])) {
 			return WorkMenu::nodeLink($id, $a, $content);
 		} else {
@@ -105,7 +106,7 @@ class WorksShortcodes
 	{
 		$op = array();
 		$lines = explode('<br />', $content);
-		$in = is_user_logged_in();
+		$in = is_user_logged_in() || isset($_GET['in']);
 		foreach ($lines as $line)
 		{
 			$line = trim($line);
@@ -121,13 +122,13 @@ class WorksShortcodes
 					$bits[1] = sprintf($lnk, 'https://www.youtube.com/watch?v=' . $url[0], count($url) == 1 ? $url[0] : $url[1]);
 				} else if (strcasecmp($bits[0], 'Source') == 0) {
 					$bits[1] = sprintf($lnk, $bits[1], get_domain($bits[1])); 
-				} else if (strcasecmp($bits[0], 'pdf') == 0) {
-					if (!$in) continue;
+				} else if (strcasecmp($bits[0], 'pdf') == 0 || strcasecmp($bits[0], 'freepdf') == 0) {
+					if (strcasecmp($bits[0], 'pdf') == 0 && !$in) continue;
 					$bits[1] = sprintf($lnk, $bits[1], get_domain($bits[1])); 
 				} else if (strcasecmp($bits[0], 'link') == 0) {
 					$url = explode('|', $bits[1]);
 					$bits[1] = sprintf($lnk, $url[0], count($url) == 1 ? $url[0] : $url[1] );
-				} 
+				}
 				$op[] = '<b>' . $bits[0] . ':</b> ' . $bits[1];
 			} else {
 				$op[] = $line;

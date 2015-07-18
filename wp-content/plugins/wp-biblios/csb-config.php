@@ -112,6 +112,7 @@ class WorkConfig
 
 	function parse($cfg)
 	{
+		if (is_array($cfg)) return $cfg;
 		// limit to 2 because headings & titles may have : in them
 		$lines = explode(PHP_EOL, self::sanitize($cfg));
 		$op = array();

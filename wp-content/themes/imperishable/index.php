@@ -3,7 +3,7 @@
 	get_header();// Include header.php
 ?>
 
-	<div id="post-preview" class="hentry" style="display: none;">
+	<div id="post-preview" class="hentry site-<?php echo get_current_blog_id(); ?>" style="display: none;">
 		<a id="post-preview-close" class="nav">Close</a>
 		<a id="post-preview-next" class="nav">Next</a>
 		<a id="post-preview-prev" class="nav">Prev</a>

@@ -67,6 +67,15 @@ function cs_work($id, $data = null)
 	}
 	else
 	{
+		if (get_post_type($id) == 'post')
+		{
+			global $post;
+			$content = $post->post_content;
+			if (!has_shortcode($content, 'work')) return array();
+			do_shortcode($content);
+			global $postConfig;
+			return $postConfig;
+		}
 		$cfg = get_post_meta($id, 'workConfig', true);
 		if ($cfg == '') // OR bib-redo-import
 			$cfg = WorkConfig::import($id);
@@ -93,7 +102,6 @@ function cs_work_read($id, $retKey = null, $subKey = null)
 function cs_work_get($what)
 {
 	$id = get_the_ID();
-	if (get_post_type($id) != 'work') return false;
 	if ($what == 'bool') {
 		return 1;
 	} else if ($what == 'author') {
@@ -109,7 +117,10 @@ function cs_work_get($what)
 	} else if ($what == 'hascontent') {
 		return WorkNav::nodeOrSearchOrQuoteOrAll();
 	} else if ($what == 'content') {
-		include 'csb-' . (WorkNav::quote() ? 'quote' : (WorkNav::search() ? 'search' : 'content')) . '.php';
+		if (get_post_type($id) == 'post')
+			include 'post-content.php';
+		else
+			include 'csb-' . (WorkNav::quote() ? 'quote' : (WorkNav::search() ? 'search' : 'content')) . '.php';
 	} else if ($what == 'sidebar') {
 		_nl('<div class="widget bib-nav">');
 		WorkMenu::render($id, $wk);

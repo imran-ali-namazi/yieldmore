@@ -36,17 +36,12 @@ a:active{
 	display:none
 	}
 
-:first-letter{
-	text-transform:capitalize
-	}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6{
-	clear:both;
 	color:#777;
 	font-family:arial, helvetica, sans-serif;
 	font-weight:normal;

@@ -51,6 +51,7 @@
 			
 			<?php
 				if (!is_user_logged_in()) { echo '<p align="center"><a href="' . wp_login_url() . '">Login / Register</a></p>'; }
+				if ($_SERVER['HTTP_HOST'] != 'yieldmore.org') echo '<p align="center">(A Project of <a href="http://yieldmore.org">YieldMore</a>)</p>';
 				get_search_form();
 			} ?>
 

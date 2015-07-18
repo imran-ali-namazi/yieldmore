@@ -13,3 +13,6 @@ wp-*.php
 /wp-content/plugins/wordpress-wiki-plugin
 /wp-content/plugins/wp-mvc
 /wp-content/themes/twentyfifteen
+/wp-content/plugins/oa-social-login/
+/wp-content/data/_root.txt
+_index.txt

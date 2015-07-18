@@ -19,7 +19,9 @@ class WorkMenu
 			return;
 		}
 
-		if (!isset($wk['config']['slug2']))
+		if (get_post_type($id) == 'post')
+			self::text($id, $wk);
+		else if (!isset($wk['config']['slug2']))
 			self::one($id, $wk);
 		else
 			self::two($id, $wk);
@@ -47,7 +49,22 @@ class WorkMenu
 			_nl(CHtml::link($link[0], $dataUrl . $link[1]), 1);
 		}
 	}
-	
+
+	private function text($id, $wk)
+	{
+		$fol = cs_var('bib-data') . '/' . $wk['fol'];
+		if (!is_dir($fol)) { echo 'Folder doesnt exist: ' . $fol; return; }
+		$fils = scandir($fol);
+		if (count($fils) == 2) { echo 'Folder is empty: ' . $fol; return; }
+		sort($fils);
+		foreach ($fils as $fil)
+		{
+			if ($fil == '.' || $fil == '..') continue;
+			$name = str_replace('.txt', '', $fil);
+			_nl(CHtml::link(str_replace('-', ' ', $name), WorkNav::post($id, $name)), 1);
+		}
+	}
+
 	private function one($id, $wk)
 	{
 		$cur = isset($_GET['node']) ? $_GET['node'] : '';

@@ -24,7 +24,7 @@
 				<?php elseif ( is_author() ) : ?>
 				<?php printf( __('Author Archive: <span>%s</span>', 'desaindigital'), get_the_author() ); ?>
 				<?php elseif ( is_category() ) : ?>
-				<?php printf( __('Category Archive: <span>%s</span>', 'desaindigital'), single_cat_title("", false)); ?>
+				<?php printf( __('Category Archive: <span>%s</span> ' . category_description(), 'desaindigital'), single_cat_title("", false)); ?>
 				<?php elseif ( is_tag() ) : ?>
 				<?php printf( __('Tag Archive: <span>%s</span>', 'desaindigital'), single_tag_title("", false)); ?>
 				<?php else : ?>

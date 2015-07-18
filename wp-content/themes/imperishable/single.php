@@ -14,7 +14,7 @@
 					<h2 class='post-title'><a href="<?php the_permalink() ?>#post-<?php the_ID(); ?>" rel="bookmark" title="<?php printf( esc_attr__( 'Permalink to %s', 'desaindigital' ), the_title_attribute( 'echo=0' ) ); ?>"><?php the_title(); ?></a></h2>
 
 					<div class='content'>
-								<?php the_content(); ?>
+								<?php if (cs_work_get('hascontent')) cs_work_get('content'); else the_content(); ?>
 							<?php wp_link_pages( array( 'before' => '<span class="page-link clear"><span>' . __( 'Pages:', 'desaindigital' ) . '</span>', 'after' => '</span>' ) ); ?>
 					</div><!-- End .content -->
 				</div><!-- End .post-content -->

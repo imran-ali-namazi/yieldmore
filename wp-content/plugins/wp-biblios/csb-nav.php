@@ -40,6 +40,7 @@ class WorkNav
 		if ($node != '') $qs[] = 'node=' . $node;
 		if ($page != '') $qs[] = 'pg=' . $page;
 		if (isset($_GET['notabs'])) $qs[] = 'notabs=1';
+		if (isset($_GET['in'])) $qs[] = 'in=1';
 		$qs = count($qs) == 0 ? '' : '?' . implode('&', $qs);
 		return get_permalink($id) . $qs;
 	}

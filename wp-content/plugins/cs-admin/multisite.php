@@ -12,7 +12,7 @@ class CSAdminMultisite extends CSAdminBase
 	
 	function __construct()
 	{
-		CSScripts::admin();
+		CSAScripts::admin();
 
 		$keys = array_keys($this->all = get_plugins());
 		foreach ($keys as $key)

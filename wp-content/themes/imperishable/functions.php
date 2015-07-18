@@ -61,7 +61,7 @@ function desaindigital_post_format(){
 	$cat = get_the_category(get_the_ID());
 	if (count($cat))
 	{
-		$singular = array('People' => 'Person');
+		$singular = array('People' => 'Person', 'Documentaries' => 'Documentary', 'Incubate' => 'Incubate');
 		$name = isset($singular[$cat[0]->name]) ? $singular[$cat[0]->name] : substr($cat[0]->name, 0, -1);
 		_e(sprintf($fmt, $name, $name), 'desaindigital');
 		return;

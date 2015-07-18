@@ -52,7 +52,7 @@ class CSAdminReseed extends CSAdminBase
 	function deletable()
 	{
 		global $wpdb;
-		$del = $wpdb->get_results($wpdb->prepare( "select `id`, post_title, post_type, post_parent, post_status from wp_posts where post_status = 'trash' or post_type = 'revision'", ''), ARRAY_A);
+		$del = $wpdb->get_results($wpdb->prepare( "select `id`, post_title, post_type, post_parent, post_status from " . $wpdb->prefix . "posts where post_status = 'trash' or post_type = 'revision'", ''), ARRAY_A);
 		foreach ($del as $itm)
 		{
 			$s = 'revision';
