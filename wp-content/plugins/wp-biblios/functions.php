@@ -135,7 +135,8 @@ function cs_work_get($what)
 }
 
 cs_var('bib-base', content_url('plugins/' . plugin_basename(dirname(__FILE__))));
-cs_var('bib-data', WP_CONTENT_DIR . '/data');
+cs_var('bib-data-name', 'data' . (is_multisite && get_current_blog_id() != 1 ? get_current_blog_id() : ''));
+cs_var('bib-data', WP_CONTENT_DIR . '/' . cs_var('bib-data-name'));
 cs_var('charset', 'iso-8859-1'); // utf8 not supported
 cs_var('workTypes', WorkConfig::types());
 ?>

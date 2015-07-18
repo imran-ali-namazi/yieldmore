@@ -17,13 +17,18 @@
 //define("VERSION", "2.5.6"); // Current version of File Thingie.
 define("INSTALL", "SIMPLE"); // Type of File Thingie installation. EXPANDED or SIMPLE.
 define("MUTEX", $_SERVER['PHP_SELF']);
+
+//https://wordpress.org/support/topic/fatal-error-call-to-a-member-function-set_prefix
+//If you're including WordPress from another app, then you have to include it from the global scope, and not a function scope.
+require_once("../../../wp-blog-header.php"); //wp-content/plugins/cs-filethingie
+
 $ft = array();
 $ft['settings'] = array();
 $ft['groups'] = array();
 $ft['users'] = array();
 $ft['plugins'] = array();
 
-include_once 'siteconfig.php';
+include 'siteconfig.php'; //is included by plugin, so we want to include it again
 if (!isset($ft["settings"]["DIR"])) $ft["settings"]["DIR"]               = ""; // Your default directory. Do NOT include a trailing slash!
 $ft["settings"]["LANG"]              = "en"; // Language. Do not change unless you have downloaded language file.
 $ft["settings"]["MAXSIZE"]           = 8388608; // Maximum file upload size - in bytes.
@@ -211,12 +216,8 @@ function ft_check_filetype($file) {
  *
  * @return TRUE if the user is authenticated.
  */
+
 function ft_check_login() {
-	// return true;
-	// Call to undefined function tribe_get_option() in /srv/www/sassymamasg.com/html/wp-content/plugins/the-events-calendar/lib/tribe-presstrends.php on line 57
-	
-	// debug_print_backtrace(); die();
-	require_once("../../../wp-config.php"); //wp-content/plugins/cs-filethingie
 	return current_user_can( 'edit_plugins' );
 }
 
