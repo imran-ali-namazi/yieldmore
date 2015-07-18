@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var $postShown, $postIndex, $postCount, $posts;
-	$('.post-thumbnails a').click(function(e){
+	$('.post-thumbnails .post-thumb a').click(function(e){
 		e.preventDefault();
 	});
 	$('.post-thumbnails .post-thumb').click(function(e){
@@ -13,6 +13,8 @@ $(document).ready(function(){
 		$('#post-preview').bPopup({follow: false});
 		//$('#post-preview-content').tinyscrollbar();
 	});
+	if ($('.post-thumbnails #post-1').length == 0) $('#post-preview-about').hide();
+	if ($('.site-1').length == 0 || $('.post-thumbnails #post-3').length == 0) $('#post-preview-works').hide();
 	$('#post-preview .nav').click(function(e){
 		$id = $(this).attr('id');
 		if ($id == 'post-preview-close')

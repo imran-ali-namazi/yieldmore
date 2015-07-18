@@ -19,7 +19,8 @@ $(document).ready(function() {
 	$(window).trigger('resize');
 
 	if (typeof $.ui.accordion === 'function')
-		$( "#wrap-sidebar" ).accordion({header: 'div div h2', active: activeTab});
+		$("#wrap-sidebar").accordion({header: 'div div h2', active: activeTab, heightStyle: 'content'});
+	$("#wrap-left").stick_in_parent();
 });
 
 $.doTabberInit = true;

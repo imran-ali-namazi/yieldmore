@@ -39,7 +39,8 @@ class CSScripts
 	
 	function sidebar()
 	{
-		wp_register_script('jquery-sidebar', cs_var('bib-base') . '/assets/sidebar.js', 'jquery');
+		//https://github.com/leafo/sticky-kit
+		wp_register_script('jquery-sidebar', cs_var('bib-base') . '/assets/jquery.sticky-kit.min.js', 'jquery');
 		wp_enqueue_script('jquery-sidebar');
 	}
 }
