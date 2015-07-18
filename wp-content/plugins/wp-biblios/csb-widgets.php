@@ -50,9 +50,11 @@ class WorkAuthorsWidget extends WP_Widget
 	
 	function worksAuthors()
 	{
+		_nl('<ul>');
 		$list = get_terms('work_author');
 		foreach ($list as $itm)
-			_nl(WorkNav::termLink($itm), 1);
+			_nl('<li>' . WorkNav::termLink($itm) . '</li>');
+		_nl('</ul>');
 	}
 }
 

@@ -19,5 +19,8 @@
 							//the_widget('WP_Widget_Recent_Posts', 'title= Recent Post');
 
 						} ?>
+				<h1 id='logo'><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+						<img src="<?php echo get_header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
+				</a></h1>
 				</div><!-- End .sidebar .clear -->
 			</div><!-- End #wrap-sidebar -->

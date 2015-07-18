@@ -18,16 +18,17 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
 	<link rel="stylesheet" href="/wp-content/themes/imperishable/css/yield.css" type="text/css" />
 	<?php
+		CSScripts::sidebar();
 		wp_head();
 	?>
 </head>
 <body <?php body_class(); ?>>
 
 <div id="wrap-upper">
+<?php if (!(is_single() && cs_work_get('hasnav'))) CSScripts::accordion(); ?>
 <div id="wrap-left">
 	<div id='wrap-header'>
 		<div class='header'>
-
 			<?php
 			if (is_single() && cs_work_get('hasnav')) {?>
 				<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> <?php echo WorkConfig::dirLink('./'); ?></h2>
@@ -35,23 +36,14 @@
 				if (!is_user_logged_in()) { echo '<p align="center"><a href="' . wp_login_url() . '">Login / Register</a></p>'; }
 				cs_work_get('header'); 
 			} else {
-				$header_image = get_header_image();
-				if ( ! empty( $header_image ) ) :
-				$image_width  = get_custom_header()->width;
-				$image_height  = get_custom_header()->height;
 			?>
-
-			<h1 id='logo'><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="<?php echo $header_image; ?>" width="<?php echo $image_width ?>" height="<?php echo $image_height ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
-			</a></h1>
-			<?php endif; ?>
 
 			<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
 			<h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
-			
+
 			<?php
 				if (!is_user_logged_in()) { echo '<p align="center"><a href="' . wp_login_url() . '">Login / Register</a></p>'; }
-				if ($_SERVER['HTTP_HOST'] != 'yieldmore.org') echo '<p align="center">(A Project of <a href="http://yieldmore.org">YieldMore</a>)</p>';
+				if ($_SERVER['HTTP_HOST'] != 'yieldmore.org' && $_SERVER['HTTP_HOST'] != 'yield') echo '<p align="center">(A Project of <a href="http://yieldmore.org">YieldMore</a>)</p>';
 				get_search_form();
 			} ?>
 

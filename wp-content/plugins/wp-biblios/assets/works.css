@@ -7,9 +7,9 @@ body { cursor: default; }
 .bib-nav li a { background: none!important; padding-left: 0!important; }
 .bib-nav hr { border-top: none!important; border-bottom: 2px solid #5D2828!important; margin-top: 5px; }
 
-/* Errors */
 #wrap-sidebar .sidebar .widget ol, #wrap-sidebar .sidebar .widget ol li { list-style: decimal!important; }
 #wrap-sidebar .sidebar .widget ol { margin-left: 20px; }
+.fixed { position: fixed; }
 
 span.match { background-color: ff7; }
 .sb-what { margin: 6px 0 3px 0; text-shadow: 0 0 0 #fff!important; }

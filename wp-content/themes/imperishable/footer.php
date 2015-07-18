@@ -1,5 +1,5 @@
 </div><!-- wrap-upper -->
-	<div id='wrap-footer' class='clear'>
+	<div id='wrap-footer' class='clear' style='display: none;'>
 		<div class='themeby clear'>
 			<p>&copy; <?php echo date('Y') ?> <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?>.</a></p>
 			

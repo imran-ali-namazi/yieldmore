@@ -13,8 +13,16 @@ ProjectFilesOnly=0
 Extensions=*.*
 [Project tree]
 biblios
+	+_3p
+		+ft
+			..\cs-filethingie\siteconfig.php
+			..\cs-filethingie\shortcodes.php
+			..\cs-filethingie\register.php
+			..\cs-filethingie\index.php
+			..\cs-filethingie\iframe.php
 	-wp
 	+admin
+		..\cs-admin\clean.php
 		..\cs-admin\csadmin.php
 		..\cs-admin\csa-scripts.php
 		..\cs-admin\htmlgen.php
@@ -53,6 +61,8 @@ biblios
 		+3p
 			3p\CHtml.php
 		+assets
+			assets\jquery-ui.css
+			assets\jquery-ui-accordion.js
 			assets\post-thumbnails.js
 			assets\quoter.js
 			assets\tabber.css

@@ -16,7 +16,10 @@ $(document).ready(function() {
 		if ($nxt.length == 0) $nxt = $(".data-slide .item:first");
 		$nxt.show();
 	});
-	$(window).trigger('resize');	
+	$(window).trigger('resize');
+
+	if (typeof $.ui.accordion === 'function')
+		$( "#wrap-sidebar" ).accordion({header: 'div div h2', active: activeTab});
 });
 
 $.doTabberInit = true;
@@ -29,7 +32,8 @@ $(window).resize(function() {
   }
 
   var biggerHeight = $('#wrap-left').height() > $('#wrap-content').height() ? $('#wrap-left').height() : $('#wrap-content').height();
-  $('#wrap-footer').css('top', biggerHeight + 60);
+  $('#wrap-footer').show().css('top', biggerHeight + 60);
+  $('body').height(biggerHeight);
 });
 function tabberInit()
 {
