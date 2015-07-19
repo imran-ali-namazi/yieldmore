@@ -20,7 +20,8 @@ $(document).ready(function() {
 
 	if (typeof $.ui.accordion === 'function')
 		$("#wrap-sidebar").accordion({header: 'div div h2', active: activeTab, heightStyle: 'content'});
-	$("#wrap-left").stick_in_parent();
+	if (typeof $.stick_in_parent === 'function')
+		$("#wrap-left").stick_in_parent();
 });
 
 $.doTabberInit = true;

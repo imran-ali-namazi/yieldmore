@@ -39,7 +39,13 @@ class WorksShortcodes
 
 	function do_work($a, $content = null)
 	{
-		if (array_search('config', $a) !== false) { global $postConfig; $postConfig = WorkConfig::read(get_the_ID(), $a); return ''; }
+		if (array_search('config', $a) !== false)
+		{
+			global $postConfig;
+			$postConfig = WorkConfig::read(get_the_ID(), $a);
+			return '';
+		}
+
 		$id = isset($a['id']) ? $a['id'] : get_the_ID();
 
 		if (!isset($a['page']) && !isset($a['type'])) {

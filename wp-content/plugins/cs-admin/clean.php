@@ -14,7 +14,7 @@ class CSAdminClean extends CSAdminBase
 	{
 		global $wpdb;
 		if (!is_multisite()) {
-			$wpdb->query( "DELETE FROM `{$wpdb->prefix}options` WHERE `option_name` LIKE ('_transient_%')" );
+			$wpdb->query( "DELETE FROM `{$wpdb->prefix}options` WHERE `option_name` LIKE ('%_transient_%')" );
 			return;
 		}
 
@@ -23,7 +23,7 @@ class CSAdminClean extends CSAdminBase
 		if (!$sites) return;
 		foreach ($sites as $site) {
 			$wpdb->set_blog_id( $site->blog_id );
-			$wpdb->query( "DELETE FROM `{$wpdb->prefix}options` WHERE `option_name` LIKE ('_transient_%')" );
+			$wpdb->query( "DELETE FROM `{$wpdb->prefix}options` WHERE `option_name` LIKE ('%_transient_%')" );
 		}
 	}
 
@@ -46,9 +46,9 @@ class CSAdminClean extends CSAdminBase
 
 	function get_size($wpdb)
 	{
-		$size = $wpdb->get_results( "select count(*) as count, Round(Sum(option_value)) as size from `{$wpdb->prefix}options` WHERE `option_name` LIKE ('_transient_%')" );
+		$size = $wpdb->get_results( "select count(*) as count, Round(Sum(option_value)) as size from `{$wpdb->prefix}options` WHERE `option_name` LIKE ('%_transient_%')" );
 		$size = $size[0];
-		return 'Count: ' . $size->count .', Size: ' . $size->count;
+		return 'Count: ' . $size->count .', Size: ' . $size->size;
 	}
 }
 ?>

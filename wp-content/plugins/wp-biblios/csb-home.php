@@ -11,6 +11,18 @@ function csb_home_query($query)
 	$query->query_vars['orderby'] = 'ID';
 }
 
+add_action('widget_categories_args', 'csb_categories');
+function csb_categories($args)
+{
+	if (get_current_blog_id() != 1) return;
+	if (!cs_var('csb_categories')) //first
+		$args['exclude'] = 27; //to exclude all children of 27, hierarchical must be set to true
+	else
+		$args['child_of'] = 27;
+	cs_var('csb_categories', true);
+	return $args;
+}
+
 //http://wordpress.stackexchange.com/a/170640
 function highlight_results($text)
 {

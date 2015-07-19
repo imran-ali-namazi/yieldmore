@@ -54,8 +54,16 @@ class WorkContent
 			'slide' => '<a class="prev" href="#">&lt; prev</a> ' .
 				'<a class="next" href="#">next &gt;</a>'
 		);
-		$dataFol = WorkConfig::fol($id, '');
-		include cs_work_read($id, 'contentFile');
+		if (isset($a['fol'])) // post_type post not work
+		{
+			$dataFol = cs_var('bib-data') . '/' . $a['fol'] . '/';
+			include $dataFol . 'content.php';
+		}
+		else
+		{
+			$dataFol = WorkConfig::fol($id, '');
+			include cs_work_read($id, 'contentFile');
+		}
 		$op = sprintf('<div class="data-%s">', $a['type']);
 		//$op .= '<div class="tbar">' . $bars[$a['type']] . '</div>';
 		foreach ($data as $itm)
