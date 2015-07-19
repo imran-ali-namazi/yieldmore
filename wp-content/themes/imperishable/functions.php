@@ -39,7 +39,7 @@ function desaindigital_widgets_init() {
 add_action( 'widgets_init', 'desaindigital_widgets_init');
 
 function desaindigital_post_format(){
-	$fmt = '<span class="post-format %s"><span>%s</span></span>';
+	$fmt = '<span class="post-format">%s</span>';
 	
 	$wk = get_post_type() == 'page' ? 'page' : cs_work_get('workType');
 	if ($wk)
@@ -53,7 +53,7 @@ function desaindigital_post_format(){
 	{
 		if (($itm == 'page' && is_page()) || has_post_format( $itm ))
 		{
-			_e(sprintf($fmt, $itm, $itm), 'desaindigital');
+			echo sprintf($fmt, $itm);
 			return;
 		}
 	}
@@ -62,8 +62,9 @@ function desaindigital_post_format(){
 	if (count($cat))
 	{
 		$singular = array('People' => 'Person', 'Documentaries' => 'Documentary', 'Incubate' => 'Incubate');
+		if (is_numeric(substr($cat[0]->name, 0, strpos($cat[0]->name, ' ')))) $singular[$cat[0]->name] = $cat[0]->name;
 		$name = isset($singular[$cat[0]->name]) ? $singular[$cat[0]->name] : substr($cat[0]->name, 0, -1);
-		_e(sprintf($fmt, $name, $name), 'desaindigital');
+		echo sprintf($fmt, sprintf('<a href="%s">%s</a>', get_category_link($cat[0]->term_id), $name));
 		return;
 	}
 

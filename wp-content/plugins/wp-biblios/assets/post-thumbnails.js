@@ -1,7 +1,8 @@
 $(document).ready(function(){
 	var $postShown, $postIndex, $postCount, $posts;
 	$('.post-thumbnails .post-thumb a').click(function(e){
-		e.preventDefault();
+		if (!$(this).parent().hasClass('post-format'))
+			e.preventDefault();
 	});
 	$('.post-thumbnails .post-thumb').click(function(e){
 		$('#post-preview-content').html($(this).html());

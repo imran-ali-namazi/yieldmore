@@ -86,7 +86,7 @@ h1#logo img:hover{
 
 	}
 
-.hentry .post-format{
+.hentry .post-format {
 	text-shadow:1px 1px 0 #444, 0.5px 0.5px 0 #555;
 	text-align:center;
 	text-transform:capitalize;
@@ -99,6 +99,7 @@ h1#logo img:hover{
 	height:40px;
 	background:transparent url('../images/bg-post-format.png') no-repeat top left
 	}
+.hentry .post-format a { color: #eee; text-decoration: underline; }
 
 .hentry .post-content{
 	padding: 20px;
