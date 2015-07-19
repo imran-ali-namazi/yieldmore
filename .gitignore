@@ -1,5 +1,6 @@
 /wp-admin
-/wp-content/plugins/akismet
+/wp-content/data/_root.txt
+_index.txt
 /wp-content/data/hindu/gita
 /wp-content/index.php
 /wp-content/plugins/index.php
@@ -10,9 +11,9 @@ wp-*.php
 /readme.html
 /index.php
 /xmlrpc.php
+/wp-content/plugins/oa-social-login/
+/wp-content/plugins/oa-social-login_single
 /wp-content/plugins/wordpress-wiki-plugin
+/wp-content/plugins/wp-biblios/assets/ref
 /wp-content/plugins/wp-mvc
 /wp-content/themes/twentyfifteen
-/wp-content/plugins/oa-social-login/
-/wp-content/data/_root.txt
-_index.txt

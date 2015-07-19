@@ -26,11 +26,13 @@ class WorksWidget extends WP_Widget
 			$byType[$wk->type][] = $wk->link;
 		ksort($byType);
 
+		_nl('<div style="padding: 0">');
 		foreach ($byType as $t=>$wks)
 		{
 			_nl('<span class="sb-what">' . WorkNav::typeLink($t, $url) . '</span>');
 			echo implode('<br/>', $wks);
 		}
+		_nl('</div>');
 	}
 }
 

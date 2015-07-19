@@ -24,8 +24,8 @@ $(document).ready(function() {
 
 	if ($.ui && $.ui.accordion)
 		$("#wrap-sidebar").accordion({header: 'div div h2', active: activeTab, heightStyle: 'content'});
-	if ($.stick_in_parent)
-		$("#wrap-left").stick_in_parent();
+	if ($.fn.stick_in_parent)
+		$("#wrap-left").stick_in_parent({enable_bottoming: false});
 });
 
 $.doTabberInit = true;

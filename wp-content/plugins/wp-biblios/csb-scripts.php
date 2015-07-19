@@ -34,7 +34,8 @@ class CSScripts
 		$tab = 1;
 		if (is_page()) $tab = 0;
 		if (stripos($_SERVER['REQUEST_URI'], '/speak/') !== false) $tab = 2;
-		if (stripos($_SERVER['REQUEST_URI'], '/authors/') !== false) $tab = 3;
+		if (stripos($_SERVER['REQUEST_URI'], '/works/') !== false) $tab = 3;
+		if (stripos($_SERVER['REQUEST_URI'], '/authors/') !== false) $tab = 4;
 		echo '<script>var activeTab = ' . $tab . ';</script>' . PHP_EOL;
 	}
 	

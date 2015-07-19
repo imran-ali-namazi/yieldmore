@@ -17,7 +17,7 @@ class WorkCache
 			set_transient($cacheKey, $val);
 	}
 	
-	public static $cols = 'Name	Type	Author	Category	Tags	Date';
+	public static $cols = 'Name	Type	Author';
 	public static $colName = 0;
 	public static $colType = 1;
 	
@@ -40,10 +40,7 @@ class WorkCache
 			$id = $wk->ID;
 			$name = $wk->post_title;
 			$type = cs_work_read($id, 'type');
-			$date = mysql2date('j M Y', $wk->post_date_gmt);
 			$author = self::terms_r($wk, 'work_author');
-			$category = self::terms_r($wk, 'category');
-			$tags = self::terms_r($wk, 'post_tag');
 
 			$types[$type] += 1;
 			$o = new stdClass;
@@ -51,7 +48,7 @@ class WorkCache
 			$o->type = $type;
 			$o->link = sprintf('<a href="%s">%s</a>', get_permalink($id), $name);
 			$o->edit = sprintf(' <a href="%s">&hellip;%s</a>', get_edit_post_link($id), $id);
-			$o->data = array($o->link, $type, $author, $category, $tags, $date);
+			$o->data = array($o->link, $type, $author);
 			$works[] = $o;
 		}
 		

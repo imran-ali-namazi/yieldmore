@@ -30,9 +30,8 @@ class WorksShortcodes
 
 	function do_works($a, $content = null)
 	{
-		$types = 0; $works = 0;
 		WorkCache::getWorks($types, $works);
-		
+
 		$links = self::types_r($types, count($works));
 		self::works_r($works, $links);
 	}
