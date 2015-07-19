@@ -2,7 +2,7 @@
 class WorkConfig
 {
 	public static $optional = array('subtype', 'renderer', 'formats');
-	
+
 	function read($id, $raw)
 	{
 		$cfg = self::parse($raw);
@@ -24,47 +24,34 @@ class WorkConfig
 		
 		return $op;
 	}
-	
+
 	function fol($id, $rel, $url = 0)
 	{
 		$fol = cs_work_read($id, 'fol');
 		return sprintf('%s/%s/%s', $url ? content_url('data') : cs_var('bib-data'), $fol, $rel);
 	}
-	
+
 	function edit_link($id, $txt = 'config')
 	{
 		return CHtml::link($txt, WorkNav::admin($id));
 	}
-	
+
 	function dirLink($txt = 'Works')
 	{
 		$url = get_permalink(3);
 		return $txt == 'url' ? $url : CHtml::link($txt, $url);
 	}
-	
+
 	function types($how = 'display', $key = 'orig')
 	{
-		$cache = cs_var('workTypesCache');
-		if (!$cache)
-		{
-			$types = get_option('work_types');
-			if (!$types) $types = str_replace('	', PHP_EOL, 'book	poem	short story	letter	quotes');
-			
-			$cache = array();
-			$types = explode(PHP_EOL, $types);
-			foreach ($types as $type)
-				$cache[$type] = $type;
-			
-			cs_var('workTypesCache', $cache);
-		}
-		
+		$types = explode('	', 'book	poem	short story');
+
 		$op = array();
-		foreach ($cache as $type)
+		foreach ($types as $type)
 			$op[self::formatType($type, $key)] = self::formatType($type, $how);
-		//if ($how !== 'display') echo '<br />Types: ' . $how . ' -> ' . print_r($op, 1);
 		return $op;
 	}
-	
+
 	function formatType($t, $how = 'display')
 	{
 		if ($how === 0)
@@ -78,7 +65,7 @@ class WorkConfig
 		else
 			throw new exception('Unknows format for type: ' . $how);
 	}
-	
+
 	function import($cfg, $save = 1)
 	{
 		include_once 'functions-dep.php';
@@ -86,7 +73,7 @@ class WorkConfig
 		$cfg = cs_work_import($id);
 		cs_work($id, $cfg);
 	}
-	
+
 	function merge($raw, $new)
 	{
 		$lines = explode(PHP_EOL, self::sanitize($raw));
@@ -103,7 +90,7 @@ class WorkConfig
 			$op[] = $k. ':' . $v;
 		return implode(PHP_EOL, $op);
 	}
-	
+
 	function sanitize($raw)
 	{
 		$raw = str_replace(PHP_EOL, chr(10), $raw);
@@ -127,12 +114,12 @@ class WorkConfig
 		}
 		return $op;
 	}
-	
+
 	function parse_title($l, &$op)
 	{
 		if ($l[0] != 'title' && $l[0] != 'subtitle') return 0;
 		if (!isset($op['titles'])) $op['titles'] = array(null);
-	
+
 		if ($l[0] == 'subtitle') {
 			$last = count($op['titles']);
 			if ($last == 0) { // test error display: || $l[1] == 'The World-Stair'
@@ -147,7 +134,7 @@ class WorkConfig
 		}
 		return 1;
 	}
-	
+
 	function parse_error(&$op, $error)
 	{
 		if (!isset($op['errors'])) $op['errors'] = array();

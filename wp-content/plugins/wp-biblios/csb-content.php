@@ -3,6 +3,7 @@ class WorkContent
 {
 	private static $itemFormat = '<p>%s</p>
 ';
+	private static $node;
 
 	public function display($wk, $a = 0)
 	{
@@ -16,14 +17,15 @@ class WorkContent
 			include $wk['contentFile'];
 			return;
 		}
-		
+
 		$data = array();
+		$extraData = array(); //for footnotes
 		include $wk['contentFile'];
 		if (isset($wk['config']['itemFormat'])) self::$itemFormat = $wk['config']['itemFormat'];
 
 		if (WorkNav::all())
 		{
-			self::all($wk, $data);
+			self::all($wk, $data, $extraData);
 			return;
 		}
 
@@ -45,7 +47,9 @@ class WorkContent
 		}
 
 		$node = $data[$nodeKey];
+		self::$node = $nodeKey;
 		self::nodeTabs($node, $a);
+		self::nodeFootnotes($extraData);
 	}
 
 	function showData($id, $a)
@@ -120,7 +124,7 @@ class WorkContent
 		}
 	}
 
-	private function all($wk, $data)
+	private function all($wk, $data, $extraData)
 	{
 		$nodes = WorkMenu::getNodeId($wk, 1);
 		$errors = '';
@@ -128,6 +132,7 @@ class WorkContent
 		$content = '';
 		foreach ($nodes as $key => $title)
 		{
+			self::$node = $key;
 			$menu .= sprintf('<a href="#%s">%s</a><br/>' . PHP_EOL, $key, $title);
 			$content .= sprintf('<a name="%s"></a><h2>%s</h2><br/>' . PHP_EOL, $key, $title);
 
@@ -148,6 +153,7 @@ class WorkContent
 				$content .= PHP_EOL;
 			}
 			$content .= PHP_EOL;
+			self::nodeFootnotes($extraData);
 		}
 		echo $errors . $menu . PHP_EOL . $content;
 	}
@@ -168,7 +174,18 @@ class WorkContent
 
 	function formatItem($txt, $search, $i = null, $tab = null, $node = null)
 	{
+		$txt = str_replace('class="footnote" id="', 'class="footnote" id="' . self::$node . '-', $txt);
 		return $search ? $txt : sprintf(self::$itemFormat, $txt);
+	}
+
+	function nodeFootnotes($extraData)
+	{
+		if (!isset($extraData[self::$node])) return;
+		CSScripts::post_thumbnails(); //to have bPopup
+		echo '<div class="footnotes">' . PHP_EOL;
+		foreach ($extraData[self::$node] as $id=>$txt)
+			echo '<span class="footnote-text" id="note-' . self::$node . '-f' . $id . '">' . $id . ': ' . $txt . '</span><br/>' . PHP_EOL;
+		echo '</div>' . PHP_EOL;
 	}
 
 	function getInfo($what)

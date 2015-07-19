@@ -37,7 +37,6 @@ function cs_work_import($id, $cfg = null)
 		if ($subtitles) $op[] = sprintf('slug2:%s', $cfg['slugs'][1]);
 		unset($cfg['slugs']);
 		
-		if (isset($cfg['extraData'])) $cfg['extraData'] = 'NOTIMPL'; // TODO: Auro bio / any other
 		$titles = isset($cfg['titles']) ? $cfg['titles'] : 0;
 		unset($cfg['titles']);
 		

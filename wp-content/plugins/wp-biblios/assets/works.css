@@ -34,3 +34,6 @@ blockquote.quote { max-height: 100%; margin: 0; font-style: normal; }
 #quotebar #qname { width: 100px; }
 
 a.top { float: right; }
+.footnotes { display: none; }
+.footnote { vertical-align: super; font-size: large; color: red; cursor: hand; }
+.footnote-text { background-color: #fff; border-radius: 15px; padding: 20px; }

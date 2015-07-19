@@ -1,6 +1,10 @@
 if (typeof($) == 'undefined') $ = jQuery.noConflict(); // added by Imran@cselian.com to use in wordpress
 
 $(document).ready(function() {
+	$('.footnote').click(function() {
+		$id = '#note-' + $(this).attr('id');
+		$($id).bPopup({follow: false, position: ['auto', $(window).scrollTop() + 80]});
+	});
 	$(".data-slide .item").first().show();
 	$(".data-slide .prev").click(function() {
 		$sel = $(".data-slide .item:visible");
@@ -18,9 +22,9 @@ $(document).ready(function() {
 	});
 	$(window).trigger('resize');
 
-	if (typeof $.ui.accordion === 'function')
+	if ($.ui && $.ui.accordion)
 		$("#wrap-sidebar").accordion({header: 'div div h2', active: activeTab, heightStyle: 'content'});
-	if (typeof $.stick_in_parent === 'function')
+	if ($.stick_in_parent)
 		$("#wrap-left").stick_in_parent();
 });
 
