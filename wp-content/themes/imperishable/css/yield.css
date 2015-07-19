@@ -10,7 +10,11 @@
 .post-thumbnails blockquote.info, .post-thumbnails div.right { display: none; }
 .post-thumbnails blockquote { overflow: hidden; }
 .post-thumbnails post-format { position: relative; float: left; }
-.post-thumbnails .post-thumb { width: 250px; float: left; cursor: hand; border: 1px solid #ccc; margin: 10px 0 10px 20px!important; padding-top: 5px!important; }
+.post-thumbnails { padding-left: 10px; }
+.post-thumbnails .post-thumb { float: left; cursor: hand; border: 1px solid #ccc; margin: 10px!important; padding-top: 5px!important; }
+@media screen and (min-width: 600px) {
+	.post-thumbnails .post-thumb { width: 250px; }
+}
 .post-thumbnails .post-thumb:hover { background-color: #CCE4CC; }
 .post-thumbnails #post-3 { display: none; }
 .post-thumbnails .post-format { height: 30px!important; }
