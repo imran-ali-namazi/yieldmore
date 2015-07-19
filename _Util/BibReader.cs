@@ -46,7 +46,7 @@ namespace Cselian.Biblios
 		#region Counting and Array
 
 		protected int IxMain = 0;
-		protected int IxSub = 1;
+		protected int IxSub = 0;
 		protected int Page = 0;
 		protected int ItemCounter = 1;
 		protected bool needsNewPage; //may think we need new page on last line of node. so this cant be determined till the next line is parsed.
@@ -76,7 +76,7 @@ namespace Cselian.Biblios
 			inFootnote = false;
 
 			Page++;
-			WritePage(true);
+			if (itemWritten) WritePage(true);
 			WritePage(false);
 			itemWritten = false;
 			ItemCounter = 0;

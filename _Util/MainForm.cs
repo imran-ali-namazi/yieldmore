@@ -25,11 +25,21 @@ namespace Cselian.Biblios
 			};
 		}
 
-		private void button1_Click(object sender, EventArgs e)
+		private void btnGeneratePhp_Click(object sender, EventArgs e)
 		{
 			if (listBox1.SelectedIndex == -1) return;
 			var r = Readers()[listBox1.SelectedIndex]; //need a new object to reset all variables
 			r.Read();
+		}
+
+		private void btnParagraphs_Click(object sender, EventArgs e)
+		{
+			TextHelper.MergeParas(txtFile.Text);
+		}
+
+		private void btnChapterNumbers_Click(object sender, EventArgs e)
+		{
+			TextHelper.ChapterNumbers(txtFile.Text);
 		}
 	}
 }

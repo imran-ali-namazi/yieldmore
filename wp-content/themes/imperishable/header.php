@@ -39,6 +39,9 @@
 			?>
 
 			<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
+				<h1 id='logo'><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+						<img src="<?php echo get_header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
+				</a></h1>
 			<h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
 
 			<?php

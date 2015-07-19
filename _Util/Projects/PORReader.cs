@@ -4,11 +4,11 @@ namespace Cselian.Biblios.Projects
 {
 	public class PORReader : BibReader
 	{
-		protected override string FileName { get { return @"_Util\Content\IAT.txt"; } }
+		protected override string FileName { get { return @"_Util\Content\Nisargadatta_I_Am_That.txt"; } }
 		protected override string OutputFile { get { return @"wp-content\data\books\iat\content.php"; } }
-		protected override string NodeFormat { get { return "c{0}"; } }
+		protected override string NodeFormat { get { return "c{1}"; } }
 
-		protected override string Name { get { return "IAT"; } }
+		protected override string Name { get { return "I Am That"; } }
 
 		private int newPage;
 
@@ -20,12 +20,13 @@ namespace Cselian.Biblios.Projects
 			}
 			else if (line.StartsWith("###") || line.StartsWith("##"))
 			{
-				var main = line.StartsWith("##");
+				var main = line.StartsWith("###");
 				NewNode(main);
 				Page = newPage;
-				sb.AppendLine().AppendLine("$titles['" + (main ? "" : "c" + IxSub.ToString()) + "'] = '" + line.Replace("#", string.Empty) + "';");
+				itemWritten = false;
+				if (IxSub != 1) WritePage(true);
+				sb.AppendLine().AppendLine("$titles['" + (main ? "" : "c" + IxSub.ToString()) + "'] = '" + line.Replace("#", string.Empty).Split('	')[1] + "';");
 				WriteNode(false);
-				WritePage(false);
 				if (main) IxSub = 0;
 			}
 			else if (line.StartsWith("#"))
