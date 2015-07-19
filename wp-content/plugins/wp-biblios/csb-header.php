@@ -1,5 +1,6 @@
 <?php
 _nl('<b>' . get_the_title() . '</b>' , 1);
+if (get_post_type($id) == 'post') { _nl('', 1); return; } // TODO: add search to post
 $auth = cs_work_get('author');
 if ($auth != null) _nl('by ' . WorkNav::termLink($auth), 1);
 _nl('<b>Type</b>: ' . WorkNav::typeLink(cs_work_read($id, 'type')));

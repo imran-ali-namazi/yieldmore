@@ -6,12 +6,15 @@ class WorkMenu
 	function render($id, $wk)
 	{
 		_nl(CHtml::link('Home', WorkNav::post($id)), 1);
-		_nl(CHtml::link('Quotes', WorkNav::post($id) . '?quote=1'), 1);
-		if (WorkNav::node() && get_current_user_id() != 0) _nl('<a id="quotetoggler" href="javascript:toggleQuoting();" title="Toggle Quoting">Add Quote</a>', 1);
-		_nl(CHtml::link('Single Page', WorkNav::post($id) . '?all=1'), 1);
-		_nl(CHtml::link('Jump to Contents', '#contents', array('class'=>'jump-to-contents')));
-		if (WorkNav::node()) _nl(CHtml::link(isset($_GET['notabs']) ? 'Show Page Tabs' : 'No Page Tabs', WorkNav::notabs(), array('rel', 'noindex nofollow')));
-		_nl('<br/>', 1);
+		if (get_post_type($id) == 'work')
+		{
+			_nl(CHtml::link('Quotes', WorkNav::post($id) . '?quote=1'), 1);
+			if (WorkNav::node() && get_current_user_id() != 0) _nl('<a id="quotetoggler" href="javascript:toggleQuoting();" title="Toggle Quoting">Add Quote</a>', 1);
+			_nl(CHtml::link('Single Page', WorkNav::post($id) . '?all=1'), 1);
+			_nl(CHtml::link('Jump to Contents', '#contents', array('class'=>'jump-to-contents')));
+			if (WorkNav::node()) _nl(CHtml::link(isset($_GET['notabs']) ? 'Show Page Tabs' : 'No Page Tabs', WorkNav::notabs(), array('rel', 'noindex nofollow')));
+			_nl('<br/>', 1);
+		}
 
 		if (!$wk['cfgOk'])
 		{

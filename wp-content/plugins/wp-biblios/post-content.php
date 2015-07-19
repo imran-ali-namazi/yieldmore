@@ -5,14 +5,14 @@ class PostContent{
 		$node = WorkNav::node();
 		$fol = cs_var('bib-data') . '/' . $wk['fol'];
 		$fil = $fol . '/' . $node . '.txt';
-		echo file_get_contents($fil);
+		$content = file_get_contents($fil);
+		$content = apply_filters('the_content', $content);
+		echo $content;
 	}
 }
 
 if (WorkNav::search() || WorkNav::quote() || isset($contentInc)) return;
 ?>
 <a name="contents"></a>
-<?php if (WorkMenu::$title) echo '<h1>' . WorkMenu::$title . '</h1>'; ?>
-<div class="<?php echo isset($_GET['notabs']) ? '' : 'tabber'; ?>">
+<?php echo '<h3>' . ucwords(str_replace('-', ' ', WorkNav::node())) . '</h3>'; ?>
 <?php PostContent::display($wk); ?>
-</div>
