@@ -226,7 +226,10 @@ h1#logo img:hover{
 
 #wrap-sidebar .sidebar .widget a:active,
 #wrap-sidebar .sidebar .widget a:hover,
-#wrap-sidebar .sidebar .widget a.selected{
+#wrap-sidebar .sidebar .widget a.selected,
+#wrap-sidebar .sidebar .widget .current-cat a,
+#wrap-sidebar .sidebar .widget .current-tax a,
+#wrap-sidebar .sidebar .widget .current_page_item a{
 	text-decoration:underline;
 	color:#1e8921
 	}
@@ -264,7 +267,10 @@ h1#logo img:hover{
 
 #wrap-sidebar .sidebar .widget li a:focus,
 #wrap-sidebar .sidebar .widget li a:active,
-#wrap-sidebar .sidebar .widget li a:hover{
+#wrap-sidebar .sidebar .widget li a:hover,
+#wrap-sidebar .sidebar .widget .current-cat a,
+#wrap-sidebar .sidebar .widget .current-tax a,
+#wrap-sidebar .sidebar .widget .current_page_item a{
 	background-position:bottom left
 	}
 

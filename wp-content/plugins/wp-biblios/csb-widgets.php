@@ -53,7 +53,10 @@ class WorkAuthorsWidget extends WP_Widget
 		_nl('<ul>');
 		$list = get_terms('work_author');
 		foreach ($list as $itm)
-			_nl('<li>' . WorkNav::termLink($itm) . '</li>');
+		{
+			$sel = stripos($_SERVER['REQUEST_URI'], '/authors/' . $itm->slug) !== false;
+			_nl('<li'.($sel?' class="current-tax"':'').'>' . WorkNav::termLink($itm) . '</li>');
+		}
 		_nl('</ul>');
 	}
 }
