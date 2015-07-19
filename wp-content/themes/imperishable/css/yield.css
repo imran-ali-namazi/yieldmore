@@ -14,7 +14,9 @@
 .post-thumbnails .post-thumb:hover { background-color: #CCE4CC; }
 .post-thumbnails #post-3 { display: none; }
 .post-thumbnails .post-format { height: 30px!important; }
-.post-thumbnails .post-content { height: 220px; overflow: hidden; clear: both; padding: 5px!important; }
+.post-thumbnails .post-content { height: 225px; overflow: hidden; clear: both; padding: 5px!important; }
+	.post-thumbnails .post-content p { margin-bottom: 0; }
+	.post-thumbnails .post-content h3 { margin: 0px; }
 #wrap-content.post-thumbnails .hentry { clear: none; }
 .post-thumbnails .post-title { font-size: 16px!important; }
 #post-preview { width: 80%; background-color: #fff; padding: 20px ; margin: 40px 0 40px 0; border-radius: 25px; }

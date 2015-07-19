@@ -11,8 +11,7 @@ $(document).ready(function(){
 		$postCount = $posts.length;
 		$postIndex = $posts.index($(this)) + 1;
 		$('#post-preview-index').html($postIndex + ' of ' + $postCount);
-		$('#post-preview').bPopup({follow: false});
-		//$('#post-preview-content').tinyscrollbar();
+		$('#post-preview').bPopup({follow: false, position: ['auto', $(window).scrollTop() + 20]});
 	});
 	if ($('.post-thumbnails #post-1').length == 0) $('#post-preview-about').hide();
 	if ($('.site-1').length == 0 || $('.post-thumbnails #post-3').length == 0) $('#post-preview-works').hide();

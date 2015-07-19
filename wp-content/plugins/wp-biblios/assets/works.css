@@ -20,7 +20,7 @@ blockquote.quote { max-height: 100%; margin: 0; font-style: normal; }
 .data-slide .item { border: 1px maroon solid; margin: auto auto 15px auto;
 	background-color: #fff; padding: 10px;
 	-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
-.data-slide .item { max-width: 80%; min-width: 400px; font-style: italic; }
+.data-slide .item { max-width: 80%; font-style: italic; }
 .data-slide .tbar { text-align: center; width: 340px; }
 
 /* Quotes */
