@@ -65,7 +65,7 @@
 			this.txtFile.Name = "txtFile";
 			this.txtFile.Size = new System.Drawing.Size(408, 20);
 			this.txtFile.TabIndex = 3;
-			this.txtFile.Text = "D:\\Imran\\xampp\\htdocs\\cs\\subds\\ym\\_Util\\Content\\Nisargadatta_I_Am_That.txt";
+			this.txtFile.Text = "wp-content\\data\\books\\iat\\Nisargadatta_I_Am_That.txt";
 			// 
 			// btnFileSelect
 			// 

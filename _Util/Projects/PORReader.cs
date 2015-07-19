@@ -4,7 +4,7 @@ namespace Cselian.Biblios.Projects
 {
 	public class PORReader : BibReader
 	{
-		protected override string FileName { get { return @"_Util\Content\Nisargadatta_I_Am_That.txt"; } }
+		protected override string FileName { get { return @"wp-content\data\books\iat\Nisargadatta_I_Am_That.txt"; } }
 		protected override string OutputFile { get { return @"wp-content\data\books\iat\content.php"; } }
 		protected override string NodeFormat { get { return "c{1}"; } }
 
@@ -37,7 +37,7 @@ namespace Cselian.Biblios.Projects
 			else
 			{
 				Page = newPage;
-				WriteItem(Whole, line);
+				WriteItem(Whole, line.Replace("‘", "&lsquo;").Replace("’", "&rsquo;"));
 			}
 		}
 	}

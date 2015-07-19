@@ -34,12 +34,12 @@ namespace Cselian.Biblios
 
 		private void btnParagraphs_Click(object sender, EventArgs e)
 		{
-			TextHelper.MergeParas(txtFile.Text);
+			TextHelper.MergeParas(BibReader.GetPath(txtFile.Text));
 		}
 
 		private void btnChapterNumbers_Click(object sender, EventArgs e)
 		{
-			TextHelper.ChapterNumbers(txtFile.Text);
+			TextHelper.ChapterNumbers(BibReader.GetPath(txtFile.Text));
 		}
 	}
 }

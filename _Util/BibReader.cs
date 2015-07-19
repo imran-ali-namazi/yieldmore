@@ -200,7 +200,7 @@ $extraData['" + NodeFormat + "pages'] = array({2} /*start*/, {3});\r\n", IxMain,
 
 		#endregion
 
-		protected string GetPath(string relative)
+		public static string GetPath(string relative)
 		{
 			if (relative.Contains(":")) return relative;
 
