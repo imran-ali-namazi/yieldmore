@@ -16,18 +16,19 @@ class WorkSearch
 		include_once 'csb-content.php';
 
 		$r = '<span class="match">' . $s . '</span>';
-		foreach ($nodes as $ix=>$key)
+		foreach ($nodes as $node)
 		{
-			if (!isset($data[$key])) continue; // for bg which is incomplete
-			$node = $slug . $ix;
-			foreach ($data[$key] as $pg=>$items) {
+			if (!isset($data[$node['node']])) continue; // for bg which is incomplete
+			foreach ($data[$node['node']] as $pg=>$items) {
 				//foreach ($items as $itm) {
 				$cnt = count($items);
 				for ($i = 1; $i < $cnt; $i++) {
 					$totalItems++;
 					$itm = $items[$i]; //so we can mention the para number
 					if (stripos($itm, $s) !== false) {
-						$link = CHtml::link($titles[$ix], WorkNav::post($id, $node , $pg));
+						$title = isset($node['ix2']) ? $titles[$node['ix']][$node['ix2']] : $titles[$node['ix']];
+						$url =  isset($node['ix2']) ? $slug . $node['ix'] . '-' . $wk['config']['slug2'] . $node['ix2'] : $slug . $node['ix'];
+						$link = CHtml::link($title, WorkNav::post($id, $url, $pg));
 						$itm = str_ireplace($s, $r, $itm);
 						echo sprintf('<div><b>%s pg %s, %s %s:</b>
 	%s</div>', $link, $pg, $itemName, $i, WorkContent::formatItem($itm, true));
@@ -51,11 +52,16 @@ class WorkSearch
 		if (!isset($wk['config']['slug2']))
 		{
 			for ($n = 1; $n < $tcnt; $n++)
-				$nodes[$n] = sprintf($wk['config']['keyFormat'], $n);
+				$nodes[] = array('ix' => $n, 'node' => sprintf($wk['config']['keyFormat'], $n));
 		}
 		else
 		{
-			throw new Exception('nodeList not implemented for 2 level menu');
+			for ($n = 1; $n < $tcnt; $n++)
+			{
+				$ocnt = count($titles[$n]);
+				for ($o = 1; $o < $ocnt; $o++)
+				$nodes[] = array('ix' => $n, 'ix2' => $o, 'node' => sprintf($wk['config']['keyFormat'], $n, $o));
+			}
 		}
 		return $nodes;
 	}

@@ -80,8 +80,8 @@ class WorkNav
 
 	function search()
 	{
-		if (!isset($_GET['s'])) return 0;
-		return $_GET['s'];
+		if (!isset($_GET['find'])) return 0;
+		return $_GET['find'];
 	}
 
 	function quote()

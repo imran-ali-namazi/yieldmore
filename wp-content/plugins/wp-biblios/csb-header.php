@@ -10,8 +10,8 @@ if ($sub) _nl(' -> ' . $sub, 1); else _nl('', 1);
 			<div class="find work">
 				<form method="get" class="searchform" action="<?php echo WorkNav::post($id, 'search'); ?>">
 					<div>
-						<label class="screen-reader-text" for="s"><?php _e('Find: ', 'desaindigital') ?></label>
-						<input value="<?php echo esc_attr( get_search_query()); ?>" name="s" class="s" type="text"/>
+						<label class="screen-reader-text" for="find"><?php _e('Find: ', 'desaindigital') ?></label>
+						<input value="<?php echo isset($_GET['find']) ? $_GET['find'] : ''; ?>" name="find" class="s" type="text"/>
 						<input class="searchsubmit" value="<?php esc_attr_e( 'Search', 'desaindigital'); ?>" type="submit"/>
 					</div>
 				</form>

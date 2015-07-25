@@ -19,7 +19,7 @@ body{
 #wrap-left { float: left; width: 100%; }
 .jump-to-contents { display: block; }
 @media screen and (min-width: 1000px) {
-	#wrap-left { width: 200px; }
+	#wrap-left { width: 220px; position: fixed; overflow: auto; }
 	.jump-to-contents { display: none; }
 	#wrap-content{ position: absolute; }
 }
