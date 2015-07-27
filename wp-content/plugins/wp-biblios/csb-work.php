@@ -18,9 +18,6 @@ class WorkRegistry
 			'rewrite' => array( 'slug' => 'authors' ),
 		));
 
-		register_taxonomy_for_object_type('category', 'work');
-		register_taxonomy_for_object_type('post_tag', 'work');
-
 		register_post_type('work', array(
 			'description' => 'Works like books, poems etc', 'public' => true,
 			'label' => 'Works', 'labels' => array('name' => 'Works', 'add_new_item' => 'Add New Work'),
@@ -29,10 +26,13 @@ class WorkRegistry
 			'capability_type' => 'post', //'capabilities' => array(''),
 			//'supports' => '',
 			'map_meta_cap' => true,
-			'taxonomies' => array('category', 'post_tag', 'work_author'),
+			'taxonomies' => array(/*'category', 'post_tag',*/ 'work_author'),
 			'register_meta_box_cb' => array(&$this, 'register_meta_box'),
 		));
-		
+
+		//register_taxonomy_for_object_type('category', 'work');
+		//register_taxonomy_for_object_type('post_tag', 'work');
+
 		add_action( 'save_post', array(&$this, 'save_meta_box'));
 		add_action( 'admin_menu', array(&$this, 'register_admin'));
 	}

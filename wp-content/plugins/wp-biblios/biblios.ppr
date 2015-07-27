@@ -53,6 +53,7 @@ biblios
 		+3p
 			3p\CHtml.php
 		+assets
+			assets\jquery.sticky-kit.min.js
 			assets\jquery-ui.css
 			assets\jquery-ui-accordion.js
 			assets\post-thumbnails.js
@@ -62,6 +63,7 @@ biblios
 			assets\work.png
 			assets\works.css
 			assets\works.js
+		csb-bookmark.php
 		csb-cache.php
 		csb-config.php
 		csb-content.php
@@ -78,9 +80,9 @@ biblios
 		csb-work.php
 		functions.php
 		functions-dep.php
+		post-content.php
 		work-config.php
 		wp-biblios.php
-		post-content.php
 [Open project files]
 [Selected Project Files]
 Main=

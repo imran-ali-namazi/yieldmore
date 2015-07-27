@@ -32,4 +32,5 @@ include_once 'csb-widgets.php';
 include_once 'csb-shortcodes.php';
 include_once 'csb-login.php';
 include_once 'csb-home.php';
+include_once 'csb-bookmark.php';
 ?>

@@ -100,6 +100,7 @@ class WorkContent
 		return $res;
 	}
 
+	//a is true and set when quoting
 	private function nodeTabs($node, $a)
 	{
 		foreach ($node as $i=>$items)
@@ -107,7 +108,11 @@ class WorkContent
 			if ($a && $a['page'] > $i) continue;
 			if ($a && isset($a['endpage']) && $a['endpage'] < $i) continue;
 			$pg = $_GET['pg']; if ($pg != null) $pg = intval($pg);
-			if (!$a) self::tabberTab($tabPrefix . $i, $i == $pg);
+			if (!$a)
+			{
+				self::tabberTab($tabPrefix . $i, $i == $pg, isset($_GET['notabs']) ? ' ' . WorkBookmark::pageLink($i) : '');
+				if (!isset($_GET['notabs'])) _nl(WorkBookmark::pageLink($i));
+			}
 			else echo '<b>Page: ' . $i . ($i == $a['page'] && $a['para'] > 1 ? ' (' . $a['para'] . ')' : '') . '</b>';
 			$icnt = count($items);
 			//0th is always empty
@@ -158,7 +163,7 @@ class WorkContent
 		echo $errors . $menu . PHP_EOL . $content;
 	}
 
-	private function tabberTab($heading, $selected = 0)
+	private function tabberTab($heading, $selected = 0, $links = '')
 	{
 		if (!$heading)
 		{
@@ -167,9 +172,9 @@ class WorkContent
 		}
 
 		$act = $selected ? " tabbertabdefault" : "";
-		echo sprintf('<div class="tabbertab%s">
-	<h2>%s</h2>
-	', $act, $heading);
+		echo sprintf('%s<div class="tabbertab%s">
+	<h2>%s%s</h2>
+	', '<a name="pg' . $heading . '"></a>', $act, $heading, $links);
 	}
 
 	function formatItem($txt, $search, $i = null, $tab = null, $node = null)
@@ -212,13 +217,14 @@ if (WorkNav::search() || WorkNav::quote() || isset($contentInc)) return;
 <div id="quotebar" style="display: none;">
 	<form id="frmQuote" action="" target="_blank" method="get" onsubmit="QuoteSubmit();">
 		<span id="qtext" title="Click the links below to begin / end quoting">Pg: 1, Itm: 2 End Pg:1</span><span>Name:</span>
-		<input type="hidden" name="quote" value="1">
-		<input type="text" name="qname" id="qname">
-		<input type="hidden" name="qnode" value="<?php echo WorkContent::getInfo('node'); ?>">
-		<input type="hidden" name="qpage" value="<?php echo WorkContent::getInfo('page'); ?>">
-		<input type="hidden" name="qdata" id="qdata" value="">
-		<input type="submit" id="qsubmit" value="Q Save">
-		<input type="button" onclick="QuoteClear();" value="Clear">
+		<input type="hidden" name="quote" value="1" />
+		<input type="text" name="qname" id="qname" />
+		<input type="hidden" name="qnode" value="<?php echo WorkContent::getInfo('node'); ?>" />
+		<input type="hidden" name="qpage" value="<?php echo WorkContent::getInfo('page'); ?>" />
+		<input type="hidden" name="qdata" id="qdata" value="" />
+		<input type="submit" id="qsubmit" value="Q Save" />
+		<input type="button" onclick="QuoteClear();" value="Clear" />
+		<?php WorkBookmark::printHiddenFields(); ?>
 	</form>
 </div>
 

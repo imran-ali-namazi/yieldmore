@@ -9,6 +9,8 @@ class WorksShortcodes
 		add_shortcode('work', array($cls, 'do_work'));
 		add_shortcode('data', array($cls, 'do_data'));
 		add_shortcode('info', array($cls, 'do_info'));
+		add_shortcode('bookmarks', array($cls, 'do_bookmarks'));
+		//add_shortcode('userlist', array(get_class(), 'disable_userlist')); // TODO remove this after bringing the plugin to local
 	}
 
 	function do_tab($a, $content = null)
@@ -141,6 +143,35 @@ class WorksShortcodes
 		}
 		if (!count($op)) return; //if only pdf and not logged in
 		return PHP_EOL . '<blockquote class="info">' . implode('<br/>' . PHP_EOL, $op) . '</blockquote>';
+	}
+
+	function do_bookmarks($a, $content)
+	{
+		if (!isset($_GET['bookmarks']))
+		{
+			$url = get_permalink(get_the_ID()) . '?bookmarks=1';
+			_nl(CHtml::link('All Bookmarks', $url), 1);
+		}
+		else
+		{
+			//too late to call remove_shortcode so lets replace it with empty
+			add_shortcode('userlist', array(get_class(), 'disable_userlist'));
+			$bks = WorkBookmark::getBookmarks();
+			_nl('Bookmarks:', 1);
+			if (count($bks))
+			{
+				foreach ($bks as $bk)
+					_nl(CHtml::link($bk->bk_name, $bk->bk_url) . ' ' . $bk->bk_date, 1);
+			}
+			else
+			{
+				_nl('None. Read a <a href="/works">work</a> and then click on the bookmark page link.', 1);
+			}
+		}
+	}
+
+	function disable_userlist($a, $c)
+	{
 	}
 }
 WorksShortcodes::init();
