@@ -20,6 +20,12 @@ $(document).ready(function() {
 		if ($nxt.length == 0) $nxt = $(".data-slide .item:first");
 		$nxt.show();
 	});
+	$(".bookmark").click(function(e) {
+		$url = $(this).attr('href');
+		$('#bkurl').val($url);
+		$('#frmBookmark').submit(); // TODO: ajax
+		e.preventDefault();
+	});
 	$(window).trigger('resize');
 
 	if ($.ui && $.ui.accordion)

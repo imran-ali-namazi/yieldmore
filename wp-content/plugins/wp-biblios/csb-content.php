@@ -224,7 +224,11 @@ if (WorkNav::search() || WorkNav::quote() || isset($contentInc)) return;
 		<input type="hidden" name="qdata" id="qdata" value="" />
 		<input type="submit" id="qsubmit" value="Q Save" />
 		<input type="button" onclick="QuoteClear();" value="Clear" />
-		<?php WorkBookmark::printHiddenFields(); ?>
+	</form>
+	<form id="frmBookmark" action="/author/?bookmarks=save" method="POST" target="_blank">
+		<input type="hidden" name="bkid" id="bkid" value="<?php echo get_the_ID(); ?>" />
+		<input type="hidden" name="bkname" id="bkname" value="<?php WorkBookmark::name(); ?>" />
+		<input type="hidden" name="bkurl" id="bkurl" value="" />
 	</form>
 </div>
 

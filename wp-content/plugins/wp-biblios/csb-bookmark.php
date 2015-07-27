@@ -1,18 +1,13 @@
 <?php
 class WorkBookmark
 {
-	function printHiddenFields()
-	{
-		
-	}
-
 	function printLinkForWork($id)
 	{
 		if (!is_user_logged_in()) return;
 		$bks = self::getBookmarks($id);
 		if (!count($bks)) return;
 		$bk = $bks[0];
-		_nl(CHtml::link('Bookmark', $bk->bk_url), 1);
+		_nl(CHtml::link('Goto Bookmark', $bk->bk_url), 1);
 	}
 	
 	function pageLink($pg)
@@ -23,12 +18,10 @@ class WorkBookmark
 		return CHtml::link('Set Bookmark', $url, array('class'=>'bookmark'));
 	}
 
-	function trySave()
+	function name()
 	{
-		if (!isset($_GET['bookmark'])) return;
-
-		self::saveQuote($id, $_GET['qname'], $cfg, $content);
-		die('done');
+		global $post;
+		echo $post->post_title;
 	}
 
 	function getBookmarks($id = false)
@@ -43,8 +36,11 @@ class WorkBookmark
 		return $op;
 	}
 
-	function saveBookmark($id, $name, $url)
+	function saveBookmark()
 	{
+		$id = $_POST['bkid'];
+		$name = $_POST['bkname'];
+		$url = $_POST['bkurl'];
 		$row = array(
 			'bk_post_ID' => $id,
 			'bk_user_ID' => get_current_user_id(),
@@ -52,8 +48,14 @@ class WorkBookmark
 			'bk_url' => $url,
 			'bk_date' => date('Y-m-d H:i:s'),
 		);
+		$where = array(
+			'bk_post_ID' => $id,
+			'bk_user_ID' => get_current_user_id(),
+		);
 		global $wpdb;
-		$wpdb->insert( 'wp_bookmarks', $row);
+		if (!$wpdb->update('wp_bookmarks', $row, $where))
+			$wpdb->insert('wp_bookmarks', $row);
+		die(sprintf('Bookmark Saved for %s with url %s', $name, $url));
 	}
 }
 ?>

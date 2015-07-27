@@ -10,7 +10,6 @@ class WorksShortcodes
 		add_shortcode('data', array($cls, 'do_data'));
 		add_shortcode('info', array($cls, 'do_info'));
 		add_shortcode('bookmarks', array($cls, 'do_bookmarks'));
-		//add_shortcode('userlist', array(get_class(), 'disable_userlist')); // TODO remove this after bringing the plugin to local
 	}
 
 	function do_tab($a, $content = null)
@@ -156,6 +155,7 @@ class WorksShortcodes
 		{
 			//too late to call remove_shortcode so lets replace it with empty
 			add_shortcode('userlist', array(get_class(), 'disable_userlist'));
+			if ($_GET['bookmarks'] == 'save') { WorkBookmark::saveBookmark(); return; }
 			$bks = WorkBookmark::getBookmarks();
 			_nl('Bookmarks:', 1);
 			if (count($bks))
