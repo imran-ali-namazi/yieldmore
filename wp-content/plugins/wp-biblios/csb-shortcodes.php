@@ -6,7 +6,7 @@ class WorksShortcodes
 		$cls = get_class();
 		add_shortcode('tab', array($cls, 'do_tab'));
 		add_shortcode('works', array($cls, 'do_works'));
-		add_shortcode('work', array($cls, 'do_work'));
+		add_shortcode('work', array($cls, 'do_work')); //TODO: missing keyword config causes untraceable error 500
 		add_shortcode('data', array($cls, 'do_data'));
 		add_shortcode('info', array($cls, 'do_info'));
 		add_shortcode('bookmarks', array($cls, 'do_bookmarks'));
@@ -123,6 +123,8 @@ class WorksShortcodes
 				$lnk = '<a href="%s" target="_blank">%s</a>';
 				if (strcasecmp($bits[0], 'Wiki') == 0) {
 					$bits[1] = sprintf($lnk, 'https://en.wikipedia.org/wiki/' . str_replace(' ', '_', $bits[1]), $bits[1]);
+				} else if (strcasecmp($bits[0], 'quote') == 0) {
+					$bits[1] = sprintf($lnk, 'https://en.wikiquote.org/wiki/' . str_replace(' ', '_', $bits[1]), $bits[1]);
 				} else if (strcasecmp($bits[0], 'youtube') == 0) {
 					$url = explode('|', $bits[1]);
 					$bits[1] = sprintf($lnk, 'https://www.youtube.com/watch?v=' . $url[0], count($url) == 1 ? $url[0] : $url[1]);
@@ -144,7 +146,7 @@ class WorksShortcodes
 		return PHP_EOL . '<blockquote class="info">' . implode('<br/>' . PHP_EOL, $op) . '</blockquote>';
 	}
 
-	function do_bookmarks($a, $content)
+	function do_bookmarks($a, $content = null)
 	{
 		if (!isset($_GET['bookmarks']))
 		{
@@ -170,7 +172,7 @@ class WorksShortcodes
 		}
 	}
 
-	function disable_userlist($a, $c)
+	function disable_userlist($a, $c = null)
 	{
 	}
 }

@@ -84,5 +84,10 @@ biblios
 		work-config.php
 		wp-biblios.php
 [Open project files]
+0=..\..\themes\imperishable\archive.php
 [Selected Project Files]
 Main=
+Selected=..\..\themes\imperishable\archive.php
+[..\..\themes\imperishable\archive.php]
+TopLine=10
+Caret=115,31

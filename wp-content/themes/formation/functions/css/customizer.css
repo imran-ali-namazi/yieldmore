@@ -1,0 +1,60 @@
+#customize-control-formation_global_favicon .customize-control-title:after,
+#customize-control-formation_global_apple_icon .customize-control-title:after,
+#customize-control-copyright_text_control .customize-control-title:after,
+#customize-control-formation_retina_logo .customize-control-title:after
+{
+    clear: both;
+	font-size:12px;
+	font-style:italic;
+	display:block;
+	color:#888;
+}
+#customize-control-copyright_text_control .customize-control-title:after{
+    content:"Simple HTML is allowed <a>, <strong>";
+}
+#customize-control-formation_global_favicon .customize-control-title:after{
+	content:"Suggested dimensions 16x16, 32x32 or 48x48 pixels. .ico or .png format";
+}
+#customize-control-formation_global_apple_icon .customize-control-title:after{
+	content:"Suggested dimensions 180x180 or 192x192 pixels. .png format";
+}
+#customize-control-formation_retina_logo .customize-control-title:after{
+	content:"Note: Double the dimensions of the regular logo, name the file as your regular logo file and then just put @2x at the end of the name. For example logo@2x.png";
+}
+
+/*
+ * Pro Messages
+ */
+
+#customize-control-formation_color_scheme:before,
+#customize-control-background_color:after,
+#customize-control-twitter:before{
+	background: rgb(204, 75, 75);
+	color: #fff;
+	text-align: center;
+	padding: 0.5em;
+	display: inline-block;
+	margin:1em 0 2em;
+}
+
+#customize-control-formation_color_scheme:before,
+#customize-control-twitter:before,
+#customize-control-background_color:after{
+	content:"More options in Pro Version";
+}
+
+/* Pro Message in Customizer */
+.formation-customize-plus,
+.formation-customize-plus:hover,
+.formation-customize-plus:focus{
+	background: rgb(204, 75, 75);
+	color: #fff;
+	text-align: center;
+	padding: 0.2em 0.7em;
+	display: inline-block;
+	margin: 1em 0 2em;
+}
+.formation-customize-plus:after{
+	content: "➚";
+	padding-left: 0.5em;
+}
