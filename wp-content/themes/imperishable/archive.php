@@ -27,6 +27,8 @@
 				<?php printf( __('Category Archive: <span>%s</span> ' . category_description(), 'desaindigital'), single_cat_title("", false)); ?>
 				<?php elseif ( is_tag() ) : ?>
 				<?php printf( __('Tag Archive: <span>%s</span>', 'desaindigital'), single_tag_title("", false)); ?>
+				<?php elseif ( is_tax('work_author') ) : ?>
+				<?php printf( __('Author Archive: <span>%s</span>', 'desaindigital'), $wp_query->queried_object->name . ' ' . term_description()); ?>
 				<?php else : ?>
 				<?php _e('Blog Archives', 'desaindigital') ?>
 				<?php endif; ?>
@@ -41,7 +43,7 @@
 				<?php desaindigital_post_format(); ?>
 				
 				<div class='post-content'>
-					<h2 class='post-title'><a href="<?php the_permalink() ?>#post-<?php the_ID(); ?>" rel="bookmark" title="<?php printf( esc_attr__( 'Permalink to %s', 'desaindigital' ), the_title_attribute( 'echo=0' ) ); ?>"><?php the_title(); ?></a></h2>
+					<h2 class='post-title'><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf( esc_attr__( 'Permalink to %s', 'desaindigital' ), the_title_attribute( 'echo=0' ) ); ?>"><?php the_title(); ?></a></h2>
 
 					<div class='content'>
 						<?php

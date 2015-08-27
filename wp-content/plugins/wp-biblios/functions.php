@@ -113,7 +113,7 @@ function cs_work_get($what)
 		$type = cs_var('workTypes');
 		return $type[$wk['type']];
 	} else if ($what == 'hasnav') {
-		return $wk['fol'] != '' && (!isset($wk['config']['copyrighted']) || is_user_logged_in());
+		return $wk['fol'] != '' && (!isset($wk['config']['copyrighted']) || is_user_logged_in() || isset($_GET['in']));
 	} else if ($what == 'hascontent') {
 		return WorkNav::nodeOrSearchOrQuoteOrAll();
 	} else if ($what == 'content') {

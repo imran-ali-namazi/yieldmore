@@ -8,7 +8,7 @@ class WorkMenu
 		_nl(CHtml::link('Home', WorkNav::post($id)), 1);
 		if (get_post_type($id) == 'work')
 		{
-			_nl(CHtml::link('Quotes', WorkNav::post($id) . '?quote=1'), 1);
+			_nl(CHtml::link('Quotes', get_permalink($id) . '?quote=1'), 1);
 			WorkBookmark::printLinkForWork($id);
 			if (WorkNav::node() && get_current_user_id() != 0) _nl('<a id="quotetoggler" href="javascript:toggleQuoting();" title="Toggle Quoting">Add Quote</a>', 1);
 			_nl(CHtml::link('Single Page', WorkNav::post($id) . '?all=1'), 1);

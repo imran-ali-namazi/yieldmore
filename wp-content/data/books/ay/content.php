@@ -3561,7 +3561,7 @@ was still entranced in unspeakable rapture. I saw our bodies as two astral pictu
 the <a name="2"></a>river whose essence was sheer light.',
 '"It is the Spirit of God that actively sustains every form and force in the universe; yet He is
 transcendental and aloof in the blissful uncreated void beyond the worlds of vibratory phenomena," <span
-"#f2"><b><sup>2</span> Master explained. "Saints who realize their divinity even while in the flesh
+"#f2">2</span> Master explained. "Saints who realize their divinity even while in the flesh
 know a similar twofold existence. Conscientiously engaging in earthly work, they yet remain immersed in an
 inward beatitude.');
 $data['c14'][144] = array('',
@@ -3767,7 +3767,7 @@ Yukteswar was a perfect human radio. Thoughts are no more than very gentle vibra
 Just as a sensitized radio picks up a desired musical number out of thousands of other programs from every
 direction, so my guru had been able to catch the thought of the half-witted man who hankered for a
 cauliflower, out of the countless thoughts of broadcasting human wills in the world.<span
-"#f2"><b><sup>2</span>');
+"#f2">2</span>');
 $data['c15'][151] = array('',
 '<a name="3"></a>By his powerful will, Master was also a human broadcasting station, and had successfully
 directed the peasant to reverse his steps and go to a certain room for a single cauliflower.',
@@ -3876,7 +3876,7 @@ to achieve tranquillity; (5) <i>Sri Raga</i> is reserved for autumn twilights, t
 '<a name="7"></a>The ancient rishis discovered these laws of sound alliance between nature and man. Because
 nature is an objectification of <i>Aum,</i> the Primal Sound or Vibratory Word, man can obtain control over
 all natural manifestations through the use of certain <i>mantras</i> or chants. <span
-"#f7"><b><sup>7</span> Historical documents tell of the remarkable powers possessed by Miyan Tan Sen,
+"#f7">7</span> Historical documents tell of the remarkable powers possessed by Miyan Tan Sen,
 sixteenth century court musician for Akbar the Great. Commanded by the Emperor to sing a night <i>raga</i>
 while the sun was overhead, Tan Sen intoned a <i>mantra</i> which instantly caused the whole palace precincts
 to become enveloped in darkness.');
@@ -4143,9 +4143,9 @@ knowledge of telepathic <a name="5-6"></a>communications and other time-annihila
 of <i>Satya Yuga,</i> final age in an ascending arc, the intelligence of a man will be completely developed;
 he will work in harmony with the divine plan.',
 'A descending arc of 12,000 years, starting with a descending Golden Age of 4800 years, then begins<span
-"#f5"><b><sup>5</span> for the world; man gradually sinks into ignorance. These cycles are the eternal
+"#f5">5</span> for the world; man gradually sinks into ignorance. These cycles are the eternal
 rounds of <i>maya,</i> the contrasts and relativities of the phenomenal universe.<span
-"#f6"><b><sup>6</span> Man, one by one, escapes from creation&#39;s prison of duality as he awakens to
+"#f6">6</span> Man, one by one, escapes from creation&#39;s prison of duality as he awakens to
 consciousness of his inseverable divine unity with the Creator.');
 $data['c16'][167] = array('',
 'Master enlarged my understanding not only of astrology but of the world&#39;s scriptures. Placing the holy
@@ -4158,7 +4158,7 @@ translators, used to arouse Master&#39;s droll criticism.',
 '<a name="8-10"></a>"The path of a yogi is singular enough as it is," he remarked. "Why counsel him that he
 must also make himself cross-eyed? The true meaning of <i>nasikagram</i> is &#39;origin of the nose, not &#39;end of
 the nose.&#39; The nose begins at the point between the two eyebrows, the seat of spiritual vision."<span
-"#f8"><b><sup>8</span>');
+"#f8">8</span>');
 $data['c16'][168] = array('',
 'Because of one <i>Sankhya</i><span class="footnote" id="f9">9</span> aphorism, "<i>Iswar-ashidha,</i>""A
 Lord of Creation cannot be deduced" or "God is not proved,"<span class="footnote" id="f10">10</span> many
@@ -4171,12 +4171,12 @@ Lord is both existent and knowable."',
 roll call of Christian <a name="11-13"></a>membership, that I learned to perceive the deathless essence of
 the Bible, and to understand the truth in Christ&#39;s assertionsurely the most thrillingly intransigent ever
 uttered: "Heaven and earth shall pass away, but my words shall not pass away."<span
-"#f11"><b><sup>11</span>',
+"#f11">11</span>',
 'The great masters of India mold their lives by the same godly ideals which animated Jesus; these men are
 his proclaimed kin: "Whosoever shall do the will of my Father which is in heaven, the same is my brother, and
 sister, and mother."<span class="footnote" id="f12">12</span> "If ye continue in my word," Christ pointed out,
 "then are ye my disciples indeed; and ye shall know the truth, and the truth shall make you free."<span
-"#f13"><b><sup>13</span> Freemen all, lords of themselves, the Yogi-Christs of India are part of the
+"#f13">13</span> Freemen all, lords of themselves, the Yogi-Christs of India are part of the
 immortal fraternity: those who have attained a liberating knowledge of the One Father.',
 '"The Adam and Eve story is incomprehensible to me!" I observed with considerable heat one day in my early
 struggles with the allegory. "Why did God punish not only the guilty pair, but also the innocent unborn
@@ -4207,7 +4207,7 @@ uniquely given a tremendous mental capacitythe &#39;thousand-petaled lotus&#39; 
 awakened occult centers in the spine.',
 '<a name="18"></a>"God, or the Divine Consciousness present within the first created pair, counseled them
 to enjoy all human sensibilities, but not to put their concentration on touch sensations.<span
-"#f18"><b><sup>18</span> These were banned in order to avoid the development of the sex organs, which
+"#f18">18</span> These were banned in order to avoid the development of the sex organs, which
 would enmesh humanity in the inferior animal method of propagation. The warning not to revive
 subconsciously-present bestial memories was not heeded. Resuming the way of brute procreation, Adam and Eve
 fell from the state of heavenly joy natural to the original perfect man.');
@@ -4215,7 +4215,7 @@ $data['c16'][171] = array('',
 '<a name="19"></a>"Knowledge of &#39;good and evil&#39; refers to the cosmic dualistic compulsion. Falling under
 the sway of <i>maya</i> through misuse of his feeling and reason, or Eveand Adamconsciousness, man
 relinquishes his right to enter the heavenly garden of divine self-sufficiency. <span
-"#f19"><b><sup>19</span> The personal responsibility of every human being is to restore his &#39;parents&#39;
+"#f19">19</span> The personal responsibility of every human being is to restore his &#39;parents&#39;
 or dual nature to a unified harmony or Eden."',
 'As Sri Yukteswar ended his discourse, I glanced with new respect at the pages of <i>Genesis.</i>',
 '"Dear Master,&#39; I said, "for the first time I feel a proper filial obligation toward Adam and Eve!"');
@@ -4404,7 +4404,7 @@ milk.',
 '<a name="1"></a>"O Mukunda! What a miracle! Four hours ago I felt Master&#39;s presence in the room; my
 terrible symptoms immediately disappeared. I feel that through his grace I am entirely well."',
 'In a few weeks Sasi was stouter and in better health than ever before.<span
-"#f1"><b><sup>1</span> But his singular reaction to his healing had an ungrateful tinge: he seldom
+"#f1">1</span> But his singular reaction to his healing had an ungrateful tinge: he seldom
 visited Sri Yukteswar again! My friend told me one day that he so deeply regretted his previous mode of life
 that he was ashamed to face Master.',
 'I could only conclude that Sasi&#39;s illness had had the contrasting effect of stiffening his will and
@@ -4460,7 +4460,7 @@ old-fashioned brick mansion, fronting the Ganges.',
 '<a name="1"></a>"Master, what a coincidence! Are these newly decorated walls really ancient with
 memories?" I looked around my simply furnished room with awakened interest.',
 '"It is a long story." My guru smiled reminiscently. "The name of the <i>fakir</i><span
-"#f1"><b><sup>1</span> was Afzal Khan. He had acquired his extraordinary powers through a chance
+"#f1">1</span> was Afzal Khan. He had acquired his extraordinary powers through a chance
 encounter with a Hindu yogi.',
 '"&#39;Son, I am thirsty; fetch me some water.&#39; A dust-covered <i>sannyasi</i> made this request of Afzal one
 day during his early boyhood in a small village of eastern Bengal.',
@@ -4639,7 +4639,7 @@ you and Dijen will see me coming toward you, dressed as I am now. I shall be pre
 "1"></a>passengera little boy carrying a silver jug."',
 'My guru placed both hands on my head, with a murmured blessing. As he concluded with the words, "<i>Taba
 asi,</i>"<span class="footnote" id="f1">1</span> I heard a peculiar rumbling sound.<span
-"#f2"><b><sup>2</span> His body began to melt gradually within the piercing light. First his feet and
+"#f2">2</span> His body began to melt gradually within the piercing light. First his feet and
 legs vanished, then his torso and head, like a scroll being rolled up. To the very last, I could feel his
 fingers resting lightly on my hair. The effulgence faded; nothing remained before me but the barred window
 and a pale stream of sunlight.');
@@ -4688,7 +4688,7 @@ summer vacation. May I have six train passes to Kashmir and enough money to cove
 cock-and-bull story. Didn&#39;t you make <a name="1"></a>a similar request last summer, and the year before that?
 At the last moment, Sri Yukteswarji refuses to go."',
 '"It is true, Father; I don&#39;t know why my guru will not give me his definite word about Kashmir.<span
-"#f1"><b><sup>1</span> But if I tell him that I have already secured the passes from you, somehow I
+"#f1">1</span> But if I tell him that I have already secured the passes from you, somehow I
 think that this time he will consent to make the journey."',
 'Father was unconvinced at the moment, but the following day, after some good-humored gibes, he handed me
 six passes and a roll of ten-rupee bills.',
@@ -4973,7 +4973,7 @@ in which no hurt to the spiritual healer is involved. On rare occasions, however
 greatly quicken his disciples&#39; evolution may then voluntarily work out on his own body a large measure of
 their undesirable karma.',
 'Jesus signified himself as a ransom for the sins of many. With his divine powers,<span
-"#f4"><b><sup>4</span> his body could never have been subjected to death by crucifixion if he had not
+"#f4">4</span> his body could never have been subjected to death by crucifixion if he had not
 willingly cooperated with the subtle cosmic law of cause and effect. He thus took on himself the consequences
 of others&#39; karma, especially that of his disciples. In this manner they were highly purified and made fit to
 receive the omnipresent consciousness which later descended on them.');
@@ -5165,7 +5165,7 @@ $data['c22'][211] = array('',
 mind.',
 '<a name="2">"Dear brother," she said, "I am well, and my husband is sick. Nevertheless, I want you to know
 that, as a devoted Hindu wife, I am going to be the first one to die.</a><span
-"#f2"><b><sup>2</span> It won&#39;t be long now before I pass on."',
+"#f2">2</span> It won&#39;t be long now before I pass on."',
 'Taken aback at her ominous words, I yet realized their sting of truth. I was in America when my sister
 died, about a year after her prediction. My youngest brother Bishnu later gave me the details.',
 '"Roma and Satish were in Calcutta at the time of her death," Bishnu told me. "That morning she dressed
@@ -5380,7 +5380,7 @@ Guest, He won&#39;t come in the winter of your life.&#39;"',
 smiled at him with measureless affection.',
 '<a name="1"></a>"He that is unmarried careth for the things that belong to the Lord, how he may please the
 Lord: but he that is married careth for the things of the world, how he may please his wife."<span
-"#f1"><b><sup>1</span> I had analyzed the lives of many of my friends who, after undergoing certain
+"#f1">1</span> I had analyzed the lives of many of my friends who, after undergoing certain
 spiritual discipline, had then married. Launched on the sea of worldly responsibilities, they had forgotten
 their resolutions to meditate deeply.',
 'To allot God a secondary place in life was, to me, inconceivable. Though He is the sole Owner of the
@@ -5537,7 +5537,7 @@ necessary as the outer conquest of nature. This new Atomic Age will see men&#39;
 the now scientifically indisputable truth that matter is in reality a concentrate of energy. Finer forces of
 the human mind can and must liberate energies greater than those within stones and metals, lest the material
 atomic giant, newly unleashed, turn on the world in mindless destruction.<span
-"#f9"><b><sup>9</span>');
+"#f9">9</span>');
 $extraData['c24'] = array();
 $extraData['c24pages'] = array(220 /*start*/, 220, 221, 222, 224, 224, 225, 226, 227, 227);
 $extraData['c24'][1] = 'I Corinthians 7:32-33.';
@@ -5621,7 +5621,7 @@ allying himself with a human bean-pole.',
 '<a name="1"></a>Elaborate marriage rites were celebrated in due time. On the wedding night, I joined the
 large and jovial group of relatives in the living room of our Calcutta home. The bridegroom was leaning on an
 immense gold-brocaded pillow, with Nalini at his side. A gorgeous purple silk <i>sari</i><span
-"#f1"><b><sup>1</span> could not, alas, wholly hide her angularity. I sheltered myself behind the
+"#f1">1</span> could not, alas, wholly hide her angularity. I sheltered myself behind the
 pillow of my new brother-in-law and grinned at him in friendly fashion. He had never seen Nalini until the
 day of the nuptial ceremony, when he finally learned what he was getting in the matrimonial lottery.');
 $data['c25'][231] = array('',
@@ -5656,7 +5656,7 @@ adhered to her vegetarian diet in spite of numerous difficulties, I paid her a v
 mischievously. "How plump do you want to beas fat as our aunt who hasn&#39;t seen her feet in years?"',
 '<a name="3"></a>"No! But I long to be as stout as you are."',
 'I replied solemnly. "By the grace of God, as I have spoken truth always, I speak truly now.<span
-"#f3"><b><sup>3</span> Through the divine blessings, your body shall verily change from today; in one
+"#f3">3</span> Through the divine blessings, your body shall verily change from today; in one
 month it shall have the same weight as mine."',
 'These words from my heart found fulfillment. In thirty days, Nalini&#39;s weight equalled mine. The new
 roundness gave her beauty; her husband fell deeply in love. Their marriage, begun so inauspiciously, turned
@@ -5748,7 +5748,7 @@ $data['c26'][237] = array('','<a name="6-8"></a><i>Kriya Yoga</i> is mentioned t
 yoga, who wrote: "<i>Kriya Yoga</i> consists of body discipline, mental control, and meditating on
 <i>Aum.</i>"<span class="footnote" id="f6">6</span> Patanjali speaks of God as the actual Cosmic Sound of
 <i>Aum</i> heard in meditation.<span class="footnote" id="f7">7</span> <i>Aum</i> is the Creative Word,<span
-"#f8"><b><sup>8</span> the sound of the Vibratory Motor. Even the yoga-beginner soon inwardly hears
+"#f8">8</span> the sound of the Vibratory Motor. Even the yoga-beginner soon inwardly hears
 the wondrous sound of <i>Aum.</i> Receiving this blissful spiritual encouragement, the devotee becomes
 assured that he is in actual touch with divine realms.',
 '<a name="9-10"></a>Patanjali refers a second time to the life-control or <i>Kriya</i> technique thus:
@@ -6057,7 +6057,7 @@ joy in Him.',
 '<a name="4"></a>The Ranchi school grew from small and simple beginnings to an institution now well-known
 in India. Many departments of the school are supported by voluntary contributions from those who rejoice in
 perpetuating the educational ideals of the rishis. Under the general name of <i>Yogoda Sat-Sanga,</i><span
-"#f4"><b><sup>4</span> flourishing branch schools have been established at Midnapore, Lakshmanpur, and
+"#f4">4</span> flourishing branch schools have been established at Midnapore, Lakshmanpur, and
 Puri.',
 'The Ranchi headquarters maintains a Medical Department where medicines and the services of doctors are
 supplied freely to the poor of the locality. The number treated has averaged more than 18,000 persons a year.
@@ -6065,7 +6065,7 @@ The <i>Vidyalaya</i> has made its mark, too, in Indian competitive sports, and i
 many <a name="5"></a>Ranchi alumni have distinguished themselves in later university life.');
 $data['c27'][251] = array('',
 'The school, now in its twenty-eighth year and the center of many activities,<span
-"#f5"><b><sup>5</span> has been honored by visits of eminent men from the East and the West. One of
+"#f5">5</span> has been honored by visits of eminent men from the East and the West. One of
 the earliest great figures to inspect the <i>Vidyalaya</i> in its first year was Swami Pranabananda, the
 Benares "saint with two bodies." As the great master viewed the picturesque outdoor classes, held under the
 trees, and saw in the evening that young boys were sitting motionless for hours in yoga meditation, he was
@@ -6129,7 +6129,7 @@ shortly. After enjoying a short period of the Infinite Bliss, I shall return to 
 Babaji.<span class="footnote" id="f8">8</span> You shall soon know when and where my soul has been encased in a
 new body.&#39;',
 '"He cried again, &#39;Sanandan, here I kick the frame by the second <i>Kriya Yoga.</i>&#39;<span
-"#f9"><b><sup>9</span>',
+"#f9">9</span>',
 '"He looked at the sea of faces before us, and gave a blessing. Directing his gaze inwardly to the
 spiritual eye, he became immobile. While the bewildered crowd thought he was meditating in an ecstatic state,
 he had already left the tabernacle of flesh and plunged his soul into the cosmic vastness. The disciples
@@ -6224,7 +6224,7 @@ souls?',
 microphone of the spiritual eye, the inner point between the eyebrows. With the antenna of upraised hands and
 fingers, I often turned myself round and round, trying to locate the direction in which he had been reborn as
 an embryo. I hoped to receive response from him in the concentration-tuned radio of my heart.<span
-"#f1"><b><sup>1</span>',
+"#f1">1</span>',
 'I intuitively felt that Kashi would soon return to the earth, and that if I kept unceasingly broadcasting
 my call to him, his soul would reply. I knew that the slightest impulse sent by Kashi would be felt in my
 fingers, hands, arms, spine, and nerves.',
@@ -6445,7 +6445,7 @@ one aspect after another of her varied infinitude. Science thus remains in a per
 finality; fit indeed to formulate the laws of an already existing and functioning cosmos, but powerless to
 detect the Law Framer and Sole Operator. The majestic manifestations of gravitation and electricity have
 become known, but what gravitation and electricity are, no mortal knoweth. <span
-"#f3"><b><sup>3</span>');
+"#f3">3</span>');
 $data['c30'][267] = array('',
 'To surmount <i>maya</i> was the task assigned to the human race by the millennial prophets. To rise above
 the duality of creation and perceive the unity of the Creator was conceived of as man&#39;s highest goal. Those
@@ -7178,7 +7178,7 @@ frustration of search by a frantic universe for an absolute omission!',
 '<a name="1"></a>Christ expressed his freedom in another way: "And a certain scribe came, and said unto
 him, Master, I will follow thee whithersoever thou goest. And Jesus saith unto him, The foxes have holes, and
 the birds of the air have nests; but the Son of man hath not where to lay his head."<span
-"#f1"><b><sup>1</span>',
+"#f1">1</span>',
 'Spacious with omnipresence, could Christ indeed be followed except in the overarching Spirit?',
 'Krishna, Rama, Buddha, and Patanjali were among the ancient Indian avatars. A considerable poetic
 literature in Tamil has grown up around Agastya, a South Indian avatar. He worked many miracles during the
@@ -7328,7 +7328,7 @@ man of self-realization can appear at different places in two or more bodies at 
 '<a name="6"></a>"Lahiri Mahasaya later explained to me many metaphysical points concerning the hidden
 divine plan for this earth," Ram Gopal concluded. "Babaji has been chosen by God to remain in his body for
 the duration of this particular world cycle. Ages shall come and gostill the deathless master,<span
-"#f6"><b><sup>6</span> beholding the drama of the centuries, shall be present on this stage
+"#f6">6</span> beholding the drama of the centuries, shall be present on this stage
 terrestrial."');
 $extraData['c33'] = array();
 $extraData['c33pages'] = array(297 /*start*/, 298, 302, 302, 303, 304, 305);
@@ -7357,9 +7357,9 @@ heard the awesome tale direct from the lips of their guru.',
 autumn of 1861 I was stationed in Danapur as a government accountant in the Military Engineering <a name=
 "1-2"></a> Department. One morning the office manager summoned me.',
 '"&#39;Lahiri,&#39; he said, &#39;a telegram has just come from our main office. You are to be transferred to Ranikhet,
-where an army post<span class="footnote" id="f1\');"><sup>1</sup></a> is now being established.&#39;',
+where an army post<span class="footnote" id="f1">1</a> is now being established.&#39;',
 '"With one servant, I set out on the 500-mile trip. Traveling by horse and buggy, we arrived in thirty days
-at the Himalayan site of Ranikhet.<span class="footnote" id="f2\');"><sup>2</sup></a>',
+at the Himalayan site of Ranikhet.<span class="footnote" id="f2">2</a>',
 '"My office duties were not onerous; I was able to spend many hours roaming in the magnificent hills. A
 rumor reached me that great saints blessed the region with their presence; I felt a strong desire to see
 them. During a ramble one early afternoon, I was astounded to hear a distant voice calling my name. I
@@ -7379,7 +7379,7 @@ nightfall. I have business in the morning at my office.&#39;',
 '"The mysterious saint replied in English, &#39;The office was brought <a name="3"></a>for you, and not
 you for the office.&#39;',
 '"I was dumbfounded that this forest ascetic should not only speak English but also paraphrase the words of
-Christ.<span class="footnote" id="f3\');"><sup>3</sup></a>',
+Christ.<span class="footnote" id="f3">3</a>',
 '"&#39;I see my telegram took effect.&#39; The yogi&#39;s remark was incomprehensible to me; I inquired his
 meaning.',
 '"&#39;I refer to the telegram that summoned you to these isolated parts. It was I who silently suggested to
@@ -7427,7 +7427,7 @@ distance.',
 '<a name="4"></a>"&#39;The hour is midnight.&#39; My guide laughed softly. &#39;Yonder light is the glow of a
 golden palace, materialized here tonight by the peerless Babaji. In the dim past, you once expressed a desire
 to enjoy the beauties of a palace. Our master is now satisfying your wish, thus freeing you from the bonds of
-karma.&#39;<span class="footnote" id="f4\');"><sup>4</sup></a> He added, &#39;The magnificent palace will be the scene of your
+karma.&#39;<span class="footnote" id="f4">4</a> He added, &#39;The magnificent palace will be the scene of your
 initiation tonight into <em>Kriya Yoga.</em> All your brothers here join in a paean of welcome, rejoicing at
 the end of your long exile. Behold!&#39;',
 '"A vast palace of dazzling gold stood before us. Studded with countless jewels, and set amidst landscaped
@@ -7464,10 +7464,10 @@ his will, even as God created this earth and is maintaining it intact.&#39; He a
 served its purpose, Babaji will dematerialize it.&#39;',
 '<a name="5"></a>"As I remained silent in awe, my guide made a sweeping gesture. &#39;This shimmering palace,
 superbly embellished with jewels, has not been built by human effort or with laboriously mined gold and gems.
-It stands solidly, a monumental challenge to man. <span class="footnote" id="f5\');"><sup>5</sup></a> Whoever realizes
+It stands solidly, a monumental challenge to man. <span class="footnote" id="f5">5</a> Whoever realizes
 himself as a son of God, even as Babaji has done, can reach any goal by the infinite powers hidden within
 him. A common stone locks within itself the secret of stupendous atomic energy;<span
-"#f6"><sup>6</sup></a> even so, a mortal is yet a powerhouse of divinity.&#39;',
+"#f6">6</a> even so, a mortal is yet a powerhouse of divinity.&#39;',
 '"The sage picked up from a near-by table a graceful vase whose handle was blazing with diamonds. &#39;Our
 great guru created this palace by solidifying myriads of free cosmic rays,&#39; he went on. &#39;Touch this vase and
 its diamonds; they will satisfy all the tests of sensory experience.&#39;',
@@ -7547,7 +7547,7 @@ the quest of the Divine is fit to unravel the final mysteries of life through th
 <em>Kriya</em> art, will you not increase that benefit by relaxing the strict requirements for discipleship?&#39;
 I gazed beseechingly at Babaji. &#39;I pray that you permit me to communicate <em>Kriya</em> to all seekers, even
 though at first they cannot vow themselves to complete inner renunciation. The tortured men and women of the
-world, pursued by the threefold suffering,<span class="footnote" id="f7\');"><sup>7</sup></a> need special encouragement.
+world, pursued by the threefold suffering,<span class="footnote" id="f7">7</a> need special encouragement.
 They may never attempt the road to freedom if <em>Kriya</em> initiation be withheld from them.&#39;');
 $data['c34'][315] = array('',
 '"&#39;Be it so. The divine wish has been expressed through you.&#39; With these simple words, the merciful guru
@@ -7557,7 +7557,7 @@ $data['c34'][316] = array('',
 '<a name="8"></a>"After a silence, Babaji added, &#39;Repeat to each of your disciples this majestic
 promise from the <em>Bhagavad Gita:</em> "<em>Swalpamasya dharmasya, trayata mahato bhoyat</em>"-"Even a
 little bit of the practice of this religion will save you from dire fears and colossal sufferings."&#39;<span
-"#f8"><sup>8</sup></a>',
+"#f8">8</a>',
 '"As I knelt the next morning at my guru&#39;s feet for his farewell blessing, he sensed my deep reluctance to
 leave him.',
 '"&#39;There is no separation for us, my beloved child.&#39; He touched my shoulder affectionately. &#39;Wherever you
@@ -7565,7 +7565,7 @@ are, whenever you call me, I shall be with you instantly.&#39;',
 '<a name="9"></a>"Consoled by his wondrous promise, and rich with the newly found gold of
 God-wisdom, I wended my way down the mountain. At the office I was welcomed by my fellow employees, who for
 ten days had thought me lost in the Himalayan jungles. A letter soon arrived from the head office.',
-'"&#39;Lahiri should return to the Danapur<span class="footnote" id="f9\');"><sup>9</sup></a> office,&#39; it read. &#39;His transfer
+'"&#39;Lahiri should return to the Danapur<span class="footnote" id="f9">9</a> office,&#39; it read. &#39;His transfer
 to Ranikhet occurred by error. Another man should have been sent to assume the Ranikhet duties.&#39;',
 '"I smiled, reflecting on the hidden crosscurrents in the events which had led me to this furthermost spot
 of India.',
@@ -7597,7 +7597,7 @@ appeared at my prayer, please do not depart without bestowing a blessing on my f
 they be, at least they were willing to investigate the truth of my strange assertions.&#39;',
 '<a name="10"></a>"&#39;Very well; I will stay awhile. I do not wish your word discredited before your
 friends.&#39; Babaji&#39;s face had softened, but he added gently, &#39;Henceforth, my son, I shall come when you need
-me, and not always when you call me.<span class="footnote" id="f10\');"><sup>10</sup></a> &#39;',
+me, and not always when you call me.<span class="footnote" id="f10">10</sup></a> &#39;',
 '"Tense silence reigned in the little group when I opened the door. As if mistrusting their senses, my
 friends stared at the lustrous figure on the blanket seat.',
 '"&#39;This is mass-hypnotism!&#39; One man laughed blatantly. &#39;No one could possibly have entered this room
@@ -7605,13 +7605,13 @@ without our knowledge!&#39;');
 $data['c34'][318] = array('',
 '<a name="11"></a>"Babaji advanced smilingly and motioned to each one to touch the warm, solid
 flesh of his body. Doubts dispelled, my friends prostrated themselves on the floor in awed repentance.',
-'"&#39;Let <em>halua</em><span class="footnote" id="f11\');"><sup>11</sup></a> be prepared.&#39; Babaji made this request, I knew,
+'"&#39;Let <em>halua</em><span class="footnote" id="f11">11</a> be prepared.&#39; Babaji made this request, I knew,
 to further assure the group of his physical reality. While the porridge was boiling, the divine guru chatted
 affably. Great was the metamorphosis of these doubting Thomases into devout St. Pauls. After we had eaten,
 Babaji blessed each of us in turn. There was a sudden flash; we witnessed the instantaneous <a name="12"></a>dechemicalization of the electronic elements of Babaji&#39;s body into a spreading vaporous light. The
 God-tuned will power of the master had loosened its grasp of the ether atoms held together as his body;
 forthwith the trillions of tiny lifetronic sparks faded into the infinite reservoir.',
-'"&#39;With my own eyes I have seen the conqueror of death.&#39; Maitra,<span class="footnote" id="f12\');"><sup>12</sup></a> one
+'"&#39;With my own eyes I have seen the conqueror of death.&#39; Maitra,<span class="footnote" id="f12">12</a> one
 of the group, spoke reverently. His face was transfigured with the joy of his recent awakening. &#39;The supreme
 guru played with time and space, as a child plays with bubbles. I have beheld one with the keys of heaven and earth.&#39;',
 '"I soon returned to Danapur. Firmly anchored in the Spirit, again I assumed the manifold business and
@@ -9481,10 +9481,10 @@ $data['c42'][394] = array('',
 '<a name="1-2"></a>"Yogananda, are you leaving now for Calcutta? Please return here tomorrow. I have
 certain things to tell you."',
 'The next afternoon, with a few simple words of blessing, Sri Yukteswar bestowed on me the further monastic
-title of <i>Paramhansa.</i><span class="footnote" id="f1"><sup><b>1</span>',
+title of <i>Paramhansa.</i><span class="footnote" id="f1">1</span>',
 '"It now formally supersedes your former title of <i>swami,</i>" he said as I knelt before him. With a
 silent chuckle I thought of the struggle which my American students would undergo over the pronunciation of
-<i>Paramhansaji.</i><span class="footnote" id="f2"><sup><b>2</span>',
+<i>Paramhansaji.</i><span class="footnote" id="f2">2</span>',
 '"My task on earth is now finished; you must carry on." Master spoke quietly, his eyes calm and gentle. My
 heart was palpitating in fear.',
 '"Please send someone to take charge of our ashram at Puri," Sri Yukteswar went on. "I leave everything in
@@ -9859,7 +9859,7 @@ themselves of astral karma and thus attain liberation from astral rebirths. The 
 highly developed spiritually; all of them had acquired, in their last earth-incarnation, the meditation-given
 power of consciously leaving their physical bodies at death. No one can enter Hiranyaloka unless he has
 passed on earth beyond the state of <i>sabikalpa samadhi</i> into the higher state of <i>nirbikalpa
-samadhi.</i> <span class="footnote" id="f1"><sup><b>1</span>');
+samadhi.</i> <span class="footnote" id="f1">1</span>');
 $data['c43'][409] = array('',
 '"The Hiranyaloka inhabitants have already passed through the ordinary astral spheres, where nearly all
 beings from earth must go at death; there they worked out many seeds of their past actions in the astral
@@ -10568,7 +10568,7 @@ prophets of the world.<span class="footnote" id="f13">13</span> It is not a
 missionary religion in the ordinary sense of the term. It has no doubt absorbed many tribes in its fold, but
 this absorption has been of an evolutionary, imperceptible character. Hinduism tells each man to worship God
 according to his own faith or <i>dharma,</i><span
-class="footnote" id="f14"><sup><b>14</span> and so lives at peace with all religions.');
+class="footnote" id="f14">14</span> and so lives at peace with all religions.');
 $data['c44'][439] = array('',
 'Of Christ, Gandhi has written: "I am sure that if He were living here now among men, He would bless the
 lives of many who perhaps have never even heard His name . . . just as it is written: &#39;Not every one that
