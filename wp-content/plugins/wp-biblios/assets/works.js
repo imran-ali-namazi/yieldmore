@@ -26,32 +26,8 @@ $(document).ready(function() {
 		$('#frmBookmark').submit(); // TODO: ajax
 		e.preventDefault();
 	});
-	$(window).trigger('resize');
-
 	if ($.ui && $.ui.accordion)
 		$("#wrap-sidebar").accordion({header: 'div div h2', active: activeTab, heightStyle: 'content'});
 	//if ($.fn.stick_in_parent)
 	//	$("#wrap-left").stick_in_parent({enable_bottoming: false});
 });
-
-$.doTabberInit = true;
-$(window).resize(function() {
-  if ($.doTabberInit)
-  {
-    $.doTabberInit = false;
-    setTimeout(tabberInit, 2000);
-    return;
-  }
-
-  if ($(window).width() < 1000)
-    $('#wrap-left').css('height', $('#wrap-header').height() + $('#wrap-sidebar').height());
-  else 
-    $('#wrap-left').css('height', $(window).height() - 60); //leave out footer
-  var biggerHeight = $('#wrap-left').height() > $('#wrap-content').height() ? $('#wrap-left').height() : $('#wrap-content').height();
-  $('#wrap-footer').show().css('top', biggerHeight + 60);
-  $('body').height(biggerHeight + 60);
-});
-function tabberInit()
-{
-	$(window).trigger('resize');
-}

@@ -127,6 +127,7 @@ function desaindigital_msie_style(){ ?>
 	<!--[if lte IE 7]>
 		<link rel='stylesheet' href='<?php echo get_template_directory_uri(); ?>/css/msie/ie7.css' type='text/css' media='screen' />
 	<![endif]-->
+	<script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/imperishable-footer.js'></script>
 	<?php } // End desaindigital_msie_style
 add_action('wp_head', 'desaindigital_msie_style');
 
