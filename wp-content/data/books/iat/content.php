@@ -15,7 +15,7 @@ $data['c1'][5] = array('',
 'Behold, the deep sleep in which there is no notion of being this or that. Yet &lsquo;I am&rsquo; remains. And behold the eternal now. Memory seems to being things to the present out of the past, but all that happens does happen in the present only. It is only in the timeless now that phenomena manifest themselves. Thus, time and causality do not apply in reality. I am prior to the world, body and mind. I am the sphere in which they appear and disappear. I am the source of them all, the universal power by which the world with its bewildering diversity becomes manifest.',
 'In spite of its primevality, however, the sense of &lsquo;I am&rsquo; is not the Highest. It is not the Absolute. The sense, or taste of &lsquo;I am-ness&rsquo; is not absolutely beyond time. Being the essence of the five elements, it, in a way, depends upon the world. It arises from the body, which, in its turn, is built by food, consisting of the elements. It disappears when the body dies, like the spark extinguishes when the incense stick burns out. When pure awareness is attained, no need exists any more, not even for &lsquo;I am&rsquo;, which is but a useful pointer, a direction-indicator towards the Absolute. The awareness &lsquo;I am&rsquo; then easily ceases. What prevails is that which cannot be described, that which is beyond words. It is this &lsquo;state&rsquo; which is most real, a state of pure potentiality, which is prior to everything. The &lsquo;I am&rsquo; and the universe are mere reflections of it. It is this reality which a jnanihas realised.',
 'The best that you can do is listen attentively to the jnani -- of whom Sri Nisargadatta is a living example -- and to trust and believe him. By such listening you will realise that his reality is your reality. He helps you in seeing the nature of the world and of the &lsquo;I am&rsquo;. He urges you to study the workings of the body and the mind with solemn and intense concentration, to recognise that you are neither of them and to cast them off. He suggests that you return again and again to &lsquo;I am&rsquo; until it is your only abode, outside of which nothing exists; until the ego as a limitation of &lsquo;I am&rsquo;, has disappeared. It is then that the highest realisation will just happen effortlessly.',
-'Mark the words of the jnani , which cut across all concepts and dogmas. Maharaj says: ‚Äúuntil once becomes self-realised, attains to knowledge of the self, transcends the self, until then, all these cock-and-bull stories are provided, all these concepts.‚Äù Yes, they are concepts, even &lsquo;I am&rsquo; is, but surely there are no concepts more precious. It is for the seeker to regard them with the utmost seriousness, because they indicate the Highest Reality. No better concepts are available to shed all concepts.',
+'Mark the words of the jnani , which cut across all concepts and dogmas. Maharaj says: ìuntil once becomes self-realised, attains to knowledge of the self, transcends the self, until then, all these cock-and-bull stories are provided, all these concepts.î Yes, they are concepts, even &lsquo;I am&rsquo; is, but surely there are no concepts more precious. It is for the seeker to regard them with the utmost seriousness, because they indicate the Highest Reality. No better concepts are available to shed all concepts.',
 'I am thankful to Sudhakar S. Dikshit, the editor, for inviting me to write the Foreword to this new edition of I AM THAT and thus giving me an opportunity to pay my homage to Sri Nisargadatta Maharaj, who has expounded highest knowledge in the simplest, clearest and the most convincing words.',
 'Douwe Tiemersma, Philosophical Faculty, Erasmus Universiteit, Rotterdam, Holland June, 1981');
 
@@ -50,7 +50,7 @@ $data['c4'][8] = array('',
 'Before closing, I wish to express my heart-felt thanks to Professor Douwe Tiemersma of the Philosophical Faculty Erasmus, Universieit, Rottendam, Holland for contributing a new Foreword to this edition. That he acceeded to my request promptly makes me feel all the more grateful.',
 'Sudhakar S. Dikshit, Editor, Bombay, July 1981');
 
-$titles['c5'] = 'The Sense of ‚ÄòI am‚Äô';
+$titles['c5'] = 'The Sense of ëI amí';
 $data['c5'] = array();
 $data['c5'][9] = array('',
 'Questioner: It is a matter of daily experience that on waking up the world suddenly appears. Where does it come from?',
@@ -243,7 +243,7 @@ $data['c12'][20] = array('',
 'M:Refuse all thoughts except one: the thought &#39;I am&#39;. The mind will rebel in the beginning, but with patience and perseverance it will yield and keep quiet. Once you are quiet, things will begin to happen spontaneously and quite naturally without any interference on your part.',
 'Q: Can I avoid this protracted battle with my mind?',
 'M:Yes, you can. Just live your life as it comes, but alertly, watchfully, allowing everything to happen as it happens, doing the natural things the natural way, suffering, rejoicing -- as life brings. This also is a way.',
-'Q: Well, then I can as well marry, have children, run a business‚Ä¶ be happy.',
+'Q: Well, then I can as well marry, have children, run a businessÖ be happy.',
 'M:Sure. You may or may not be happy, take it in your stride.',
 'Q: Yet I want happiness.',
 'M:True happiness cannot be found in things that change and pass away. Pleasure and pain alternate inexorably. Happiness comes from the self and can be found in the self only. Find your real self (swarupa) and all else will come with it.');
@@ -476,7 +476,7 @@ $data['c17'][33] = array('',
 'Q: And what lies beyond?',
 'M:Take an example. A venerable Yogi, a master in the art of longevity, himself over 1000 years old, comes to teach me his art. I fully respect and sincerely admire his achievements, yet all I can tell him is: of what use is longevity to me? I am beyond time. However long a life may be, it is but a moment and a dream. In the same way I am beyond all attributes. They appear and disappear in my light, but cannot describe me. The universe is all names and forms, based on qualities and their differences, while I am beyond. The world is there because I am, but I am not the world.',
 'Q: But you are living in the world!',
-'M:That&#39;s what you say! I know there is a world, which includes this body and this mind, but I do not consider them to be more ‚Äúmine‚Äù than other minds and bodies. They are there, in time and space, but I am timeless and spaceless.',
+'M:That&#39;s what you say! I know there is a world, which includes this body and this mind, but I do not consider them to be more ìmineî than other minds and bodies. They are there, in time and space, but I am timeless and spaceless.',
 'Q: But since all exists by your light, are you not the creator of the world?',
 'M:I am neither the potentiality nor the actualisation, nor the actuality of things. In my light they come and go as the specks of dust dancing in the sunbeam. The light illumines the specks, but does not depend on them. Nor can it be said to create them. It cannot be even said to know them.',
 'Q: I am asking you a question and you are answering. Are you conscious of the question and the answer?',
@@ -1215,7 +1215,7 @@ $data['c28'][76] = array('',
 'Q: You speak from your own experience. How can I make it mine?',
 'M:You speak of my experience as different from your experience, because you believe we are separate. But we are not. On a deeper level my experience is your experience. Dive deep within yourself and you will find it easily and simply. Go in the direction of &#39;I am&#39;.');
 
-$titles['c29'] = 'Hold on to ‚ÄòI am‚Äô';
+$titles['c29'] = 'Hold on to ëI amí';
 $data['c29'] = array();
 $data['c29'][77] = array('',
 'Questioner: Are you ever glad or sad? Do you know joy and sorrow?',
@@ -1480,7 +1480,7 @@ $data['c32'][92] = array('',
 'Q: What can make me love?',
 'M:You are love itself -- when you are not afraid.');
 
-$titles['c33'] = 'Living is Life‚Äôs only Purpose';
+$titles['c33'] = 'Living is Lifeís only Purpose';
 $data['c33'] = array();
 $data['c33'][93] = array('',
 'Questioner: What does it mean to fail inYoga? Who is a failure in Yoga (yoga bhrashta)?',
@@ -2618,7 +2618,7 @@ $data['c50'][165] = array('',
 $data['c50'][166] = array('',
 'Q: While in theory I am ready to pay any price, in actual life again and again I am being prompted to behave in ways which come in between me and reality. Desire carries me away.',
 'M:Increase and widen your desires till nothing but reality can fulfil them. It is not desire that is wrong, but its narrowness and smallness. Desire is devotion. By all means be devoted to the real, the infinite, the eternal heart of being. Transform desire into love. All you want is to be happy. All your desires, whatever they may be, are expressions of your longing for happiness. Basically, you wish yourself well.',
-'Q: I know that I should not‚Ä¶',
+'Q: I know that I should notÖ',
 'M:Wait! Who told you that you should not? What is wrong with wanting to be happy?',
 'Q: The self must go, l know.',
 'M:But the self is there. Your desires are there. Your longing to be happy is there. Why? Because you love yourself. By all means love yourself -- wisely. What is wrong is to love yourself stupidly, so as to make yourself suffer. Love yourself wisely. Both indulgence and austerity have the same purpose in view -- to make you happy. Indulgence is the stupid way, austerity is the wise way.',
@@ -4868,7 +4868,7 @@ $data['c88'][320] = array('',
 'Q: I feel my hold on the body is so strong that I just cannot give up the idea that I am the body. It will cling to me as long as the body lasts. There are people who maintain that no realisation is possible while alive and I feel inclined to agree with them.',
 'M:Before you agree or disagree, why not investigate the very idea of a body? Does the mind appear in the body or the body in the mind? Surely there must be a mind to conceive the &lsquo;I-am-the- body&rsquo; idea. A body without a mind cannot be &lsquo;my body&rsquo;. &lsquo;My body&rsquo; is invariably absent when the mind is in abeyance. It is also absent when the mind is deeply engaged in thoughts and feelings. Once you realise that the body depends on the mind, and the mind on consciousness, and consciousness on awareness and not the other way round, your question about waiting for self- realisation till you die is answered. It is not that you must be free from &lsquo;I-am-the-body&rsquo; idea first, and then realise the self. It is definitely the other way round -- you cling to the false, because you do not know the true. Earnestness, not perfection, is a precondition to self-realisation. Virtues and powers come with realisation, not before.');
 
-$titles['c89'] = '‚ÄòI am‚Äô: The Foundation of all Experience';
+$titles['c89'] = 'ëI amí: The Foundation of all Experience';
 $data['c89'] = array();
 $data['c89'][321] = array('',
 'Questioner: I hear you making statements about yourself like: &lsquo;I am timeless, immutable beyond attributes&rsquo;, etc. How do you know these things? And what makes you say them?',
@@ -5042,7 +5042,7 @@ $data['c91'][332] = array('',
 'Q: Is the &lsquo;I am&rsquo; the Ultimate?',
 'M:Before you can say: &lsquo;I am&rsquo;, you must be there to say it. Being need not be self-conscious. You need not know to be, but you must be to know.',
 'Q: Sir, I am getting drowned in a sea of words! I can see that all depends on how the words are out together, but there must be somebody to put them together -- meaningfully. By drawing words at random the Ramayana, Mahabharata and Bhagavata could never be produced. The theory of accidental emergence is not tenable. The origin of the meaningful must be beyond it. What is the power that creates order out of chaos? Living is more than being, and consciousness is more than living. Who is the conscious living being?',
-'M:Your question contains the answer: a conscious living being is a conscious living being. The words are most appropriate, but you do not grasp their full import. Go deep into the meaning of the words: being, living, conscious, and you will stop running in circles, asking questions, but missing answers. Do understand that you cannot ask a valid question about yourself, because you do not know whom you are asking about. In the question &lsquo;Who am I?&rsquo; the &lsquo;I&rsquo; is not known and the question can be worded as: ‚ÄúI do not know what I mean by &lsquo;I&rsquo;‚Äù What you are, you must find out. I can only tell you what you are not. You are not of the world, you are not even in the world. The world is not, you alone are. You create the world in your imagination like a dream. As you cannot separate the dream from yourself, so you cannot have an outer world independent of yourself. You are independent, not the world. Don&rsquo;t be afraid of a world you yourself have created. Cease from looking for happiness and reality in a dream and you will wake up. You need not know &lsquo;why&rsquo; and &lsquo;how&rsquo;, there is no end to questions. Abandon all desires, keep your mind silent and you shall discover.');
+'M:Your question contains the answer: a conscious living being is a conscious living being. The words are most appropriate, but you do not grasp their full import. Go deep into the meaning of the words: being, living, conscious, and you will stop running in circles, asking questions, but missing answers. Do understand that you cannot ask a valid question about yourself, because you do not know whom you are asking about. In the question &lsquo;Who am I?&rsquo; the &lsquo;I&rsquo; is not known and the question can be worded as: ìI do not know what I mean by &lsquo;I&rsquo;î What you are, you must find out. I can only tell you what you are not. You are not of the world, you are not even in the world. The world is not, you alone are. You create the world in your imagination like a dream. As you cannot separate the dream from yourself, so you cannot have an outer world independent of yourself. You are independent, not the world. Don&rsquo;t be afraid of a world you yourself have created. Cease from looking for happiness and reality in a dream and you will wake up. You need not know &lsquo;why&rsquo; and &lsquo;how&rsquo;, there is no end to questions. Abandon all desires, keep your mind silent and you shall discover.');
 
 $titles['c92'] = 'Knowledge by the Mind, is not True Knowledge';
 $data['c92'] = array();

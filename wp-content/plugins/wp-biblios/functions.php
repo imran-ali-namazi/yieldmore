@@ -32,6 +32,8 @@ function tsv_set_cols($lin, &$c)
 		$c->$value = $key;
 }
 
+if (!defined('WP_USE_THEMES')) return;
+
 if (!function_exists('cs_var')) {
 function cs_var($name, $val = null)
 {

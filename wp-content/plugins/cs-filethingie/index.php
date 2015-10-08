@@ -218,7 +218,7 @@ function ft_check_filetype($file) {
  */
 
 function ft_check_login() {
-	return current_user_can( 'edit_plugins' );
+	return current_user_can( 'editor' );
 }
 
 /**

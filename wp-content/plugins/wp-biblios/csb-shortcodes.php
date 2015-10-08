@@ -10,6 +10,7 @@ class WorksShortcodes
 		add_shortcode('data', array($cls, 'do_data'));
 		add_shortcode('info', array($cls, 'do_info'));
 		add_shortcode('bookmarks', array($cls, 'do_bookmarks'));
+		add_shortcode('faqs', array($cls, 'do_faqs'));
 	}
 
 	function do_tab($a, $content = null)
@@ -174,6 +175,24 @@ class WorksShortcodes
 
 	function disable_userlist($a, $c = null)
 	{
+	}
+
+	function do_faqs($a, $c = null)
+	{
+		$file = cs_var('bib-data') . '/' . $a['source'];
+		$rows = tsv_to_array(file_get_contents($file));
+		$lastSection = '';
+		echo PHP_EOL;
+		foreach ($rows as $row)
+		{
+			if ($lastSection != $row[1])
+				echo '<h2>' . $row[1] . '</h2>';
+
+			$lastSection = $row[1];
+
+			echo sprintf('<div class="question" id="faq-%s">%s</div>%s<div class="answer">%s</div>%s',
+				$row[0], $row[2], PHP_EOL, $row[3], PHP_EOL . PHP_EOL);
+		}
 	}
 }
 WorksShortcodes::init();

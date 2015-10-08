@@ -61,7 +61,7 @@ function desaindigital_post_format(){
 	$cat = get_the_category(get_the_ID());
 	if (count($cat))
 	{
-		$singular = array('People' => 'Person', 'Documentaries' => 'Documentary');
+		$singular = array('People' => 'Person', 'Documentaries' => 'Documentary', 'Glossary');
 		if (is_numeric(substr($cat[0]->name, 0, strpos($cat[0]->name, ' ')))) $singular[$cat[0]->name] = $cat[0]->name;
 		$same = array('Incubate', 'Ethos', 'Parents', 'Students');
 		$name = array_search($cat[0]->name, $same) !== false ? $cat[0]->name : (isset($singular[$cat[0]->name]) ? $singular[$cat[0]->name] : substr($cat[0]->name, 0, -1));
