@@ -20,7 +20,4 @@
 
 						} ?>
 				</div><!-- End .sidebar .clear -->
-				<h1 id='logo'><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<img src="<?php echo get_header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" />
-				</a></h1>
 			</div><!-- End #wrap-sidebar -->

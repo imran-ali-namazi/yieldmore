@@ -43,7 +43,7 @@
 
 			<?php
 				if (!is_user_logged_in()) { echo '<p align="center"><a href="' . wp_login_url() . '">Login / Register</a></p>'; }
-				if ($_SERVER['HTTP_HOST'] != 'yieldmore.org' && $_SERVER['HTTP_HOST'] != 'yield') echo '<p align="center">(A Project of <a href="http://yieldmore.org">YieldMore</a>)</p>';
+				CSWebparts::shell();
 				get_search_form();
 			} ?>
 

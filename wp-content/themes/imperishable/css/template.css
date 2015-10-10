@@ -22,6 +22,10 @@ body{
 	#wrap-left { width: 220px; position: fixed; overflow: auto; }
 	.jump-to-contents { display: none; }
 	#wrap-content{ position: absolute; }
+	#footer-about { width: 200px; float: left; }
+	#yield-footer { float: left; margin-left: 20px; }
+	#yield-footer div { float: left; }
+	#yield-footer .center { margin-top: 70px; }
 }
 
 #wrap-header{
