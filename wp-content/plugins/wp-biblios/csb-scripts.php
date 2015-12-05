@@ -12,11 +12,15 @@ class CSScripts
 
 	function post_thumbnails()
 	{
-		wp_register_script('bpopup', cs_var('bib-base') . '/assets/jquery.bpopup.min.js');
-		wp_enqueue_script('bpopup');
-
+		self::bpopup();
 		wp_register_script('posttn', cs_var('bib-base') . '/assets/post-thumbnails.js');
 		wp_enqueue_script('posttn');
+	}
+
+	function bpopup()
+	{
+		wp_register_script('bpopup', cs_var('bib-base') . '/assets/jquery.bpopup.min.js');
+		wp_enqueue_script('bpopup');
 	}
 
 	function accordion()

@@ -35,3 +35,5 @@ div.right { float: right; padding: 0 0 20px 20px; }
 
 #yield-footer .center { padding: 0 10px 0 10px; }
 #yield-footer img { border: none; }
+#info-link { position: relative; top: 8px; margin-left: 6px; }
+#info-body { background-color: #E2E2E2; max-width: 850px; padding: 20px; border-radius: 25px; }

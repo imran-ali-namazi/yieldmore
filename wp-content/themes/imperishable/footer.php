@@ -12,6 +12,7 @@
 		</div><!-- End .themeby .clear -->
 		<?php CSWebparts::footer(); ?>
 	</div><!-- End #wrap-footer -->
+	<?php CSWebparts::info('body'); ?>
 		<?php wp_footer(); ?>
 	</body>
 </html>

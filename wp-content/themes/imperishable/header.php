@@ -30,14 +30,14 @@
 		<div class='header'>
 			<?php
 			if (is_single() && cs_work_get('hasnav')) {?>
-				<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> <?php echo WorkConfig::dirLink('./'); ?></h2>
+				<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> <?php CSWebParts::info(); echo WorkConfig::dirLink('./'); ?></h2>
 				<?php
 				if (!is_user_logged_in()) { echo '<p align="center"><a href="' . wp_login_url() . '">Login / Register</a></p>'; }
 				cs_work_get('header'); 
 			} else {
 			?>
 
-			<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
+			<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a><?php CSWebParts::info(); ?></h2>
 			<h3 id="site-description"><?php echo str_replace(' - ','<br />', get_bloginfo( 'description' )); ?></h3>
 
 			<?php

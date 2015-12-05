@@ -1,6 +1,20 @@
 <?php
 class CSWebParts
 {
+	static function info($what = 'link')
+	{
+		if ($what == 'link')
+		{
+			CSScripts::bpopup();
+			echo '<a id="info-link" href="#"><img src="/wp-content/plugins/wp-biblios/assets/images/yield.gif" height="24" /></a>';
+			return;
+		}
+		echo '<div id="info-body" style="display: none;">';
+		echo '	<img src="/wp-content/plugins/wp-biblios/assets/images/yield-banner.png" /><br />';
+		echo file_get_contents(dirname(__FILE__) . '/assets/info.html');
+		echo '</div>';
+	}
+
 	static function shell()
 	{
 		$links = array(
@@ -100,8 +114,8 @@ class CSWebParts
 		);
 		echo sprintf('<a href="http://%s">%s</a>', $links[$what], $what);
 	}
-	
-	public static function also()
+
+	static function also()
 	{
 		echo '<br><br>See Also:';
 		$links = array(
