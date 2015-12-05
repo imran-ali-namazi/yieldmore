@@ -11,7 +11,10 @@ class CSWebParts
 		}
 		echo '<div id="info-body" style="display: none;">';
 		echo '	<img src="/wp-content/plugins/wp-biblios/assets/images/yield-banner.png" /><br />';
+		echo '<i>Clicking the animated image to the right of the header logo will launch this popup. <a href="javascript:$(\'#info-body\').bPopup().close();">click here to close</a></i><br/>';
+		//TODO: info for each subdomain...
 		echo file_get_contents(dirname(__FILE__) . '/assets/info.html');
+		if (is_home()) echo '<script>var showYMInfo = true;</script>';
 		echo '</div>';
 	}
 

@@ -33,4 +33,10 @@ $(document).ready(function() {
 	$("#info-link").click(function(){
 		$('#info-body').bPopup({follow: false, position: ['auto', $(window).scrollTop() + 20]});
 	});
+	if (typeof showYMInfo != 'undefined')
+	{
+		if (document.cookie != 'homeinfoshown')
+			$("#info-link").trigger('click');
+		document.cookie = 'homeinfoshown';
+	}
 });
