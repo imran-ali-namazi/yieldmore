@@ -16,7 +16,7 @@
 	.post-thumbnails .post-thumb { width: 250px; }
 }
 .post-thumbnails .post-thumb:hover { background-color: #CCE4CC; }
-.post-thumbnails #post-3 { display: none; }
+.site-1 .post-thumbnails #post-3 { display: none; }
 .post-thumbnails .post-format { height: 30px!important; }
 .post-thumbnails .post-content { height: 225px; overflow: hidden; clear: both; padding: 5px!important; }
 	.post-thumbnails .post-content p { margin-bottom: 0; }

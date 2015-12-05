@@ -21,7 +21,7 @@
 		wp_head();
 	?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class('site-' . get_current_blog_id()); ?>>
 
 <div id="wrap-upper">
 <?php if (!(is_single() && cs_work_get('hasnav'))) CSScripts::accordion(); ?>
