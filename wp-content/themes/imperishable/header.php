@@ -10,10 +10,9 @@
 		// Add the blog name.	
 		bloginfo( 'name' );	
 		// Add the blog description for the home/front page.	
-		$site_description = get_bloginfo( 'description', 'display' );	
-		if ( $site_description && ( is_home() || is_front_page() ) )		
-			echo " &raquo; $site_description"; ?>
-	</title>
+		$site_description = str_replace(' - ',' ', get_bloginfo( 'description'));
+		if ( $site_description && ( is_home() || is_front_page() ) )
+			echo " &raquo; $site_description"; ?></title>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
 	<link rel="stylesheet" href="/wp-content/themes/imperishable/css/yield.css" type="text/css" />
@@ -39,7 +38,7 @@
 			?>
 
 			<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
-			<h3 id="site-description"><?php bloginfo( 'description' ); ?></h3>
+			<h3 id="site-description"><?php echo str_replace(' - ','<br />', get_bloginfo( 'description' )); ?></h3>
 
 			<?php
 				if (!is_user_logged_in()) { echo '<p align="center"><a href="' . wp_login_url() . '">Login / Register</a></p>'; }

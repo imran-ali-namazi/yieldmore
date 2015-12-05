@@ -18,6 +18,8 @@ body{
 
 #wrap-left { float: left; width: 100%; }
 .jump-to-contents { display: block; }
+#yield-footer div { text-align: center; margin-bottom: 20px; }
+#footer-right { text-align: center; margin-bottom: 20px; }
 @media screen and (min-width: 1000px) {
 	#wrap-left { width: 220px; position: fixed; overflow: auto; }
 	.jump-to-contents { display: none; }
@@ -26,6 +28,7 @@ body{
 	#yield-footer { float: left; margin-left: 20px; }
 	#yield-footer div { float: left; }
 	#yield-footer .center { margin-top: 70px; }
+	#footer-right { float: right; margin-right: 20px; text-align: right; }
 }
 
 #wrap-header{

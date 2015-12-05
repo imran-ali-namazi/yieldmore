@@ -33,5 +33,5 @@ div.right { float: right; padding: 0 0 20px 20px; }
 .author-block { min-height: 100px; width: 350px; float: left; margin-right: 30px;}
 .author-block .avatar { float: left; margin-right: 20px; }
 
-#yield-footer div { padding: 10px; }
+#yield-footer .center { padding: 0 10px 0 10px; }
 #yield-footer img { border: none; }

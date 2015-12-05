@@ -13,24 +13,25 @@ ProjectFilesOnly=0
 Extensions=*.*
 [Project tree]
 biblios
-	+_3p
+	+_plugins
+		+admin
+			..\cs-admin\clean.php
+			..\cs-admin\csadmin.php
+			..\cs-admin\csa-scripts.php
+			..\cs-admin\htmlgen.php
+			..\cs-admin\reseed.php
 		+ft
 			..\cs-filethingie\siteconfig.php
 			..\cs-filethingie\shortcodes.php
 			..\cs-filethingie\register.php
 			..\cs-filethingie\index.php
 			..\cs-filethingie\iframe.php
-	-wp
-	+admin
-		..\cs-admin\clean.php
-		..\cs-admin\csadmin.php
-		..\cs-admin\csa-scripts.php
-		..\cs-admin\htmlgen.php
-		..\cs-admin\reseed.php
+	-2015
 	+imperishable
 		+css
 			..\..\themes\imperishable\css\yield.css
 			..\..\themes\imperishable\css\template.css
+			..\..\themes\imperishable\css\default.css
 		..\..\themes\imperishable\404.php
 		..\..\themes\imperishable\archive.php
 		..\..\themes\imperishable\changelog.txt
@@ -76,6 +77,7 @@ biblios
 		csb-scripts.php
 		csb-search.php
 		csb-shortcodes.php
+		csb-webparts.php
 		csb-widgets.php
 		csb-work.php
 		functions.php
@@ -84,10 +86,5 @@ biblios
 		work-config.php
 		wp-biblios.php
 [Open project files]
-0=..\..\themes\imperishable\archive.php
 [Selected Project Files]
 Main=
-Selected=..\..\themes\imperishable\archive.php
-[..\..\themes\imperishable\archive.php]
-TopLine=10
-Caret=115,31

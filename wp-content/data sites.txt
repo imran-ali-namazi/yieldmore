@@ -3,3 +3,5 @@ data2	english.yieldmore.org
 data3	learn.yieldmore.org
 data4	heal.yieldmore.org
 data5	share.yieldmore.org
+data6	recognize.yieldmore.org
+data7	accredit.yieldmore.org

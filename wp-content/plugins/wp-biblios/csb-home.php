@@ -7,7 +7,14 @@ function csb_home_query($query)
 	//print_r($query); die();
 	if (get_current_blog_id() != 1 && cs_var('csb_home_query')) return;
 	$query->query_vars['post_type'] = array('page', 'post', 'work');
-	if (get_current_blog_id() == 1) $query->query_vars['post__not_in'] = array(21); // users
+
+	$exclude = array(
+		1 => array(21), //Root: users
+		3 => array(2), //Learn: users
+	);
+	if (isset($exclude[get_current_blog_id()]))
+		$query->query_vars['post__not_in'] = $exclude[get_current_blog_id()];
+
 	$query->query_vars['posts_per_page'] = -1;
 	$query->query_vars['orderby'] = 'ID';
 	cs_var('csb_home_query', true);
