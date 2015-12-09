@@ -1,6 +1,6 @@
 </div><!-- wrap-upper -->
 	<div id='wrap-footer' class='clear' style='display: none;'>
-		<div id="footer-right">
+		<?php if (!cs_var('slim')) { ?><div id="footer-right">
 			<a target="_blank" href="https://bitbucket.org/ianamazi/yield/src/master/wp-content/themes/imperishable/?at=master">Imperishable</a><br />
 			by <a target="_blank" href="http://cselian.com/blog/about">Imran</a><br />
 			in <a target="_blank" href="http://wordpress.org/" title="WordPress">WordPress</a>
@@ -9,7 +9,7 @@
 		<div id="footer-about" style="text-align: center;">
 			<?php CSWebparts::notice(); ?>
 			<?php CSWebparts::social(); ?>
-		</div><!-- End .themeby .clear -->
+		</div><!-- End .themeby .clear --><?php } ?>
 		<?php CSWebparts::footer(); ?>
 	</div><!-- End #wrap-footer -->
 	<?php CSWebparts::info('body'); ?>

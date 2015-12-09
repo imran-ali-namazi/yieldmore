@@ -5,3 +5,4 @@ data4	heal.yieldmore.org
 data5	share.yieldmore.org
 data6	recognize.yieldmore.org
 data7	accredit.yieldmore.org
+data8	stats.yieldmore.org

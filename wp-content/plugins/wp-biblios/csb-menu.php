@@ -61,10 +61,12 @@ class WorkMenu
 		$fils = scandir($fol);
 		if (count($fils) == 2) { echo 'Folder is empty: ' . $fol; return; }
 		sort($fils);
+		$exclude = cs_var('exclude');
 		foreach ($fils as $fil)
 		{
-			if ($fil == '.' || $fil == '..') continue;
-			$name = str_replace('.txt', '', $fil);
+			if ($fil == '.' || $fil == '..' || $fil == 'images') continue;
+			$name = str_replace('.txt', '', str_replace('.html', '', $fil));
+			if ($exclude && substr($name, 0, strlen($exclude)) === $exclude) continue;
 			_nl(CHtml::link(str_replace('-', ' ', $name), WorkNav::post($id, $name)), 1);
 		}
 	}

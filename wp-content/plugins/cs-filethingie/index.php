@@ -1710,6 +1710,7 @@ function ft_settings_load() {
  * @return The filtered string.
  */
 function ft_stripslashes($string) {
+    return $string; //Imran - causing ' to get replaced with \'
   if (get_magic_quotes_gpc()) {
     return stripslashes($string);
   } else {
@@ -1907,7 +1908,7 @@ function ft_edit_page($act) {
 			if (ft_check_dir(ft_get_dir()) && ft_check_edit($_REQUEST['file']) && ft_check_fileactions() === TRUE && ft_check_filetype($_REQUEST['file']) && ft_check_filetype($_REQUEST['file'])) {
 				// Get file contents.
 				$filecontent = implode ("", file(ft_get_dir()."/{$_REQUEST["file"]}"));
-				$filecontent = htmlspecialchars($filecontent);
+				$filecontent = $filecontent; //Imran - remove htmlspecialchars(
 				if ($ft['plugins']['edit']['settings']['converttabs'] == TRUE) {
 					$filecontent = str_replace("\t", "    ", $filecontent);
 				}

@@ -40,6 +40,8 @@ class WorksShortcodes
 
 	function do_work($a, $content = null)
 	{
+		if (array_search('slim', $a) !== false && is_single()) cs_var('slim', true);
+		if (isset($a['exclude']) && is_single()) cs_var('exclude', $a['exclude']);
 		if (array_search('config', $a) !== false)
 		{
 			global $postConfig;

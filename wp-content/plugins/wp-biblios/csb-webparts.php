@@ -3,6 +3,7 @@ class CSWebParts
 {
 	static function info($what = 'link')
 	{
+		if (cs_var('slim')) return;
 		if ($what == 'link')
 		{
 			CSScripts::bpopup();
@@ -47,7 +48,7 @@ class CSWebParts
 	{
 		$defaultNotice = 'Content written for this website is copyleft (<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">creative commons nc sa</a>). Do respect the copyrights of quoted / published works like books, articles etc. <a href="mailto:shasa@cselian.com?subject=contribution - yieldmore" target="_blank">Contributions / alterations</a> welcome.';
 		$notices = array(
-			//'share.yieldmore.org' => '',
+			'share.yieldmore.org' => 'YieldMore does not endorse the views of the people and organizations posting here and cannot be held liable.',
 			'heal.yieldmore.org' => 'The reader is requested to exercise caution and discretion in using the information provided and is advised not to discontinue any medication he/she may be taking without consulting their doctor. We do not undertake any responsibility for any issues that may arise from following any of the practices mentioned on this website. <a href="mailto:shasa@cselian.com?subject=heal suggestions - yieldmore" target="_blank">Suggestions</a> welcome.',
 			'english.yieldmore.org' => 'All music and movies are copyrighted. Content is shared for educational purposes (learning english) only. <a href="mailto:shasa@cselian.com?subject=english suggestions - yieldmore" target="_blank">Suggestions</a> welcome.',
 			//'learn.yieldmore.org' => '',
@@ -72,6 +73,8 @@ class CSWebParts
 			$social['FB Learn YM'] = 'https://www.facebook.com/groups/LearnYM';
 		else if ($dom == 'heal.yieldmore.org')
 			$social['FB Heal YM'] = 'https://www.facebook.com/groups/HealYM';
+		else if ($dom == 'share.yieldmore.org')
+			$social['FB Share (Serve) YM'] = 'https://www.facebook.com/groups/ServeYM';
 
 		$op = array();
 		foreach ($social as $name=>$url)
@@ -80,7 +83,12 @@ class CSWebParts
 	}
 
 	static function footer()
-	{?>
+	{
+		if (cs_var('slim'))
+		{
+			echo 'This minisite created using the platform of <a href="http://yieldmore.org/about" target="_blank">YieldMore.org</a>.';
+			return;
+		}?>
 		<div id="yield-footer">
 			<div>
 				<img src="/wp-content/plugins/wp-biblios/assets/images/yield.png" />
@@ -124,6 +132,7 @@ class CSWebParts
 		$links = array(
 			'Recognize' => 'recognize.yieldmore.org',
 			'Accredit' => 'accredit.yieldmore.org',
+			'Statistics' => 'stats.yieldmore.org',
 		);
 		foreach ($links as $text=>$url)
 			echo sprintf('<br /><a href="http://%s">%s</a>', $url, $text);
