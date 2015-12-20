@@ -14,6 +14,8 @@ Extensions=*.*
 [Project tree]
 biblios
 	+_plugins
+		+_ref
+			..\..\..\..\..\blog\wp-content\plugins\cs-wheel\settings-configure.php
 		+admin
 			..\cs-admin\clean.php
 			..\cs-admin\csadmin.php
@@ -21,12 +23,11 @@ biblios
 			..\cs-admin\htmlgen.php
 			..\cs-admin\reseed.php
 		+ft
-			..\cs-filethingie\siteconfig.php
-			..\cs-filethingie\shortcodes.php
-			..\cs-filethingie\register.php
-			..\cs-filethingie\index.php
 			..\cs-filethingie\iframe.php
-	-2015
+			..\cs-filethingie\index.php
+			..\cs-filethingie\register.php
+			..\cs-filethingie\shortcodes.php
+			..\cs-filethingie\siteconfig.php
 	+imperishable
 		+css
 			..\..\themes\imperishable\css\yield.css
@@ -64,6 +65,8 @@ biblios
 			assets\work.png
 			assets\works.css
 			assets\works.js
+		+tools
+			tools\imagemap.php
 		csb-bookmark.php
 		csb-cache.php
 		csb-config.php
@@ -73,6 +76,7 @@ biblios
 		csb-login.php
 		csb-menu.php
 		csb-nav.php
+		csb-overview.php
 		csb-quote.php
 		csb-scripts.php
 		csb-search.php

@@ -16,7 +16,7 @@ $(document).ready(function () {
 <style type="text/css">
 <!--
 #imgmapdiv { height: 687px; width: 500px; }
-#imgmapdiv a { position: absolute; display: inline-block; }
+#imgmapdiv a { position: absolute; display: inline-block; height: 23px; }
 #imgmapdiv a { background-color: #000; opacity: .2; }
 //-->
 </style>
@@ -98,7 +98,8 @@ $(document).ready(function () {
 	};
 	$('img#imgmap').imgAreaSelect({ handles: true,
 			fadeSpeed: 200, onSelectChange: preview}); 
-	$("#areaset").click(function () {
+	$("#areaset").click(function (e) {
+		e.preventDefault();
 		$txt = prompt('enter the text');
 		if ($txt == null) return;
 

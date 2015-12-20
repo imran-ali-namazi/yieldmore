@@ -11,6 +11,7 @@ class WorksShortcodes
 		add_shortcode('info', array($cls, 'do_info'));
 		add_shortcode('bookmarks', array($cls, 'do_bookmarks'));
 		add_shortcode('faqs', array($cls, 'do_faqs'));
+		add_shortcode('dir', array($cls, 'do_dir'));
 	}
 
 	function do_tab($a, $content = null)
@@ -195,6 +196,27 @@ class WorksShortcodes
 			echo sprintf('<div class="question" id="faq-%s">%s</div>%s<div class="answer">%s</div>%s',
 				$row[0], $row[2], PHP_EOL, $row[3], PHP_EOL . PHP_EOL);
 		}
+	}
+
+	function do_dir($a, $c = null)
+	{
+		$cat = isset($_GET['type']) ? $_GET['type'] : (isset($a['type']) ? $a['type'] : false);
+		$fil = cs_var('bib-data') . '/../data/dir.tsv';
+		$cols = true;
+		$data = tsv_to_array(file_get_contents($fil), $cols);
+		$base = get_permalink();
+		echo '<table><th>SNo</th><th>Name</th><th>Type</th><th>Role</th><th>Joined</th><th>Sites</th></tr><tr><th></th><th colspan="5">Writeup</th></tr>' . PHP_EOL;
+		$row = '<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr><tr><td></td><td colspan="5">%s</td></tr>' . PHP_EOL;
+		foreach($data as $d)
+		{
+			if ($cat && $d[$cols->Sites] != '*' && strpos($d[$cols->Sites], $cat) === false) continue;
+
+			$sites = explode(',', $d[$cols->Sites]); $siteLinks = array();
+			//TODO: Point to diff sites once all pages are in place
+			foreach ($sites as $s) $siteLinks[] = sprintf('<a href="%s%s">%s</a>', $base, $s == '*' ? '' : '?type=' . $s, $s);
+			echo sprintf($row, $d[$cols->SNo], $d[$cols->Name], $d[$cols->Type], $d[$cols->Role], $d[$cols->Joined], implode(' ', $siteLinks), $d[$cols->Writeup]);
+		}
+		echo '</table>' . PHP_EOL;
 	}
 }
 WorksShortcodes::init();

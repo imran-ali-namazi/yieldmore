@@ -28,11 +28,11 @@
 				<?php next_post_link('<span class=\'alignright\'> %link </span><!-- End .next-post -->') ?>	
 			</div><!-- End .navigation .clear -->
 			
-			<div id='comment-wrap' class='clear'>
+			<?php if (!cs_work_get('hasnav')) { ?><div id='comment-wrap' class='clear'>
 
 					<?php comments_template(); ?>
 
-			</div><!-- End #comment-wrap .clear -->
+			</div><!-- End #comment-wrap .clear --><?php } ?>
 
 		<?php else: ?>
 
