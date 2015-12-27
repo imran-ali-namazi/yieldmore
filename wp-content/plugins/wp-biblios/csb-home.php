@@ -6,6 +6,7 @@ function csb_home_query($query)
 	if (!is_home()) return;
 	//print_r($query); die();
 	if (get_current_blog_id() != 1 && cs_var('csb_home_query')) return;
+	if ($query->query_vars['post_type'] == 'forum') return;
 	$query->query_vars['post_type'] = array('page', 'post', 'work');
 
 	$exclude = array(
