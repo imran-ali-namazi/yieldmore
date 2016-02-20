@@ -124,6 +124,7 @@ function cs_work_get($what)
 		else
 			include 'csb-' . (WorkNav::quote() ? 'quote' : (WorkNav::search() ? 'search' : 'content')) . '.php';
 	} else if ($what == 'sidebar') {
+		if (cs_var('logo')) echo sprintf('<img src="%s" alt="logo" width="160" style="margin-bottom: 15px;" />', cs_var('logo'));
 		_nl('<div class="widget bib-nav">');
 		WorkMenu::render($id, $wk);
 		_nl('</div>');

@@ -47,9 +47,10 @@ class WorksShortcodes
 		{
 			global $postConfig;
 			$postConfig = WorkConfig::read(get_the_ID(), $a);
+			if (isset($a['logo']))
+				cs_var('logo', cs_var('bib-data-url') . '/' . $a['fol'] . '/images/' . $a['logo']);
 			return '';
 		}
-
 		$id = isset($a['id']) ? $a['id'] : get_the_ID();
 
 		if (!isset($a['page']) && !isset($a['type'])) {
@@ -126,7 +127,11 @@ class WorksShortcodes
 				$bits[1] = trim($bits[1]);
 				$lnk = '<a href="%s" target="_blank">%s</a>';
 				if (strcasecmp($bits[0], 'Wiki') == 0) {
-					$bits[1] = sprintf($lnk, 'https://en.wikipedia.org/wiki/' . str_replace(' ', '_', $bits[1]), $bits[1]);
+					$text = explode('|', $bits[1]);
+					if (count($text) == 2)
+						$bits[1] = sprintf($lnk, 'https://en.wikipedia.org/wiki/' . str_replace(' ', '_', $text[0]), $text[1]);
+					else
+						$bits[1] = sprintf($lnk, 'https://en.wikipedia.org/wiki/' . str_replace(' ', '_', $bits[1]), $bits[1]);
 				} else if (strcasecmp($bits[0], 'quote') == 0) {
 					$bits[1] = sprintf($lnk, 'https://en.wikiquote.org/wiki/' . str_replace(' ', '_', $bits[1]), $bits[1]);
 				} else if (strcasecmp($bits[0], 'youtube') == 0) {

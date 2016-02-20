@@ -28,13 +28,18 @@ class CSWebParts
 			'H' => 'heal.yieldmore.org',
 			'E' => 'english.yieldmore.org',
 			'L' => 'learn.yieldmore.org',
-			'& YieldMore' => 'yieldmore.org',
+			'O' => 'o.yieldmore.org',
+			//'D' => 'less.yieldmore.org',
+			'& YM' => 'yieldmore.org',
 		);
 		$titles = array(
 			'S' => 'Share',
 			'H' => 'Heal',
 			'E' => 'Express',
 			'L' => 'Learn',
+			'O' => 'Organizations',
+			//'D' => 'Declutter',
+			'& YM' => 'Yield More',
 		);
 		$defltTitle = 'Get more out of life by living like Every Day Is Your Last';
 		$op = array();
@@ -43,7 +48,9 @@ class CSWebParts
 			$title = isset($titles[$letter]) ? $titles[$letter] : $defltTitle;
 			$op[] = sprintf('<a href="http://%s" title="%s">%s</a>', $url, $title, $letter);
 		}
-		echo '<p align="center">' . implode(' ', $op) . '</p>';
+		echo '<p align="center">' . implode(' ', $op);
+		self::info();
+		echo '</p>';
 	}
 
 	static function notice()
@@ -64,7 +71,7 @@ class CSWebParts
 	static function social()
 	{
 		$social = array(
-			'Facebook' => 'https://www.facebook.com/groups/YieldMore/',
+			'Facebook' => 'https://www.facebook.com/YieldMoreOrg/',
 			'Google+' => 'https://plus.google.com/b/112530158906132741775/',
 			'LinkedIn' => 'https://www.linkedin.com/company/yieldmore-org',
 			'YouTube' => 'https://www.youtube.com/channel/UC_iHhVADe1oSjP3oAi5bnnw/playlists',
@@ -132,12 +139,15 @@ class CSWebParts
 	{
 		echo '<br><br>See Also:';
 		$links = array(
-			'Recognize' => 'recognize.yieldmore.org',
-			'Accredit' => 'accredit.yieldmore.org',
-			'Statistics' => 'stats.yieldmore.org',
+			//'Less (declutter)' => 'less.yieldmore.org',
+			//'Organization'
+			'Blink (education)' => 'blinkfoundation.org',
+			//'Recognize' => 'recognize.yieldmore.org',
+			//'Accredit' => 'accredit.yieldmore.org',
+			//'Statistics' => 'stats.yieldmore.org',
 		);
 		foreach ($links as $text=>$url)
-			echo sprintf('<br /><a href="http://%s">%s</a>', $url, $text);
+			echo sprintf('<br /><a href="http://%s"%s>%s</a>', $url, $text == 'Blink (education)' ? ' target="_blank"' : '', $text);
 	}
 }
 ?>
