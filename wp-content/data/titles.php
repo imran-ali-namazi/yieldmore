@@ -1,7 +1,7 @@
 <?php
-if (false)
+if (true)
 {
-	include 'books/iat/content.php';
+	include 'poems/leithian/content.php'; //'books/iat';
 	foreach($titles as $key => $title)
 		echo (false && strlen($key) >= 4 ? 'sub' : '') . 'title:' . $title . PHP_EOL;
 }

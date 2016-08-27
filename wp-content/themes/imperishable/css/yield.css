@@ -28,6 +28,7 @@
 #post-preview .nav { float: right; background-color: #fff; padding: 6px; border-radius: 10px; margin-left: 10px; color: #000; font-weight: bold; }
 
 div.right { float: right; padding: 0 0 20px 20px; }
+blockquote p { margin-bottom: 10px; }
 
 /* Users plugin (/authors) */
 .author-block { min-height: 100px; width: 350px; float: left; margin-right: 30px;}

@@ -64,7 +64,7 @@ class WorkMenu
 		$exclude = cs_var('exclude'); //exclude the folder alone
 		foreach ($fils as $fil)
 		{
-			if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil == $exclude) continue;
+			if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil == 'docs' || $fil == $exclude) continue;
 			$name = str_replace('.txt', '', str_replace('.html', '', $fil));
 			//if ($exclude && substr($name, 0, strlen($exclude)) === $exclude) continue;
 			_nl(CHtml::link(str_replace('-', ' ', $name), WorkNav::post($id, $name)), 1);

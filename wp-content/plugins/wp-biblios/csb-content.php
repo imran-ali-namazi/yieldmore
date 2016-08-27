@@ -38,10 +38,19 @@ class WorkContent
 			$nodeKey = WorkNav::node();
 			$file = cs_var('bib-data') . '/' . $wk['fol'] . '/' . $nodeKey . '.html';
 
-			if (file_exists($file))
+			if (file_exists($file)) {
 				echo file_get_contents($file);
-			else
+				/*$chars = array(
+					'ú' => '&uacute;', //Ilúvatar
+					'ë' => '&euml;', //ainulindalë
+					'‘' => '&lsquo;',
+					'’' => '&rsquo;',
+				);
+				foreach($chars as $c=>$html) $txt = str_replace($c, $html, $txt);
+				echo $txt; TODO: fix encoding*/
+			} else {
 				echo 'Node ' . $nodeKey . ' not found';
+			}
 
 			return;
 		}

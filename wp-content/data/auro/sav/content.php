@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $data['b1c1'] = array();
 $data['b1c1'][1] = array('',"It was the hour before the Gods awake."
 ,"Across the path of the divine Event "

@@ -1,0 +1,15 @@
+<strong>Studying Pressure?</strong>
+There's only a month to go for the boards, and stress is on the rise among students. Poor coping and lack of proper guidance causes young people to burnout and perform poorly even with adequate preparation.
+
+Full Circle has designed a workshop to help them cope better using study skills, time and stress management techniques and memory tips. These are tried and tested methods put together from various disciplines - psychology, yoga, and mindfulness.
+
+<img src="images/study.jpg" alt="study" width="350" />
+
+<ul>
+	<li>Learning Style Assessment</li>
+	<li>Art and Movement Therapy</li>
+	<li>Relaxation Techniques / Test Anxiety Management</li>
+	<li>Motivation and Time Management</li>
+	<li>Flash Cards, Speed Reading, Note Taking and other Study Skills</li>
+	<li>Channelizing Energies and Productivity</li>
+</ul>

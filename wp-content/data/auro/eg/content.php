@@ -2513,7 +2513,7 @@ $data['s3c11'][605] = array('',
 '55. Be a doer of my works, accept Me as the supreme being and object, become my bhakta, be free from attachment and without enmity to all existences; for such a man comes to Me, O Pandava.');
 $data['s3c12'] = array();
 $data['s3c12'][606] = array('',
-' <i> </i>1. Arjuna said: Those devotees who thus by a constant union seek after Thee, and those who seek after the unmanifest Immutable, which of these have the greater knowledge of Yoga? ',
+'1. Arjuna said: Those devotees who thus by a constant union seek after Thee, and those who seek after the unmanifest Immutable, which of these have the greater knowledge of Yoga? ',
 '2. The Lord said: Those who found their mind in Me and by constant union, possessed of a supreme faith, seek after Me, I hold to be the most perfectly in union of Yoga. ',
 '3-4. But those who seek after the indefinable unmanifest Immutable omnipresent, unthinkable, self-poised, immobile, constant, they also by restraining all their senses, by the equality of their understanding and by their seeing of one self in all things and by their tranquil benignancy of silent will for the good of all existences, arrive to Me. ',
 '5. The difficulty of those who devote themselves to the search of the unmanifest Brahman is greater; it is a thing to which embodied souls can only arrive by a constant mortification, a suffering of all the repressed members, a stern difficulty and anguish of the nature. ',

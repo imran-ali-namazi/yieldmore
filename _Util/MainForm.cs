@@ -15,6 +15,7 @@ namespace Cselian.Biblios
 		{
 			return new BibReader[]
 			{
+				new Projects.LeithianReader(),
 				new Projects.QuranReader(),
 				new Projects.PORReader(),
 				new Projects.BGReader(),
