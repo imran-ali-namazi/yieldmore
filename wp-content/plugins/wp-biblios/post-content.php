@@ -10,7 +10,8 @@ class PostContent{
 		$folUrl = cs_var('bib-data-url') . '/' . $wk['fol'] . '/';
 		$content = str_replace('src="images', 'src="' . $folUrl . 'images', $content);
 		$content = str_replace('href="docs', 'href="' . $folUrl . 'docs', $content);
-		//remove_filter( 'the_content', 'wpautop' ); //TODO: why was this added in June 2016
+		if (isset($_GET['node']) && $_GET['node'] == 'pics')
+			remove_filter( 'the_content', 'wpautop' ); //silmarillion
 		$content = apply_filters('the_content', $content);
 		echo $content;
 	}

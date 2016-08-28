@@ -1,9 +1,9 @@
 <?php
 if (true)
 {
-	include 'poems/leithian/content.php'; //'books/iat';
+	include 'auro/hog/content.php'; //poems/leithian/ books/iat
 	foreach($titles as $key => $title)
-		echo (false && strlen($key) >= 4 ? 'sub' : '') . 'title:' . $title . PHP_EOL;
+		echo (strlen($key) >= 4 ? 'sub' : '') . 'title:' . $title . PHP_EOL;
 }
 else
 {

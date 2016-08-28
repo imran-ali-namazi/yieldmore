@@ -9,12 +9,16 @@ class BibliosOverview
 			self::head('YieldMore.org - All Sites');
 			self::multisite();
 		}
+		else if ($_GET['o'] == 'msdates')
+		{
+			self::multisitedates(); die();
+		}
 		else
 		{
 			self::head(get_bloginfo( 'name' ) . ' - All Content');
 			self::all();
 		}
-		die ('</body></html>');
+		die (PHP_EOL . '</body></html>');
 	}
 
 	function head($title)
@@ -24,7 +28,7 @@ class BibliosOverview
 <style type="text/css">
 body { font: 12pt Verdana; }
 a { color: #713D44; text-decoration: none; }
-h1 { font-size: 18pt; } h1 span { font-size: 15pt; margin-left: 30px; }
+h1 { font-size: 18pt; border: 1px solid #333; } h1 span { font-size: 15pt; margin-left: 30px; }
 </style>
 	</head>
 	<body>' . PHP_EOL;
@@ -34,7 +38,7 @@ h1 { font-size: 18pt; } h1 span { font-size: 15pt; margin-left: 30px; }
 	{
 		self::pages();
 		self::posts();
-		self::forums();
+		self::works();
 	}
 
 	function multisite()
@@ -57,6 +61,44 @@ h1 { font-size: 18pt; } h1 span { font-size: 15pt; margin-left: 30px; }
 		}
 	}
 
+	function multisitedates()
+	{
+		$sites = wp_get_sites();
+		$siteNames = array(
+			1 => 'Root',
+			2 => 'English',
+			3 => 'Learn',
+			4 => 'Heal',
+			5 => 'Share',
+			//6 => 'Recognize',
+			//7 => 'Accredit',
+			//8 => 'Stats',
+			//9 => 'Less'
+			10 => 'Directory'
+		);
+		echo 'Date Modified	Site - Id	Title	Description	Site	Type	Url';
+		foreach($sites as $site)
+		{
+			$siteName = isset($siteNames[$site['blog_id']]) ? $siteNames[$site['blog_id']] : $site['domain'];
+			switch_to_blog($site['blog_id']);
+			$id = $site['blog_id'] . '-';
+			$posts = get_posts(array('numberposts'=>20000,'orderby'=>'date',
+				'post_type'=>array('post','page','forum','topic','work')));
+			foreach($posts as $post)
+			{
+				echo PHP_EOL . sprintf('%s	\'%s	%s	%s	%s	%s	%s',
+					date('d/m/Y', strtotime($post->post_date)), //date
+					$id . $post->ID,
+					$post->post_title,
+					'[desc]',
+					$siteName,
+					strpos($post->post_content, '[work') === false ? 'Article' : 'Article / Text',
+					get_permalink($post->ID)
+				);
+			}
+		}
+	}
+
 	function pages()
 	{
 		$pages = get_pages();
@@ -69,7 +111,7 @@ h1 { font-size: 18pt; } h1 span { font-size: 15pt; margin-left: 30px; }
 				get_page_link($p->ID), $p->post_title, $ed);
 		}
 		$ed = $editor ? sprintf('<a href="%s" target="_blank">edit</a> / ', site_url('/wp-admin/edit.php?post_type=page')) : '';
-		echo '<b>Pages:</b> ' . $ed . implode(', ' . PHP_EOL, $op) . '<br/>' . PHP_EOL;
+		echo '<b>Pages:</b> ' . $ed . implode(', ' . PHP_EOL, $op) . '<br/><br/>' . PHP_EOL;
 	}
 
 	function posts()
@@ -81,49 +123,33 @@ h1 { font-size: 18pt; } h1 span { font-size: 15pt; margin-left: 30px; }
 			echo sprintf('<b><a href="%s" target="_blank">%s</a></b>: ' . PHP_EOL,
 				get_category_link($cat->term_id), $cat->name);
 			$posts = get_posts("numberposts=0&category=$cat->cat_ID");
+			$op = array();
 			foreach($posts as $post)
 			{
 				$ed = $editor ? sprintf(' <a href="%s" target="_blank">&hellip;</a>', get_edit_post_link($post->ID)) : '';
-				echo sprintf('  <a href="%s" target="_blank">%s</a>%s' . PHP_EOL, 
+				$op[] = sprintf('  <a href="%s" target="_blank">%s</a>%s', 
 get_permalink($post->ID), $post->post_title, $ed);
 			}
-			echo '<br/>';
+			echo implode(', ' . PHP_EOL, $op) . '<br/>';
 		}
 	}
 
-	function forums()
+	function works()
 	{
-		echo '<b>Forums:</b> ';
-		$query = new WP_Query( array( //from bbpress\includes\common\widgets.php
-			'post_type'           => bbp_get_forum_post_type(),
-			//'post_parent'         => $settings['parent_forum'],
-			'post_status'         => bbp_get_public_status_id(),
-			'posts_per_page'      => get_option( '_bbp_forums_per_page', 50 ),
-			'ignore_sticky_posts' => true,
-			'no_found_rows'       => true,
-			'orderby'             => 'menu_order title',
-			'order'               => 'ASC'
-		) );
-		if ($query->post_count == 0) echo 'None';
-		while ( $query->have_posts() ) {
-			$query->the_post();
-			echo '<br/><a href="'; bbp_forum_permalink($query->post->ID);
-			echo '">'; bbp_forum_title($query->post->ID);
-			echo '</a> ';
-			
-			//from bbpress\includes\topics\template.php
-			$topic_query = new WP_Query();
-			$topic_query->query_vars['post_type'] = bbp_get_topic_post_type();
-			$topic_query->in_the_loop             = true;
-			$topic_query->post                    = get_post( $query->post->ID );
-			//echo do_shortcode('[bbp-single-topic id=' . $query->post->ID . ']');
-			while ( $topic_query->have_posts() ) {
-				$topic_query->the_post();
-				echo '<a href="'; bbp_topic_permalink($topic_query->post->ID);
-				echo '">'; bbp_topic_title($topic_query->post->ID);
-				echo '</a> ';
-			}
+		$posts = get_posts('post_type=work&posts_per_page=-1');
+		if (!count($posts)) return;
+
+		echo '<b><a href="/works" target="_blank">Works</a></b>: ' . PHP_EOL;
+
+		$op = array();
+		foreach ($posts as $wk)
+		{
+			$id = $wk->ID;
+			$name = $wk->post_title;
+			$op[] = sprintf('<a href="%s" target="_blank">%s</a>', get_permalink($id), $name)
+				. sprintf(' <a href="%s" target="_blank">&hellip;</a>', get_edit_post_link($id));
 		}
+		echo implode(', ' . PHP_EOL, $op) . '<br/>';
 	}
 }
 add_action('init', array('BibliosOverview', 'init'));
