@@ -16,6 +16,7 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
 	<link rel="stylesheet" href="/wp-content/themes/imperishable/css/yield.css" type="text/css" />
+	<?php if (!is_single()) { ?><meta name="robots" content="noindex,follow"><?php } ?>
 	<?php
 		CSScripts::sidebar();
 		wp_head();

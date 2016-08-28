@@ -13,8 +13,12 @@ $(document).ready(function() {
 </script>
 <style type="text/css">
 <!--
-.photos a { float: left; margin: 0 5px; }
-//-->
+.photos a { float: left; margin: 0 5px 5px 0; }
+/*https://wordpress.org/support/topic/prettyphoto-lightbox-constantly-jumping-to-the-bottom-of-the-pages*/
+html {
+    overflow-y: scroll;
+    height: 101%;
+}//-->
 </style>
 
 <div class="photos">
