@@ -1,5 +1,4 @@
 /wp-admin
-/wp-content/data/hindu/gita
 /wp-content/index.php
 /wp-content/plugins/index.php
 /wp-content/themes/index.php
@@ -18,4 +17,3 @@ wp-*.php
 /wp-content/plugins/wp-biblios/assets/ref
 /wp-content/plugins/wp-mvc
 /wp-content/plugins/bbpress
-/wp-content/data/print/
