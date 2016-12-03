@@ -38,3 +38,4 @@ blockquote p { margin-bottom: 10px; }
 #yield-footer img { border: none; }
 #info-link { position: relative; top: 8px; margin-left: 6px; }
 #info-body { background-color: #E2E2E2; max-width: 850px; padding: 20px; border-radius: 25px; }
+#info-body a { color: #5A8921; font-weight: bold; font-family: Georgia, serif; }
