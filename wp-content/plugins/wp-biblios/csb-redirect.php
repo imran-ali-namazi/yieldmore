@@ -3,6 +3,11 @@ if (!isset($_GET['r'])) return;
 class BibliosRedirect
 {
 	private static $redirects = array(
+		'flyer' => 'https://docs.google.com/document/d/1b-mWCmPgAsem7zWF2jjaa3LwJOaNbuAPIezfK-RoTYM',
+		'overview' => 'https://docs.google.com/document/d/1ggB1BzlIJ-ZSps8FIaK26_dbA5bfFjKrNK3S2BlA8es',
+		'intro' => 'https://docs.google.com/document/d/1HAhSJvCjnXunhqnjTni74DuFc60ZyRNfL5iKHbruNaI',
+		'print' => 'http://yieldmore.org/wp-content/data/print',
+		null,
 		'fb' => 'https://facebook.com/groups/YieldMore',
 		'fb-page' => 'https://facebook.com/YieldMoreOrg',
 		'fb-learn' => 'https://facebook.com/groups/LearnYM',
@@ -15,13 +20,13 @@ class BibliosRedirect
 		'yt' => 'https://www.youtube.com/channel/UC_iHhVADe1oSjP3oAi5bnnw/playlists',
 		'yt2' => 'https://www.youtube.com/channel/UC1xoOUJaIw74Nn3HyD6Wdhw',
 		'li' => 'https://www.linkedin.com/company/yieldmore-org',
-		'discuss' => 'https://groups.google.com/forum/#!forum/yieldmore',
+		'group' => 'https://groups.google.com/forum/#!forum/yieldmore',
 		null,
 		'3a' => 'https://www.facebook.com/groups/AmmaiApparAgam/',
 		'yt-blink' => 'https://www.youtube.com/watch?v=6_3cB8Trcec&index=4&list=PLynUsr5OWn2EyfDw3J4G8VjVjIp_gulVM',
-		null,
-		'vamsa' => 'http://indiatemple.blogspot.in/2016/10/vamsa-quest-for-divine-calling.html',
-		'vamsa-amazon'=> 'http://www.amazon.in/Vamsa-Divine-Calling-Kavitha-Kalyan/dp/194612947X/ref=sr_1_1?ie=UTF8&qid=1475688279&sr=8-1&keywords=vamsa',
+		//null,
+		//'vamsa' => 'http://indiatemple.blogspot.in/2016/10/vamsa-quest-for-divine-calling.html',
+		//'vamsa-amazon'=> 'http://www.amazon.in/Vamsa-Divine-Calling-Kavitha-Kalyan/dp/194612947X/ref=sr_1_1?ie=UTF8&qid=1475688279&sr=8-1&keywords=vamsa',
 	);
 
 
