@@ -14,7 +14,7 @@ class CSWebParts
 		echo '	<img src="/wp-content/plugins/wp-biblios/assets/images/yield-banner.png" /><br />';
 		echo '<i>Clicking the animated image to the right of the header logo will launch this popup. <a style="background-color: #aec8ff;" href="javascript:$(\'#info-body\').bPopup().close();">click here to close</a></i><br/>';
 		echo '<a href="https://docs.google.com/document/d/1ggB1BzlIJ-ZSps8FIaK26_dbA5bfFjKrNK3S2BlA8es" target="_blank">This doc gives a complete intro</a> and can be seen on the <a href="http://yieldmore.org/about" target="_blank">about page</a>.';
-		echo ' See the <a href="/?o=1" target="_blank">Site Overview</a> or <a href="http://yieldmore.org/?o=msall" target="_blank">All Sites</a>.<br/>';
+		echo ' See the <a href="/?o=1" target="_blank">Site Overview</a> or <a href="http://yieldmore.org/?r=1" target="_blank">Social Media List</a>.<br/>';
 		//TODO: info for each subdomain...
 		echo file_get_contents(dirname(__FILE__) . '/assets/info.html');
 		if (is_home()) echo '<script>var showYMInfo = true;</script>';
@@ -28,7 +28,7 @@ class CSWebParts
 			'H' => 'heal.yieldmore.org',
 			'E' => 'english.yieldmore.org',
 			'L' => 'learn.yieldmore.org',
-			'O' => 'o.yieldmore.org',
+			'O' => 'dir.yieldmore.org',
 			//'D' => 'less.yieldmore.org',
 			'& YM' => 'yieldmore.org',
 		);
@@ -55,7 +55,7 @@ class CSWebParts
 
 	static function notice()
 	{
-		$defaultNotice = 'Content written for this website is copyleft (<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">creative commons nc sa</a>). Do respect the copyrights of quoted / published works like books, articles etc. <a href="mailto:shasa@cselian.com?subject=contribution - yieldmore" target="_blank">Contributions / alterations</a> welcome.';
+		$defaultNotice = 'Content written for this website is organized by topic and is generally <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">copyleft</a>, unless quoted/published from somewhere else. <a href="mailto:shasa@cselian.com?subject=contribution - yieldmore" target="_blank">Contributions / alterations</a> welcome.';
 		$notices = array(
 			'share.yieldmore.org' => 'YieldMore does not endorse the views of the people and organizations posting here and cannot be held liable.',
 			'heal.yieldmore.org' => 'The reader is requested to exercise caution and discretion in using the information provided and is advised not to discontinue any medication he/she may be taking without consulting their doctor. We do not undertake any responsibility for any issues that may arise from following any of the practices mentioned on this website. <a href="mailto:shasa@cselian.com?subject=heal suggestions - yieldmore" target="_blank">Suggestions</a> welcome.',
@@ -137,6 +137,7 @@ class CSWebParts
 
 	static function also()
 	{
+		return; //TODO: later
 		echo '<br><br>See Also:';
 		$links = array(
 			//'Less (declutter)' => 'less.yieldmore.org',
