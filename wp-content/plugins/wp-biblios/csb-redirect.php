@@ -16,12 +16,14 @@ class BibliosRedirect
 		'yt2' => 'https://www.youtube.com/channel/UC1xoOUJaIw74Nn3HyD6Wdhw',
 		'li' => 'https://www.linkedin.com/company/yieldmore-org',
 		'discuss' => 'https://groups.google.com/forum/#!forum/yieldmore',
+    'books' => 'https://books.google.co.in/books?uid=111519852770312117046',
 		null,
 		'3a' => 'https://www.facebook.com/groups/AmmaiApparAgam/',
 		'yt-blink' => 'https://www.youtube.com/watch?v=6_3cB8Trcec&index=4&list=PLynUsr5OWn2EyfDw3J4G8VjVjIp_gulVM',
 		null,
 		'vamsa' => 'http://indiatemple.blogspot.in/2016/10/vamsa-quest-for-divine-calling.html',
-		'vamsa-amazon'=> 'http://www.amazon.in/Vamsa-Divine-Calling-Kavitha-Kalyan/dp/194612947X/ref=sr_1_1?ie=UTF8&qid=1475688279&sr=8-1&keywords=vamsa',
+		'vamsa-amazon'=> 'http://www.amazon.in/Vamsa-Divine-Calling-Kavitha-Kalyan/dp/194612947X/ref=sr_1_1',
+    'vamsa-google'=> 'https://books.google.co.in/books?id=BvlEDQAAQBAJ',
 	);
 
 
