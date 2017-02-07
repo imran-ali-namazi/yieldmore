@@ -4,7 +4,7 @@ class BibliosOverview
 {
 	function init()
 	{
-		if ($_GET['o'] == 'msall')
+		if ($_GET['o'] == 'msall' || $_GET['o'] == 'msalld')
 		{
 			self::head('YieldMore.org - All Sites');
 			self::multisite();
@@ -29,6 +29,7 @@ class BibliosOverview
 body { font: 12pt Verdana; }
 a { color: #713D44; text-decoration: none; }
 h1 { font-size: 18pt; border: 1px solid #333; } h1 span { font-size: 15pt; margin-left: 30px; }
+h1.deleted { background-color: #faa; }
 </style>
 	</head>
 	<body>' . PHP_EOL;
@@ -47,9 +48,10 @@ h1 { font-size: 18pt; border: 1px solid #333; } h1 span { font-size: 15pt; margi
 		$editor = current_user_can('editor');
 		foreach($sites as $site)
 		{
+			if ($site['deleted'] && $_GET['o'] != 'msalld') continue;
 			switch_to_blog($site['blog_id']);
-			$ed = $editor ? sprintf(' <a href="%s/wp-admin/" target="_blank">Dashboard</a>', $site['domain']) : '';
-			echo sprintf('<h1><a href="http://%s" target="_blank">%s</a> <span><a href="http://%s/?o=1" target="_blank">Overview</a>' . $ed . '</span></h1>', $site['domain'], get_bloginfo('name'), $site['domain']);
+			$ed = $editor ? sprintf(' <a href="http://%s/wp-admin/" target="_blank">Dashboard</a>', $site['domain']) : '';
+			echo sprintf('<h1%s><a href="http://%s" target="_blank">%s</a> <span><a href="http://%s/?o=1" target="_blank">Overview</a>' . $ed . '</span></h1>', $site['deleted'] ? ' class="deleted"' : '',$site['domain'], get_bloginfo('name'), $site['domain']);
 			if ($_GET['o'] == 'msall') {
 				self::all();
 			} else {
