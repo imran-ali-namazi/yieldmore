@@ -2,6 +2,8 @@
 Compilator.SaveAll=0
 Compilator.Capture=0
 Compilator.HideOutput=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
 Compilator.LogType=0
 DefaultDir=D:\Imran\xampp\htdocs\cs\subds\ym\wp-content\plugins\wp-biblios
 DefaultCPIndex=0
@@ -55,6 +57,7 @@ biblios
 		+3p
 			3p\CHtml.php
 		+assets
+			assets\info.html
 			assets\jquery.sticky-kit.min.js
 			assets\jquery-ui.css
 			assets\jquery-ui-accordion.js
@@ -89,6 +92,16 @@ biblios
 		post-content.php
 		work-config.php
 		wp-biblios.php
+		csb-redirect.php
 [Open project files]
+0=csb-redirect.php
+1=csb-webparts.php
 [Selected Project Files]
 Main=
+Selected=csb-redirect.php
+[csb-redirect.php]
+TopLine=1
+Caret=97,13
+[csb-webparts.php]
+TopLine=2
+Caret=1,33

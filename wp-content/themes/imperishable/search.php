@@ -18,6 +18,7 @@
 		
 			<h1 class='title-search'>
 				<?php printf( __('Search Results for: <span>%s</span>', 'desaindigital'), get_search_query() ); ?>
+				<?php CSWebParts::cse(); ?>
 			</h1>
 
 		<?php while (have_posts()) : the_post(); ?>
@@ -58,6 +59,7 @@
 
 			<p><?php _e('Try another search: ', 'desaindigital') ?></p>
 			<?php get_search_form(); ?>
+			<?php CSWebParts::cse(); ?>
 
 		<?php endif; ?>
 

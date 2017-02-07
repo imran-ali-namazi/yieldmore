@@ -36,8 +36,10 @@ $(document).ready(function() {
 	});
 	if (typeof showYMInfo != 'undefined')
 	{
-		if (document.cookie != 'homeinfoshown')
+		if (document.cookie.indexOf('homeinfoshown') == -1)
+		{
 			$("#info-link").trigger('click');
-		document.cookie = 'homeinfoshown';
+			document.cookie = 'homeinfoshown';
+		}
 	}
 });
