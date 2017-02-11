@@ -1,7 +1,7 @@
 <?php
 class WorkBookmark
 {
-	function printLinkForWork($id)
+	static function printLinkForWork($id)
 	{
 		if (!is_user_logged_in()) return;
 		$bks = self::getBookmarks($id);
@@ -9,8 +9,8 @@ class WorkBookmark
 		$bk = $bks[0];
 		_nl(CHtml::link('Goto Bookmark', $bk->bk_url), 1);
 	}
-	
-	function pageLink($pg)
+
+	static function pageLink($pg)
 	{
 		if (!is_user_logged_in()) return '';
 		$url = WorkNav::post(get_the_ID(), WorkNav::node());
@@ -18,13 +18,13 @@ class WorkBookmark
 		return CHtml::link('Set Bookmark', $url, array('class'=>'bookmark'));
 	}
 
-	function name()
+	static function name()
 	{
 		global $post;
 		echo $post->post_title;
 	}
 
-	function getBookmarks($id = false)
+	static function getBookmarks($id = false)
 	{
 		global $wpdb;
 		$rows = $wpdb->get_results($wpdb->prepare(
@@ -36,7 +36,7 @@ class WorkBookmark
 		return $op;
 	}
 
-	function saveBookmark()
+	static function saveBookmark()
 	{
 		$id = $_POST['bkid'];
 		$name = $_POST['bkname'];

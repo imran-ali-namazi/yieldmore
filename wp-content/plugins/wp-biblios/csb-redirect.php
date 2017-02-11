@@ -93,7 +93,7 @@ class BibliosRedirect
 	);
 
 
-	function init()
+	static function init()
 	{
 		if ($_GET['r'] == 'all' || $_GET['r'] == '' || $_GET['r'] == '1')
 		{
@@ -107,7 +107,7 @@ class BibliosRedirect
 		header("Location: " . self::$redirects[$_GET['r']]);
 	}
 
-	function head($title)
+	static function head($title)
 	{
 		echo '<html>
 	<head><title>' . $title . '</title>

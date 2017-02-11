@@ -2,12 +2,7 @@
 // Tells from the url what state its in / what is 
 class WorkNav
 {
-	function __construct()
-	{
-		add_action('wp', array(&$this, 'action_head')); // if done in init, is_single returns false!
-	}
-	
-	function action_head()
+	static function action_head()
 	{
 		wp_register_style('bibworks-css', cs_var('bib-base') . '/assets/works.css');
 		wp_enqueue_style('bibworks-css');
@@ -21,8 +16,8 @@ class WorkNav
 		if (!cs_work_get('hascontent')) return; 
 		CSScripts::tabber();
 	}
-	
-	function admin($id = '', $what = 'config')
+
+	static function admin($id = '', $what = 'config')
 	{
 		if ($what == 'work')
 			return admin_url('post.php?post='.$id.'&action=edit');
@@ -32,8 +27,8 @@ class WorkNav
 		if ($id != '') $id = '&id=' . $id;
 		return admin_url('edit.php?post_type=work' . $page . $id);
 	}
-	
-	function post($id, $node = '', $page = '')
+
+	static function post($id, $node = '', $page = '')
 	{
 		if ($node == 'search') return get_permalink($id);
 		$qs = array();
@@ -44,63 +39,64 @@ class WorkNav
 		$qs = count($qs) == 0 ? '' : '?' . implode('&', $qs);
 		return get_permalink($id) . $qs;
 	}
-	
-	function termLink($t)
+
+	static function termLink($t)
 	{
 		return sprintf('<a href="%s" title="%s">%s</a>',
 				 get_term_link($t), $t->description, $t->name);
 	}
 
-	function typeLink($t, $url = 0)
+	static function typeLink($t, $url = 0)
 	{
 		if (!$url) $url = WorkConfig::dirLink('url');
 		return sprintf('<a href="%s?type=%s">%s</a> ',
 				$url, WorkConfig::formatType($t, 'slug'), WorkConfig::formatType($t));
 	}
-	
-	function type()
+
+	static function type()
 	{
 		if (!isset($_GET['type'])) return 0;
 		$t = $_GET['type'];
 		$types = WorkConfig::types('orig', 'slug'); // orig from slug
 		return $types[$t];
 	}
-	
+
 // These are getters from url
-	function nodeOrSearchOrQuoteOrAll()
+	static function nodeOrSearchOrQuoteOrAll()
 	{
 		return self::node() || self::search() || self::quote() || self::all();
 	}
 
-	function node()
+	static function node()
 	{
 		if (!isset($_GET['node'])) return 0;
 		return $_GET['node'];
 	}
 
-	function search()
+	static function search()
 	{
 		if (!isset($_GET['find'])) return 0;
 		return $_GET['find'];
 	}
 
-	function quote()
+	static function quote()
 	{
 		if (!isset($_GET['quote'])) return 0;
 		return $_GET['quote'];
 	}
 
-	function all()
+	static function all()
 	{
 		if (!isset($_GET['all'])) return 0;
 		return $_GET['all'];
 	}
 
-	function notabs()
+	static function notabs()
 	{
 		$qs = $_SERVER['QUERY_STRING'];
 		return './?' . (stripos($qs, 'notabs') === false ? $qs . '&notabs=1' : str_replace('&notabs=1', '', $qs));
 	}
 }
-new WorkNav();
+
+add_action('wp', array('WorkNav', 'action_head')); // if done in init, is_single returns false!
 ?>

@@ -3,7 +3,7 @@ class WorkConfig
 {
 	public static $optional = array('subtype', 'renderer', 'formats');
 
-	function read($id, $raw)
+	static function read($id, $raw)
 	{
 		$cfg = self::parse($raw);
 		$op = array(
@@ -25,24 +25,24 @@ class WorkConfig
 		return $op;
 	}
 
-	function fol($id, $rel, $url = 0)
+	static function fol($id, $rel, $url = 0)
 	{
 		$fol = cs_work_read($id, 'fol');
 		return sprintf('%s/%s/%s', $url ? content_url('data') : cs_var('bib-data'), $fol, $rel);
 	}
 
-	function edit_link($id, $txt = 'config')
+	static function edit_link($id, $txt = 'config')
 	{
 		return CHtml::link($txt, WorkNav::admin($id));
 	}
 
-	function dirLink($txt = 'Works')
+	static function dirLink($txt = 'Works')
 	{
 		$url = get_permalink(3);
 		return $txt == 'url' ? $url : CHtml::link($txt, $url);
 	}
 
-	function types($how = 'display', $key = 'orig')
+	static function types($how = 'display', $key = 'orig')
 	{
 		$types = explode('	', 'book	poem	short story');
 
@@ -52,7 +52,7 @@ class WorkConfig
 		return $op;
 	}
 
-	function formatType($t, $how = 'display')
+	static function formatType($t, $how = 'display')
 	{
 		if ($how === 0)
 			return 0;
@@ -66,7 +66,7 @@ class WorkConfig
 			throw new exception('Unknows format for type: ' . $how);
 	}
 
-	function import($cfg, $save = 1)
+	static function import($cfg, $save = 1)
 	{
 		include_once 'functions-dep.php';
 		// TODO: Remove after import
@@ -74,7 +74,7 @@ class WorkConfig
 		cs_work($id, $cfg);
 	}
 
-	function merge($raw, $new)
+	static function merge($raw, $new)
 	{
 		$lines = explode(PHP_EOL, self::sanitize($raw));
 		$op = array();
@@ -91,13 +91,13 @@ class WorkConfig
 		return implode(PHP_EOL, $op);
 	}
 
-	function sanitize($raw)
+	static function sanitize($raw)
 	{
 		$raw = str_replace(PHP_EOL, chr(10), $raw);
 		return str_replace(chr(10), PHP_EOL, $raw);
 	}
 
-	function parse($cfg)
+	static function parse($cfg)
 	{
 		if (is_array($cfg)) return $cfg;
 		// limit to 2 because headings & titles may have : in them
@@ -115,7 +115,7 @@ class WorkConfig
 		return $op;
 	}
 
-	function parse_title($l, &$op)
+	static function parse_title($l, &$op)
 	{
 		if ($l[0] != 'title' && $l[0] != 'subtitle') return 0;
 		if (!isset($op['titles'])) $op['titles'] = array(null);
@@ -135,7 +135,7 @@ class WorkConfig
 		return 1;
 	}
 
-	function parse_error(&$op, $error)
+	static function parse_error(&$op, $error)
 	{
 		if (!isset($op['errors'])) $op['errors'] = array();
 		$op['errors'][] = $error;

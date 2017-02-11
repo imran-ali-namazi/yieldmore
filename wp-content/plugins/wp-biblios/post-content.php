@@ -1,6 +1,6 @@
 <?php
 class PostContent{
-	public function display($wk)
+	static function display($wk)
 	{
 		$node = WorkNav::node();
 		$fol = cs_var('bib-data') . '/' . $wk['fol'];

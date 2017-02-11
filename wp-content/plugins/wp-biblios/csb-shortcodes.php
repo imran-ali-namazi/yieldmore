@@ -1,7 +1,7 @@
 <?php
 class WorksShortcodes
 {
-	function init()
+	static function init()
 	{
 		$cls = get_class();
 		add_shortcode('tab', array($cls, 'do_tab'));
@@ -14,7 +14,7 @@ class WorksShortcodes
 		add_shortcode('dir', array($cls, 'do_dir'));
 	}
 
-	function do_tab($a, $content = null)
+	static function do_tab($a, $content = null)
 	{
 		if ($a[0] == 'start') {
 			CSScripts::tabber();
@@ -31,7 +31,7 @@ class WorksShortcodes
 		}
 	}
 
-	function do_works($a, $content = null)
+	static function do_works($a, $content = null)
 	{
 		WorkCache::getWorks($types, $works);
 
@@ -39,7 +39,7 @@ class WorksShortcodes
 		self::works_r($works, $links);
 	}
 
-	function do_work($a, $content = null)
+	static function do_work($a, $content = null)
 	{
 		if (array_search('slim', $a) !== false && is_single()) cs_var('slim', true);
 		if (isset($a['exclude']) && is_single()) cs_var('exclude', $a['exclude']);
@@ -66,12 +66,12 @@ class WorksShortcodes
 		}
 	}
 
-	function do_data($a, $content = null)
+	static function do_data($a, $content = null)
 	{
 		return WorkConfig::fol(get_the_ID(), '', true);
 	}
 
-	private function types_r($types, $all)
+	private static function types_r($types, $all)
 	{
 		$links = array();
 		$url = get_permalink(get_the_id());
@@ -92,7 +92,7 @@ class WorksShortcodes
 		return $links;
 	}
 
-	private function works_r($works, $links)
+	private static function works_r($works, $links)
 	{
 		$admin = current_user_can('manage_options');
 		$op = '<table><tr><th>';
@@ -113,7 +113,7 @@ class WorksShortcodes
 		echo $op;
 	}
 
-	function do_info($a, $content = null)
+	static function do_info($a, $content = null)
 	{
 		$op = array();
 		$lines = explode('<br />', $content);
@@ -155,7 +155,7 @@ class WorksShortcodes
 		return PHP_EOL . '<blockquote class="info">' . implode('<br/>' . PHP_EOL, $op) . '</blockquote>';
 	}
 
-	function do_bookmarks($a, $content = null)
+	static function do_bookmarks($a, $content = null)
 	{
 		if (!isset($_GET['bookmarks']))
 		{
@@ -181,11 +181,11 @@ class WorksShortcodes
 		}
 	}
 
-	function disable_userlist($a, $c = null)
+	static function disable_userlist($a, $c = null)
 	{
 	}
 
-	function do_faqs($a, $c = null)
+	static function do_faqs($a, $c = null)
 	{
 		$file = cs_var('bib-data') . '/' . $a['source'];
 		$rows = tsv_to_array(file_get_contents($file));
@@ -203,7 +203,7 @@ class WorksShortcodes
 		}
 	}
 
-	function do_dir($a, $c = null)
+	static function do_dir($a, $c = null)
 	{
 		$cat = isset($_GET['type']) ? $_GET['type'] : (isset($a['type']) ? $a['type'] : false);
 		$fil = cs_var('bib-data') . '/../data/dir.tsv';

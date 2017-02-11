@@ -1,7 +1,7 @@
 <?php 
 class WorkSearch
 {
-	function find($wk, $id)
+	static function find($wk, $id)
 	{
 		$s = WorkNav::search();
 		$nodes = self::nodeList($wk);
@@ -42,8 +42,8 @@ class WorkSearch
 		if ($found) echo "<hr>";
 		echo sprintf("Found %s matches in %s items.", $found, $totalItems);
 	}
-	
-	private function nodeList($wk)
+
+	private static function nodeList($wk)
 	{
 		$titles = $wk['config']['titles'];
 		$tcnt = count($titles);

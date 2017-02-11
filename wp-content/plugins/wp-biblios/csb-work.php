@@ -79,5 +79,5 @@ class WorkRegistry
 }
 
 cs_var('bib-config-slug','config-work');
-new WorkRegistry();
+new WorkRegistry(); //TODO: Make static class
 ?>
