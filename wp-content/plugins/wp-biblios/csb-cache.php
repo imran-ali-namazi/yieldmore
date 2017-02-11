@@ -1,12 +1,12 @@
 <?php
 class WorkCache
 {
-	function clear()
+	static function clear()
 	{
 		self::value(false);
 	}
 	
-	private function value($val = null)
+	private static function value($val = null)
 	{
 		$cacheKey = 'workCache';
 		if ($val === false)
@@ -16,12 +16,12 @@ class WorkCache
 		else
 			set_transient($cacheKey, $val);
 	}
-	
+
 	public static $cols = 'Name	Type	Author';
 	public static $colName = 0;
 	public static $colType = 1;
-	
-	function getWorks(&$types, &$works)
+
+	static function getWorks(&$types, &$works)
 	{
 		$cache = self::value();
 		if ($cache && !isset($_GET['clearcache']))
@@ -55,7 +55,7 @@ class WorkCache
 		self::value(array('types' => $types, 'works' => $works));
 	}
 	
-	private function terms_r($wk, $type)
+	private static function terms_r($wk, $type)
 	{
 		$op = array();
 		$terms = get_the_terms($wk, $type);

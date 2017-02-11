@@ -3,7 +3,7 @@ class WorkMenu
 {
 	public static $previous = false, $next = false, $title = false;
 
-	function render($id, $wk)
+	static function render($id, $wk)
 	{
 		_nl(CHtml::link('Home', WorkNav::post($id)), 1);
 		if (get_post_type($id) == 'work')
@@ -34,14 +34,14 @@ class WorkMenu
 			self::links($id, $wk['config']);
 	}
 
-	function nodeLink($id, $a, $txt)
+	static function nodeLink($id, $a, $txt)
 	{
 		$cfg = cs_work_read($id, 'config');
 		$node = $cfg['slug'] . $a['node'] . (isset($cfg['slug2']) ? '-' . $cfg['slug2'] . $a['subnode'] : '');
 		return CHtml::link($txt, WorkNav::post($id, $node));
 	}
-	
-	private function links($id, $cfg)
+
+	private static function links($id, $cfg)
 	{
 		// TODO: make array and remove links: count workaround!
 		$dataUrl = WorkConfig::fol($id, '', 1);
@@ -54,7 +54,7 @@ class WorkMenu
 		}
 	}
 
-	private function text($id, $wk)
+	private static function text($id, $wk)
 	{
 		$fol = cs_var('bib-data') . '/' . $wk['fol'];
 		if (!is_dir($fol)) { echo 'Folder doesnt exist: ' . $fol; return; }
@@ -68,10 +68,11 @@ class WorkMenu
 			$name = str_replace('.txt', '', str_replace('.html', '', $fil));
 			//if ($exclude && substr($name, 0, strlen($exclude)) === $exclude) continue;
 			_nl(CHtml::link(str_replace('-', ' ', $name), WorkNav::post($id, $name)), 1);
+				//array('rel' => 'noindex,follow')), 1);
 		}
 	}
 
-	private function one($id, $wk)
+	private static function one($id, $wk)
 	{
 		$cur = isset($_GET['node']) ? $_GET['node'] : '';
 		extract($wk['config']);
@@ -96,13 +97,13 @@ class WorkMenu
 			_nl($i . '. ' . CHtml::link($titles[$i], WorkNav::post($id, $url), $atts), 1);
 		}
 	}
-	
-	private function name($customTitles, $title)
+
+	private static function name($customTitles, $title)
 	{
 		return $customTitles ? '&title=' . str_replace(' ', '-', strtolower($title)) : '';
 	}
-	
-	private function two($id, $wk)
+
+	private static function two($id, $wk)
 	{
 		$cur = isset($_GET['node']) ? $_GET['node'] : '';
 		extract($wk['config']);
@@ -164,7 +165,7 @@ class WorkMenu
 	}
 
 // These are for building
-	function getNodeId($wk, $array = 0)
+	static function getNodeId($wk, $array = 0)
 	{
 		$nodes = array();
 		$node = WorkNav::node();

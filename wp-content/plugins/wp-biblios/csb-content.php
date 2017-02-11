@@ -5,7 +5,7 @@ class WorkContent
 ';
 	private static $node;
 
-	public function display($wk, $a = 0)
+	static function display($wk, $a = 0)
 	{
 		$id = get_the_ID();
 		$dataFol = WorkConfig::fol($id, '');
@@ -61,7 +61,7 @@ class WorkContent
 		self::nodeFootnotes($extraData);
 	}
 
-	function showData($id, $a)
+	static function showData($id, $a)
 	{
 		$bars = array(
 			'slide' => '<a class="prev" href="#">&lt; prev</a> ' .
@@ -85,7 +85,7 @@ class WorkContent
 		return $op;
 	}
 
-	function nodeQuote($id, $a)
+	static function nodeQuote($id, $a)
 	{
 		// TODO: renderer
 		$wk = cs_work_read($id);
@@ -110,7 +110,7 @@ class WorkContent
 	}
 
 	//a is true and set when quoting
-	private function nodeTabs($node, $a)
+	private static function nodeTabs($node, $a)
 	{
 		foreach ($node as $i=>$items)
 		{
@@ -138,7 +138,7 @@ class WorkContent
 		}
 	}
 
-	private function all($wk, $data, $extraData)
+	private static function all($wk, $data, $extraData)
 	{
 		$nodes = WorkMenu::getNodeId($wk, 1);
 		$errors = '';
@@ -172,7 +172,7 @@ class WorkContent
 		echo $errors . $menu . PHP_EOL . $content;
 	}
 
-	private function tabberTab($heading, $selected = 0, $links = '')
+	private static function tabberTab($heading, $selected = 0, $links = '')
 	{
 		if (!$heading)
 		{
@@ -186,13 +186,13 @@ class WorkContent
 	', '<a name="pg' . $heading . '"></a>', $act, $heading, $links);
 	}
 
-	function formatItem($txt, $search, $i = null, $tab = null, $node = null)
+	static function formatItem($txt, $search, $i = null, $tab = null, $node = null)
 	{
 		$txt = str_replace('class="footnote" id="', 'class="footnote" id="' . self::$node . '-', $txt);
 		return $search ? $txt : sprintf(self::$itemFormat, $txt);
 	}
 
-	function nodeFootnotes($extraData)
+	static function nodeFootnotes($extraData)
 	{
 		if (!isset($extraData[self::$node])) return;
 		CSScripts::post_thumbnails(); //to have bPopup
@@ -202,7 +202,7 @@ class WorkContent
 		echo '</div>' . PHP_EOL;
 	}
 
-	function getInfo($what)
+	static function getInfo($what)
 	{
 		$id = get_the_ID();
 		$wk = cs_work_read($id);

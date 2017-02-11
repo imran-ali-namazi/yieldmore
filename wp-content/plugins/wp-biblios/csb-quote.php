@@ -1,7 +1,7 @@
 <?php
 class WorkQuote
 {
-	function render()
+	static function render()
 	{
 		$id = get_the_ID();
 
@@ -28,7 +28,7 @@ class WorkQuote
 		echo $content;
 	}
 
-	function readForm()
+	static function readForm()
 	{
 		$id = get_the_ID();
 
@@ -51,7 +51,7 @@ class WorkQuote
 			'endpage' => $endPage, 'endpara' => $item['ei']);
 	}
 
-	function readQuote($id, $name)
+	static function readQuote($id, $name)
 	{
 		global $wpdb;
 		$row = $wpdb->get_row($wpdb->prepare(
@@ -66,8 +66,8 @@ class WorkQuote
 
 		return $op;
 	}
-	
-	function getQuotes($id)
+
+	static function getQuotes($id)
 	{
 		global $wpdb;
 		$rows = $wpdb->get_results($wpdb->prepare(
@@ -81,7 +81,7 @@ class WorkQuote
 		return $op;
 	}
 
-	function saveQuote($id, $name, $value, $content)
+	static function saveQuote($id, $name, $value, $content)
 	{
 		$bits = array();
 		foreach ($value as $k=>$v)
