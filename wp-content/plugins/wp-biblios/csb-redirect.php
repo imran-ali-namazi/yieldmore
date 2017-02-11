@@ -43,10 +43,12 @@ class BibliosRedirect
 
 		'Content',
 		'allah' => 'http://yieldmore.org/wp-content/data/pdfs/allah-99-names.pdf',
+		'chakras' => 'http://yieldmore.org/practices/meditation/?node=chakras',
 		'death' => 'http://yieldmore.org/topics/death/?node=prayer-rebirth',
 		'gita' => 'http://yieldmore.org/works/essays-on-the-gita/',
 		'harmony' => 'http://yieldmore.org/movements/harmony/',
 		'india' => 'http://yieldmore.org/people/sri-aurobindo/?node=independance',
+		'meditation' => 'http://yieldmore.org/practices/meditation/',
 		'peace' => 'http://yieldmore.org/practices/prayer/?node=peace',
 		'prayer' => 'http://yieldmore.org/practices/prayer',
 		'religion' => 'http://yieldmore.org/topics/religion',
@@ -69,11 +71,13 @@ class BibliosRedirect
 		'fb-3a' => 'https://www.facebook.com/groups/AmmaiApparAgam/',
 
 		'Affiliates / Other Organizations',
-		'orgs' => 'https://docs.google.com/document/d/10C-swmuhHxEeXafAsghbGu4GS2e1OPN97CyD9ViblH0', //
+		'orgs' => 'https://docs.google.com/document/d/10C-swmuhHxEeXafAsghbGu4GS2e1OPN97CyD9ViblH0', //Ads
+		'affiliates' => 'https://docs.google.com/document/d/1ZC3z2iZudMyIJiYVSaPTd5uFPFZFXmEx6tmGUuWW5ls',
 		'brainsync' => 'http://yieldmore.org/programs/brainsync/',
 		'ppdo' => 'https://peoplesproblems.org/chatroom.php',
 		'ions' => 'http://yieldmore.org/organizations/institute-of-noetic-sciences/',
-		'mm' => 'http://mindfulmotherhood.org',
+		'mm' => 'http://www.noetic.org/education/self-study/mindful-motherhood-course',
+		'mm-doc' => 'https://docs.google.com/document/d/1cO4ciMcV9FVfN79L-AfndkhDYzz0uxMXPFOHmBl5fBE',
 		'j4d' => 'http://jobsfordyslexics.org/',
 
 		'iandeye' => 'http://iandeye.in/',
