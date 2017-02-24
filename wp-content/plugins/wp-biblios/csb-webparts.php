@@ -11,7 +11,7 @@ class CSWebParts
 			return;
 		}
 		echo '<div id="info-body" style="display: none;">';
-		echo '	<img src="/wp-content/plugins/wp-biblios/assets/images/yield-banner.png" /><br />';
+		//echo '	<img src="/wp-content/plugins/wp-biblios/assets/images/yield-banner.png" /><br />';
 		echo '<i>Clicking the animated image to the right of the header logo will launch this popup. <a style="background-color: #aec8ff;" href="javascript:$(\'#info-body\').bPopup().close();">click here to close</a></i><br/>';
 		echo '<a href="https://docs.google.com/document/d/1ggB1BzlIJ-ZSps8FIaK26_dbA5bfFjKrNK3S2BlA8es" target="_blank">This doc gives a complete intro</a> and can be seen on the <a href="http://yieldmore.org/about" target="_blank">about page</a>.';
 		echo ' See the <a href="/?o=1" target="_blank">Site Overview</a> or <a href="http://yieldmore.org/?r=1" target="_blank">Social Media List</a>.<br/>';
@@ -24,11 +24,11 @@ class CSWebParts
 	static function shell()
 	{
 		$links = array(
-			'S' => 'share.yieldmore.org',
-			'H' => 'heal.yieldmore.org',
-			'E' => 'english.yieldmore.org',
 			'L' => 'learn.yieldmore.org',
-			'O' => 'dir.yieldmore.org',
+			'H' => 'heal.yieldmore.org',
+			'S' => 'share.yieldmore.org',
+			'E' => 'english.yieldmore.org',
+			//'O' => 'dir.yieldmore.org',
 			//'D' => 'less.yieldmore.org',
 			'& YM' => 'yieldmore.org',
 		);
@@ -37,7 +37,7 @@ class CSWebParts
 			'H' => 'Heal',
 			'E' => 'Express',
 			'L' => 'Learn',
-			'O' => 'Organizations',
+			//'O' => 'Organizations',
 			//'D' => 'Declutter',
 			'& YM' => 'Yield More',
 		);
@@ -55,6 +55,7 @@ class CSWebParts
 
 	static function notice()
 	{
+		return;
 		$defaultNotice = 'Content written for this website is organized by topic and is generally <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">copyleft</a>, unless quoted/published from somewhere else. <a href="mailto:shasa@cselian.com?subject=contribution - yieldmore" target="_blank">Contributions / alterations</a> welcome.';
 		$notices = array(
 			'share.yieldmore.org' => 'YieldMore does not endorse the views of the people and organizations posting here and cannot be held liable.',
@@ -70,6 +71,9 @@ class CSWebParts
 
 	static function social()
 	{
+		echo sprintf('<p><a href="%s" target="_blank">%s</a></p>', 'http://yieldmore.org/?r=1', 'Social Media Links');
+		return;
+
 		$social = array(
 			'Facebook' => 'https://www.facebook.com/YieldMoreOrg/',
 			'Google+' => 'https://plus.google.com/b/112530158906132741775/',
@@ -97,7 +101,11 @@ class CSWebParts
 		{
 			echo 'This minisite created using the platform of <a href="http://yieldmore.org/about" target="_blank">YieldMore.org</a>.';
 			return;
-		}?>
+		}
+		echo 'Do respect the copyrights of published / reposted content. For more about YieldMore.org, click
+			<a href="http://yieldmore.org/about">here</a>.
+			See <a href="/?o=1" target="_blank">Overview</a>, <a href="http://yieldmore.org/?o=1" target="_blank">ALL</a> or <a href="http://yieldmore.org/?r=1" target="_blank">Redirects</a>'; return;
+		?>
 		<div id="yield-footer">
 			<div>
 				<img src="/wp-content/plugins/wp-biblios/assets/images/yield.png" />

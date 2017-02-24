@@ -34,6 +34,9 @@ blockquote p { margin-bottom: 10px; }
 .author-block { min-height: 100px; width: 350px; float: left; margin-right: 30px;}
 .author-block .avatar { float: left; margin-right: 20px; }
 
+#wrap-footer { padding: 5px 0!important; }
+#footer-right, #footer-about p { margin-bottom: 0px; }
+
 #yield-footer .center { padding: 0 10px 0 10px; }
 #yield-footer img { border: none; }
 #info-link { position: relative; top: 8px; margin-left: 6px; }
