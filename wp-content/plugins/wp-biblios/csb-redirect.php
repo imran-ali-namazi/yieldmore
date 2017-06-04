@@ -106,6 +106,7 @@ class BibliosRedirect
 			'ted-goodcountry' => 'https://www.ted.com/talks/simon_anholt_which_country_does_the_most_good_for_the_world',
 			'goodcountry-ppt' => 'https://docs.google.com/presentation/d/1pQsxWUcb3fJJ_xbNlfmXdjnl2Mh1w-5sQAav8TR1JXE',
 			'goodcountry-video' => 'https://www.youtube.com/watch?v=9eV0oOJSRuU',
+		'esther' => 'http://heal.yieldmore.org/helpers/wisdoms-whisper-spirits-scribe/',
 
 
 		/*'Other People',
