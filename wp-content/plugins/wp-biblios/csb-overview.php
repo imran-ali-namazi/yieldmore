@@ -30,15 +30,22 @@ body { font: 12pt Verdana; }
 a { color: #713D44; text-decoration: none; }
 h1 { font-size: 18pt; border: 1px solid #333; } h1 span { font-size: 15pt; margin-left: 30px; }
 h1.deleted { background-color: #faa; }
+#menu a { display: inline-block; padding: 8px; background-color: #71C176; color: #fff; font-weight: bold; }
+#menu .selected { text-decoration: underline; color: #FFE793; }
 </style>
 	</head>
 	<body>' . PHP_EOL;
+	$sel = $_GET['o'] == 1 ? 'selected' : '';
+	$all = $_GET['o'] != 1 ? 'selected' : '';
+	echo '<div id="menu"><a href="/about">About YieldMore.org</a> / <a class="' . $sel . '" href="/?o=1">Content Overview</a> / <a class="' . $all . '" href="http://yieldmore.org/?o=msall">Overview in All Sites</a> / <a href="http://yieldmore.org/?r=1">Redirects and Social Media Links</a></div>' . PHP_EOL;
 	}
 
 	function all()
 	{
+		echo '<br/>';
 		self::pages();
 		self::posts();
+		echo '<br/>';
 		self::works();
 	}
 
@@ -118,13 +125,13 @@ h1.deleted { background-color: #faa; }
 
 	function posts()
 	{
-		$cats = get_categories('order=1&hierarchical=true');
+		$cats = get_categories('orderby=name&hierarchical=true');
 		$editor = current_user_can('editor');
 		foreach($cats as $cat)
 		{
 			echo sprintf('<b><a href="%s" target="_blank">%s</a></b>: ' . PHP_EOL,
 				get_category_link($cat->term_id), $cat->name);
-			$posts = get_posts("numberposts=0&category=$cat->cat_ID");
+			$posts = get_posts("orderby=name&order=ASC&numberposts=0&category=$cat->cat_ID");
 			$op = array();
 			foreach($posts as $post)
 			{
@@ -154,5 +161,9 @@ get_permalink($post->ID), $post->post_title, $ed);
 		echo implode(', ' . PHP_EOL, $op) . '<br/>';
 	}
 }
-add_action('init', array('BibliosOverview', 'init'));
+
+if (function_exists('add_action'))
+	add_action('init', array('BibliosOverview', 'init'));
+else
+	BibliosOverview::init();
 ?>
