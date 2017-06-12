@@ -4,8 +4,9 @@ class BibliosRedirect
 {
 	private static $redirects = array(
 		'About YM',
-		'pr' => 'https://docs.google.com/document/d/1b-mWCmPgAsem7zWF2jjaa3LwJOaNbuAPIezfK-RoTYM',
-		'pr-new' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',
+		'pr' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',
+			'pr-new' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',
+		'pr-old' => 'https://docs.google.com/document/d/1b-mWCmPgAsem7zWF2jjaa3LwJOaNbuAPIezfK-RoTYM',
 		'what' => 'https://docs.google.com/document/d/1ggB1BzlIJ-ZSps8FIaK26_dbA5bfFjKrNK3S2BlA8es',
 		'what-ppt' => 'https://docs.google.com/presentation/d/1HFwhF3H3O3qJYTbbpepxfgqx40NKYSdC9jacAaoGTn0',
 		//'intro' => 'https://docs.google.com/document/d/1HAhSJvCjnXunhqnjTni74DuFc60ZyRNfL5iKHbruNaI', //Orgs / YieldMore - defunct
@@ -47,7 +48,12 @@ class BibliosRedirect
 		'wa-bangalore' => 'https://chat.whatsapp.com/7ZsaQT9lluoBu442I52235',
 		'wa-curators' => 'https://chat.whatsapp.com/FRsUI2b7mfV9nGGVsfWlsD',
 		'wa-players' => 'https://chat.whatsapp.com/JqzmMEJPvNo8X2r5vo1UhJ',
+		'wa-youth' => 'https://chat.whatsapp.com/Aq5Cc2KiUV4FtOsMMruRAy', //Inspiring Youth
+		'wa-forum' => 'https://chat.whatsapp.com/G2p8ytvH1NgBFt1hJXcWsv', //Better Living Forum YM
 		'tl-iran' => 'https://web.telegram.org/#/im?p=g210063115',
+
+		'Ventures',
+		'youth-doc' => 'https://docs.google.com/document/d/1zVd6qPowYaBraA4B4UH_3Oj-tCTJKbtaQU7N-hwrdRU',
 
 		'Contributors',
 		'imran' => 'http://yieldmore.org/incubate/essays-to-a-swan/',
@@ -80,6 +86,7 @@ class BibliosRedirect
 		'peace-doc' => 'https://docs.google.com/document/d/1ySo1iRxvRiGlL6nPmP0BenlCkEgovBZXEOKJUScs8eA',
 		'harmony-form' => 'https://docs.google.com/a/cselian.com/forms/d/1vBmQQ2z17wDkK6e0T_-62Mvq04SD_QQ53LaLimXTDZ4',
 		'harmony-doc' => 'https://docs.google.com/document/d/1hn3I5O5_LTAVXYJuTqKu3903tvo82N357F3h2WGce9o',
+		'diabetes-doc' => 'https://docs.google.com/presentation/d/1kfTax908_HXS80PAjcnNL0Xp_nKkjKmQ0K18tIIevlM', //Viji
 		
 		'Content on the web',
 		'bible' => 'https://www.cph.org/t-tlsb.aspx',
@@ -107,6 +114,7 @@ class BibliosRedirect
 			'goodcountry-ppt' => 'https://docs.google.com/presentation/d/1pQsxWUcb3fJJ_xbNlfmXdjnl2Mh1w-5sQAav8TR1JXE',
 			'goodcountry-video' => 'https://www.youtube.com/watch?v=9eV0oOJSRuU',
 		'esther' => 'http://heal.yieldmore.org/helpers/wisdoms-whisper-spirits-scribe/',
+		'specialsources' => 'http://specialsources.com',
 
 
 		/*'Other People',
