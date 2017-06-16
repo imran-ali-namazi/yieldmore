@@ -13,11 +13,9 @@ class CSWebParts
 		echo '<div id="info-body" style="display: none;">';
 		//echo '	<img src="/wp-content/plugins/wp-biblios/assets/images/yield-banner.png" /><br />';
 		echo '<i>Clicking the animated image to the right of the header logo will launch this popup. <a style="background-color: #aec8ff;" href="javascript:$(\'#info-body\').bPopup().close();">click here to close</a></i><br/>';
-		echo '<a href="https://docs.google.com/document/d/1ggB1BzlIJ-ZSps8FIaK26_dbA5bfFjKrNK3S2BlA8es" target="_blank">This doc gives a complete intro</a> and can be seen on the <a href="http://yieldmore.org/about" target="_blank">about page</a>.';
-		echo ' See the <a href="/?o=1" target="_blank">Site Overview</a> or <a href="http://yieldmore.org/?r=1" target="_blank">Social Media List</a>.<br/>';
 		//TODO: info for each subdomain...
-		echo file_get_contents(dirname(__FILE__) . '/assets/info.html');
-		if (is_home()) echo '<script>var showYMInfo = true;</script>';
+		echo file_get_contents(dirname(__FILE__) . '/assets/info.html') . PHP_EOL;
+		if (is_home()) echo '<script>var showYMInfo = true;</script>' . PHP_EOL;
 		echo '</div>';
 	}
 

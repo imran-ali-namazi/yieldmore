@@ -15,7 +15,7 @@ ProjectFilesOnly=0
 Extensions=*.*
 [Project tree]
 biblios
-	+_plugins
+	-_plugins
 		+_ref
 			..\..\..\..\..\blog\wp-content\plugins\cs-wheel\settings-configure.php
 		+admin
@@ -81,6 +81,7 @@ biblios
 		csb-nav.php
 		csb-overview.php
 		csb-quote.php
+		csb-redirect.php
 		csb-scripts.php
 		csb-search.php
 		csb-shortcodes.php
@@ -92,16 +93,19 @@ biblios
 		post-content.php
 		work-config.php
 		wp-biblios.php
-		csb-redirect.php
 [Open project files]
-0=csb-redirect.php
-1=csb-webparts.php
+0=csb-webparts.php
+1=csb-shortcodes.php
+2=functions.php
 [Selected Project Files]
 Main=
-Selected=csb-redirect.php
-[csb-redirect.php]
-TopLine=1
-Caret=97,13
+Selected=csb-shortcodes.php
 [csb-webparts.php]
-TopLine=2
-Caret=1,33
+TopLine=1
+Caret=1,4
+[csb-shortcodes.php]
+TopLine=199
+Caret=1,214
+[functions.php]
+TopLine=67
+Caret=50,79
