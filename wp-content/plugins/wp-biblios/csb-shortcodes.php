@@ -11,6 +11,7 @@ class WorksShortcodes
 		add_shortcode('info', array($cls, 'do_info'));
 		add_shortcode('bookmarks', array($cls, 'do_bookmarks'));
 		add_shortcode('faqs', array($cls, 'do_faqs'));
+		add_shortcode('quotes', array($cls, 'do_quotes'));
 		add_shortcode('dir', array($cls, 'do_dir'));
 	}
 
@@ -201,6 +202,34 @@ class WorksShortcodes
 			echo sprintf('<div class="question" id="faq-%s">%s</div>%s<div class="answer">%s</div>%s',
 				$row[0], $row[2], PHP_EOL, $row[3], PHP_EOL . PHP_EOL);
 		}
+	}
+
+	public static $callingWork = false; //HACK: needed since quotes goes along with work and do_shortcode is called in functions.php
+
+	//[quotes fol=quotes/submitted count=5 animate][/quotes]
+	static function do_quotes($a, $c = null)
+	{
+		if (self::$callingWork) return;
+
+		$fol = cs_var('bib-data') . '/' . $a['fol'];
+		$files = scandir($fol);
+		$index = rand(2, count($files) - 1);
+
+		$rndFile = isset($a['file']) ? $a['file'] . '.txt' : $files[$index];
+		$file = $fol . '/' . $rndFile;
+
+		$quotes = explode(PHP_EOL . PHP_EOL, file_get_contents($file));
+		$count = isset($a['count']) ? intval($a['count']) : 5;
+		$op = array();
+
+		$numbers = range(0, count($quotes) - 1); shuffle($numbers); //https://stackoverflow.com/a/5612704
+		$rand = array_slice($numbers, 0, $count);
+		foreach ($rand as $i)
+			$op[] = '<li>' . $quotes[$i] . '</li>';
+
+		$link = str_replace('.txt', '', $rndFile);
+		echo sprintf('#%s <a href="%s">%s</a>: ', $index - 1, get_permalink() . '?node=' . $link, $link); 
+		echo '<ol class="quotes">' . implode(PHP_EOL, $op) . '</ol>';
 	}
 
 	static function do_dir($a, $c = null)

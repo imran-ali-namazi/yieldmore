@@ -74,7 +74,9 @@ function cs_work($id, $data = null)
 			global $post;
 			$content = $post->post_content;
 			if (!has_shortcode($content, 'work')) return array();
+			WorksShortcodes::$callingWork = true;
 			do_shortcode($content);
+			WorksShortcodes::$callingWork = false;
 			global $postConfig;
 			return $postConfig;
 		}
