@@ -146,6 +146,9 @@ class WorksShortcodes
 				} else if (strcasecmp($bits[0], 'link') == 0) {
 					$url = explode('|', $bits[1]);
 					$bits[1] = sprintf($lnk, $url[0], count($url) == 1 ? $url[0] : $url[1] );
+				} else if (strcasecmp($bits[0], 'mp3') == 0) {
+					$url = explode('|', $bits[1]);
+					$bits[1] = self::do_mp3($url[0], count($url) == 1 ? $url[0] : $url[1]);
 				}
 				$op[] = '<b>' . $bits[0] . ':</b> ' . $bits[1];
 			} else {
@@ -154,6 +157,12 @@ class WorksShortcodes
 		}
 		if (!count($op)) return; //if only pdf and not logged in
 		return PHP_EOL . '<blockquote class="info">' . implode('<br/>' . PHP_EOL, $op) . '</blockquote>';
+	}
+
+	static function do_mp3($url, $text)
+	{
+		return '<br/><audio controls class="csmp3" style="min-width: 250px; width: 80%;"><source src="'.$url.'" type="audio/mpeg">Your browser does not support the audio element.</audio>'
+			. '<br/><a href="'.$url.'" target="_blank">'.$text.'</a><hr/>';
 	}
 
 	static function do_bookmarks($a, $content = null)

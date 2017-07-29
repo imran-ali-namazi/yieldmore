@@ -9,7 +9,7 @@ class BibliosRedirect
 		'pr-old' => 'https://docs.google.com/document/d/1b-mWCmPgAsem7zWF2jjaa3LwJOaNbuAPIezfK-RoTYM',
 		'what' => 'https://docs.google.com/document/d/1ggB1BzlIJ-ZSps8FIaK26_dbA5bfFjKrNK3S2BlA8es',
 		'what-ppt' => 'https://docs.google.com/presentation/d/1HFwhF3H3O3qJYTbbpepxfgqx40NKYSdC9jacAaoGTn0',
-		//'intro' => 'https://docs.google.com/document/d/1HAhSJvCjnXunhqnjTni74DuFc60ZyRNfL5iKHbruNaI', //Orgs / YieldMore - defunct
+		'intros-all' => 'https://docs.google.com/document/d/1HAhSJvCjnXunhqnjTni74DuFc60ZyRNfL5iKHbruNaI', //Orgs / YieldMore - defunct
 		'video' => 'https://www.youtube.com/watch?v=PTIqjpkF5Ss',
 		'video-ppt' => 'https://docs.google.com/presentation/d/1fS_cAjxmNRoT3dUtKNePVMc-eTOM64JH-IMSGgqzw8Q',
 		'about' => 'http://yieldmore.org/about',
@@ -54,6 +54,8 @@ class BibliosRedirect
 
 		'Ventures',
 		'youth-doc' => 'https://docs.google.com/document/d/1zVd6qPowYaBraA4B4UH_3Oj-tCTJKbtaQU7N-hwrdRU',
+		'change-harmony' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
+		'change-big-program' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
 
 		'Contributors',
 		'imran' => 'http://yieldmore.org/incubate/essays-to-a-swan/',
@@ -64,6 +66,7 @@ class BibliosRedirect
 
 		'Content',
 		'allah' => 'http://yieldmore.org/wp-content/data/pdfs/allah-99-names.pdf',
+		'anthem' => 'http://yieldmore.org/songs/short-and-sweet',
 		'brother' => 'http://yieldmore.org/incubate/essays-to-a-swan/?node=dear-brother',
 		'chakras' => 'http://yieldmore.org/practices/meditation/?node=chakras',
 		'chakras-app' => 'https://play.google.com/store/apps/details?id=com.panagola.app.chakra',
@@ -74,7 +77,7 @@ class BibliosRedirect
 		'love' => 'http://yieldmore.org/movements/sharing-love/',
 		'meditation' => 'http://yieldmore.org/practices/meditation/',
 		'peace' => 'http://yieldmore.org/practices/prayer/?node=peace',
-		'prayer' => 'http://yieldmore.org/practices/prayer',
+		'prayer' => 'http://yieldmore.org/practices/prayer/?node=sivananda',
 		'religion' => 'http://yieldmore.org/topics/religion',
 		'st' => 'http://english.yieldmore.org/series/star-trek/',
 		'tolkien' => 'http://yieldmore.org/books/the-silmarillion/?node=ainulindale',
