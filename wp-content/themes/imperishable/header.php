@@ -40,6 +40,7 @@
 
 			<h2 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
 			<h3 id="site-description"><?php echo str_replace(' - ','<br />', get_bloginfo( 'description' )); ?></h3>
+			<p align="center"><a href="/about">About</a></p>
 
 			<?php
 				if (!is_user_logged_in()) { echo '<p align="center"><a href="' . wp_login_url() . '">Login</a></p>'; }

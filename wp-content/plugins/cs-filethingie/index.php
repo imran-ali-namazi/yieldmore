@@ -218,7 +218,8 @@ function ft_check_filetype($file) {
  */
 
 function ft_check_login() {
-	return current_user_can( 'editor' );
+	return is_user_logged_in();
+	return current_user_can( 'editor' ); //TODO: find out why this doesnt work for Shasa
 }
 
 /**

@@ -101,7 +101,7 @@ class BibliosRedirect
 		'Organizations',
 		'orgs' => 'https://docs.google.com/document/d/10C-swmuhHxEeXafAsghbGu4GS2e1OPN97CyD9ViblH0', //Ads
 		'affiliates' => 'https://docs.google.com/document/d/1ZC3z2iZudMyIJiYVSaPTd5uFPFZFXmEx6tmGUuWW5ls',
-		'sycm' => 'http://share.yieldmore.org/helpers/sycm',
+		'syc' => 'http://share.yieldmore.org/helpers/syc',
 		'iandeye' => 'http://iandeye.in/',
 		'brainsync' => 'http://yieldmore.org/programs/brainsync/',
 		'ions' => 'http://yieldmore.org/organizations/institute-of-noetic-sciences/',

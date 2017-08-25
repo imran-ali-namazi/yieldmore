@@ -21,6 +21,8 @@ function csb_home_query($query)
 	cs_var('csb_home_query', true);
 }
 
+/*
+removed Speak as a separate menu. it has only 1 level of category
 add_action('widget_categories_args', 'csb_categories');
 function csb_categories($args)
 {
@@ -32,6 +34,7 @@ function csb_categories($args)
 	cs_var('csb_categories', true);
 	return $args;
 }
+*/
 
 //http://wordpress.stackexchange.com/a/170640
 function highlight_results($text)
