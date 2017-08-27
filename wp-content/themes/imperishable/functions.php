@@ -61,7 +61,10 @@ function desaindigital_post_format(){
 	$cat = get_the_category(get_the_ID());
 	if (count($cat))
 	{
-		$singular = array('People' => 'Person', 'Documentaries' => 'Documentary');
+		$singular = array('People' => 'Person', 'Documentaries' => 'Documentary',
+			'Cliff Richard' => 'Songs / Cliff Richard',
+			'Pink Floyd' => 'Songs / Pink Floyd',
+		);
 		if (is_numeric(substr($cat[0]->name, 0, strpos($cat[0]->name, ' ')))) $singular[$cat[0]->name] = $cat[0]->name;
 		$same = array('Incubate', 'Ethos', 'Speak', 'Parents', 'Students',
 			'India', 'Tamil Nadu', 'Glossary', 'Industry', 'Help',

@@ -61,8 +61,7 @@ class BibliosRedirect
 		'imran' => 'http://yieldmore.org/incubate/essays-to-a-swan/',
 		'imran-txt' => 'http://yieldmore.org/wp-content/data/users/shasa/swan/',
 		'imran-doc' => 'https://docs.google.com/document/d/1qU01Chgtuqw160D6KIpicyhALkXWU14xWZY8s4XhQV8',
-		'bookworm' => 'http://share.yieldmore.org/why',
-		'vv' => 'http://yieldmore.org/speak/ethos/life/?node=life-is-complicated',
+		'chris' => 'http://heal.yieldmore.org/helpers/chris/',
 
 		'Content',
 		'allah' => 'http://yieldmore.org/wp-content/data/pdfs/allah-99-names.pdf',
@@ -110,7 +109,7 @@ class BibliosRedirect
 		'ppdo' => 'https://peoplesproblems.org/chatroom.php',
 		'3a' => 'http://share.yieldmore.org/helpers/3a',
 		'fb-3a' => 'https://www.facebook.com/groups/AmmaiApparAgam/',
-		'j4d' => 'http://jobsfordyslexics.org/',
+		'jfd' => 'http://learn.yieldmore.org/helpers/jobs-for-dyslexics/',
 		'sinchana' => 'http://learn.yieldmore.org/helpers/sinchana/',
 		'goodcountry' => 'http://share.yieldmore.org/helpers/good-country',
 			'ted-goodcountry' => 'https://www.ted.com/talks/simon_anholt_which_country_does_the_most_good_for_the_world',

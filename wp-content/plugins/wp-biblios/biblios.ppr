@@ -94,18 +94,5 @@ biblios
 		work-config.php
 		wp-biblios.php
 [Open project files]
-0=csb-webparts.php
-1=csb-shortcodes.php
-2=functions.php
 [Selected Project Files]
 Main=
-Selected=csb-shortcodes.php
-[csb-webparts.php]
-TopLine=1
-Caret=1,4
-[csb-shortcodes.php]
-TopLine=199
-Caret=1,214
-[functions.php]
-TopLine=67
-Caret=50,79
