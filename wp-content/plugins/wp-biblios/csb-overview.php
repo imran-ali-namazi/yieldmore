@@ -4,12 +4,12 @@ class BibliosOverview
 {
 	function init()
 	{
-		if ($_GET['o'] == 'msall' || $_GET['o'] == 'msalld')
+		if ($_GET['o'] == '1')
 		{
 			self::head('YieldMore.org - All Sites');
 			self::multisite();
 		}
-		else if ($_GET['o'] == 'msdates')
+		else if ($_GET['o'] == '2')
 		{
 			self::multisitedates(); die();
 		}
@@ -35,9 +35,9 @@ h1.deleted { background-color: #faa; }
 </style>
 	</head>
 	<body>' . PHP_EOL;
-	$sel = $_GET['o'] == 1 ? 'selected' : '';
-	$all = $_GET['o'] != 1 ? 'selected' : '';
-	echo '<div id="menu"><a href="/about">About YieldMore.org</a> / <a class="' . $sel . '" href="/?o=1">Content Overview</a> / <a class="' . $all . '" href="http://yieldmore.org/?o=msall">Overview in All Sites</a> / <a href="http://yieldmore.org/?r=1">Redirects and Social Media Links</a></div>' . PHP_EOL;
+	$sel = $_GET['o'] == 0 ? 'selected' : '';
+	$all = $_GET['o'] == 1 ? 'selected' : '';
+	echo '<div id="menu"><a href="/about/#splash">About YieldMore.org</a> / <a class="' . $sel . '" href="/?o=0">Sitemap (this)</a> / <a class="' . $all . '" href="http://yieldmore.org/?o=1">Sitemap</a> / <a href="http://yieldmore.org/?r=1">Redirects and Social Media Links</a></div>' . PHP_EOL;
 	}
 
 	function all()
@@ -55,11 +55,11 @@ h1.deleted { background-color: #faa; }
 		$editor = current_user_can('editor');
 		foreach($sites as $site)
 		{
-			if ($site['deleted'] && $_GET['o'] != 'msalld') continue;
+			if ($site['deleted'] && $_GET['o'] != '2') continue;
 			switch_to_blog($site['blog_id']);
 			$ed = $editor ? sprintf(' <a href="http://%s/wp-admin/" target="_blank">Dashboard</a>', $site['domain']) : '';
-			echo sprintf('<h1%s><a href="http://%s" target="_blank">%s</a> <span><a href="http://%s/?o=1" target="_blank">Overview</a>' . $ed . '</span></h1>', $site['deleted'] ? ' class="deleted"' : '',$site['domain'], get_bloginfo('name'), $site['domain']);
-			if ($_GET['o'] == 'msall') {
+			echo sprintf('<h1%s><a href="http://%s" target="_blank">%s</a> <span><a href="http://%s/?o=0" target="_blank">Overview</a>' . $ed . '</span></h1>', $site['deleted'] ? ' class="deleted"' : '', $site['domain'], get_bloginfo('name'), $site['domain']);
+			if ($_GET['o'] == '1') {
 				self::all();
 			} else {
 				$cats = get_categories('order=1&hierarchical=true');

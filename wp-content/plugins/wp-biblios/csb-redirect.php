@@ -153,7 +153,7 @@ h1 { font-size: 18pt; border: 1px solid #333; } h1 span { font-size: 15pt; margi
 </style>
 	</head>
 	<body>' . PHP_EOL;
-	echo '<div id="menu"><a href="/about">About YieldMore.org</a> / <a href="/?o=1">Content Overview</a> / <a href="http://yieldmore.org/?o=msall">Overview in All Sites</a> / <a class="selected" href="http://yieldmore.org/?r=1">Redirects and Social Media Links</a></div>' . PHP_EOL;
+	echo '<div id="menu"><a href="/about/#splash">About YieldMore.org</a> / <a href="/?o=0">Sitemap (this)</a> / <a href="http://yieldmore.org/?o=1">Sitemap</a> / <a class="selected" href="http://yieldmore.org/?r=1">Redirects and Social Media Links</a></div>' . PHP_EOL;
 	}
 }
 

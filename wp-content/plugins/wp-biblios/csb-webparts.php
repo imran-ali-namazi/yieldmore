@@ -101,8 +101,8 @@ class CSWebParts
 			return;
 		}
 		echo 'Do respect the copyrights of published / reposted content. For more about YieldMore.org, click
-			<a href="http://yieldmore.org/about">here</a>.
-			See <a href="/?o=1" target="_blank">Overview</a>, <a href="http://yieldmore.org/?o=1" target="_blank">ALL</a> or <a href="http://yieldmore.org/?r=1" target="_blank">Redirects</a>'; return;
+			<a href="http://yieldmore.org/about/#splash">here</a>.
+			See <a href="http://yieldmore.org/?o=1" target="_blank">Sitemap (Overview)</a>, <a href="/?o=0" target="_blank">Sitemap (this site)</a> or <a href="http://yieldmore.org/?r=1" target="_blank">Redirects</a>'; return;
 		?>
 		<div id="yield-footer">
 			<div>

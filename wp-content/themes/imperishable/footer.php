@@ -2,7 +2,7 @@
 	<div id='wrap-footer' class='clear' style='display: none;'>
 		<?php if (!cs_var('slim')) { ?><div id="footer-right">
 			<a target="_blank" href="https://bitbucket.org/ianamazi/yield/src/master/wp-content/themes/imperishable/?at=master">Imperishable</a>
-			by <a target="_blank" href="http://yieldmore.org/?r=about-imran">Imran</a>
+			by <a target="_blank" href="http://yieldmore.org/?r=imran-doc">Imran</a>
 			in <a target="_blank" href="http://wordpress.org/" title="WordPress">WordPress</a>
 			<?php CSWebparts::also(); ?>
 		</div>
