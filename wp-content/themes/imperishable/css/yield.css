@@ -26,6 +26,7 @@
 #post-preview { width: 80%; background-color: #fff; padding: 20px ; margin: 40px 0 40px 0; border-radius: 25px; }
 #post-preview .post-format { height: 30px!important; margin-left: -43px; }
 #post-preview .nav { float: right; background-color: #fff; padding: 6px; border-radius: 10px; margin-left: 10px; color: #000; font-weight: bold; }
+.close { background-color: #fff; padding: 6px; float: right; border-radius: 12px; color: red; font-weight: bold }
 
 div.right { float: right; padding: 0 0 20px 20px; }
 blockquote p { margin-bottom: 10px; }
@@ -41,4 +42,4 @@ blockquote p { margin-bottom: 10px; }
 #yield-footer img { border: none; }
 #info-link { position: relative; top: 8px; margin-left: 6px; }
 #info-body { background-color: #E2E2E2; max-width: 850px; padding: 20px; border-radius: 25px; }
-#info-body a { color: #5A8921; font-weight: bold; font-family: Georgia, serif; }
+#info-body a { color: #5A8921; }
