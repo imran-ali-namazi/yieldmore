@@ -94,5 +94,14 @@ biblios
 		work-config.php
 		wp-biblios.php
 [Open project files]
+0=assets\info.html
+1=csb-redirect.php
 [Selected Project Files]
 Main=
+Selected=csb-redirect.php
+[assets\info.html]
+TopLine=41
+Caret=1,50
+[csb-redirect.php]
+TopLine=23
+Caret=76,41

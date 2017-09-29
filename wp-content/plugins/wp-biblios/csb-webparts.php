@@ -12,7 +12,8 @@ class CSWebParts
 		}
 		echo '<div id="info-body" style="display: none;">';
 		//echo '	<img src="/wp-content/plugins/wp-biblios/assets/images/yield-banner.png" /><br />';
-		echo '<i>Clicking the animated image to the right of the header logo will launch this popup. <a style="background-color: #aec8ff;" href="javascript:$(\'#info-body\').bPopup().close();">click here to close</a></i><br/>';
+		echo '<a class="close" href="javascript:$(\'#info-body\').bPopup().close();">close</a>';
+		echo '<small>Click the animated image (white / purple) at the top left of any page to launch this splash popup. </i></small><br/>';
 		//TODO: info for each subdomain...
 		echo file_get_contents(dirname(__FILE__) . '/assets/info.html') . PHP_EOL;
 		if (is_home()) echo '<script>var showYMInfo = true;</script>' . PHP_EOL;

@@ -38,7 +38,7 @@ class BibliosRedirect
 		'books' => 'https://books.google.co.in/books?uid=111519852770312117046',
 		'yt' => 'https://www.youtube.com/channel/UC_iHhVADe1oSjP3oAi5bnnw/playlists',
 		'yt-shasa' => 'https://www.youtube.com/playlist?list=PLsuI89eMBnMEURG757yRUSVSxd5S96nIx',
-		'yt-scribe' => 'https://www.youtube.com/channel/UC1xoOUJaIw74Nn3HyD6Wdhw',
+		'yt-scribe' => 'https://www.youtube.com/channel/UCESPy4vMsnv3htBqvHJh51Q/playlists',
 		'yt-vas' => 'https://www.youtube.com/channel/UC5oSnANyOydEOQjKwNjF_HA',
 		'yt-blink' => 'https://www.youtube.com/watch?v=6_3cB8Trcec&index=4&list=PLynUsr5OWn2EyfDw3J4G8VjVjIp_gulVM',
 		
@@ -61,6 +61,7 @@ class BibliosRedirect
 		'imran' => 'http://yieldmore.org/incubate/essays-to-a-swan/',
 		'imran-txt' => 'http://yieldmore.org/wp-content/data/users/shasa/swan/',
 		'imran-doc' => 'https://docs.google.com/document/d/1qU01Chgtuqw160D6KIpicyhALkXWU14xWZY8s4XhQV8',
+		'veena' => 'http://yieldmore.org/speak/veena/',
 		'chris' => 'http://heal.yieldmore.org/helpers/chris/',
 
 		'Content',
