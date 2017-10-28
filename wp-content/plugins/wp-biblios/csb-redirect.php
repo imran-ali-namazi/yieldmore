@@ -1,5 +1,5 @@
 <?php
-if (!isset($_GET['r'])) return;
+//if (!isset($_GET['r'])) return;
 class BibliosRedirect
 {
 	private static $redirects = array(
@@ -109,6 +109,7 @@ class BibliosRedirect
 
 		'Organizations Hosted',
 		'mini' => 'http://sites.yieldmore.org/electronics/mini',
+		'moq' => 'http://sites.yieldmore.org/moq',
 		
 		'Organizations',
 		'orgs' => 'https://docs.google.com/document/d/10C-swmuhHxEeXafAsghbGu4GS2e1OPN97CyD9ViblH0', //Ads
@@ -139,19 +140,33 @@ class BibliosRedirect
 		'vamsa-google'=> 'https://books.google.co.in/books?id=BvlEDQAAQBAJ',*/
 	);
 
+	private static function get_slug()
+	{
+		$r = $_SERVER['REQUEST_URI'];
+		$s = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
+		//die($r . ' - ' . $s);
+		$slug = substr($r, strlen($s)); //die($slug);
+		return $slug;
+	}
 
 	static function init()
 	{
-		if ($_GET['r'] == 'all' || $_GET['r'] == '' || $_GET['r'] == '1')
+		if (!isset($_GET['r']) && !is_404()) return;
+		$r = is_404() ? self::get_slug() : $_GET['r'];
+
+		if ((is_404() && $r == 'r') || (isset($_GET['r']) && ($r == 'all' || $r == '') || $r == '1'))
 		{
 			self::head('All Redirects - YieldMore.org');
 			foreach (self::$redirects as $key=>$value)
-			echo is_numeric($key) ? "<br/><b>$value</b><br/>" : sprintf('<a href="/?r=%s" target="_blank">%s</a> &mdash;> <a href="%s" target="_blank">%s</a><br />' . PHP_EOL, $key, $key, $value, $value);
+			echo is_numeric($key) ? "<br/><b>$value</b><br/>" : sprintf('<a href="http://yieldmore.org/%s" target="_blank">%s</a> &mdash;> <a href="%s" target="_blank">%s</a><br />' . PHP_EOL, $key, $key, $value, $value);
 			die (PHP_EOL . '</body></html>');
 		}
-		if (!isset(self::$redirects[$_GET['r']]))
-			die('Unable to find a redirect for: ' . $_GET['r']);
-		header("Location: " . self::$redirects[$_GET['r']]);
+		
+		if (is_404() && !isset(self::$redirects[$r])) return;
+
+		if (!isset(self::$redirects[$r]))
+			die('Unable to find a redirect for: ' . $r);
+		header("Location: " . self::$redirects[$r]);
 	}
 
 	static function head($title)
@@ -170,9 +185,6 @@ h1 { font-size: 18pt; border: 1px solid #333; } h1 span { font-size: 15pt; margi
 	echo '<div id="menu"><a href="/about/#splash">About YieldMore.org</a> / <a href="/?o=0">Sitemap (this)</a> / <a href="http://yieldmore.org/?o=1">Sitemap</a> / <a class="selected" href="http://yieldmore.org/?r=1">Redirects and Social Media Links</a></div>' . PHP_EOL;
 	}
 }
-
-if (function_exists('add_action'))
-	add_action('init', array('BibliosRedirect', 'init'));
-else
-	BibliosRedirect::init();
+//http://rachievee.com/the-wordpress-hooks-firing-sequence/
+add_action('template_redirect', array('BibliosRedirect', 'init'));
 ?>
