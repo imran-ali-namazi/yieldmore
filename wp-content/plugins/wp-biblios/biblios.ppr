@@ -96,12 +96,16 @@ biblios
 [Open project files]
 0=assets\info.html
 1=csb-redirect.php
+2=..\..\themes\imperishable\functions.php
 [Selected Project Files]
 Main=
-Selected=csb-redirect.php
+Selected=..\..\themes\imperishable\functions.php
 [assets\info.html]
 TopLine=41
 Caret=1,50
 [csb-redirect.php]
 TopLine=23
 Caret=76,41
+[..\..\themes\imperishable\functions.php]
+TopLine=49
+Caret=3,59

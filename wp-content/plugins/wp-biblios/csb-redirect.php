@@ -40,7 +40,10 @@ class BibliosRedirect
 		'yt-shasa' => 'https://www.youtube.com/playlist?list=PLsuI89eMBnMEURG757yRUSVSxd5S96nIx',
 		'yt-scribe' => 'https://www.youtube.com/channel/UCESPy4vMsnv3htBqvHJh51Q/playlists',
 		'yt-vas' => 'https://www.youtube.com/channel/UC5oSnANyOydEOQjKwNjF_HA',
-		'yt-blink' => 'https://www.youtube.com/watch?v=6_3cB8Trcec&index=4&list=PLynUsr5OWn2EyfDw3J4G8VjVjIp_gulVM',
+		'yt-blink' => 'https://www.youtube.com/watch?v=6_3cB8Trcec&list=PLynUsr5OWn2EyfDw3J4G8VjVjIp_gulVM',
+		'yt-tolle' => 'https://www.youtube.com/watch?v=dTFDfR47dl4&list=PLsuI89eMBnMH4JKkgy2Q_MGXsCHCJIUsV',
+		'yt-awakenings' => 'https://www.youtube.com/watch?v=6lsify2ml6E&list=PLsuI89eMBnMHoBX7GlG5BYjPUNxUk4P0X',
+		'yt-sama' => 'https://www.youtube.com/watch?v=XVF6edFgqqs&list=PLsuI89eMBnMGZab7xKLfGJ-JZ9H2126Q0',
 		
 		'Whatsapp Groups et al',
 		'wa-americas' => 'https://chat.whatsapp.com/CItx47G3tnr1eI1TeDaE74',
@@ -59,6 +62,7 @@ class BibliosRedirect
 
 		'Contributors',
 		'imran' => 'http://yieldmore.org/incubate/essays-to-a-swan/',
+		'imran-essays' => 'http://yieldmore.org/speak/imran/',
 		'imran-txt' => 'http://yieldmore.org/wp-content/data/users/shasa/swan/',
 		'imran-doc' => 'https://docs.google.com/document/d/1qU01Chgtuqw160D6KIpicyhALkXWU14xWZY8s4XhQV8',
 		'veena' => 'http://yieldmore.org/speak/veena/',
@@ -70,12 +74,16 @@ class BibliosRedirect
 		'brother' => 'http://yieldmore.org/incubate/essays-to-a-swan/?node=dear-brother',
 		'chakras' => 'http://yieldmore.org/practices/meditation/?node=chakras',
 		'chakras-app' => 'https://play.google.com/store/apps/details?id=com.panagola.app.chakra',
+		'cl' => 'http://yieldmore.org/books/curious-lives/',
 		'death' => 'http://yieldmore.org/topics/death/?node=prayer-rebirth',
 		'gita' => 'http://yieldmore.org/works/essays-on-the-gita/',
 		'harmony' => 'http://yieldmore.org/movements/harmony/',
 		'india' => 'http://yieldmore.org/people/sri-aurobindo/?node=independance',
 		'love' => 'http://yieldmore.org/movements/sharing-love/',
 		'meditation' => 'http://yieldmore.org/practices/meditation/',
+		'movies' => 'http://english.yieldmore.org/movies/all/',
+		'movies-doc' => 'https://docs.google.com/spreadsheets/d/1gU105PZZ6hE6RC_iEp06H1wlMcNyNapL5NGnx6RvMQY',
+		'niggle' => 'http://yieldmore.org/works/leaf-by-niggle/',
 		'peace' => 'http://yieldmore.org/practices/prayer/?node=peace',
 		'prayer' => 'http://yieldmore.org/practices/prayer/?node=sivananda',
 		'religion' => 'http://yieldmore.org/topics/religion',
@@ -90,6 +98,7 @@ class BibliosRedirect
 		'harmony-form' => 'https://docs.google.com/a/cselian.com/forms/d/1vBmQQ2z17wDkK6e0T_-62Mvq04SD_QQ53LaLimXTDZ4',
 		'harmony-doc' => 'https://docs.google.com/document/d/1hn3I5O5_LTAVXYJuTqKu3903tvo82N357F3h2WGce9o',
 		'diabetes-doc' => 'https://docs.google.com/presentation/d/1kfTax908_HXS80PAjcnNL0Xp_nKkjKmQ0K18tIIevlM', //Viji
+		'dyslexia-handbook' => 'https://docs.google.com/document/d/1Dx_H22k8oAMrebj4i1gRLmB7HHSi6XmvpkkkD-BycfY',
 		
 		'Content on the web',
 		'bible' => 'https://www.cph.org/t-tlsb.aspx',
@@ -98,6 +107,9 @@ class BibliosRedirect
 		'trika' => 'http://learn.yieldmore.org/conferences/trika16/',
 		'7s' => 'http://share.yieldmore.org/projects/seven-sisters/',
 
+		'Organizations Hosted',
+		'mini' => 'http://sites.yieldmore.org/electronics/mini',
+		
 		'Organizations',
 		'orgs' => 'https://docs.google.com/document/d/10C-swmuhHxEeXafAsghbGu4GS2e1OPN97CyD9ViblH0', //Ads
 		'affiliates' => 'https://docs.google.com/document/d/1ZC3z2iZudMyIJiYVSaPTd5uFPFZFXmEx6tmGUuWW5ls',
@@ -118,6 +130,7 @@ class BibliosRedirect
 			'goodcountry-video' => 'https://www.youtube.com/watch?v=9eV0oOJSRuU',
 		'esther' => 'http://heal.yieldmore.org/helpers/wisdoms-whisper-spirits-scribe/',
 		'specialsources' => 'http://specialsources.com',
+		'jeevan' => 'http://share.yieldmore.org/helpers/jeevan/?node=million-cells',
 
 
 		/*'Other People',

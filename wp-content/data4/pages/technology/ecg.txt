@@ -1,0 +1,16 @@
+[info]
+youtube: B3funE7TmEQ
+link: barc.gov.in
+source: http://indiatoday.intoday.in/technology/story/barc-credit-card-size-ecg-machine-costs-rs-4-000/1/906136.html
+date: 17 Mar, 2017
+[/info]
+
+BARC (Bhabha Atomic Research Centre) develops credit card-size ECG machine that will cost around Rs 4,000
+
+It is just slightly bigger than your debit or credit card and it is a full-fledged ECG machine. A team of Bhabha Atomic Research Centre have developed a compact ECG machine, which will also be pocket friendly. The researchers claim that people will be able to afford one of these machines for their private use, just the way they use a personal blood sugar monitor or blood pressure monitor.
+
+Also an app will connect the device to a smartphone and the user will not have to undergo any special training to operate this little wonder.
+
+Though they are still some way away from the commercial production of the card-sized ECG machine, the BARC team estimates that the machine -- dubbed Tele-ECG -- would be priced around Rs 4,000. The commercial machines currently available in the market cost  between Rs 40,000 and Rs 50,000. The Tele-ECG will have a battery inside it and will be chargeable with a mobile phone charger. Also, the accompanying app will ensure real-time sharing of a patient's ECG report with doctors. The time saved will be of critical importance in saving lives.
+
+A researcher from the BARC team claimed that this pocket-sized and pocket-friendly ECG machine will be able to churn out around 300 ECG reports on a single charge. In rural areas where, where almost 70 per cent of Indians live and where critical cardio care facilities are rare or absent, this machine could be a life saver.
