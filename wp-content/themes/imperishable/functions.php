@@ -67,7 +67,7 @@ function desaindigital_post_format(){
 		);
 		if (is_numeric(substr($cat[0]->name, 0, strpos($cat[0]->name, ' ')))) $singular[$cat[0]->name] = $cat[0]->name;
 		$same = array('Incubate', 'Ethos', 'Speak', 'Parents', 'Students',
-			'India', 'Tamil Nadu', 'Glossary', 'Industry', 'Help', 'Forum',
+			'India', 'Tamil Nadu', 'Tamil', 'Glossary', 'Industry', 'Help', 'Forum',
 			'Heal', 'Learn', 'Share', 'Uncategorised', 'Series');
 		$name = array_search($cat[0]->name, $same) !== false ? $cat[0]->name : (isset($singular[$cat[0]->name]) ? $singular[$cat[0]->name] : substr($cat[0]->name, 0, -1));
 		echo sprintf($fmt, sprintf('<a href="%s">%s</a>', get_category_link($cat[0]->term_id), $name));

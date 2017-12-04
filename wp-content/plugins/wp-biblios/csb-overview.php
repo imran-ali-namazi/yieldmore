@@ -37,7 +37,7 @@ h1.deleted { background-color: #faa; }
 	<body>' . PHP_EOL;
 	$sel = $_GET['o'] == 0 ? 'selected' : '';
 	$all = $_GET['o'] == 1 ? 'selected' : '';
-	echo '<div id="menu"><a href="/about/#splash">About YieldMore.org</a> / <a class="' . $sel . '" href="/?o=0">Sitemap (this)</a> / <a class="' . $all . '" href="http://yieldmore.org/?o=1">Sitemap</a> / <a href="http://yieldmore.org/?r=1">Redirects and Social Media Links</a></div>' . PHP_EOL;
+	echo '<div id="menu"><a href="/about/#splash">About YieldMore.org</a> / <a class="' . $sel . '" href="/?o=0">Sitemap (this)</a> / <a class="' . $all . '" href="http://yieldmore.org/?o=1">Sitemap</a> / <a href="http://yieldmore.org/r">Redirects and Social Media Links</a></div>' . PHP_EOL;
 	}
 
 	function all()

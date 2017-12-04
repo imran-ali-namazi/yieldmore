@@ -35,6 +35,13 @@ h2 .bookmark { font-size: small; margin-left: 25px; }
 
 .single-post .navigation { border-top: 3px dotted #70C176; }
 
+.versions { margin-bottom: 15px; }
+.translit, .translation, .words { padding: 8px; margin-bottom: 8px; border-left: 4px solid #666;  }
+label.toggle-version { color: #fff; padding: 6px; border: 1px dotted #ccc; font-weight: bold; }
+div.translit { border-left-color: #800; } label.translit { background-color: #800; }
+div.translation { border-left-color: #080; } label.translation { background-color: #080; }
+div.words { border-left-color: #008; } label.words { background-color: #008; }
+
 a.top { float: right; }
 .footnotes { display: none; }
 .footnote { vertical-align: super; font-size: large; color: red; cursor: hand; }

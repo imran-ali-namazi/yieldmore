@@ -4,6 +4,7 @@ class BibliosRedirect
 {
 	private static $redirects = array(
 		'About YM',
+		'start' => 'http://yieldmore.org/about/#splash',
 		'pr' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',
 			'pr-new' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',
 		'pr-old' => 'https://docs.google.com/document/d/1b-mWCmPgAsem7zWF2jjaa3LwJOaNbuAPIezfK-RoTYM',
@@ -34,6 +35,7 @@ class BibliosRedirect
 
 		'Other Social Media',
 		'discuss' => 'https://groups.google.com/forum/#!forum/yieldmore',
+		'google' => 'https://groups.google.com/forum/#!forum/yieldmore',
 		'li' => 'https://www.linkedin.com/company/yieldmore-org',
 		'books' => 'https://books.google.co.in/books?uid=111519852770312117046',
 		'yt' => 'https://www.youtube.com/channel/UC_iHhVADe1oSjP3oAi5bnnw/playlists',
@@ -61,24 +63,39 @@ class BibliosRedirect
 		'change-big-program' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
 
 		'Contributors',
-		'imran' => 'http://yieldmore.org/incubate/essays-to-a-swan/',
-		'imran-essays' => 'http://yieldmore.org/speak/imran/',
-		'imran-txt' => 'http://yieldmore.org/wp-content/data/users/shasa/swan/',
+		'swan' => 'http://yieldmore.org/incubate/essays-to-a-swan/',
+		'imran' => 'http://yieldmore.org/speak/imran/',
+		//'imran-txt' => 'http://yieldmore.org/wp-content/data/users/shasa/swan/',
 		'imran-doc' => 'https://docs.google.com/document/d/1qU01Chgtuqw160D6KIpicyhALkXWU14xWZY8s4XhQV8',
-		'veena' => 'http://yieldmore.org/speak/veena/',
-		'chris' => 'http://heal.yieldmore.org/helpers/chris/',
+		'hans' => 'http://yieldmore.org/speak/hans-wilhelm/',
+		'jerry' => 'http://yieldmore.org/speak/jeroninio-almeida/',
+		'george' => 'http://yieldmore.org/speak/george-gilchrist/',
+		'jay' => 'http://yieldmore.org/speak/jay-lakhani/',
+		'jay-yt' => 'https://www.youtube.com/watch?v=I2NpvKBpljE&list=PLsuI89eMBnMFSdA7IIA_4yGQxCVCIA5k0',
+
+		'Articles by Imran and People',
+		'brother' => 'http://yieldmore.org/incubate/essays-to-a-swan/?node=dear-brother',
+		'divine' => 'http://yieldmore.org/incubate/essays-to-a-swan/?node=divine',
+		'divine-video' => 'https://www.youtube.com/watch?v=JY7aU0Q_ms0&list=PLsuI89eMBnMEURG757yRUSVSxd5S96nIx',
+		'harmony' => 'http://yieldmore.org/movements/harmony/',
+		'jk' => 'http://yieldmore.org/people/jiddu-krishnamurti/',
+		'sa' => 'http://yieldmore.org/people/sri-aurobindo/',
 
 		'Content',
 		'allah' => 'http://yieldmore.org/wp-content/data/pdfs/allah-99-names.pdf',
+		'brahman' => 'http://yieldmore.org/works/essays-on-the-gita/?find=brahman',
 		'anthem' => 'http://yieldmore.org/songs/short-and-sweet',
-		'brother' => 'http://yieldmore.org/incubate/essays-to-a-swan/?node=dear-brother',
 		'chakras' => 'http://yieldmore.org/practices/meditation/?node=chakras',
 		'chakras-app' => 'https://play.google.com/store/apps/details?id=com.panagola.app.chakra',
 		'cl' => 'http://yieldmore.org/books/curious-lives/',
+		'deconstruction' => 'http://yieldmore.org/topics/deconstruction/',
 		'death' => 'http://yieldmore.org/topics/death/?node=prayer-rebirth',
+		'faroese' => 'http://yieldmore.org/pages/quotes/?node=faroese',
 		'gita' => 'http://yieldmore.org/works/essays-on-the-gita/',
-		'harmony' => 'http://yieldmore.org/movements/harmony/',
+		'hidden-curriculum' => 'http://yieldmore.org/speak/george-gilchrist/?node=hidden-curriculum',
+		'ie' => 'http://yieldmore.org/programs/instrumental-enrichment/',
 		'india' => 'http://yieldmore.org/people/sri-aurobindo/?node=independance',
+		'jls' => 'http://yieldmore.org/works/jonathan-livingston-seagull/?in=1&find=love',
 		'love' => 'http://yieldmore.org/movements/sharing-love/',
 		'meditation' => 'http://yieldmore.org/practices/meditation/',
 		'movies' => 'http://english.yieldmore.org/movies/all/',
@@ -87,9 +104,15 @@ class BibliosRedirect
 		'peace' => 'http://yieldmore.org/practices/prayer/?node=peace',
 		'prayer' => 'http://yieldmore.org/practices/prayer/?node=sivananda',
 		'religion' => 'http://yieldmore.org/topics/religion',
+		'spartacus' => 'http://yieldmore.org/books/various/?node=four-times-in-life',
 		'st' => 'http://english.yieldmore.org/series/star-trek/',
 		'tolkien' => 'http://yieldmore.org/books/the-silmarillion/?node=ainulindale',
+		'veganactivist' => 'http://yieldmore.org/movements/loving-nature/?node=vegan-activist',
+		'vegan' => 'http://yieldmore.org/movements/loving-nature/?node=veganism',
 		'vs' => 'http://yieldmore.org/works/vishnu-sahasranamam/',
+		'women' => 'http://yieldmore.org/pages/forwards/?node=1711-women',
+		'world-anthem' => 'http://yieldmore.org/practices/prayer/?node=sikh-arti',
+		'yourself' => 'http://yieldmore.org/people/sri-aurobindo/?node=power-supreme',
 		'yoga' => 'http://yieldmore.org/practices/yoga/',
 		'yoga-ppt' => 'https://docs.google.com/presentation/d/1JuWWnWVdQC4-Cd_9QmoeAW4lsSUm3ou0XaNJ0i9fb3I',
 
@@ -124,8 +147,10 @@ class BibliosRedirect
 		'3a' => 'http://share.yieldmore.org/helpers/3a',
 		'fb-3a' => 'https://www.facebook.com/groups/AmmaiApparAgam/',
 		'jfd' => 'http://learn.yieldmore.org/helpers/jobs-for-dyslexics/',
+		'jfd-video' => 'https://www.youtube.com/watch?v=v9F1cd_qKMM',
+		'jfd-yt' => 'https://www.youtube.com/channel/UCMf0LSqKfUH8wu5ngQSBSXA',
 		'sinchana' => 'http://learn.yieldmore.org/helpers/sinchana/',
-		'goodcountry' => 'http://share.yieldmore.org/helpers/good-country',
+		'goodcountry' => 'http://yieldmore.org/movements/good-country/',
 			'ted-goodcountry' => 'https://www.ted.com/talks/simon_anholt_which_country_does_the_most_good_for_the_world',
 			'goodcountry-ppt' => 'https://docs.google.com/presentation/d/1pQsxWUcb3fJJ_xbNlfmXdjnl2Mh1w-5sQAav8TR1JXE',
 			'goodcountry-video' => 'https://www.youtube.com/watch?v=9eV0oOJSRuU',
@@ -182,7 +207,7 @@ h1 { font-size: 18pt; border: 1px solid #333; } h1 span { font-size: 15pt; margi
 </style>
 	</head>
 	<body>' . PHP_EOL;
-	echo '<div id="menu"><a href="/about/#splash">About YieldMore.org</a> / <a href="/?o=0">Sitemap (this)</a> / <a href="http://yieldmore.org/?o=1">Sitemap</a> / <a class="selected" href="http://yieldmore.org/?r=1">Redirects and Social Media Links</a></div>' . PHP_EOL;
+	echo '<div id="menu"><a href="/about/#splash">About YieldMore.org</a> / <a href="/?o=0">Sitemap (this)</a> / <a href="http://yieldmore.org/?o=1">Sitemap</a> / <a class="selected" href="http://yieldmore.org/r">Redirects and Social Media Links</a></div>' . PHP_EOL;
 	}
 }
 //http://rachievee.com/the-wordpress-hooks-firing-sequence/

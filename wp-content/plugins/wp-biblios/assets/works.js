@@ -43,4 +43,9 @@ $(document).ready(function() {
 			document.cookie = 'homeinfoshown';
 		}
 	}
+	$('.toggle-version').click(function() {
+		var input = $('input', $(this));
+		var divs = $('div.' + input.data('version'));
+		if (input.is(':checked')) divs.show(); else divs.hide();
+	});
 });

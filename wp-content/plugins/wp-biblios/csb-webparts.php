@@ -27,8 +27,7 @@ class CSWebParts
 			'H' => 'heal.yieldmore.org',
 			'S' => 'share.yieldmore.org',
 			'E' => 'english.yieldmore.org',
-			//'O' => 'dir.yieldmore.org',
-			//'D' => 'less.yieldmore.org',
+			'U' => 'sites.yieldmore.org',
 			'& YM' => 'yieldmore.org',
 		);
 		$titles = array(
@@ -36,8 +35,7 @@ class CSWebParts
 			'H' => 'Heal',
 			'E' => 'Express',
 			'L' => 'Learn',
-			//'O' => 'Organizations',
-			//'D' => 'Declutter',
+			'U' => 'User Sites',
 			'& YM' => 'Yield More',
 		);
 		$defltTitle = 'Get more out of life by living like Every Day Is Your Last';
@@ -70,7 +68,7 @@ class CSWebParts
 
 	static function social()
 	{
-		echo sprintf('<p><a href="%s" target="_blank">%s</a></p>', 'http://yieldmore.org/?r=1', 'Social Media Links');
+		echo sprintf('<p><a href="%s" target="_blank">%s</a></p>', 'http://yieldmore.org/r', 'Social Media Links');
 		return;
 
 		$social = array(
@@ -101,9 +99,8 @@ class CSWebParts
 			echo 'This minisite created using the platform of <a href="http://yieldmore.org/about" target="_blank">YieldMore.org</a>.';
 			return;
 		}
-		echo 'Do respect the copyrights of published / reposted content. For more about YieldMore.org, click
-			<a href="http://yieldmore.org/about/#splash">here</a>.
-			See <a href="http://yieldmore.org/?o=1" target="_blank">Sitemap (Overview)</a>, <a href="/?o=0" target="_blank">Sitemap (this site)</a> or <a href="http://yieldmore.org/?r=1" target="_blank">Redirects</a>'; return;
+		echo 'Do respect the copyrights of published / reposted content (songs, movies, books).
+			See <a href="http://yieldmore.org/about/#splash">Start</a>, <a href="http://yieldmore.org/?o=1" target="_blank">Sitemap</a> or <a href="http://yieldmore.org/r" target="_blank">Redirects</a>.'; return;
 		?>
 		<div id="yield-footer">
 			<div>

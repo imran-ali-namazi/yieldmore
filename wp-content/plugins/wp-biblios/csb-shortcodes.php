@@ -13,6 +13,7 @@ class WorksShortcodes
 		add_shortcode('faqs', array($cls, 'do_faqs'));
 		add_shortcode('quotes', array($cls, 'do_quotes'));
 		add_shortcode('dir', array($cls, 'do_dir'));
+		add_shortcode('versions', array($cls, 'do_versions'));
 	}
 
 	static function do_tab($a, $content = null)
@@ -260,6 +261,16 @@ class WorksShortcodes
 			echo sprintf($row, $d[$cols->SNo], $d[$cols->Name], $d[$cols->Type], $d[$cols->Role], $d[$cols->Joined], implode(' ', $siteLinks), $d[$cols->Writeup]);
 		}
 		echo '</table>' . PHP_EOL;
+	}
+
+	static function do_versions($a, $c = null)
+	{
+		$r = '<div class="versions">';
+		foreach($a as $slug => $txt)
+			$r .= sprintf(' <label class="toggle-version %s"><input type="checkbox" checked data-version="%s" /> %s</label>' . PHP_EOL,
+				$slug, $slug, str_replace('_', ' ', $txt));
+		$r .= '</div>';
+		return $r;
 	}
 }
 WorksShortcodes::init();
