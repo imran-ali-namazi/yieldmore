@@ -46,3 +46,13 @@ a.top { float: right; }
 .footnotes { display: none; }
 .footnote { vertical-align: super; font-size: large; color: red; cursor: hand; }
 .footnote-text { background-color: #fff; border-radius: 15px; padding: 20px; }
+
+.footer-widget-2 .splash-link { background:  url(images/yield.gif) center right no-repeat; padding: 10px 35px 10px 0; }
+#info-body .close { background-color: #FFDC73; padding: 6px; float: right; border-radius: 12px; color: red; font-weight: bold }
+#info-body { background-color: #E2E2E2; max-width: 850px; padding: 20px; border-radius: 25px; }
+#info-body a { color: #5A8921; }
+
+/* 2017 */
+.custom-header-media img { object-fit: contain!important; object-position: right; }
+.custom-header-media, .site-content-contain { background-color: #0C0F14!important; }
+#content .wrap, footer .wrap { background-color: #fff; padding-top: 30px; }

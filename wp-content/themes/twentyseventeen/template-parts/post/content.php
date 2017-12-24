@@ -52,6 +52,7 @@
 	<div class="entry-content">
 		<?php
 		/* translators: %s: Name of current post */
+		if (cs_work_get('hascontent')) cs_work_get('content'); else
 		the_content( sprintf(
 			__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ),
 			get_the_title()

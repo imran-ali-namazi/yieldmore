@@ -10,6 +10,11 @@
  * @version 1.0
  */
 
+if (is_single() && cs_work_get('hasnav')) {
+	cs_work_get('sidebar');
+	return;
+}
+
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	return;
 }

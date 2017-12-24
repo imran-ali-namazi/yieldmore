@@ -47,4 +47,5 @@ include_once 'csb-bookmark.php';
 include_once 'csb-webparts.php';
 include_once 'csb-overview.php';
 include_once 'csb-redirect.php';
+include_once 'cs-multisite.php';
 ?>

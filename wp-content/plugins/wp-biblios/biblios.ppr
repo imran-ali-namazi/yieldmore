@@ -15,6 +15,16 @@ ProjectFilesOnly=0
 Extensions=*.*
 [Project tree]
 biblios
+	+2017
+		..\..\themes\twentyseventeen\template-parts\post\content.php
+		..\..\themes\twentyseventeen\template-parts\footer\footer-widgets.php
+		..\..\themes\twentyseventeen\header.php
+		..\..\themes\twentyseventeen\index.php
+		..\..\themes\twentyseventeen\template-parts\navigation\navigation-top.php
+		..\..\themes\twentyseventeen\sidebar.php
+		..\..\themes\twentyseventeen\single.php
+		..\..\themes\twentyseventeen\template-parts\header\site-branding.php
+		..\..\themes\twentyseventeen\template-parts\footer\site-info.php
 	-_plugins
 		+_ref
 			..\..\..\..\..\blog\wp-content\plugins\cs-wheel\settings-configure.php

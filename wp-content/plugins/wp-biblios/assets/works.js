@@ -30,7 +30,7 @@ $(document).ready(function() {
 		$("#wrap-sidebar").accordion({header: 'div div h2', active: activeTab, heightStyle: 'content'});
 	//if ($.fn.stick_in_parent)
 	//	$("#wrap-left").stick_in_parent({enable_bottoming: false});
-	$("#info-link").click(function(e){
+	$(".custom-logo-link, .splash-link").click(function(e){
 		$('#info-body').bPopup({follow: false, position: ['auto', $(window).scrollTop() + 20]});
 		e.preventDefault();
 	});

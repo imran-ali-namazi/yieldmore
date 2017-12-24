@@ -7,14 +7,14 @@ class CSWebParts
 		if ($what == 'link')
 		{
 			CSScripts::bpopup();
-			echo '<a id="info-link" href="#"><img src="/wp-content/plugins/wp-biblios/assets/images/yield.gif" height="24" /></a>';
+			echo '<a id="info-link" class="splash-link" href="#"><img src="/wp-content/plugins/wp-biblios/assets/images/yield.gif" height="24" /></a>';
 			return;
 		}
 		echo '<div id="info-body" style="display: none;">';
 		//echo '	<img src="/wp-content/plugins/wp-biblios/assets/images/yield-banner.png" /><br />';
 		echo '<a class="close" href="javascript:$(\'#info-body\').bPopup().close();">close</a>';
-		echo '<small>Click the animated image (white / purple) at the top left of any page to launch this splash popup. </i></small><br/>';
-		//TODO: info for each subdomain...
+		echo '<small>Click the logo (green / blue) on the header, or the animation in the footer\'s right of any page to launch this splash popup.</i></small><br/>';
+
 		echo file_get_contents(dirname(__FILE__) . '/assets/info.html') . PHP_EOL;
 		if (is_home()) echo '<script>var showYMInfo = true;</script>' . PHP_EOL;
 		echo '</div>';
