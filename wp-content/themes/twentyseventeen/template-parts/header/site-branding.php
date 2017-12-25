@@ -12,7 +12,7 @@
 <div class="site-branding">
 	<div class="wrap">
 
-		<?php the_custom_logo(); ?>
+		<?php global $except; the_custom_logo($except ? get_current_blog_id() : 1); ?>
 
 		<div class="site-branding-text">
 			<?php if ( is_front_page() ) : ?>

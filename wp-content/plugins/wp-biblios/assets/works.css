@@ -10,7 +10,7 @@ body { cursor: default; }
 #wrap-sidebar .sidebar .widget ol, #wrap-sidebar .sidebar .widget ol li { list-style: decimal!important; }
 #wrap-sidebar .sidebar .widget ol { margin-left: 20px; }
 
-span.match { background-color: ff7; }
+span.match { background-color: #ff7; }
 .sb-what { margin: 6px 0 3px 0; text-shadow: 0 0 0 #fff!important; }
 .sb-what a { color: #fff!important; }
 
@@ -33,6 +33,7 @@ h2 .bookmark { font-size: small; margin-left: 25px; }
 #quotebar #qtext { border-right: 1px solid #3366CC; }
 #quotebar #qname { width: 100px; }
 
+.searchform { margin-bottom: 25px; }
 .single-post .navigation { border-top: 3px dotted #70C176; }
 
 .versions { margin-bottom: 15px; }
@@ -53,6 +54,6 @@ a.top { float: right; }
 #info-body a { color: #5A8921; }
 
 /* 2017 */
-.custom-header-media img { object-fit: contain!important; object-position: right; }
+.site-ym .site-branding .wrap { background:  url(images/star.png) top right no-repeat; background-size: contain; }
 .custom-header-media, .site-content-contain { background-color: #0C0F14!important; }
 #content .wrap, footer .wrap { background-color: #fff; padding-top: 30px; }

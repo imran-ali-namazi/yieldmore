@@ -5,6 +5,8 @@ class BibliosRedirect
 	private static $redirects = array(
 		'About YM',
 		'start' => 'http://yieldmore.org/about/#splash',
+		'v' => 'http://yieldmore.org/pages/ventures',
+		'f' => 'http://yieldmore.org/pages/forwards',
 		'pr' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',
 			'pr-new' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',
 		'pr-old' => 'https://docs.google.com/document/d/1b-mWCmPgAsem7zWF2jjaa3LwJOaNbuAPIezfK-RoTYM',
@@ -13,12 +15,9 @@ class BibliosRedirect
 		'intros-all' => 'https://docs.google.com/document/d/1HAhSJvCjnXunhqnjTni74DuFc60ZyRNfL5iKHbruNaI', //Orgs / YieldMore - defunct
 		'video' => 'https://www.youtube.com/watch?v=PTIqjpkF5Ss',
 		'video-ppt' => 'https://docs.google.com/presentation/d/1fS_cAjxmNRoT3dUtKNePVMc-eTOM64JH-IMSGgqzw8Q',
-		'about' => 'http://yieldmore.org/about',
 		'dir' => 'https://drive.google.com/folderview?id=0B0dXGzszO_q2Z3JBZHQ1dkhBZWM&usp=sharing',
-		'help' => 'https://docs.google.com/spreadsheets/d/1Cwc7pW80uHb5KBTYgxTKGITfvYIvFRT2TWL-r9erqMc',
-		'learn' => 'http://learn.yieldmore.org/about',
-		'heal' => 'http://heal.yieldmore.org/about',
-		'share' => 'http://share.yieldmore.org/about',
+		'help-doc' => 'https://docs.google.com/spreadsheets/d/1Cwc7pW80uHb5KBTYgxTKGITfvYIvFRT2TWL-r9erqMc',
+		//'share' => 'http://share.yieldmore.org/about',
 		'print' => 'http://yieldmore.org/wp-content/data/print',
 
 		'Facebook',
@@ -126,13 +125,13 @@ class BibliosRedirect
 		'Content on the web',
 		'bible' => 'https://www.cph.org/t-tlsb.aspx',
 
-		'Content about events and projects',
-		'trika' => 'http://learn.yieldmore.org/conferences/trika16/',
-		'7s' => 'http://share.yieldmore.org/projects/seven-sisters/',
+		//'Content about events and projects',
+		//'trika' => 'http://learn.yieldmore.org/conferences/trika16/',
+		//'7s' => 'http://share.yieldmore.org/projects/seven-sisters/',
 
 		'Organizations Hosted',
-		'mini' => 'http://sites.yieldmore.org/electronics/mini',
-		'moq' => 'http://sites.yieldmore.org/moq',
+		//'mini' => 'http://sites.yieldmore.org/electronics/mini',
+		'3a' => 'http://yieldmore.org/help/ngos/3a',
 		
 		'Organizations',
 		'orgs' => 'https://docs.google.com/document/d/10C-swmuhHxEeXafAsghbGu4GS2e1OPN97CyD9ViblH0', //Ads
@@ -149,28 +148,20 @@ class BibliosRedirect
 		'jfd' => 'http://learn.yieldmore.org/helpers/jobs-for-dyslexics/',
 		'jfd-video' => 'https://www.youtube.com/watch?v=v9F1cd_qKMM',
 		'jfd-yt' => 'https://www.youtube.com/channel/UCMf0LSqKfUH8wu5ngQSBSXA',
-		'sinchana' => 'http://learn.yieldmore.org/helpers/sinchana/',
+		'sinchana' => 'http://yieldmore.org/learn/helpers/sinchana/',
 		'goodcountry' => 'http://yieldmore.org/movements/good-country/',
 			'ted-goodcountry' => 'https://www.ted.com/talks/simon_anholt_which_country_does_the_most_good_for_the_world',
 			'goodcountry-ppt' => 'https://docs.google.com/presentation/d/1pQsxWUcb3fJJ_xbNlfmXdjnl2Mh1w-5sQAav8TR1JXE',
 			'goodcountry-video' => 'https://www.youtube.com/watch?v=9eV0oOJSRuU',
-		'esther' => 'http://heal.yieldmore.org/helpers/wisdoms-whisper-spirits-scribe/',
-		'specialsources' => 'http://specialsources.com',
-		'jeevan' => 'http://share.yieldmore.org/helpers/jeevan/?node=million-cells',
-
-
-		/*'Other People',
-		'vamsa' => 'http://indiatemple.blogspot.in/2016/10/vamsa-quest-for-divine-calling.html',
-		'vamsa-amazon'=> 'http://www.amazon.in/Vamsa-Divine-Calling-Kavitha-Kalyan/dp/194612947X/ref=sr_1_1',
-		'vamsa-google'=> 'https://books.google.co.in/books?id=BvlEDQAAQBAJ',*/
+		//'specialsources' => 'http://specialsources.com',
+		'jeevan' => 'http://yieldmore.org/help/ngos/jeevan/?node=million-cells',
 	);
 
 	private static function get_slug()
 	{
 		$r = $_SERVER['REQUEST_URI'];
 		$s = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
-		//die($r . ' - ' . $s);
-		$slug = substr($r, strlen($s)); //die($slug);
+		$slug = substr($r, strlen($s));
 		return $slug;
 	}
 

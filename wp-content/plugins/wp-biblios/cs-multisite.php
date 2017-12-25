@@ -9,26 +9,52 @@ function cs_has_nav_menu($has_nav_menu, $location) {
 add_filter('has_nav_menu', 'cs_has_nav_menu');
 
 function cs_pre_wp_nav_menu($args) {
-  //print_r($args); die();
-  if (true || is_multisite() && $args['menu'] === 'top')
-  {
-    $id = get_current_blog_id();
-    $sites = array(
-      1 => ['YieldMore.org', ''],
-      2 => ['Curate YM', 'curate'],
-      3 => ['Learn YM', 'learn'],
-      4 => ['Heal YM', 'heal'],
-      5 => ['Help YM', 'help'],
-    );
-    $r = '<div class="menu-topmenu-container"><ul id="top-menu" class="menu">';
-    foreach ($sites as $i=>$s) {
-      $r .= sprintf('<li id="menu-item-%s" class="menu-item menu-item-type-taxonomy menu-item-object-category %smenu-item-has-children menu-item-%s"><a href="http://yieldmore.org/%s">%s</a></li>',
-        $i, $i == $id ? 'current-menu-item ' : '', $i, $s[1], $s[0]);
+  $id = get_current_blog_id();
+  //if ($id == 6) return $args;
+  $sites = [
+    1 => ['YieldMore.org', '', [
+        //-1 => ['Ideas', '/ideas'],
+        -2 => ['Movements', 'movements/'],
+        -3 => ['Ventures', 'pages/ventures/'],
+        -4 => ['Entheos', 'topics/religion/'],
+      ]],
+    -4 => ['Express YM', 'speak/', [
+        2 => ['Curate YM', 'curate/'],
+        -3 => ['Songs', 'curate/songs/'],
+        -4 => ['Movies', 'curate/movies/'],
+      ]],
+    3 => ['Learn YM', 'learn/', [
+        8 => ['PACT', 'pact/'],
+        7 => ['PeaceWorks', 'peaceworks/'],
+        6 => ['MOQ', 'moq/'],
+        //-3 => ['PW/E', 'pages/ventures/'],
+        //-4 => ['Electronics', 'electronics'],
+        //-5 => ['Programming', 'programming'],
+      ]],
+    4 => ['Heal YM', 'heal/'],
+    5 => ['Help YM', 'help/', [
+        10 => ['Share', 'share/'],
+        -1 => ['Ammai Appar Agam', 'help/ngos/3a/'],
+    ]],
+  ];
+
+  $r = '<div class="menu-topmenu-container"><ul id="top-menu" class="menu">';
+  $fmt = '  <li id="menu-item-%s" class="menu-item menu-item-type-taxonomy menu-item-object-category %s%smenu-item-%s"><a href="http://yieldmore.org/%s">%s%s</a>';
+  $down = '<svg class="icon icon-angle-down" aria-hidden="true" role="img"> <use href="#icon-angle-down" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-angle-down"></use></svg>';
+  foreach ($sites as $i=>$s) {
+    $r .= sprintf($fmt, $i, $i == $id ? 'current-menu-item ' : '', isset($s[2]) ? 'menu-item-has-children ' : '', $i, $s[1], $s[0], isset($s[2]) ? $down : '');
+    if (isset($s[2])) {
+      $r .= PHP_EOL . '  <ul class="sub-menu">';
+      foreach ($s[2] as $j=>$t) {
+          $r .= sprintf('  ' . $fmt . '</li>', $j, $j == $id ? 'current-menu-item ' : '', '', $j, $t[1], $t[0], '');
+      }
+      $r .= '  </ul>' . PHP_EOL . '  </li>';
+    } else {
+      $r .= '</li>' . PHP_EOL;
     }
-    $r .= '</ul></div>';
-    return $r;
   }
-  return $args;
+  $r .= '</ul></div>';
+  return $r;
 }
 
 add_filter('pre_wp_nav_menu', 'cs_pre_wp_nav_menu');
