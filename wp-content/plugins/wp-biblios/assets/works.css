@@ -54,6 +54,7 @@ a.top { float: right; }
 #info-body a { color: #5A8921; }
 
 /* 2017 */
-.site-ym .site-branding .wrap { background:  url(images/star.png) top right no-repeat; background-size: contain; }
-.custom-header-media, .site-content-contain { background-color: #0C0F14!important; }
+.custom-header, .site-content, footer { background-color: #007F0E!important; }
+.custom-header, .custom-header a, .site-description { color: #fff!important; }
+.site-ym .site-branding .wrap { background:  url(images/earth.png) top right no-repeat; background-size: contain; }
 #content .wrap, footer .wrap { background-color: #fff; padding-top: 30px; }

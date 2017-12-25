@@ -11,6 +11,7 @@
 ?>
 
 <?php
+//global $except; if (!$except) switch_to_blog(1);
 if ( is_active_sidebar( 'sidebar-2' ) ||
 	 is_active_sidebar( 'sidebar-3' ) ) :
 ?>
@@ -29,4 +30,6 @@ if ( is_active_sidebar( 'sidebar-2' ) ||
 		<?php } ?>
 	</aside><!-- .widget-area -->
 
-<?php endif; ?>
+<?php endif;
+//if (!$except) restore_current_blog();
+?>

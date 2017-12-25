@@ -13,15 +13,18 @@ function cs_pre_wp_nav_menu($args) {
   //if ($id == 6) return $args;
   $sites = [
     1 => ['YieldMore.org', '', [
-        //-1 => ['Ideas', '/ideas'],
         -2 => ['Movements', 'movements/'],
         -3 => ['Ventures', 'pages/ventures/'],
         -4 => ['Entheos', 'topics/religion/'],
+        -5 => ['Songs', 'songs/'],
       ]],
     -4 => ['Express YM', 'speak/', [
+        //-1 => ['Ideas', '/ideas'],
         2 => ['Curate YM', 'curate/'],
+        -1 => ['Publish (IViewer Web)', 'http://media.yieldmore.org/sanskrit/gita/'],
         -3 => ['Songs', 'curate/songs/'],
         -4 => ['Movies', 'curate/movies/'],
+        -5 => ['Samata Books', 'http://samatabooks.in/'],
       ]],
     3 => ['Learn YM', 'learn/', [
         8 => ['PACT', 'pact/'],
@@ -39,14 +42,14 @@ function cs_pre_wp_nav_menu($args) {
   ];
 
   $r = '<div class="menu-topmenu-container"><ul id="top-menu" class="menu">';
-  $fmt = '  <li id="menu-item-%s" class="menu-item menu-item-type-taxonomy menu-item-object-category %s%smenu-item-%s"><a href="http://yieldmore.org/%s">%s%s</a>';
+  $fmt = '  <li id="menu-item-%s" class="menu-item menu-item-type-taxonomy menu-item-object-category %s%smenu-item-%s"><a href="%s">%s%s</a>';
   $down = '<svg class="icon icon-angle-down" aria-hidden="true" role="img"> <use href="#icon-angle-down" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-angle-down"></use></svg>';
   foreach ($sites as $i=>$s) {
-    $r .= sprintf($fmt, $i, $i == $id ? 'current-menu-item ' : '', isset($s[2]) ? 'menu-item-has-children ' : '', $i, $s[1], $s[0], isset($s[2]) ? $down : '');
+    $r .= sprintf($fmt, $i, $i == $id ? 'current-menu-item ' : '', isset($s[2]) ? 'menu-item-has-children ' : '', $i, (strpos($s[1], 'http') === false ? 'http://yieldmore.org/' : '') . $s[1], $s[0], isset($s[2]) ? $down : '');
     if (isset($s[2])) {
       $r .= PHP_EOL . '  <ul class="sub-menu">';
       foreach ($s[2] as $j=>$t) {
-          $r .= sprintf('  ' . $fmt . '</li>', $j, $j == $id ? 'current-menu-item ' : '', '', $j, $t[1], $t[0], '');
+          $r .= sprintf('  ' . $fmt . '</li>', $j, $j == $id ? 'current-menu-item ' : '', '', $j, (strpos($t[1], 'http') === false ? 'http://yieldmore.org/' : '') . $t[1] , $t[0], '');
       }
       $r .= '  </ul>' . PHP_EOL . '  </li>';
     } else {

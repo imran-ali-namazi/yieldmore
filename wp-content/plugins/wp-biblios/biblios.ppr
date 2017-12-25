@@ -17,6 +17,7 @@ Extensions=*.*
 biblios
 	+2017
 		..\..\themes\twentyseventeen\template-parts\post\content.php
+		..\..\themes\twentyseventeen\footer.php
 		..\..\themes\twentyseventeen\template-parts\footer\footer-widgets.php
 		..\..\themes\twentyseventeen\header.php
 		..\..\themes\twentyseventeen\index.php
@@ -98,6 +99,7 @@ biblios
 		csb-webparts.php
 		csb-widgets.php
 		csb-work.php
+		cs-multisite.php
 		functions.php
 		functions-dep.php
 		post-content.php
