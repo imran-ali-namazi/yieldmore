@@ -21,6 +21,7 @@ function cs_pre_wp_nav_menu($args) {
     -4 => ['Express YM', 'speak/', [
         //-1 => ['Ideas', '/ideas'],
         2 => ['Curate YM', 'curate/'],
+        11 => ['Saiva Siddhanthan', 'saiva-siddanthan/'],
         -1 => ['Publish (IViewer Web)', 'http://media.yieldmore.org/sanskrit/gita/'],
         -3 => ['Songs', 'curate/songs/'],
         -4 => ['Movies', 'curate/movies/'],
