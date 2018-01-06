@@ -15,42 +15,64 @@ function cs_pre_wp_nav_menu($args) {
     1 => ['YieldMore.org', '', [
         -2 => ['Movements', 'movements/'],
         -3 => ['Ventures', 'pages/ventures/'],
-        -4 => ['Entheos', 'topics/religion/'],
         -5 => ['Songs', 'songs/'],
       ]],
-    -4 => ['Express YM', 'speak/', [
-        //-1 => ['Ideas', '/ideas'],
-        2 => ['Curate YM', 'curate/'],
+    9 => ['Express YM', 'express/', [
+        -1 => ['Speak (old)', 'speak/'],
+         2 => ['Curate YM', 'curate/'],
+        -2 => ['Imran', 'speak/imran/'],
+        -3 => ['Publish (IViewer Web)', 'http://media.yieldmore.org/sanskrit/gita/'],
+        -4 => ['Songs', 'curate/songs/'],
+        -5 => ['Movies', 'curate/movies/'],
+      ]],
+    -5 => ['Ideas YM', 'ideas/', [
+        -1 => ['Works (Biblios)', 'works/'],
+        -2 => ['Entheos', 'topics/religion/'],
         11 => ['Saiva Siddhanthan', 'saiva-siddanthan/'],
-        -1 => ['Publish (IViewer Web)', 'http://media.yieldmore.org/sanskrit/gita/'],
-        -3 => ['Songs', 'curate/songs/'],
-        -4 => ['Movies', 'curate/movies/'],
-        -5 => ['Samata Books', 'http://samatabooks.in/'],
+        -3 => ['Samata Books', 'http://samatabooks.in'],
+        6 => ['Metaphysics of Quality', 'moq/'],
       ]],
     3 => ['Learn YM', 'learn/', [
         8 => ['PACT', 'pact/'],
         7 => ['PeaceWorks', 'peaceworks/'],
-        6 => ['MOQ', 'moq/'],
+        7 => ['English', 'e'],
+        7 => ['Web and Marketing', 's'],
+        -1 => ['Build India Group', 'http://buildindiagroup.org'],
+        -3 => ['IONS', 'http://noetic.org'],
         //-3 => ['PW/E', 'pages/ventures/'],
-        //-4 => ['Electronics', 'electronics'],
-        //-5 => ['Programming', 'programming'],
       ]],
-    4 => ['Heal YM', 'heal/'],
-    5 => ['Help YM', 'help/', [
-        10 => ['Share', 'share/'],
+    4 => ['Heal YM', 'heal/', [
+        -1 => ['Spirit of the Earth', 'heal/orgs/spirit-of-the-earth'],
+      ]],
+    5 => ['Share YM', 'share/', [
         -1 => ['Ammai Appar Agam', 'help/ngos/3a/'],
-    ]],
+        -2 => ['Satyam Yoga Trust', 'http://satyamyogatrust.net'],
+        -3 => ['AIM For Seva', 'share/ngos/aim-for-seva/'],
+        -4 => ['Spanda Foundation', 'http://spanda.org'],
+        -5 => ['SHARE India', 'http://shareindia.org/'],
+        -6 => ['Good Country', 'http://goodcountry.org'],
+        -7 => ['Blood Cancer Donor Registry', 'http://bethecure.in/'],
+        -8 => ['Dr John Joseph Foundation', 'http://drjohnjosephfoundation.org/'],
+      ]],
+    -7 => ['About', 'about/', [
+        -1 => ['Ventures and Offerings', 'pages/ventures/'],
+        -2 => ['News', 'pages/news/'],
+        -3 => ['Forwards', 'pages/forwards/'],
+        -4 => ['Newsletter', 'pages/newsletter/'],
+        -5 => ['Quotes', 'pages/quotes/'],
+        -6 => ['Directory', 'pages/directory/'],
+      ]],
   ];
 
   $r = '<div class="menu-topmenu-container"><ul id="top-menu" class="menu">';
-  $fmt = '  <li id="menu-item-%s" class="menu-item menu-item-type-taxonomy menu-item-object-category %s%smenu-item-%s"><a href="%s">%s%s</a>';
+  $fmt = '  <li id="menu-item-%s" class="menu-item menu-item-type-taxonomy menu-item-object-category %s%smenu-item-%s"><a href="%s"%s>%s%s</a>';
   $down = '<svg class="icon icon-angle-down" aria-hidden="true" role="img"> <use href="#icon-angle-down" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-angle-down"></use></svg>';
   foreach ($sites as $i=>$s) {
-    $r .= sprintf($fmt, $i, $i == $id ? 'current-menu-item ' : '', isset($s[2]) ? 'menu-item-has-children ' : '', $i, (strpos($s[1], 'http') === false ? 'http://yieldmore.org/' : '') . $s[1], $s[0], isset($s[2]) ? $down : '');
+    $r .= sprintf($fmt, $i, $i == $id ? 'current-menu-item ' : '', isset($s[2]) ? 'menu-item-has-children ' : '', $i, (strpos($s[1], 'http') === false ? 'http://yieldmore.org/' : '') . $s[1], strpos($s[1], 'http') !== false ? ' target="_blank"' : '', $s[0], isset($s[2]) ? $down : '');
     if (isset($s[2])) {
       $r .= PHP_EOL . '  <ul class="sub-menu">';
       foreach ($s[2] as $j=>$t) {
-          $r .= sprintf('  ' . $fmt . '</li>', $j, $j == $id ? 'current-menu-item ' : '', '', $j, (strpos($t[1], 'http') === false ? 'http://yieldmore.org/' : '') . $t[1] , $t[0], '');
+          $r .= sprintf('  ' . $fmt . '</li>', $j, $j == $id ? 'current-menu-item ' : '', '', $j, (strpos($t[1], 'http') === false ? 'http://yieldmore.org/' : '') . $t[1] , strpos($t[1], 'http') !== false ? ' target="_blank"' : '', $t[0], '');
       }
       $r .= '  </ul>' . PHP_EOL . '  </li>';
     } else {

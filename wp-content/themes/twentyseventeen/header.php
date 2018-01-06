@@ -12,14 +12,14 @@
  * @version 1.0
  */
 global $except; 
-$except = in_array(get_current_blog_id(), [6, 10]); //moq, share
+$except = in_array(get_current_blog_id(), [6]); //moq
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-
+<?php if (!is_single() && !is_page()) echo '<meta name="robots" content="noindex,follow">' . PHP_EOL; ?>
 <?php wp_head(); ?>
 </head>
 

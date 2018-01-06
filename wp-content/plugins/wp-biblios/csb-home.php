@@ -16,7 +16,7 @@ function csb_home_query($query)
 	if (isset($exclude[get_current_blog_id()]))
 		$query->query_vars['post__not_in'] = $exclude[get_current_blog_id()];
 
-	$query->query_vars['posts_per_page'] = -1;
+	//$query->query_vars['posts_per_page'] = -1;
 	$query->query_vars['orderby'] = 'ID';
 	cs_var('csb_home_query', true);
 }

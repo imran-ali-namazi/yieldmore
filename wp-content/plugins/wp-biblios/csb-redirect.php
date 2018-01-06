@@ -6,6 +6,11 @@ class BibliosRedirect
 		'About YM',
 		'start' => 'http://yieldmore.org/about/#splash',
 		'v' => 'http://yieldmore.org/pages/ventures',
+		'e' => 'http://yieldmore.org/peaceworks/skills/english/',
+		's' => 'http://yieldmore.org/peaceworks/services/supershare/',
+		'p' => 'http://yieldmore.org/peaceworks/',
+		//offerings
+		'o' => 'https://docs.google.com/document/d/12BgU1Ry9GAeQPnjCkkq1_1LCT9HYjDFyjThqF_ZDzYE',
 		'f' => 'http://yieldmore.org/pages/forwards',
 		'pr' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',
 			'pr-new' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',

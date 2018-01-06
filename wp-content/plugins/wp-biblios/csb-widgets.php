@@ -29,7 +29,7 @@ class WorksWidget extends WP_Widget
 		_nl('<div style="padding: 0">');
 		foreach ($byType as $t=>$wks)
 		{
-			_nl('<span class="sb-what">' . WorkNav::typeLink($t, $url) . '</span>');
+			_nl('<span class="sb-what">' . WorkNav::typeLink(empty($t) ? 'All' : $t, $url) . '</span>');
 			echo implode('<br/>', $wks);
 		}
 		_nl('</div>');
