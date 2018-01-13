@@ -1,0 +1,40 @@
+The Cselian Book and Publishing Project (Biblios) preserves notable works in a modern, easy to read, online manner.
+
+Biblios will let you save bookmarks online, make and share quotes, take notes etc, and solves some difficulties viz:
+<ul>
+	<li>Books online are difficult to read (bad site design, too many ads / images), and lack some features.</li>
+	<li>PDFs dont show <a href="http://biblios.cselian.com/jls/search.php?q=fly" target="_blank">search results</a> with context and are not suitable for reading across multiple devices.</li>
+	<li>Often when reading a hard-copy, we want to store <a href="http://biblios.cselian.com/prophet/quote.php?all=1" target="_blank">memorable bits</a> for future reading / sharing with friends.</li>
+	<li>Other languages are not always <a href="http://biblios.cselian.com/eg/transliterations.php" target="_blank">given</a> <a href="http://biblios.cselian.com/eg/search.php?q=transliterations" target="_blank">special</a> <a href="http://biblios.cselian.com/eg/series1-chapter18-the-divine-worker" target="_blank">attention</a> nor are the <a href="http://biblios.cselian.com/vs/" target="_blank">transliterations</a>.</li>
+</ul>
+
+<h1>Copyright</h1>
+None of these books have copyright permissions yet.
+
+You must first agree to our <b>usage terms</b> before reading them:
+<blockquote>My purpose in using this site is to read or use as a reference, books that I have already read or own. Also I'd like to preview unread books. I do declare that my intention is not to read books for free, denying due royalty owed to the Author and Publishers.</blockquote>
+
+In the long run, we hope to contact copyright holders and have them allow:
+<ul>
+	<li>readers agree to something like our Fair Usage Terms and can be tracked by them.</li>
+	<li>Books only being available if you pay for them.</li>
+	<li>quotes / search results being available, and perhaps additionally a previewable amount of the book.</li>
+	<li>People sponsor other readers.</li>
+	<li>We do fundraisers to buy copyrights.</li>
+</ul>
+
+<h1>Whose Works:</h1>
+The works of any and all are welcome, if it meets our <a title="Will be expanded">criteria</a> - progressive in nature, truly inspirational, and does not refute the validity of other faiths / works.
+Having only just begun, the focus is on <a href="http://cselian.com/blog/my/share/aurobindos-independance-day-message/" target="_blank">Indian Spiritualism</a>, but would like to expand to <a href="http://www.williambloom.com/writings/penguin-new-age-intro-63.htm" target="_blank">any mature works</a> and other faiths.
+We are also trying rethink <a href="http://www.google.com/search?q=paperless%20philosophy" target="_blank">online publication</a> and help smaller organizations and individuals do so at no cost.
+
+<h1>Copyright and Revenue:</h1>
+There are several kinds of content we want on our site viz:
+<ul>
+	<li>Works that are <a href="http://en.wikipedia.org/wiki/Public_domain" target="_blank">already free</a>.</li>
+	<li>Works that can be had free or at a nominal price.</li>
+	<li>Donors <a href="http://en.wikipedia.org/wiki/Pay_it_forward" target="_blank">pay it forward</a> to X number of friends and other interested readers.</li>
+	<li>We do collection runs to buy out copyright holders and set the works free.</li>
+</ul>
+
+- 5th Dec 2014

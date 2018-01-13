@@ -19,6 +19,7 @@
 	</header><!-- .entry-header -->
 	<div class="entry-content">
 		<?php
+		if (cs_work_get('hascontent')) cs_work_get('content'); else
 			the_content();
 
 			wp_link_pages( array(

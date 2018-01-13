@@ -69,7 +69,7 @@ function cs_work($id, $data = null)
 	}
 	else
 	{
-		if (get_post_type($id) == 'post')
+		if (get_post_type($id) == 'post' || get_post_type($id) == 'page')
 		{
 			global $post;
 			$content = $post->post_content;
@@ -121,7 +121,7 @@ function cs_work_get($what)
 	} else if ($what == 'hascontent') {
 		return WorkNav::nodeOrSearchOrQuoteOrAll();
 	} else if ($what == 'content') {
-		if (get_post_type($id) == 'post')
+		if (get_post_type($id) == 'post' || get_post_type($id) == 'page')
 			include 'post-content.php';
 		else
 			include 'csb-' . (WorkNav::quote() ? 'quote' : (WorkNav::search() ? 'search' : 'content')) . '.php';

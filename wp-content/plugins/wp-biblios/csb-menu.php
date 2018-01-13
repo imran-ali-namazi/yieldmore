@@ -23,7 +23,7 @@ class WorkMenu
 			return;
 		}
 
-		if (get_post_type($id) == 'post')
+		if (get_post_type($id) == 'post' || get_post_type($id) == 'page')
 			self::text($id, $wk);
 		else if (!isset($wk['config']['slug2']))
 			self::one($id, $wk);
