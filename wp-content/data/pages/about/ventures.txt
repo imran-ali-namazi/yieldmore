@@ -1,34 +1,38 @@
-Here we go in detail on all the ventures mentioned in our splash popup. These could be paid services chargeable by the professional doing the work.
+Here is a list of all ideas we have. These could be paid services chargeable by the professional doing the work with a commission/donation made to Imran / YieldMore.org / cselian.com.
 
-PACT - a platform for discussion and interaction between the 4 constituents of the education system - Parents, Administrators (Institutions), Children and Teachers.
+<ol>
+  <li><a href="/pact/">PACT</a> - a platform for discussion and interaction between the 4 constituents of the education system - Parents, Administrators (Institutions), Children and Teachers.</li>
+  <li><a href="/peaceworks/">Peaceworks</a> - an initiative for helping students and the workforce develop skills and soft skills, creating industry based thought and evaluation frameworks and content/courses for furthering their careers.<ol>
+    <li>Mentoring - building a directory of people in their 20s, 30s and 40s who would like to mentor junior professionals and build a connect with children in high schools and colleges. These would include perspectives and ideals not just skills and communication.</li>
+  </ol></li>
+  <li>Accreditation for schools, colleges and training institutes with quantitative as well as . pre-discussion stage.</li>
+  <li>All India Journal of Social Work to further the dreams of the Late Prof PJ Naidu, founder of <a href="http://sites.yieldmore.org/jssw" target="_blank">The Journal of School Social Work</a></li>
+  <li>Happiness Index (statistics / demographics) and ways to increase it.</li>
+  <li><b>Counselling and Corporate Counselling</b> - building a directory of counsellors and other quality of life professionals and a platform for them to voice their ideas in the form of articles and videos. Planning a forum, helpline and chatroom as well and would like to link to existing ones.</li>
+  <li>Promote Programs like
+    * Instrumental Enrichment - icelp.org
+    * Mindful Motherhood - noetic.org
+    * Brain Sync - brainsync.com
+</li>
+<li>Ideas (in books) dealing with Sanatana Dharma (eternal laws of life), Religion, Values, Yoga and Philosophy (metaphysics) - samatabooks.in</li>
+  <li>Sri Aurobindo’s Integral Yoga, Overman (evolution), Life Divine, Social and Spiritual Revolutions</li>
+  <li>IT, Training and Marketing/Media services and products - cselian.com (founder / primary supporter of YM)</li>
+  <li>Entheos - platform for religious dialogue, right perception and harmony and <a href="http://media.yieldmore.org" target="_blank">IViewer Web</a> (and <a href="http://ivy.cselian.com/iviewer" target="_blank">Windows</a>) - a way to learn pronunciation and the meanings of prayers, scriptures and songs.</li>
+  <li>YieldMore.org - a free information portal for meeting people committed to personal and societal well-being with 3 channels - Learn / Heal / Share and 4 mantras - Inspire / Curate / Promote / Publish<ul>
+    <li><b><a href="/forum/">Forum</a> / Chat</b> - a forum / chat site for all members and persons interested in a Better Life. For now we are just collecting questions so write in to us. Some existing forums on stackexchange are:
+      <a href="https://parenting.stackexchange.com" target="_blank" title="for parents, grandparents, nannies and others with a parenting role">parenting</a>,
+      <a href="https://fitness.stackexchange.com" target="_blank" title="for physical fitness professionals, athletes, trainers, and those providing health-related needs">fitness</a>,
+      <a href="https://mythology.stackexchange.com" target="_blank" title=" for enthusiasts and scholars of mythology">mythology</a>,
+      <a href="https://vegetarianism.stackexchange.com" target="_blank" title=" for those committed to a vegan or vegetarian lifestyle and anyone interested in learning more">vegetarianism</a> or
+      <a href="https://writers.stackexchange.com/" target="_blank" title=" for authors, editors, reviewers, professional writers, and aspiring writers">writers</a>.
+    </li>
+    <li><b>Volunteers and Donors</b> - Find places to go and people to share/volunteer their time in orphanages, old-age homes <a href="https://www.specialsources.com/ngo/madras-dyslexia-association" target="_blank">special schools</a>, etc.</li>
+    <li><b>Publish</b> selections and summaries from books and entire <a href="http://yieldmore.org/works" target="_blank">works</a> </li>
+    <li><b>Learn</b> English and Culture through curated lists of <a href="http://yieldmore.org/curate/movies/all/">movies</a>, <a href="http://yieldmore.org/books/">books</a>, etc and find teachers for assessments and 1-1 sessions. We have 2 teachers already listed with us who can even take classes for groups of people. Our <a href="http://ivy.cselian.com/iviewer" target="_blank">mp3 player</a> is being enhanced as a lyrics trainer (with a loop feature) for people to learn <a href="http://yieldmore.org/curate/songs/school/" target="_blank">songs</a> and prayers.</li>
+    <li><b>Repository</b> of inspirational information and ideas worth <a href="http://yieldmore.org/learn/" target="_blank">learning</a> and <a href="http://yieldmore.org/share/" target="_blank">sharing</a>.</li>
+    <li>Ask people to embrace the path of Learn, Heal, Share, Experience/Emote/Express and Yield More, sharing their experiences with us and making videos/slides for the benefit of others<  <li>Reaching out to people and encouraging them to begin a voyage of self discovery and self expression. Making them think of giving back / volunteering.</li>
+    <li>Spawn and support movements (yieldmore.org/movements) like Good Country, Build India, Loving Nature (Animal Rights) and Zero Waste / Recycling</li>
+  </ul></li>
+</ol>
 
-Peaceworks - an initiative for helping students and the workforce develop skills and soft skills, creating industry based thought and evaluation frameworks and content/courses for furthering their careers.
-
-Accreditation for schools, colleges and training institutes with quantitative as well as . pre-discussion stage.
-
-All India Journal of Social Work to further the dreams of the Late Prof PJ Naidu, founder of The Journal of School Social Work - sites.yieldmore.org/jssw
-
-Happiness Index (statistics / demographics) and ways to increase it.
-
-Counselling and Corporate Counselling
-
-Programs like
-* Instrumental Enrichment - icelp.org
-* Mindful Motherhood - noetic.org
-* Brain Sync - brainsync.com
-
-Ideas (in books) dealing with Sanatana Dharma (eternal laws of life), Religion, Values, Yoga and Philosophy (metaphysics) - samatabooks.in
-
-Sri Aurobindo’s Integral Yoga, Overman (evolution), Life Divine, Social and Spiritual Revolutions
-
-IT, Training and Marketing/Media services and products - cselian.com (founder / primary supporter of YM)
-
-Entheos - platform for religious dialogue, right perception and harmony and IViewer Web (and Windows) - media.yieldmore.org - a way to learn pronunciation and the meanings of prayers, scriptures and songs.
-
-YieldMore.org - a free information portal for meeting people committed to personal and societal well-being with 3 channels - Learn / Heal / Share and 4 mantras - Inspire / Curate / Promote / Publish
-
-Reaching out to people and encouraging them to begin a voyage of self discovery and self expression. Making them think of giving back / volunteering.
-
-Spawn and support movements (yieldmore.org/movements) like Good Country, Build India, Loving Nature (Animal Rights) and Zero Waste / Recycling
-
-- 22 Nov 2017
+- Initial: 22 Nov 2017 / Edited: 14 Jan 2018

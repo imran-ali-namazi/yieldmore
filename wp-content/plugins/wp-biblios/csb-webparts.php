@@ -13,7 +13,7 @@ class CSWebParts
 		echo '<div id="info-body" style="display: none;">';
 		//echo '	<img src="/wp-content/plugins/wp-biblios/assets/images/yield-banner.png" /><br />';
 		echo '<a class="close" href="javascript:$(\'#info-body\').bPopup().close();">close</a>';
-		echo '<small>Click the logo (green / blue) on the header, or the animation in the footer\'s right of any page to launch this splash popup.</i></small><br/>';
+		echo '<small>Click the logo (green / blue) on the header, or the "Splash Popup" menu link under About in the top nav to launch this popup.</i></small><br/>';
 
 		echo file_get_contents(dirname(__FILE__) . '/assets/info.html') . PHP_EOL;
 		if (is_home()) echo '<script>var showYMInfo = true;</script>' . PHP_EOL;

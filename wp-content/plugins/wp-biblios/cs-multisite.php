@@ -13,9 +13,13 @@ function cs_pre_wp_nav_menu($args) {
   //if ($id == 6) return $args;
   $sites = [
     1 => ['YieldMore.org', '', [
-        -2 => ['Movements', 'movements/'],
-        -3 => ['Ventures', 'about/?node=ventures'],
-        -5 => ['Songs', 'songs/'],
+        -1 => ['Movements', 'movements/'],
+        -2 => ['Ventures', 'about/?node=ventures'],
+        -3 => ['News', 'news/'],
+        -4 => ['Forwards', 'forwards/'],
+        -5 => ['Newsletter', 'newsletter/'],
+        -6 => ['Quotes', 'quotes/'],
+        -7 => ['Songs', 'songs/'],
       ]],
     9 => ['Express YM', 'express/', [
         -1 => ['Speak (old)', 'speak/'],
@@ -30,17 +34,19 @@ function cs_pre_wp_nav_menu($args) {
         -2 => ['Entheos', 'topics/religion/'],
         11 => ['Saiva Siddhanthan', 'saiva-siddanthan/'],
         -3 => ['Samata Books', 'http://samatabooks.in'],
+        -4 => ['Peter Russel', 'http://peterrussell.com'],
          6 => ['Metaphysics of Quality', 'moq/'],
-        -4 => ['St Johns Lutheran Church', 'http://www.sjlchurch.org/sermons'],
+        -5 => ['St Johns Lutheran Church', 'http://www.sjlchurch.org/sermons'],
       ]],
     3 => ['Learn YM', 'learn/', [
         8 => ['PACT', 'pact/'],
         7 => ['PeaceWorks', 'peaceworks/'],
         -1 => ['English', 'e'],
         -2 => ['Web and Marketing', 's'],
-        -3 => ['Build India Group', 'http://buildindiagroup.org'],
-        -3 => ['The Compass Team', 'http://thecompassteam.in'],
-        -4 => ['IONS', 'http://noetic.org'],
+        -3 => ['Journal of School Social Work', 'http://sites.yieldmore.org/jssw/'],
+        -4 => ['Build India Group', 'http://buildindiagroup.org'],
+        -5 => ['The Compass Team', 'http://thecompassteam.in'],
+        -6 => ['IONS', 'http://noetic.org'],
         //-3 => ['PW/E', 'pages/ventures/'],
       ]],
     4 => ['Heal YM', 'heal/', [
@@ -63,11 +69,13 @@ function cs_pre_wp_nav_menu($args) {
       ]],
     -7 => ['About', 'about/', [
         -1 => ['Ventures and Offerings', 'about/?node=ventures'],
-        -2 => ['News', 'news/'],
-        -3 => ['Forwards', 'forwards/'],
-        -4 => ['Newsletter', 'newsletter/'],
-        -5 => ['Quotes', 'quotes/'],
-        -6 => ['Directory', 'directory/'],
+        -2 => ['Splash Popup', 'about/#splash" class="splash-link'],
+        -3 => ['Sitemap', '?o=1'],
+        -4 => ['Short Links', 'r'],
+        -5 => ['YouTube', 'yt'],
+        -6 => ['Google', 'google'],
+        -7 => ['Twitter', 'twitter'],
+        -8 => ['Directory', 'directory/'],
       ]],
   ];
 

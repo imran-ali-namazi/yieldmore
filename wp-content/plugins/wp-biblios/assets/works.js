@@ -34,7 +34,7 @@ $(document).ready(function() {
 		$('#info-body').bPopup({follow: false, position: ['auto', $(window).scrollTop() + 20]});
 		e.preventDefault();
 	});
-	if (location.hash == '#info-link' || location.hash == '#splash') $("#info-link").trigger('click');
+	if (location.hash == '#info-link' || location.hash == '#splash') $(".splash-link").trigger('click');
 	if (typeof showYMInfo != 'undefined')
 	{
 		if (document.cookie.indexOf('homeinfoshown') == -1)

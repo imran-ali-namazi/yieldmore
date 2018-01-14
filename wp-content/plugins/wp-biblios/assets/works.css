@@ -47,12 +47,13 @@ a.top { float: right; }
 .footnote { vertical-align: super; font-size: large; color: red; cursor: hand; }
 .footnote-text { background-color: #fff; border-radius: 15px; padding: 20px; }
 
-.footer-widget-2 .splash-link { background:  url(images/yield.gif) center right no-repeat; padding: 10px 35px 10px 0; }
+#top-menu .splash-link { background:  url(images/yield.gif) center right no-repeat; margin-right: 15px; }
 #info-body .close { background-color: #FFDC73; padding: 6px; float: right; border-radius: 12px; color: red; font-weight: bold }
-#info-body { background-color: #E2E2E2; max-width: 850px; padding: 20px; border-radius: 25px; }
-#info-body a { color: #5A8921; }
+#info-body { background-color: #fff; max-width: 850px; padding: 20px; border-radius: 25px; }
+#footer-poster { float: right; }
 
 a[target=_blank] { background: url(images/external.png) center right no-repeat; padding-right: 20px; }
+blockquote { margin-left: 40px!important; border-left: 4px solid #666; padding-left: 10px!important; }
 
 /* 2017 */
 .custom-header, .site-content, .site-footer { background-color: #222!important; }
