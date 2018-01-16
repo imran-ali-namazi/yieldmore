@@ -5,7 +5,8 @@ class WorkMenu
 
 	static function render($id, $wk)
 	{
-		_nl(CHtml::link('Home', WorkNav::post($id)), 1);
+		_nl(CHtml::link('Home [Main page]', WorkNav::post($id)), 1);
+		_nl('<br/>Table of Contents [Subpages]:', 1);
 		if (get_post_type($id) == 'work')
 		{
 			_nl(CHtml::link('Quotes', get_permalink($id) . '?quote=1'), 1);

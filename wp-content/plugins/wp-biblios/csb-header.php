@@ -1,5 +1,5 @@
 <?php
-_nl('<h2 class="widget-title">' . get_the_title() . '</h2>' , 1);
+_nl('<h2 class="widgettitle">' . get_the_title() . '</h2>' , 1);
 if (is_page()) return; //this search only for works
 if (get_post_type($id) == 'post') { _nl('', 1); return; } // TODO: add search to post
 $auth = cs_work_get('author');

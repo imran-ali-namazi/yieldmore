@@ -25,6 +25,7 @@ function cs_pre_wp_nav_menu($args) {
         -1 => ['Speak (old)', 'speak/'],
          2 => ['Curate YM', 'curate/'],
         -2 => ['Imran', 'speak/imran/'],
+        -6 => ['Swan (Imran)', 'swan'],
         -3 => ['Publish (IViewer Web)', 'http://media.yieldmore.org/sanskrit/gita/'],
         -4 => ['Songs', 'curate/songs/'],
         -5 => ['Movies', 'curate/movies/'],

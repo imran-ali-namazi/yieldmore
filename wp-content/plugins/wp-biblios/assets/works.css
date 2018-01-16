@@ -64,3 +64,4 @@ blockquote { margin-left: 40px!important; border-left: 4px solid #666; padding-l
 .site-title { text-transform: none!important; }
 #content .wrap, footer .wrap { background-color: #fff; padding-top: 30px; }
 
+.entry-meta .cat-links .icon { margin-right: 1em; }

@@ -15,6 +15,10 @@ ProjectFilesOnly=0
 Extensions=*.*
 [Project tree]
 biblios
+	+about
+		..\..\data\pages\about\flyer.txt
+		..\..\data\pages\about\faq.txt
+		..\..\data\pages\about\ventures.txt
 	+2017
 		+parts
 			..\..\themes\twentyseventeen\template-parts\navigation\navigation-top.php

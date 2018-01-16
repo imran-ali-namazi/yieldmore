@@ -22,6 +22,10 @@
 		<?php
 		if ( 'post' === get_post_type() ) {
 			echo '<div class="entry-meta">';
+				if (!is_category() && !is_single()) {
+					$cats = get_the_category_list(', ');
+					echo $cats ? '<span class="cat-links">' . twentyseventeen_get_svg( array( 'icon' => 'folder-open' ) ) . $cats . '</span> / ' : '';
+				}
 				if ( is_single() ) {
 					twentyseventeen_posted_on();
 				} else {
