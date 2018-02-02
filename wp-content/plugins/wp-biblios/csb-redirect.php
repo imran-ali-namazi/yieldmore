@@ -4,14 +4,18 @@ class BibliosRedirect
 {
 	private static $redirects = array(
 		'About YM',
-		'start' => 'http://yieldmore.org/about/#splash',
+		//'start' => 'http://yieldmore.org/about/#splash',
+
 		'v' => 'http://yieldmore.org/about/?node=ventures',
-		'e' => 'http://yieldmore.org/peaceworks/skills/english/',
+		'e' => 'http://yieldmore.org/peaceworks/services/english/',
 		's' => 'http://yieldmore.org/peaceworks/services/supershare/',
+		'm' => 'http://yieldmore.org/peaceworks/services/mentoring/',
 		'p' => 'http://yieldmore.org/peaceworks/',
 		//offerings
 		'o' => 'https://docs.google.com/document/d/12BgU1Ry9GAeQPnjCkkq1_1LCT9HYjDFyjThqF_ZDzYE',
 		'f' => 'http://yieldmore.org/forwards/',
+		'meet' => 'https://hangouts.google.com/hangouts/_/cselian.com/meetings',
+
 		'pr' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',
 			'pr-new' => 'https://docs.google.com/document/d/1FbJ2u2W_GMacKo1jZ2YsMv7VoZMGpjjSZpmCs3_JOsU',
 		'pr-old' => 'https://docs.google.com/document/d/1b-mWCmPgAsem7zWF2jjaa3LwJOaNbuAPIezfK-RoTYM',
@@ -39,13 +43,15 @@ class BibliosRedirect
 		'Other Social Media',
 		'discuss' => 'https://groups.google.com/forum/#!forum/yieldmore',
 		'google' => 'https://groups.google.com/forum/#!forum/yieldmore',
+		'twitter' => 'https://twitter.com/YieldMoreOrg',
+		'twitter-learn' => 'https://twitter.com/LearnYMO',
 		'li' => 'https://www.linkedin.com/company/yieldmore-org',
 		'books' => 'https://books.google.co.in/books?uid=111519852770312117046',
-		'yt' => 'https://www.youtube.com/channel/UC_iHhVADe1oSjP3oAi5bnnw/playlists',
+		'ytc' => 'https://www.youtube.com/channel/UC_iHhVADe1oSjP3oAi5bnnw/playlists',
 		'yt-shasa' => 'https://www.youtube.com/playlist?list=PLsuI89eMBnMEURG757yRUSVSxd5S96nIx',
-		'yt-scribe' => 'https://www.youtube.com/channel/UCESPy4vMsnv3htBqvHJh51Q/playlists',
-		'yt-vas' => 'https://www.youtube.com/channel/UC5oSnANyOydEOQjKwNjF_HA',
-		'yt-blink' => 'https://www.youtube.com/watch?v=6_3cB8Trcec&list=PLynUsr5OWn2EyfDw3J4G8VjVjIp_gulVM',
+		'yt' => 'https://www.youtube.com/channel/UCESPy4vMsnv3htBqvHJh51Q/playlists',
+		//'yt-vas' => 'https://www.youtube.com/channel/UC5oSnANyOydEOQjKwNjF_HA',
+		//'yt-blink' => 'https://www.youtube.com/watch?v=6_3cB8Trcec&list=PLynUsr5OWn2EyfDw3J4G8VjVjIp_gulVM',
 		'yt-tolle' => 'https://www.youtube.com/watch?v=dTFDfR47dl4&list=PLsuI89eMBnMH4JKkgy2Q_MGXsCHCJIUsV',
 		'yt-awakenings' => 'https://www.youtube.com/watch?v=6lsify2ml6E&list=PLsuI89eMBnMHoBX7GlG5BYjPUNxUk4P0X',
 		'yt-sama' => 'https://www.youtube.com/watch?v=XVF6edFgqqs&list=PLsuI89eMBnMGZab7xKLfGJ-JZ9H2126Q0',
@@ -58,12 +64,24 @@ class BibliosRedirect
 		'wa-players' => 'https://chat.whatsapp.com/JqzmMEJPvNo8X2r5vo1UhJ',
 		'wa-youth' => 'https://chat.whatsapp.com/Aq5Cc2KiUV4FtOsMMruRAy', //Inspiring Youth
 		'wa-forum' => 'https://chat.whatsapp.com/G2p8ytvH1NgBFt1hJXcWsv', //Better Living Forum YM
-		'tl-iran' => 'https://web.telegram.org/#/im?p=g210063115',
+		//'tl-iran' => 'https://web.telegram.org/#/im?p=g210063115',
 
 		'Ventures',
 		'youth-doc' => 'https://docs.google.com/document/d/1zVd6qPowYaBraA4B4UH_3Oj-tCTJKbtaQU7N-hwrdRU',
 		'change-harmony' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
 		'change-big-program' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
+
+		'Sites',
+		//pact
+		'pl' => 'http://yieldmore.org/pact/links/',
+		'ie' => 'http://yieldmore.org/pact/programs/instrumental-enrichment/',
+		'wve' => 'http://noetic.org/education/worldview/overview',
+		'school' => 'http://yieldmore.org/curate/songs/school/',
+		'values' => 'http://yieldmore.org/learn/students/values/',
+		'tct' => 'http://thecompassteam.in',
+		'pactg' => 'https://groups.google.com/d/forum/pact-ym',
+		//peaceworks
+		'pw' => 'http://yieldmore.org/peaceworks/',
 
 		'Contributors',
 		'swan' => 'http://yieldmore.org/incubate/essays-to-a-swan/',
@@ -71,10 +89,12 @@ class BibliosRedirect
 		//'imran-txt' => 'http://yieldmore.org/wp-content/data/users/shasa/swan/',
 		'imran-doc' => 'https://docs.google.com/document/d/1qU01Chgtuqw160D6KIpicyhALkXWU14xWZY8s4XhQV8',
 		'hans' => 'http://yieldmore.org/speak/hans-wilhelm/',
-		'jerry' => 'http://yieldmore.org/speak/jeroninio-almeida/',
 		'george' => 'http://yieldmore.org/speak/george-gilchrist/',
 		'jay' => 'http://yieldmore.org/speak/jay-lakhani/',
 		'jay-yt' => 'https://www.youtube.com/watch?v=I2NpvKBpljE&list=PLsuI89eMBnMFSdA7IIA_4yGQxCVCIA5k0',
+		'mustafa' => 'http://yieldmore.org/peaceworks/people/mustafa/',
+		'ss' => 'http://yieldmore.org/incubate/essays-to-a-swan/?node=tether',
+		//'mustafa' => '',
 
 		'Articles by Imran and People',
 		'brother' => 'http://yieldmore.org/incubate/essays-to-a-swan/?node=dear-brother',
@@ -86,8 +106,9 @@ class BibliosRedirect
 
 		'Content',
 		'allah' => 'http://yieldmore.org/wp-content/data/pdfs/allah-99-names.pdf',
-		'brahman' => 'http://yieldmore.org/works/essays-on-the-gita/?find=brahman',
 		'anthem' => 'http://yieldmore.org/songs/short-and-sweet',
+		'brahman' => 'http://yieldmore.org/works/essays-on-the-gita/?find=brahman',
+		'breath' => 'http://yieldmore.org/practices/yoga/?node=breath',
 		'chakras' => 'http://yieldmore.org/practices/meditation/?node=chakras',
 		'chakras-app' => 'https://play.google.com/store/apps/details?id=com.panagola.app.chakra',
 		'cl' => 'http://yieldmore.org/books/curious-lives/',

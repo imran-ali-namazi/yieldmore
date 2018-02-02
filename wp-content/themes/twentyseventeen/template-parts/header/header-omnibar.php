@@ -10,7 +10,7 @@
 						<span title="previous highlight" data-action="prev">&lt;</span>
 						<span title="pause/resume highlight ticker" data-action="pause" class="pause">||</span>
 						<span title="next highlight" data-action="next">&gt;</span>
-						<span title="all highlights" data-action="all">&pi;</span>
+						<span title="all highlights" data-action="all" class="all">&pi;</span>
 						<span id="menu-highlights">[menu highlights]</span>
 					</div>
 				</div><!-- .wrap -->

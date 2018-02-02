@@ -73,4 +73,5 @@ blockquote { margin-left: 40px!important; border-left: 4px solid #666; padding-l
   display: inline-block; margin: 1px; padding: 2px; min-width: 22px; }
 #omnibar .toolbar span { background-color: #F8EE59; color: #E63838; }
 #omnibar .highlights span:not(:last-child) { background-color: #A4529E; }
+#omnibar .highlights b.top-level { color: #A4529E; }
 #menu-highlights { color: #222!important; font-weight: normal!important; display: inline!important; }
