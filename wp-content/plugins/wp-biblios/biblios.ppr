@@ -24,6 +24,7 @@ biblios
 			..\..\themes\twentyseventeen\template-parts\navigation\navigation-top.php
 			..\..\themes\twentyseventeen\template-parts\header\site-branding.php
 			..\..\themes\twentyseventeen\template-parts\footer\footer-widgets.php
+			..\..\themes\twentyseventeen\template-parts\header\header-omnibar.php
 		..\..\themes\twentyseventeen\template-parts\post\content.php
 		..\..\themes\twentyseventeen\footer.php
 		..\..\themes\twentyseventeen\header.php
@@ -78,6 +79,7 @@ biblios
 			assets\jquery.sticky-kit.min.js
 			assets\jquery-ui.css
 			assets\jquery-ui-accordion.js
+			assets\omnibar.js
 			assets\post-thumbnails.js
 			assets\quoter.js
 			assets\tabber.css

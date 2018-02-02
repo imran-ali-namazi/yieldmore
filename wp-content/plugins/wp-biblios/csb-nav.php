@@ -13,6 +13,9 @@ class WorkNav
 		wp_register_script('bibquotes-js', cs_var('bib-base') . '/assets/quoter.js', array('jquery'));
 		wp_enqueue_script('bibquotes-js');
 		
+		wp_register_script('omnibar-js', cs_var('bib-base') . '/assets/omnibar.js', array('jquery'));
+		wp_enqueue_script('omnibar-js');
+		
 		//if (!cs_work_get('hascontent')) return; 
 		CSScripts::tabber();
 	}

@@ -53,7 +53,7 @@ a.top { float: right; }
 #footer-poster { float: right; }
 
 a[target=_blank] { background: url(images/external.png) center right no-repeat; padding-right: 20px; }
-blockquote { margin-left: 40px!important; border-left: 4px solid #666; padding-left: 10px!important; }
+blockquote { margin-left: 40px!important; border-left: 4px solid #666; padding-left: 10px!important; margin-bottom: 15px!important; }
 
 /* 2017 */
 .custom-header, .site-content, .site-footer { background-color: #222!important; }
@@ -65,3 +65,12 @@ blockquote { margin-left: 40px!important; border-left: 4px solid #666; padding-l
 #content .wrap, footer .wrap { background-color: #fff; padding-top: 30px; }
 
 .entry-meta .cat-links .icon { margin-right: 1em; }
+
+/* Omnibar */
+#omnibar { border-top: 10px solid; padding: 10px; }
+#omnibar .toolbar { position: fixed; top: 50px; right: 10px; z-index: 101; padding: 4px; background-color: #222; }
+#omnibar span { border-radius: 8px; text-align: center; font-weight: bold; color: #fff; text-align: center;
+  display: inline-block; margin: 1px; padding: 2px; min-width: 22px; }
+#omnibar .toolbar span { background-color: #F8EE59; color: #E63838; }
+#omnibar .highlights span:not(:last-child) { background-color: #A4529E; }
+#menu-highlights { color: #222!important; font-weight: normal!important; display: inline!important; }
