@@ -11,8 +11,13 @@
  * @since 1.0
  * @version 1.0
  */
+global $siteAbout;
+$siteAbout = array(
+  6  => 'A site to discuss the Metaphysics of Quality',
+  12 => 'A Journal and indexer of other Journals on Social Work',
+);
 global $except; 
-$except = in_array(get_current_blog_id(), [6]); //moq
+$except = in_array(get_current_blog_id(), [6, 12]); //moq, jsw
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>

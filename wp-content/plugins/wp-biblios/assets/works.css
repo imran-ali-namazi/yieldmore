@@ -64,6 +64,8 @@ blockquote { margin-left: 40px!important; border-left: 4px solid #666; padding-l
 .site-title { text-transform: none!important; }
 #content .wrap, footer .wrap { background-color: #fff; padding-top: 30px; }
 
+.site-footer { border-top: none!important; margin: 0!important; border-bottom: 25px solid #222!important; }
+
 .entry-meta .cat-links .icon { margin-right: 1em; }
 
 /* Omnibar */
@@ -73,5 +75,5 @@ blockquote { margin-left: 40px!important; border-left: 4px solid #666; padding-l
   display: inline-block; margin: 1px; padding: 2px; min-width: 22px; }
 #omnibar .toolbar span { background-color: #F8EE59; color: #E63838; }
 #omnibar .highlights span:not(:last-child) { background-color: #A4529E; }
-#omnibar .highlights b.top-level { color: #A4529E; }
+#omnibar .highlights b.top-level, #omnibar .highlights a.extra { color: #A4529E; font-weight: bold; }
 #menu-highlights { color: #222!important; font-weight: normal!important; display: inline!important; }

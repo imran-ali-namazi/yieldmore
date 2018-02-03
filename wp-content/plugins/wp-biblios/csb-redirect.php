@@ -74,6 +74,7 @@ class BibliosRedirect
 		'Sites',
 		//pact
 		'pl' => 'http://yieldmore.org/pact/links/',
+		'pb' => 'https://docs.google.com/document/d/1ZeRwOEJXZdqd0Aapp-891BSyrzCfuWqida4kAOImKQA',
 		'ie' => 'http://yieldmore.org/pact/programs/instrumental-enrichment/',
 		'wve' => 'http://noetic.org/education/worldview/overview',
 		'school' => 'http://yieldmore.org/curate/songs/school/',
@@ -98,6 +99,7 @@ class BibliosRedirect
 
 		'Articles by Imran and People',
 		'brother' => 'http://yieldmore.org/incubate/essays-to-a-swan/?node=dear-brother',
+		'charter' => 'http://yieldmore.org/incubate/essays-to-a-swan/?node=charter',
 		'divine' => 'http://yieldmore.org/incubate/essays-to-a-swan/?node=divine',
 		'divine-video' => 'https://www.youtube.com/watch?v=JY7aU0Q_ms0&list=PLsuI89eMBnMEURG757yRUSVSxd5S96nIx',
 		'harmony' => 'http://yieldmore.org/movements/harmony/',
