@@ -24,3 +24,6 @@ wp-*.php
 /wp-content/data8/india/tn/opinion-poll-2016
 /wp-content/data13/people/jyothi
 /wp-content/data4/helpers/sukrut/Sukrut-ICC2018-Brochure.pdf
+/wp-content/data/topics/prayer/docs/*.mp4
+/wp-content/data/users/ethos/hans/docs/*.flv
+/wp-content/data/users/ethos/hans/docs/*.mp3
