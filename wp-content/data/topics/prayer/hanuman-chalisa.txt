@@ -1,5 +1,8 @@
 [info]
 source: http://aumamen.com/stotra/hanuman-chalisa
+conversion: Imran, 5th Nov 2017
+source: http://media.yieldmore.org/sanskrit/prayers/HanumanChalisa/
+mp3: http://media.yieldmore.org/downloads/sanskrit/prayers/HanumanChalisa.mp3
 [/info]
 
 [versions translit=Transliteration_from_Sanskrit translation=Translation_into_English words=Word_by_word][/versions]

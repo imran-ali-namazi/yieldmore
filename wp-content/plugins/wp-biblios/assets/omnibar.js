@@ -17,9 +17,10 @@ $(document).ready(function() {
         $.hlPlayer.pause = true;
       }
     }, 1000);
-    $.hlPlayer.el.on('hover', function() { $.hlPlayer.pause = true; }).on('mouseout', function() { if (!$.hlPlayer.all) $.hlPlayer.pause = false; });
+    $.hlPlayer.el.on('hover', function() { $.hlPlayer.pause = true; });
+      //.on('mouseout', function() { if (!$.hlPlayer.all) $.hlPlayer.pause = false; });
   }
-  $('#omnibar .highlights span').click(function(){
+  $('#omnibar .highlights span').click(function() {
     var action = $(this).attr('data-action');
     if (action == 'prev' || action == 'next') {
       if (action == 'prev')
@@ -41,6 +42,9 @@ $(document).ready(function() {
 
   if (location.hash == '#highlights')
     $('#omnibar .highlights span.all').trigger('click');
+  $('.highlights-link').click(function(){
+    $('#omnibar .highlights span.all').trigger('click');
+  });
 
   $('#omnibar .toolbar span').click(function(){
     var el = $(this);

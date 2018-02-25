@@ -1,13 +1,14 @@
-Here is a list of all ideas we have. These could be paid services chargeable by the professional doing the work with a commission/donation made to Imran / YieldMore.org / cselian.com.
+Here is a list of all ideas we have. See our <a href="http://yieldmore.org/b" target="_blank" class="extra">Main Brochure</a> and the links below.
+<!--These could be paid services chargeable by the professional doing the work with a commission/donation made to Imran / YieldMore.org / cselian.com.-->
 
 <ol>
-  <li><a href="/pact/">PACT</a> - a platform for discussion and interaction between the 4 constituents of the education system - Parents, Administrators (Institutions), Children and Teachers.</li>
-  <li><a href="/peaceworks/">Peaceworks</a> - an initiative for helping students and the workforce develop skills and soft skills, creating industry based thought and evaluation frameworks and content/courses for furthering their careers.<ol>
+  <li><a href="/pact/">PACT</a> (<a href="http://yieldmore.org/pb" target="_blank" class="extra">Brochure</a>) - a platform for discussion and interaction between the 4 constituents of the education system - Parents, Administrators (Institutions), Children and Teachers.</li>
+  <li><a href="/pact/">Journals of Social Work</a> (<a href="http://yieldmore.org/swb" target="_blank" class="extra">Brochure</a>) - to further the dreams of the Late Prof PJ Naidu, founder of <a href="http://sites.yieldmore.org/jssw" target="_blank">The Journal of School Social Work</a></li>
+  <li><a href="/pact/">School of Positive Thinking</a> (<a href="http://yieldmore.org/sb" target="_blank" class="extra">Brochure</a>) - the primary condition for health, welcome to our Heal channel.</li>
+  <li><a href="/peaceworks/">Peaceworks</a> (<a href="http://yieldmore.org/pwb" target="_blank" class="extra">Brochure</a>) - an initiative for helping students and the workforce develop skills and soft skills, creating industry based thought and evaluation frameworks and content/courses for furthering their careers.<ol>
     <li>Mentoring - building a directory of people in their 20s, 30s and 40s who would like to mentor junior professionals and build a connect with children in high schools and colleges. These would include perspectives and ideals not just skills and communication.</li>
   </ol></li>
   <li>Accreditation for schools, colleges and training institutes with quantitative as well as . pre-discussion stage.</li>
-  <li>All India Journal of Social Work to further the dreams of the Late Prof PJ Naidu, founder of <a href="http://sites.yieldmore.org/jssw" target="_blank">The Journal of School Social Work</a></li>
-  <li>Happiness Index (statistics / demographics) and ways to increase it.</li>
   <li><b>Counselling and Corporate Counselling</b> - building a directory of counsellors and other quality of life professionals and a platform for them to voice their ideas in the form of articles and videos. Planning a forum, helpline and chatroom as well and would like to link to existing ones.</li>
   <li>Promote Programs like
     * Instrumental Enrichment - icelp.org

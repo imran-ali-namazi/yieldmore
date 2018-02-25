@@ -155,8 +155,9 @@ class CSWebParts
 			echo sprintf('<br /><a href="http://%s"%s>%s</a>', $url, $text == 'Blink (education)' ? ' target="_blank"' : '', $text);
 	}
 	
-	static function cse()
-	{?>
+	static function cse($prepend)
+	{
+		echo $prepend; ?><a href="https://cse.google.com/cse/publicurl?cx=001331742872338784437:4ecyp4weblg" class="extra" target="_blank">open in new tab</a>.<br />
 <script>
   (function() {
     var cx = '001331742872338784437:4ecyp4weblg';
@@ -169,7 +170,7 @@ class CSWebParts
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:search></gcse:search>
+<gcse:search enableAutoComplete="true"></gcse:search>
 <?php
 	}
 }

@@ -4,13 +4,19 @@ class BibliosRedirect
 {
 	private static $redirects = array(
 		'About YM',
-		//'start' => 'http://yieldmore.org/about/#splash',
+		'start' => 'http://yieldmore.org/about/#highlights',
+		'expose' => 'https://www.youtube.com/watch?list=PLNEB1ItETG4WdNT2bBTQs0GsvU39LKqQq&v=vvMsn5A5r_8',
+		'devaragam' => 'https://www.google.co.in/maps/place/13%C2%B003\'20.3%22N+80%C2%B014\'10.1%22E/@13.0556879,80.2351948,17.75z/data=!4m6!3m5!1s0x3a52665e5c35a129:0x5cbee4e5dfb93f47!7e2!8m2!3d13.0556448!4d80.2361275',
+		'egmore' => 'https://www.google.co.in/maps/place/13%C2%B004\'03.5%22N+80%C2%B015\'26.3%22E/@13.0676401,80.2567711,19z/data=!4m6!3m5!1s0x3a52661255bdb707:0x818f9cfd03f05705!7e2!8m2!3d13.0676387!4d80.2573183',
 
+		'i' => 'https://docs.google.com/document/d/1ibvHWa3Z5l0j5WBpWCWE4hvV88_N0xSXtJ-NrqzpP7Q', //invitation
+		'n' => 'https://docs.google.com/document/d/1z9efU_G-xh-5pHy_azVx55bk-BWAK2vaW3ewy29H9qY', //notice
 		'v' => 'http://yieldmore.org/about/?node=ventures',
 		'e' => 'http://yieldmore.org/peaceworks/services/english/',
-		's' => 'http://yieldmore.org/peaceworks/services/supershare/',
+		'ss' => 'http://yieldmore.org/peaceworks/services/supershare/',
 		'm' => 'http://yieldmore.org/peaceworks/services/mentoring/',
 		'p' => 'http://yieldmore.org/peaceworks/',
+		'l' => 'https://docs.google.com/presentation/d/11w77dcnzNIRtzAJygL4Di7bwl4Dsk9LDs8xEF7GqifA', //launch
 		//offerings
 		'o' => 'https://docs.google.com/document/d/12BgU1Ry9GAeQPnjCkkq1_1LCT9HYjDFyjThqF_ZDzYE',
 		'f' => 'http://yieldmore.org/forwards/',
@@ -64,6 +70,7 @@ class BibliosRedirect
 		'wa-players' => 'https://chat.whatsapp.com/JqzmMEJPvNo8X2r5vo1UhJ',
 		'wa-youth' => 'https://chat.whatsapp.com/Aq5Cc2KiUV4FtOsMMruRAy', //Inspiring Youth
 		'wa-forum' => 'https://chat.whatsapp.com/G2p8ytvH1NgBFt1hJXcWsv', //Better Living Forum YM
+		'wa-meet' => 'https://chat.whatsapp.com/9btOR0cGdPfDqQpvsretLy',
 		//'tl-iran' => 'https://web.telegram.org/#/im?p=g210063115',
 
 		'Ventures',
@@ -71,7 +78,8 @@ class BibliosRedirect
 		'change-harmony' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
 		'change-big-program' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
 
-		'Sites',
+		'Sites', //and brochures
+		'b' => 'https://docs.google.com/document/d/1zGxuZiRvQTplhCReKnWZBFsfNKaQhYv4RBmUMNxwSDE',
 		//pact
 		'pl' => 'http://yieldmore.org/pact/links/',
 		'pb' => 'https://docs.google.com/document/d/1ZeRwOEJXZdqd0Aapp-891BSyrzCfuWqida4kAOImKQA',
@@ -81,8 +89,15 @@ class BibliosRedirect
 		'values' => 'http://yieldmore.org/learn/students/values/',
 		'tct' => 'http://thecompassteam.in',
 		'pactg' => 'https://groups.google.com/d/forum/pact-ym',
+		//heal
+		's' => 'http://yieldmore.org/heal/positive-thinking/',
+		'sb' => 'https://docs.google.com/document/d/1Elc0XF8u8vIrlE3waStiVIiRDa6pykobzUUpAl_imPM',
 		//peaceworks
 		'pw' => 'http://yieldmore.org/peaceworks/',
+		'pwb' => 'https://docs.google.com/document/d/1NHkMggFDiuzbGENlAOMr7ZnCprpztVFRnWjvjufPWkI',
+		//jsw
+		'swi' => 'https://docs.google.com/document/d/1fAhLcwftGnnmYCycoWfuEzhe9cY7ElaHDDq_R-RJGN0',
+		'swb' => 'https://docs.google.com/document/d/1bJq8_yLO1wLKFDn7pw0ZUbpSAtVJZaPxIz-qrTHNG7Y',
 
 		'Contributors',
 		'swan' => 'http://yieldmore.org/incubate/essays-to-a-swan/',
@@ -192,6 +207,34 @@ class BibliosRedirect
 		return $slug;
 	}
 
+	static function pre_404($preempt, $wp_query)
+	{
+		$url = untrailingslashit(substr($_SERVER['REQUEST_URI'], 1));
+		if (substr_count($url, '/') < 2) return false;
+
+		$pos = strrpos($url, '/');
+		$node = substr($url, $pos + 1);
+		$url = substr($url, 0, - (strlen($node) + 1));
+
+		$page = get_page_by_path($url, OBJECT, array('page'));
+
+		if (!$page) {
+			$slug = basename( untrailingslashit( $url ));
+			$page = get_page_by_path($slug, OBJECT, array('post'));
+		}
+
+		if (!$page) return false;
+
+		
+		$qry = ['p' => $page->ID];
+		$wp_query->init();
+		$wp_query->parse_query($qry);
+		$wp_query->get_posts();
+		cs_var('node', $node);
+
+		return false;
+	}
+
 	static function init()
 	{
 		if (!isset($_GET['r']) && !is_404()) return;
@@ -204,7 +247,7 @@ class BibliosRedirect
 			echo is_numeric($key) ? "<br/><b>$value</b><br/>" : sprintf('<a href="http://yieldmore.org/%s" target="_blank">%s</a> &mdash;> <a href="%s" target="_blank">%s</a><br />' . PHP_EOL, $key, $key, $value, $value);
 			die (PHP_EOL . '</body></html>');
 		}
-		
+
 		if (is_404() && !isset(self::$redirects[$r])) return;
 
 		if (!isset(self::$redirects[$r]))
@@ -230,4 +273,5 @@ h1 { font-size: 18pt; border: 1px solid #333; } h1 span { font-size: 15pt; margi
 }
 //http://rachievee.com/the-wordpress-hooks-firing-sequence/
 add_action('template_redirect', array('BibliosRedirect', 'init'));
+add_filter('pre_handle_404', array('BibliosRedirect', 'pre_404'), 200, 2);
 ?>

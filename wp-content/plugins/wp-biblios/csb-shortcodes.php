@@ -14,6 +14,7 @@ class WorksShortcodes
 		add_shortcode('quotes', array($cls, 'do_quotes'));
 		add_shortcode('dir', array($cls, 'do_dir'));
 		add_shortcode('versions', array($cls, 'do_versions'));
+		add_shortcode('album', array($cls, 'do_album'));
 	}
 
 	static function do_tab($a, $content = null)
@@ -271,6 +272,41 @@ class WorksShortcodes
 				$slug, $slug, str_replace('_', ' ', $txt));
 		$r .= '</div>';
 		return $r;
+	}
+	
+	static function do_album($a, $c = null)
+	{
+		CSScripts::prettyPhoto();
+		$fol = cs_var('bib-data') . '/' . $a['fol'];
+		$imgs = scandir($fol);
+		$url = cs_var('bib-data-url') . '/' . $a['fol'];
+
+		echo '<div class="photos">' . PHP_EOL;
+		$ix = 1;
+		foreach ($imgs as $img)
+		{
+			if ($img == '.' || $img == '..' || $img == 'tn') continue;
+			self::ensure_thumbnail_exists($fol, $img);
+			$title = $ix . ' / ' . ucwords(str_replace('-', ' ', str_replace('.jpg', '', $img)));
+			echo sprintf('  <a href="%s/%s" title="%s" rel="prettyPhoto[pic]"><img src="%s/tn/%s" alt="%s" /></a>' . PHP_EOL,
+				$url, $img, $title, $url, $img, $title);
+			$ix++;
+		}
+		echo '</div>' . PHP_EOL;
+	}
+
+	static function ensure_thumbnail_exists($fol, $img)
+	{
+		$tn = $fol . '/tn/';
+
+		if (!is_dir($tn)) mkdir($tn);
+		if (file_exists($tn . $img)) return;
+
+		$image = wp_get_image_editor($fol . '/' . $img);
+		if ( ! is_wp_error( $image ) ) {
+			$image->resize( 150, 150, true );
+			$image->save($tn . $img);
+		}
 	}
 }
 WorksShortcodes::init();

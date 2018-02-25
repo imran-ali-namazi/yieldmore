@@ -48,4 +48,12 @@ $(document).ready(function() {
 		var divs = $('div.' + input.data('version'));
 		if (input.is(':checked')) divs.show(); else divs.hide();
 	});
+	if ($.prettyPhoto)
+	$(".photos a").prettyPhoto({
+		animation_speed:'normal',
+		theme:'light_square',
+		slideshow:3000,
+		autoplay_slideshow: false,
+		social_tools:''
+	});
 });

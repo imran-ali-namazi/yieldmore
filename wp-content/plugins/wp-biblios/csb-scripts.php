@@ -46,5 +46,22 @@ class CSScripts
 		wp_register_script('jquery-sidebar', cs_var('bib-base') . '/assets/jquery.sticky-kit.min.js', 'jquery');
 		wp_enqueue_script('jquery-sidebar');
 	}
+
+	static function prettyPhoto()
+	{
+		wp_register_script('prettyPhoto', cs_var('bib-base') . '/assets/jquery.prettyPhoto.js');
+		wp_enqueue_script('prettyPhoto');
+
+		wp_register_style('prettyPhoto-css', cs_var('bib-base') . '/assets/prettyPhoto.css');
+		wp_enqueue_style('prettyPhoto-css');
+	}
+
+	static function robots()
+	{
+		echo "Disallow: http://yieldmore.org/jssw/\n";
+		echo "Disallow: http://yieldmore.org/wp-content/data/hindu/gita/\n";
+	}
 }
+
+add_action('do_robots', array('CSScripts', 'robots'));
 ?>

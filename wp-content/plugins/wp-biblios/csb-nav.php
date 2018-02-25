@@ -72,8 +72,9 @@ class WorkNav
 
 	static function node()
 	{
-		if (!isset($_GET['node'])) return 0;
-		return $_GET['node'];
+		if (isset($_GET['node'])) return $_GET['node'];
+		if (cs_var('node')) return cs_var('node');
+		return 0;
 	}
 
 	static function search()
