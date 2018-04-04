@@ -10,6 +10,8 @@ class CSWebParts
 			echo '<a id="info-link" class="splash-link" href="#"><img src="/wp-content/plugins/wp-biblios/assets/images/yield.gif" height="24" /></a>';
 			return;
 		}
+		//https://webmasters.stackexchange.com/a/31996
+		echo '<!--googleoff: all-->';
 		echo '<div id="info-body" style="display: none;">';
 		//echo '	<img src="/wp-content/plugins/wp-biblios/assets/images/yield-banner.png" /><br />';
 		echo '<a class="close" href="javascript:$(\'#info-body\').bPopup().close();">close</a>';
@@ -18,6 +20,7 @@ class CSWebParts
 		echo file_get_contents(dirname(__FILE__) . '/assets/info.html') . PHP_EOL;
 		if (is_home()) echo '<script>var showYMInfo = true;</script>' . PHP_EOL;
 		echo '</div>';
+		echo '<!--googleon: all-->';
 	}
 
 	static function shell()

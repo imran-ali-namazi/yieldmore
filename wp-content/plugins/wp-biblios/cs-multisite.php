@@ -14,6 +14,7 @@ function cs_pre_wp_nav_menu($args) {
   $sites = [
     // Caption Url Description
     1 => ['YieldMore.org', '', 'a content portal for life philosophy', [
+        14 => ['Communities', 'communities/', 'facilitating communities to grow together and supporting them'],
         -1 => ['Movements', 'movements/', 'such as Sharing Love, Spreading Harmony and World Unity, Nation Building, Loving Nature, Environment'],
         -2 => ['Ventures', 'about/?node=ventures', 'such as Peoples Alliance for Children and Teachers, Peaceworks etc'],
         -3 => ['News', 'news/', 'random bits of news from the internet'],
@@ -46,7 +47,6 @@ function cs_pre_wp_nav_menu($args) {
     3 => ['Learn YM', 'learn/', 'the Learn / Education Chapter of YieldMore.org', [
          8 => ['PACT (Education Forum)', 'pact/', 'dubbed People\'s Alliance for Children and Teachers'],
          7 => ['PeaceWorks (Skills Development)', 'peaceworks/', 'a guiding, teaching mentoring program that will someday include the \'YieldMore Advantage\' which will develop from the School of Positive Thinking'],
-         ///here we were
         -1 => ['English Tutoring', 'peaceworks/services/english/', 'personalised english Tutoring (part of Peaceworks)'],
         -2 => ['Web and Marketing (Service)', 'peaceworks/services/supershare/', 'making websites and digital marketing (guiding and helping freely / doing as a paid service)'],
         -3 => ['Journal of School Social Work', 'jssw/', ''],
@@ -59,15 +59,16 @@ function cs_pre_wp_nav_menu($args) {
        -12 => ['Kindom Intro', 'https://www.youtube.com/watch?v=7SspPm9wRgo', 'by Arthur & Fiona Cristian, Kindom is all about practising how to live as free men and women, weaning our thoughts and habits away from "The System". This video includes talk on raw food, gardening, self-sufficiency, etc'],
         //-3 => ['PW/E', 'pages/ventures/'],
       ]],
+         ///here we were
     4 => ['Heal YM', 'heal/', 'the Heal (body/mind/relationships/warring social factions) Chapter of YieldMore.org', [
        -11 => ['Breath', 'practices/yoga/?node=breath', 'Simple breathing techniques that will revitalize and calm you'],
        -12 => ['Chakras', 'practices/meditation/?node=chakras', 'Energy Centres in the body (see /chakras-app)'],
-        -1 => ['Spirit of the Earth', 'heal/orgs/spirit-of-the-earth', 'a line of organic food products by the Trust of Sw. Dayananda Saraswathi\'s'],
+        -1 => ['Spirit of the Earth', 'heal/orgs/spirit-of-the-earth', 'a line of organic food products by the Trust of Sw. Dayananda Saraswathi'],
         -2 => ['Siva Shantha Mother and Child Hospital', 'http://sivashanthahealthcare.org', 'a hospital in Coimbatore, South India run by the Trust of Sw. Shantanand Saraswathi'],
         -3 => ['Saluto Wellness India', 'http://salutowellness.com', 'A holistic wellness aggregator in India that supports us'],
         -4 => ['Dr VSN Geriatric Foundation', 'http://drvsngeriatricfoundation.com', 'a foundation in Chennai'],
         -5 => ['National Alliance on Health', 'https://nationalalliancehealth.org', 'an American not-for-profit that we support'],
-        -6 => ['Tiffany Tee World', 'http://tiffanyteeworld.com/', 'Conscious Awareness Innovator/Speaker, trying to Help Raise Vibrational Frequencies In The World'],
+        //-6 => ['Tiffany Tee World', 'http://tiffanyteeworld.com/', 'Conscious Awareness Innovator/Speaker, trying to Help Raise Vibrational Frequencies In The World'],
       ]],
     5 => ['Share YM', 'share/', 'the Share Chapter of YieldMore.org helping people and not-for-profits', [
         12 => ['Journals of Social Work', 'jsw/', "a YM (collaborative / reposting / promoting) approach to <a href='https://en.wikipedia.org/wiki/Social_work' target='_blank' class='extra'>Social Work</a> and it's Journals"],

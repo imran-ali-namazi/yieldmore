@@ -1,7 +1,12 @@
 [info]
 source: http://ulc.org/
 wiki: Universal Life Church
+link: https://www.ulc.org/assets/ulc/images/ulc-logo-color-e54cf93044.png
+link: http://ulcministers.org/profile/85187|Click Info on Imran's ULC Profile
 [/info]
+
+<img src="https://www.ulc.org/assets/ulc/images/ulc-logo-color-e54cf93044.png" /><br />
+<img src="https://www.ulc.org/assets/ulc/images/ulc-flags-3d679f2cc6.png" /><br />
 
 We are a non-denominational community and offer a full spectrum of support services. The Universal Life Church wholly believes in its mantra - "We are all children of the same universe."
 
@@ -12,3 +17,6 @@ The Universal Life Church believes that it is every person's responsibility to a
 Everyone - men, women, and children from around the globe - must be able to practice their spiritual and religious beliefs without interference or threat from any government, religious, or societal force.
 
 Wonderfully original. and it was founded under the name "Life Church" in 1959, one whole year after <a href="/people/sri-aurobindo">Sri Aurobindo</a> <a href="https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=sri+aurobindo+1958+manifestation+upon+earth" target="_blank">"manifested the supramental"</a>, paving the way for the worldwide revolution of the 60s.
+
+
+<a href="https://www.ulc.org/free-ordination" target="_blank"><img src="https://www.ulc.org/credentials/ordination-certificate-SW1yYW4gQWxpIE5hbWF6aV4yLzI1LzIwMThebGFyZ2VeZnJlZV4,.jpg" alt="My Universal Life Church Ordination" /><br />Click here to get ordained.</a>

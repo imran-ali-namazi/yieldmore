@@ -4,6 +4,7 @@ global $siteAbout;
 //http://html5doctor.com/understanding-aside/
 //https://www.inboundnow.com/html5-semantic-elements-mean-seo/
 ?>
+			<!--googleoff: all-->
 			<aside id="omnibar">
 				<div class="wrap">
 					<div class="toolbar">
@@ -22,9 +23,9 @@ global $siteAbout;
 					</p>
 					<p class="summary">
 							SEE <a href="/b" class="extra" target="_blank">BROCHURE</a>
-							AND <a href="/wa-meet" class="extra" target="_blank">RSVP</a>
-							FOR <a href="/i" class="extra" target="_blank">OUR LAUNCH - Sat, 10th Mar '18 at 10:30AM</a>
-								IN <a href="/egmore" class="extra" target="_blank">Egmore, Chennai</a>.
+							AND <a href="/meet" class="extra" target="_blank">Join us on Hangouts</a> on Sun Mar 25th at 3:30 PM IST.
+							See our <a href="/l" class="extra" target="_blank">Intro PPT</a>
+								OR <a href="/exposition" class="extra" target="_blank">Launch Presentation</a>.
 					</p>
 					<p class="customsearch">
 						<?php CSWebParts::cse('Use GCSE search bar below to search all 10+sites (wordpress multisite) like learn, pact, moq etc, or '); ?>
@@ -40,3 +41,4 @@ global $siteAbout;
 					if (isset($siteAbout[get_current_blog_id()])) { echo '<div class="about">' . $siteAbout[get_current_blog_id()] . '</div>'; } ?>
 				</div><!-- .wrap -->
 			</aside>
+			<!--googleon: all-->
