@@ -5,14 +5,17 @@ global $siteAbout;
 //https://www.inboundnow.com/html5-semantic-elements-mean-seo/
 ?>
 			<!--googleoff: all-->
-			<aside id="omnibar">
+			<div class="toolbar">
+				<span class="top" title="top" data-scroll=".site-branding">T</span>
+				<span class="side" title="sidebar" data-scroll="#secondary">S</span>
+				<span class="bottom" title="bottom" data-scroll=".site-footer">B</span>
+				<span class="cse" title="google custom search" data-show="#omnibar" data-focus=".gsc-input">G</span>
+				<span class="search" title="search" data-focus=".search-form .search-field">F</span>
+				<span class="omnibar" title="toggle omnibar" data-scroll=".site-branding" data-toggle="#omnibar">O</span>
+				<span class="help" title="help">?</span>
+			</div>
+			<aside id="omnibar" style="display: none;">
 				<div class="wrap">
-					<div class="toolbar">
-						<span title="goto top" data-scroll=".site-branding">T</span>
-						<span title="goto sidebar" data-scroll="#secondary">S</span>
-						<span title="goto footer" data-scroll=".site-footer">B</span>
-						<span title="goto find" data-focus=".search-form .search-field">F</span>
-					</div>
 					<p class="summary">
 						We believe in a nobler and better life for all. Browse our content (see menu above or its highlights below).
 						We have 3 programs:

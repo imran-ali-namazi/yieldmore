@@ -1,10 +1,29 @@
 $(document).ready(function() {
-  $.hlPlayer = { el: $('#menu-highlights'), paused: false, toPause: false, index: -1 };
+  $.hlPlayer = { el: $('#menu-highlights'), paused: false, toPause: false, index: -1, pausedByScroll: false };
+  function isScrolledIntoView(el) {
+    var rect = el.getBoundingClientRect();
+    var elemTop = rect.top;
+    var elemBottom = rect.bottom;
+
+    // Only completely visible elements return true:
+    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+    // Partially visible elements return true:
+    //isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+    return isVisible;
+  }
   if ($.hlPlayer.el.length) {
       $.hlPlayer.data = $('#top-menu a').filter(function() { return $(this).attr('data-highlight'); });
       $.hlPlayer.pauseButton = $('#omnibar .highlights .pause');
     //hl.html(hlData.html() + ' - ' + hlData.length);
     setInterval(function(){
+      var isVisible = isScrolledIntoView($.hlPlayer.el[0]);
+      if (!isVisible && !$.hlPlayer.pause) { 
+        $.hlPlayer.pause = true;
+        $.hlPlayer.pausedByScroll = true;
+      } else if ($.hlPlayer.pausedByScroll && isVisible) {
+        $.hlPlayer.pause = false;
+        $.hlPlayer.pausedByScroll = false;
+      }
       $.hlPlayer.pauseButton.html($.hlPlayer.pause ? '&raquo;' : '||');
       if ($.hlPlayer.pause) return;
       $.hlPlayer.all = false;
@@ -17,8 +36,8 @@ $(document).ready(function() {
         $.hlPlayer.pause = true;
       }
     }, 1000);
-    $.hlPlayer.el.on('hover', function() { $.hlPlayer.pause = true; });
-      //.on('mouseout', function() { if (!$.hlPlayer.all) $.hlPlayer.pause = false; });
+    $.hlPlayer.el.on('hover', function() { $.hlPlayer.pause = true; })
+      .on('mouseout', function() { if (!$.hlPlayer.all) $.hlPlayer.pause = false; });
   }
   $('#omnibar .highlights span').click(function() {
     var action = $(this).attr('data-action');
@@ -46,9 +65,11 @@ $(document).ready(function() {
     $('#omnibar .highlights span.all').trigger('click');
   });
 
-  $('#omnibar .toolbar span').click(function(){
+  $('.toolbar span').click(function(){
     var el = $(this);
+    if (el.attr('data-toggle'))  $(el.attr('data-toggle')).toggle();
     if (el.attr('data-scroll')) $(el.attr('data-scroll'))[0].scrollIntoView();
+    if (el.attr('data-show'))  $(el.attr('data-show')).toggle();
     if (el.attr('data-focus'))  $(el.attr('data-focus')).focus();
   });
 });
