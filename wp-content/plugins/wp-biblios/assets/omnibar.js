@@ -67,9 +67,18 @@ $(document).ready(function() {
 
   $('.toolbar span').click(function(){
     var el = $(this);
+
+    if (el.hasClass('icon-toolbar')) {
+      el.siblings().toggle();
+      el.toggleClass('icon-up');
+      el.toggleClass('icon-down');
+      return;
+    }
+
     if (el.attr('data-toggle'))  $(el.attr('data-toggle')).toggle();
     if (el.attr('data-scroll')) $(el.attr('data-scroll'))[0].scrollIntoView();
     if (el.attr('data-show'))  $(el.attr('data-show')).toggle();
     if (el.attr('data-focus'))  $(el.attr('data-focus')).focus();
   });
+  $('.icon-toolbar').trigger('click');
 });

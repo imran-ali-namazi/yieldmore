@@ -6,13 +6,14 @@ global $siteAbout;
 ?>
 			<!--googleoff: all-->
 			<div class="toolbar">
-				<span class="top" title="top" data-scroll=".site-branding">T</span>
-				<span class="side" title="sidebar" data-scroll="#secondary">S</span>
-				<span class="bottom" title="bottom" data-scroll=".site-footer">B</span>
-				<span class="cse" title="google custom search" data-show="#omnibar" data-focus=".gsc-input">G</span>
-				<span class="search" title="search" data-focus=".search-form .search-field">F</span>
-				<span class="omnibar" title="toggle omnibar" data-scroll=".site-branding" data-toggle="#omnibar">O</span>
-				<span class="help" title="help">?</span>
+				<span class="icon-toolbar icon-up" title="toolbar"></span>
+				<span class="icon-top" title="top" data-scroll=".site-branding"></span>
+				<span class="icon-side" title="sidebar" data-scroll="#secondary"></span>
+				<span class="icon-bottom" title="bottom" data-scroll=".site-footer"></span>
+				<span class="icon-cse" title="google custom search" data-show="#omnibar" data-focus=".gsc-input"></span>
+				<span class="icon-search" title="search" data-focus=".search-form .search-field"></span>
+				<span class="icon-omnibar" title="toggle omnibar" data-scroll=".site-branding" data-toggle="#omnibar"></span>
+				<span class="icon-help" title="help"></span>
 			</div>
 			<aside id="omnibar" style="display: none;">
 				<div class="wrap">

@@ -70,10 +70,11 @@ blockquote { margin-left: 40px!important; border-left: 4px solid #666; padding-l
 
 /* Omnibar */
 #omnibar { border-top: 10px solid; padding: 10px; }
-.toolbar { position: fixed; top: 35px; left: 2px; z-index: 999999; padding: 4px; background-color: #222; }
-#omnibar span, .toolbar span { border-radius: 15px; text-align: center; font-weight: bold; color: #fff; text-align: center;
-  display: inline-block; margin: 6px 2px; padding: 2px; min-width: 30px; }
-.toolbar span { display: block; background-color: #F8EE59; color: #E63838; }
+.toolbar { position: fixed; top: 35px; left: 2px; z-index: 999999; padding: 4px; font-family: "yieldmore-icons"; }
+#omnibar span, .toolbar span { border-radius: 50%; font-weight: bold; color: #fff; text-align: center;
+  display: inline-block; margin: 2px; padding: 6px; line-height: 1; }
+.toolbar span { display: block; background-color: #23282D; color: #9EA3A8; font-size: 1.3em; }
+.toolbar span:hover { color: #A6FF59; }
 #omnibar .highlights span:not(:last-child) { background-color: #A4529E; padding: 4px 8px 4px 8px; }
 #omnibar .highlights b.top-level, a.extra { color: #A4529E!important; font-weight: bold!important; }
 #menu-highlights { color: #222!important; font-weight: normal!important; display: inline!important; }

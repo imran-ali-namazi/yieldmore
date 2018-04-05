@@ -7,6 +7,9 @@ class WorkNav
 		wp_register_style('bibworks-css', cs_var('bib-base') . '/assets/works.css');
 		wp_enqueue_style('bibworks-css');
 		
+		wp_register_style('bibfonts-css', cs_var('bib-base') . '/assets/styles.css');
+		wp_enqueue_style('bibfonts-css');
+		
 		wp_register_script('bibworks-js', cs_var('bib-base') . '/assets/works.js', array('jquery'));
 		wp_enqueue_script('bibworks-js');
 		
