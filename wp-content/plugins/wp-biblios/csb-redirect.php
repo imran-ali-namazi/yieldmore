@@ -5,7 +5,7 @@ class BibliosRedirect
 	private static $redirects = array(
 		'About YM',
 		'start' => 'http://yieldmore.org/about/#highlights',
-		'exposition' => 'https://www.youtube.com/watch?list=PLNEB1ItETG4WdNT2bBTQs0GsvU39LKqQq&v=EiJErn0LPYQ',
+		'exposition' => 'https://www.youtube.com/watch?v=MWAK3K7A6_Y&list=PLNEB1ItETG4WdNT2bBTQs0GsvU39LKqQq',
 		'devaragam' => 'https://www.google.co.in/maps/place/13%C2%B003\'20.3%22N+80%C2%B014\'10.1%22E/@13.0556879,80.2351948,17.75z/data=!4m6!3m5!1s0x3a52665e5c35a129:0x5cbee4e5dfb93f47!7e2!8m2!3d13.0556448!4d80.2361275',
 		'egmore' => 'https://www.google.co.in/maps/place/13%C2%B004\'03.5%22N+80%C2%B015\'26.3%22E/@13.0676401,80.2567711,19z/data=!4m6!3m5!1s0x3a52661255bdb707:0x818f9cfd03f05705!7e2!8m2!3d13.0676387!4d80.2573183',
 		'cse' => 'https://cse.google.com/cse/publicurl?cx=001331742872338784437:4ecyp4weblg',
@@ -201,7 +201,7 @@ class BibliosRedirect
 		'jfd-video' => 'https://www.youtube.com/watch?v=v9F1cd_qKMM',
 		'jfd-yt' => 'https://www.youtube.com/channel/UCMf0LSqKfUH8wu5ngQSBSXA',
 		'sinchana' => 'http://yieldmore.org/learn/helpers/sinchana/',
-		//'big-registration' => '/',
+		'big-registration' => '/',
 		'goodcountry' => 'http://yieldmore.org/movements/good-country/',
 			'ted-goodcountry' => 'https://www.ted.com/talks/simon_anholt_which_country_does_the_most_good_for_the_world',
 			'goodcountry-ppt' => 'https://docs.google.com/presentation/d/1pQsxWUcb3fJJ_xbNlfmXdjnl2Mh1w-5sQAav8TR1JXE',

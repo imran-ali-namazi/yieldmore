@@ -16,6 +16,8 @@
 
 		</div><!-- #content -->
 
+		<?php get_template_part( 'template-parts/header/header', 'omnibar' ); ?>
+
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
 				<?php

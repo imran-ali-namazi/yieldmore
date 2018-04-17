@@ -46,8 +46,6 @@ $except = in_array(get_current_blog_id(), [6, 12]); //moq, jsw
 
 	</header><!-- #masthead -->
 
-		<?php get_template_part( 'template-parts/header/header', 'omnibar' ); ?>
-
 	<?php
 
 	/*

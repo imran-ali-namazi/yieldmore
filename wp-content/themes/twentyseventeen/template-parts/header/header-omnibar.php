@@ -6,17 +6,23 @@ global $siteAbout;
 ?>
 			<!--googleoff: all-->
 			<div class="toolbar">
-				<span class="icon-toolbar icon-up" title="toolbar"></span>
 				<span class="icon-top" title="top" data-scroll=".site-branding"></span>
 				<span class="icon-side" title="sidebar" data-scroll="#secondary"></span>
-				<span class="icon-bottom" title="bottom" data-scroll=".site-footer"></span>
+				<span class="icon-down" title="bottom" data-scroll=".site-footer"></span>
+				<br>
 				<span class="icon-cse" title="google custom search" data-show="#omnibar" data-focus=".gsc-input"></span>
 				<span class="icon-search" title="search" data-focus=".search-form .search-field"></span>
-				<span class="icon-omnibar" title="toggle omnibar" data-scroll=".site-branding" data-toggle="#omnibar"></span>
+				<span class="icon-omnibar" title="toggle omnibar" data-scroll="#omnibar" data-toggle="#omnibar"></span>
+				<br>
+				<span class="icon-prev" title="move to previous" data-jump="previous"></span>
+				<span class="icon-next" title="move to next" data-jump="next"></span>
 				<span class="icon-help" title="help"></span>
+				<br>
+				<span class="icon-toolbar icon-menu" title="toolbar"></span>
 			</div>
 			<aside id="omnibar" style="display: none;">
 				<div class="wrap">
+					<div style="float: right"><span class="toolbar-button icon-omnibar" title="close omnibar" data-scroll="#omnibar" data-toggle="#omnibar"></span></div>
 					<p class="summary">
 						We believe in a nobler and better life for all. Browse our content (see menu above or its highlights below).
 						We have 3 programs:
@@ -32,7 +38,7 @@ global $siteAbout;
 								OR <a href="/exposition" class="extra" target="_blank">Launch Presentation</a>.
 					</p>
 					<p class="customsearch">
-						<?php CSWebParts::cse('Use GCSE search bar below to search all 10+sites (wordpress multisite) like learn, pact, moq etc, or '); ?>
+						<?php CSWebParts::cse('Use the search bar below to search across all our 10+sites (wordpress multisite) or '); ?>
 					</p>
 					<?php if (!$except) { ?><div class="highlights">
 						Menu Highlight:

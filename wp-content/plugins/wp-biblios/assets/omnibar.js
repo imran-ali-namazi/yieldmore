@@ -65,13 +65,12 @@ $(document).ready(function() {
     $('#omnibar .highlights span.all').trigger('click');
   });
 
-  $('.toolbar span').click(function(){
+  $('.toolbar span, .toolbar-button').click(function(){
     var el = $(this);
 
     if (el.hasClass('icon-toolbar')) {
       el.siblings().toggle();
-      el.toggleClass('icon-up');
-      el.toggleClass('icon-down');
+      if (el.siblings().first().is(':visible')) $('.toolbar span').css('display', 'inline-block');
       return;
     }
 

@@ -38,30 +38,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-bottom:before {
-  content: "\62";
-}
-.icon-side:before {
-  content: "\73";
-}
-.icon-top:before {
-  content: "\74";
-}
 .icon-cse:before {
   content: "\67";
 }
 .icon-search:before {
   content: "\66";
 }
-.icon-omnibar:before {
-  content: "\6f";
-}
 .icon-help:before {
   content: "\68";
 }
 .icon-down:before {
-  content: "\64";
+  content: "\62";
 }
-.icon-up:before {
-  content: "\75";
+.icon-top:before {
+  content: "\74";
+}
+.icon-omnibar:before {
+  content: "\6f";
+}
+.icon-menu:before {
+  content: "\63";
+}
+.icon-side:before {
+  content: "\73";
+}
+.icon-next:before {
+  content: "\6e";
+}
+.icon-prev:before {
+  content: "\70";
 }

@@ -74,7 +74,7 @@ function cs_pre_wp_nav_menu($args) {
         12 => ['Journals of Social Work', 'jsw/', "a YM (collaborative / reposting / promoting) approach to <a href='https://en.wikipedia.org/wiki/Social_work' target='_blank' class='extra'>Social Work</a> and it's Journals"],
         -1 => ['SHARE India', 'http://shareindia.org', 'An NGO that empowers women and children, esp the ones with Learning Disabilities'],
         -2 => ['Satyam Yoga Trust', 'http://satyamyogatrust.net', 'Offering education and yoga teaching, run by teachers of Bihar School of Yoga, Munger'],
-        -3 => ['Spanda Foundation', 'http://spanda.org', 'An NGO in the Hague that catalyses long-term systemmic change'],
+        -3 => ['Spanda Foundation', 'http://spanda.org', 'An International Civil Society Organization (ICSO) in the Hague to catalyse long-term systemmic change'],
         -4 => ['Good Country', 'http://goodcountry.org', 'An idea that the world\'s problems need long term united action'],
         -5 => ['Jobs for Dyslexics', 'http://jobsfordyslexics.org', 'An American NGO that helps adult dyslexics find jobs'],
         -6 => ['Blood Cancer Donor Registry', 'share/ngos/jeevan/', ''],
