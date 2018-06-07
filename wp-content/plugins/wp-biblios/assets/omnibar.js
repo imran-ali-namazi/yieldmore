@@ -74,10 +74,34 @@ $(document).ready(function() {
       return;
     }
 
+    var jump = el.attr('data-jump');
+    if (jump) {
+      if (!$.postPlayer) {
+        $.postPlayer = {
+          items: $('.entry-title'),
+          index: -1,
+        };
+        if ($.postPlayer.items.length < 2) {
+          $('.icon-prev, .icon-next').remove();
+          return;
+        }
+      }
+
+      $.postPlayer.index += jump == 'previous' ? -1 : 1;
+      if ($.postPlayer.index < 0) $.postPlayer.index = $.postPlayer.items.length;
+      else if ($.postPlayer.index > $.postPlayer.items.length - 1) $.postPlayer.index = 0;
+
+      $.postPlayer.items[$.postPlayer.index].scrollIntoView();
+      window.scrollBy({ top: -120, behavior: 'smooth' }); //nav + admin + cat above heading
+
+      return;
+    }
+
     if (el.attr('data-toggle'))  $(el.attr('data-toggle')).toggle();
     if (el.attr('data-scroll')) $(el.attr('data-scroll'))[0].scrollIntoView();
     if (el.attr('data-show'))  $(el.attr('data-show')).toggle();
     if (el.attr('data-focus'))  $(el.attr('data-focus')).focus();
   });
+  $('.icon-next').trigger('click');
   $('.icon-toolbar').trigger('click');
 });

@@ -113,7 +113,14 @@ class BibliosRedirect
 		'jay-yt' => 'https://www.youtube.com/watch?v=I2NpvKBpljE&list=PLsuI89eMBnMFSdA7IIA_4yGQxCVCIA5k0',
 		'mustafa' => 'http://yieldmore.org/peaceworks/people/mustafa/',
 		'srividya' => 'http://yieldmore.org/incubate/essays-to-a-swan/tether/',
+		'coco' => 'http://yieldmore.org/heal/helpers/coco_the_louder/',
 		//'mustafa' => '',
+
+		'Podcasts + Videos',
+		'p1' => 'http://yieldmore.org/media/2018/001',
+		'p2' => 'http://yieldmore.org/media/2018/002',
+		'veda' => 'http://yieldmore.org/media/books/sri-aurobindo/15TheSecretOfTheVeda/',
+		'edu' => 'http://yieldmore.org/media/books/mirra-alfassa/12OnEducation/',
 
 		'Articles by Imran and People',
 		'boy' => 'http://yieldmore.org/incubate/spontaneous-love/boy/',
@@ -175,6 +182,7 @@ class BibliosRedirect
 		
 		'Content on the web',
 		'bible' => 'https://www.cph.org/t-tlsb.aspx',
+		'roy' => 'https://www.youtube.com/watch?v=xgNWeTEYNBQ',
 
 		//'Content about events and projects',
 		//'trika' => 'http://learn.yieldmore.org/conferences/trika16/',

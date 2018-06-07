@@ -35,6 +35,15 @@ $(document).ready(function() {
 		e.preventDefault();
 	});
 	if (location.hash == '#info-link' || location.hash == '#splash') $(".splash-link").trigger('click');
+
+	$(".earth a").click(function(e){
+		var what = $(this).attr('href').substr(1);
+		$('<div class="earth-popup" />').load(what == 'universe' ? '/?o=1' : '/?r=1').bPopup({follow: false, position: ['left', $(window).scrollTop() + 20]});
+		e.preventDefault();
+	});
+	if (location.hash == '#universe') $(".earth a:first").trigger('click');
+	if (location.hash == '#explore') $(".earth a:last").trigger('click');
+
 	if (typeof showYMInfo != 'undefined')
 	{
 		if (document.cookie.indexOf('homeinfoshown') == -1)

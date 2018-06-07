@@ -12,10 +12,10 @@ global $siteAbout;
 				<br>
 				<span class="icon-cse" title="google custom search" data-show="#omnibar" data-focus=".gsc-input"></span>
 				<span class="icon-search" title="search" data-focus=".search-form .search-field"></span>
-				<span class="icon-omnibar" title="toggle omnibar" data-scroll="#omnibar" data-toggle="#omnibar"></span>
 				<br>
 				<span class="icon-prev" title="move to previous" data-jump="previous"></span>
 				<span class="icon-next" title="move to next" data-jump="next"></span>
+				<span class="icon-omnibar" title="toggle omnibar" data-scroll="#omnibar" data-toggle="#omnibar"></span>
 				<span class="icon-help" title="help"></span>
 				<br>
 				<span class="icon-toolbar icon-menu" title="toolbar"></span>

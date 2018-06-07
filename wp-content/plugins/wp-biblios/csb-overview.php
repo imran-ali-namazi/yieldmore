@@ -75,33 +75,56 @@ h1.deleted { background-color: #faa; }
 		$sites = wp_get_sites();
 		$siteNames = array(
 			1 => 'Root',
-			2 => 'English',
+			2 => 'Curate',
 			3 => 'Learn',
 			4 => 'Heal',
 			5 => 'Share',
-			//6 => 'Recognize',
-			//7 => 'Accredit',
-			//8 => 'Stats',
-			//9 => 'Less'
-			10 => 'Directory'
+			6 => 'Moq',
+			7 => 'Peaceworks',
+			8 => 'PACT',
+			9 => 'Express',
+			10 => 'Directory',
+			10 => 'Ideas',
+			//11 => 'SS',
+			//12 => 'JSW',
+			//13 => 'Store',
+			14 => 'Communities',
 		);
-		echo 'Date Modified	Site - Id	Title	Description	Site	Type	Url';
+
+		$tsv = isset($_GET['tsv']);
+		$worksOnly = isset($_GET['minisites']);
+
+		$gt = strtotime(isset($_GET['gt']) ? $_GET['gt'] : '-3 months');
+		echo $tsv ? 'Date Modified	Site - Id	Title	Description	Site	Type	Url' : '<h2>Recent Posts - since ' . date('d M Y', $gt) . '</h2>';
+		$gt = date('Y-m-d', $gt);
+
 		foreach($sites as $site)
 		{
 			$siteName = isset($siteNames[$site['blog_id']]) ? $siteNames[$site['blog_id']] : $site['domain'];
 			switch_to_blog($site['blog_id']);
 			$id = $site['blog_id'] . '-';
 			$posts = get_posts(array('numberposts'=>20000,'orderby'=>'date',
+				'date_query' => array('after' => $gt),
 				'post_type'=>array('post','page','forum','topic','work')));
 			foreach($posts as $post)
 			{
-				echo PHP_EOL . sprintf('%s	\'%s	%s	%s	%s	%s	%s',
+				$work = strpos($post->post_content, '[work') !== false;
+				if ($worksOnly && !$work) continue;
+				if (!$tsv) echo PHP_EOL . sprintf('<a href="%s" target="_blank" title="%s">%s / %s [%s] - %s</a><br/>',
+					get_permalink($post->ID),
+					'[description]',
+					$siteName,
+					$post->post_title,
+					date('d/m/Y', strtotime($post->post_date)), //date
+					$work ? 'Minisite' : 'Article'
+				);
+				else echo PHP_EOL . sprintf('%s	\'%s	%s	%s	%s	%s	%s',
 					date('d/m/Y', strtotime($post->post_date)), //date
 					$id . $post->ID,
 					$post->post_title,
-					'[desc]',
+					'[description]',
 					$siteName,
-					strpos($post->post_content, '[work') === false ? 'Article' : 'Article / Text',
+					$work ? 'Minisite' : 'Article',
 					get_permalink($post->ID)
 				);
 			}

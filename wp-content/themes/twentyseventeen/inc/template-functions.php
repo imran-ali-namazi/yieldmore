@@ -40,7 +40,8 @@ function twentyseventeen_body_classes( $classes ) {
 	}
 
 	// Add class if sidebar is used.
-	if ( is_active_sidebar( 'sidebar-1' ) && ! is_front_page() /*&& ! is_page()*/ ) {
+	//echo $_SERVER['REQUEST_URI'];
+	if ( is_active_sidebar( 'sidebar-1' ) && ! is_front_page() && stripos($_SERVER['REQUEST_URI'], '/directory/') === false /*&& ! is_page()*/ ) {
 		$classes[] = 'has-sidebar';
 	}
 

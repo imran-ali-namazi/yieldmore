@@ -15,6 +15,7 @@ class WorksShortcodes
 		add_shortcode('dir', array($cls, 'do_dir'));
 		add_shortcode('versions', array($cls, 'do_versions'));
 		add_shortcode('album', array($cls, 'do_album'));
+		add_shortcode('social', array($cls, 'do_social'));
 	}
 
 	static function do_tab($a, $content = null)
@@ -249,9 +250,10 @@ class WorksShortcodes
 		$fil = cs_var('bib-data') . '/../data/dir.tsv';
 		$cols = true;
 		$data = tsv_to_array(file_get_contents($fil), $cols);
+
 		$base = get_permalink();
-		echo '<table><th>SNo</th><th>Name</th><th>Type</th><th>Role</th><th>Joined</th><th>Sites</th></tr><tr><th></th><th colspan="5">Writeup</th></tr>' . PHP_EOL;
-		$row = '<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr><tr><td></td><td colspan="5">%s</td></tr>' . PHP_EOL;
+		echo '<table><th>Name</th><th>Focus</th><th>Founder</th><th>Founded</th><th>Sites</th></tr><tr><th colspan="5">Writeup</th></tr>' . PHP_EOL;
+		$row = '<tr><td class="name"><a href="http://%s" target="_blank">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr><tr><td colspan="5" class="writeup">%s</td></tr>' . PHP_EOL;
 		foreach($data as $d)
 		{
 			if ($cat && $d[$cols->Sites] != '*' && strpos($d[$cols->Sites], $cat) === false) continue;
@@ -259,7 +261,8 @@ class WorksShortcodes
 			$sites = explode(',', $d[$cols->Sites]); $siteLinks = array();
 			//TODO: Point to diff sites once all pages are in place
 			foreach ($sites as $s) $siteLinks[] = sprintf('<a href="%s%s">%s</a>', $base, $s == '*' ? '' : '?type=' . $s, $s);
-			echo sprintf($row, $d[$cols->SNo], $d[$cols->Name], $d[$cols->Type], $d[$cols->Role], $d[$cols->Joined], implode(' ', $siteLinks), $d[$cols->Writeup]);
+
+			echo sprintf($row, $d[$cols->Name], $d[$cols->Name], 	$d[$cols->Focus], $d[$cols->Founder], $d[$cols->Founded], implode(' ', $siteLinks), $d[$cols->Writeup]);
 		}
 		echo '</table>' . PHP_EOL;
 	}
@@ -273,7 +276,7 @@ class WorksShortcodes
 		$r .= '</div>';
 		return $r;
 	}
-	
+
 	static function do_album($a, $c = null)
 	{
 		CSScripts::prettyPhoto();
@@ -306,6 +309,37 @@ class WorksShortcodes
 		if ( ! is_wp_error( $image ) ) {
 			$image->resize( 150, 150, true );
 			$image->save($tn . $img);
+		}
+	}
+
+	static function do_social($a, $c = null)
+	{
+		if (isset($a['tel'])) echo sprintf('<a class="tel" href="tel:%s">%s</a>', $a['tel'], $a['tel']);
+		if (isset($a['fb'])) {
+			if (!cs_var('fb_init')) {
+				echo "<div id='fb-root'></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0&appId=1613378742233452&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>";
+				cs_var('fb_init', true);
+			}
+
+			$url = 'https://www.facebook.com/' . $a['fb'];
+			$types = explode(',', $a['type']);
+
+			if (in_array('button', $types)) {
+				return sprintf('<div class="fb-like" data-href="%s" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>', $url);
+			}
+			if (in_array('review', $types)) {
+				return '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F' . $a['fb'] . '%2Fposts%2F' . $a['id'] . '%3A0&width=500" width="500" height="373" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>';
+			}
+			if (in_array('posts', $types)) {
+				return sprintf('<div class="fb-page" data-href="%s" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="%s" class="fb-xfbml-parse-ignore"><a href="%s">%s</a></blockquote></div>', $url, $url, $url, $a['fb']);
+			}
 		}
 	}
 }

@@ -9,7 +9,10 @@
 </noframes>
 </frameset>
 <?php return; }?>
-
+<?php
+$dump = false;
+if (!$dump) {
+?>
 <html>
   <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -26,7 +29,7 @@ h2 { border-top: 3px solid teal; }
 </style>
   </head>
   <body>
-
+<?php } ?>
 <?php
 if (isset($_GET['nav'])) {
   echo '<ol id="nav">' . PHP_EOL;
@@ -45,15 +48,16 @@ else if (isset($_GET['node'])) {
     echo 'TODO: Content';
     return;
   }
-  echo '<h1>' . $_GET['node'] . '</h1>' . PHP_EOL;
+  $fmt = $dump ? '%s' : '<li>%s</li>';
+  if (!$dump) echo '<h1>' . $_GET['node'] . '</h1>' . PHP_EOL;
   foreach ($data[$_GET['node']] as $page=>$paras) {
-    echo sprintf('<h2>Page: %s</h2>' . PHP_EOL, $page);
-    echo '<ol id="paras">' . PHP_EOL;
+    if (!$dump) echo sprintf('<h2>Page: %s</h2>' . PHP_EOL, $page);
+    if (!$dump) echo '<ol id="paras">' . PHP_EOL;
     foreach ($paras as $para) {
       if ($para == '') continue;
-      echo sprintf('<li>%s</li>' . PHP_EOL, $para);
+      echo sprintf($fmt . PHP_EOL, $para);
     }
-    echo '</ol>' . PHP_EOL;
+    if (!$dump) echo '</ol>' . PHP_EOL;
   }
 }
 ?>

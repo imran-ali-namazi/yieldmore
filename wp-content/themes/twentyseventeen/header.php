@@ -21,7 +21,8 @@ $except = in_array(get_current_blog_id(), [6, 12]); //moq, jsw
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
+<!-- <meta charset="<?php bloginfo( 'charset' ); ?>"> -->
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <?php if (!is_single() && !is_page()) echo '<meta name="robots" content="noindex,follow">' . PHP_EOL; ?>
