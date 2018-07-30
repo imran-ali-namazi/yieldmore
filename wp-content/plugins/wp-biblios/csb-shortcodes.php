@@ -16,6 +16,7 @@ class WorksShortcodes
 		add_shortcode('versions', array($cls, 'do_versions'));
 		add_shortcode('album', array($cls, 'do_album'));
 		add_shortcode('social', array($cls, 'do_social'));
+		add_shortcode('badge', array($cls, 'do_badge'));
 	}
 
 	static function do_tab($a, $content = null)
@@ -341,6 +342,43 @@ class WorksShortcodes
 				return sprintf('<div class="fb-page" data-href="%s" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="%s" class="fb-xfbml-parse-ignore"><a href="%s">%s</a></blockquote></div>', $url, $url, $url, $a['fb']);
 			}
 		}
+	}
+
+	static function do_badge($a, $content = null)
+	{
+		CSScripts::qrcode();
+		$op = array(sprintf('<a name="%s"></a>', $a['name']));
+		$lines = explode('<br />', $content);
+		$lnk = '<a href="%s" target="_blank">%s</a>';
+		$pic = '<div style="float: right"><img src="%s" width="180" /></div>';
+
+		if (is_single()) {
+			$url = get_permalink() . '#' . $a['name'];
+			$qrcode = sprintf('<div id="badge-%s" style="float: left; margin-right: 15px;"></div><script>$(document).ready(function() { new QRCode("badge-%s", { text: "%s", width: 80, height: 80, }); });</script>', $a['name'], $a['name'], $url);
+			$op[] = $qrcode . '<b>Badge:</b> ' . sprintf($lnk, $url, $url);
+		}
+
+		foreach ($lines as $line)
+		{
+			$line = trim($line);
+			if ($line == '') continue;
+			if (strpos($line, ':') !== false) {
+				$bits = explode(':', $line, 2);
+				$bits[1] = trim($bits[1]);
+
+				if (strcasecmp($bits[0], 'pic') == 0) {
+					$op[] = sprintf($pic, $bits[1]);
+					continue;
+				} else if (strcasecmp($bits[0], 'link') == 0) {
+					$url = explode('|', $bits[1]);
+					$bits[1] = sprintf($lnk, $url[0], count($url) == 1 ? $url[0] : $url[1] );
+				}
+				$op[] = '<b>' . $bits[0] . ':</b> ' . $bits[1];
+			} else {
+				$op[] = $line;
+			}
+		}
+		return PHP_EOL . '<blockquote class="badge" style="page-break-before: always;">' . implode('<br/>' . PHP_EOL, $op) . '</blockquote><hr/>';
 	}
 }
 WorksShortcodes::init();

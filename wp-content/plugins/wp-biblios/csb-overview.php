@@ -87,8 +87,9 @@ h1.deleted { background-color: #faa; }
 			10 => 'Ideas',
 			//11 => 'SS',
 			//12 => 'JSW',
-			//13 => 'Store',
+			13 => 'Store',
 			14 => 'Communities',
+			//15 => 'Badges + Medical Information',
 		);
 
 		$tsv = isset($_GET['tsv']);
@@ -100,6 +101,7 @@ h1.deleted { background-color: #faa; }
 
 		foreach($sites as $site)
 		{
+			if ($site['blog_id'] == 15) continue;
 			$siteName = isset($siteNames[$site['blog_id']]) ? $siteNames[$site['blog_id']] : $site['domain'];
 			switch_to_blog($site['blog_id']);
 			$id = $site['blog_id'] . '-';

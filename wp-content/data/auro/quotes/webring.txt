@@ -1,12 +1,20 @@
 These are the various communities / websites inspired by Sri Aurobindo and existing to further his and the Mother's vision
 
-https://auromere.wordpress.com/ - run by Sandeep
-
-http://www.aurobindo.ru/ - run by Michael
-
-https://overmanfoundation.wordpress.com/ - run by Anurag
-
-
-https://www.facebook.com/SriAurobindosWritings/
-http://www.sri-aurobindo.com/ / http://www.aurobindo.net/
-
+[info]
+Sandeep:
+link: https://auromere.wordpress.com/
+Michael:
+link: http://aurobindo.ru/
+Anurag:
+link: https://overmanfoundation.org/
+Santosh:
+link: https://facebook.com/SriAurobindosWritings/
+link: https://sriaurobindostudies.wordpress.com
+Twitter:
+https://twitter.com/integralyog/
+Francois Gautier:
+link: https://facebook.com/francoisgautierofficial/
+Misc:
+link: http://sri-aurobindo.com/
+link: http://aurobindo.net/
+[/info]

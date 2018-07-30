@@ -56,6 +56,12 @@ class CSScripts
 		wp_enqueue_style('prettyPhoto-css');
 	}
 
+	static function qrcode()
+	{
+		wp_register_script('qrcode', cs_var('bib-base') . '/assets/qrcode.min.js');
+		wp_enqueue_script('qrcode');
+	}
+
 	static function robots()
 	{
 		echo "Disallow: http://yieldmore.org/jssw/\n";
