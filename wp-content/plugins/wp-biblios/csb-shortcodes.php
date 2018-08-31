@@ -17,6 +17,7 @@ class WorksShortcodes
 		add_shortcode('album', array($cls, 'do_album'));
 		add_shortcode('social', array($cls, 'do_social'));
 		add_shortcode('badge', array($cls, 'do_badge'));
+		add_shortcode('ads', array($cls, 'do_ads'));
 	}
 
 	static function do_tab($a, $content = null)
@@ -48,12 +49,26 @@ class WorksShortcodes
 	{
 		if (array_search('slim', $a) !== false && is_single()) cs_var('slim', true);
 		if (isset($a['exclude']) && is_single()) cs_var('exclude', $a['exclude']);
-		if (array_search('config', $a) !== false)
+		if (array_search('config', $a) !== false || array_search('toc', $a) !== false)
 		{
 			global $postConfig;
 			$postConfig = WorkConfig::read(get_the_ID(), $a);
 			if (isset($a['logo']))
 				cs_var('logo', cs_var('bib-data-url') . '/' . $a['fol'] . '/images/' . $a['logo']);
+
+			if (array_search('toc', $a) !== false) {
+				$fil = sprintf('%s/%s/%s', cs_var('bib-data'), $a['fol'], '_toc.txt');
+				$toc = explode(PHP_EOL, file_get_contents($fil));
+				$fmt = '<li><a target="_blank" href="./%s/">%s</a>%s - %s</li>' . PHP_EOL;
+				$ol = '<ol>';
+				foreach ($toc as $line) {
+					$bits = explode('|', $line);
+					$ol .= sprintf($fmt, strtolower(str_replace(' ', '-', $bits[0])), $bits[0], $bits[2], $bits[1]);
+				}
+				$ol .= '</ol>';
+				return $ol;
+			}
+				
 			return '';
 		}
 		$id = isset($a['id']) ? $a['id'] : get_the_ID();
@@ -342,6 +357,23 @@ class WorksShortcodes
 				return sprintf('<div class="fb-page" data-href="%s" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="%s" class="fb-xfbml-parse-ignore"><a href="%s">%s</a></blockquote></div>', $url, $url, $url, $a['fb']);
 			}
 		}
+		if (isset($a['tw'])) {
+			if (!cs_var('tw_init')) {
+				echo '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>';
+				cs_var('tw_init', true);
+			}
+
+			$types = explode(',', $a['type']);
+			$r = '';
+
+			if (in_array('mention', $types)) {
+				$r .= '<a href="https://twitter.com/intent/tweet?screen_name=' . $a['tw'] . '&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @' . $a['tw'] . '</a>';
+			}
+			if (in_array('timeline', $types)) {
+				$r .= '<a class="twitter-timeline" href="https://twitter.com/@' . $a['tw'] . '">Tweets by ' . $a['tw'] . '</a>';
+			}
+			return $r;
+		}
 	}
 
 	static function do_badge($a, $content = null)
@@ -379,6 +411,30 @@ class WorksShortcodes
 			}
 		}
 		return PHP_EOL . '<blockquote class="badge" style="page-break-before: always;">' . implode('<br/>' . PHP_EOL, $op) . '</blockquote><hr/>';
+	}
+
+	static function do_ads($a, $content = null)
+	{
+		$syndUrl = 'http://yieldmore.org/';
+		$imgFol = $syndUrl . 'wp-content/data/print/';
+		$twitterHT = 'https://twitter.com/hashtag/';
+
+		$ads = [
+			'hst' => '<img src="' . $imgFol . 'logo-edlusion.png" width="200" />Our long term supporter, <a href="http://headstreamtech.com" target="_blank">Headstream Technologies</a>, is Launching it\'s <a href="https://groups.google.com/forum/#!topic/yieldmore/-R-SfqXsKwQ" target="_blank">Edlusion (Educator Effectiveness Platform)</a> in India at the <a href="http://edtechreview.in/news/2959-inspired-teaching-a-growing-need" target="_blank">edtechreview.in</a> conference on the 31st of August 2018.',
+			'big' => '<img src="' . $imgFol . 'logo-buildindiagroup.png" width="120" />The <a href="http://buildindiagroup.org" target="_blank">Build India Group</a>, begins its 11th year this August as it tries to <a href="' . $syndUrl . 'movements/loving-nature/" target="_blank">awaken people</a> everywhere to the cry <a href="' . $twitterHT . 'LoveOurNature" target="_blank">#LoveOurNature</a>.',
+			'spanda' => '<img src="' . $imgFol . 'logo-spanda.png" width="80" />The <a href="http://spanda.org" target="_blank">Spanda Foundation</a> is looking forward to the next 15 years of trying to achieve the <a href="www.un.org/millenniumgoals/" target="_blank">Millennium Development Goals</a> in this, its 14th year as it launches a fresh version of its website.',
+			'hnc' => '<img src="' . $imgFol . 'logo-hnc.png" width="80" />The <a href="http://humannetworkconnection.com" target="_blank">Human Network Connection</a>, based in California, tries to network businesses with media outlets and is working on promoting YM online.',
+		];
+
+		$ad = isset($_GET['ad']) ? $_GET['ad'] : (isset($a['id']) ? $a['id'] : array_rand($ads));
+
+		$op = [];
+		$op[] = '<!--googleoff: all-->';
+		$op[] = '<aside id="ads"><div class="wrap">';
+		$op[]   = $ads[$ad];
+		$op[] = '</div></aside>';
+		$op[] = '<!--googleon: all-->';
+		return implode(PHP_EOL, $op);
 	}
 }
 WorksShortcodes::init();

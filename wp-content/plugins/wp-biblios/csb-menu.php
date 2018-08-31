@@ -66,7 +66,7 @@ class WorkMenu
 		$base = get_permalink($id);
 		foreach ($fils as $fil)
 		{
-			if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil == 'docs' || $fil == $exclude) continue;
+			if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil == 'docs' || $fil == $exclude || $fil == '_toc.txt') continue;
 			$name = str_replace('.txt', '', str_replace('.html', '', $fil));
 			//if ($exclude && substr($name, 0, strlen($exclude)) === $exclude) continue;
 			_nl(CHtml::link(str_replace('-', ' ', $name), is_page() ? WorkNav::post($id, $name) : $base . $name . '/'), 1);
