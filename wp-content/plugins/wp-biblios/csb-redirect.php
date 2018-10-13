@@ -212,12 +212,16 @@ class BibliosRedirect
 		'jfd-yt' => 'https://www.youtube.com/channel/UCMf0LSqKfUH8wu5ngQSBSXA',
 		'sinchana' => 'http://yieldmore.org/learn/helpers/sinchana/',
 		'big-registration' => '/',
+		'gc' => 'http://yieldmore.org/movements/good-country/',
 		'goodcountry' => 'http://yieldmore.org/movements/good-country/',
 			'ted-goodcountry' => 'https://www.ted.com/talks/simon_anholt_which_country_does_the_most_good_for_the_world',
 			'goodcountry-ppt' => 'https://docs.google.com/presentation/d/1pQsxWUcb3fJJ_xbNlfmXdjnl2Mh1w-5sQAav8TR1JXE',
 			'goodcountry-video' => 'https://www.youtube.com/watch?v=9eV0oOJSRuU',
 		//'specialsources' => 'http://specialsources.com',
 		'jeevan' => 'http://yieldmore.org/help/ngos/jeevan/million-cells/',
+		'uwm' => 'http://unwindme.in',
+		'uwm-ym' => '/store/unwind-me',
+		'uwm-leaflet' => 'https://docs.google.com/presentation/d/1lmYyhYKIEmnvU4RmRXcTLwFYd1WDO4vYeNqf2ZTidS4',
 	);
 
 	private static function get_slug()

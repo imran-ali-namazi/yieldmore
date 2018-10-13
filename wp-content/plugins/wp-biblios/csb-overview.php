@@ -90,6 +90,7 @@ h1.deleted { background-color: #faa; }
 			13 => 'Store',
 			14 => 'Communities',
 			//15 => 'Badges + Medical Information',
+			16 => 'Daivic',
 		);
 
 		$tsv = isset($_GET['tsv']);

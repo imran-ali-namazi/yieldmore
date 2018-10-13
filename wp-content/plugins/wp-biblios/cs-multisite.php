@@ -163,6 +163,6 @@ function cs_pre_wp_nav_menu($args) {
   return $r;
 }
 
-add_filter('pre_wp_nav_menu', 'cs_pre_wp_nav_menu');
+//add_filter('pre_wp_nav_menu', 'cs_pre_wp_nav_menu');
 
 ?>
