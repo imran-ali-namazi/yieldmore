@@ -18,7 +18,7 @@ function cs_pre_wp_nav_menu2($args) {
 			$id == $s['blog_id'] ? ' class="current-menu-item"' : '', $s['path'], get_bloginfo('name'), get_bloginfo('description'));
 	}
 	sort($so);
-	$r .= '<li class="menu-item-has-children"><a href="http://yieldmore.org'.$site['path'].'">SITE: ' . $site['name'] . $down . '</a><ul class="sub-menu">';
+	$r .= '<li class="menu-item menu-item-has-children"><a href="http://yieldmore.org'.$site['path'].'">SITE: ' . $site['name'] . $down . '</a><ul class="sub-menu">';
 	$r .= implode(PHP_EOL, $so);
 	$r .= '</ul></li>';
 
@@ -81,6 +81,7 @@ function cs_pre_wp_nav_menu2($args) {
 		['All Our Menus (Highlights)', 'about/#highlights" class="highlights-link', 'All 40 of our menus expanded with a description of each - new Omnibar feature'],
 		['Splash Popup', 'about/#splash" class="splash-link', 'a basic intro to our site available on logo click in the header'],
 		['Sitemap', '?o=1', 'a list of all the links on our site'],
+		['[this] Sitemap',  substr($site['path'], 1) . '?o=0', 'a list of links on this site'],
 		['Short Links', 'r', 'all the short links (like yieldmore.org/swan will take you to Imran\s poetry)'],
 		['YouTube', 'yt', 'Our Youtube Channel with videos from us / people supporting us'],
 		['YouTube (Curated)', 'ytc', 'Our Youtube Channel for curated content'],

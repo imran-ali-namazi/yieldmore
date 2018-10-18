@@ -58,7 +58,7 @@ h1.deleted { background-color: #faa; }
 			if ($site['deleted'] && $_GET['o'] != '2') continue;
 			switch_to_blog($site['blog_id']);
 			$ed = $editor ? sprintf(' <a href="http://%s/wp-admin/" target="_blank">Dashboard</a>', $site['domain']) : '';
-			echo sprintf('<h1%s><a href="http://%s" target="_blank">%s</a> <span><a href="http://%s/?o=0" target="_blank">Overview</a>' . $ed . '</span></h1>', $site['deleted'] ? ' class="deleted"' : '', $site['domain'], get_bloginfo('name'), $site['domain']);
+			echo sprintf('<h1%s><a href="%s" target="_blank">%s</a> <span><a href="%s?o=0" target="_blank">[this] Sitemap</a>' . $ed . '</span></h1>', $site['deleted'] ? ' class="deleted"' : '', $site['path'], get_bloginfo('name'), $site['path']);
 			if ($_GET['o'] == '1') {
 				self::all();
 			} else {
