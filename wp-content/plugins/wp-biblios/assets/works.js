@@ -38,11 +38,12 @@ $(document).ready(function() {
 
 	$(".earth a").click(function(e){
 		var what = $(this).attr('href').substr(1);
-		$('<div class="earth-popup" />').load(what == 'universe' ? '/?o=1' : '/?r=1').bPopup({follow: false, position: ['left', $(window).scrollTop() + 20]});
+		$('<div class="earth-popup" />').load(what == 'overview' ? '/wp-content/plugins/wp-biblios/assets/splash.html' : (what == 'universe' ? '/?o=1' : '/?r=1')).bPopup({follow: false, position: ['left', $(window).scrollTop() + 20]});
 		e.preventDefault();
 	});
 	if (location.hash == '#universe') $(".earth a:first").trigger('click');
-	if (location.hash == '#explore') $(".earth a:last").trigger('click');
+	if (location.hash == '#explore') $(".earth a:nth-child(2)").trigger('click');
+	if (location.hash == '#overview') $(".earth a:last").trigger('click');
 
 	if (typeof showYMInfo != 'undefined')
 	{

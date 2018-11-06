@@ -86,11 +86,12 @@ h1.deleted { background-color: #faa; }
 			10 => 'Directory',
 			10 => 'Ideas',
 			//11 => 'SS',
-			//12 => 'JSW',
+			12 => 'Social Work',
 			13 => 'Store',
 			14 => 'Communities',
 			//15 => 'Badges + Medical Information',
 			16 => 'Daivic',
+			17 => 'Freestyle',
 		);
 
 		$tsv = isset($_GET['tsv']);

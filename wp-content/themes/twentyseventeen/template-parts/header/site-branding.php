@@ -12,7 +12,7 @@
 <div class="site-branding">
 	<div class="wrap">
 
-		<div class="earth"><a href="#universe">U</a><a href="#explore">E</a></div>
+		<div class="earth"><a href="#universe">U</a><a href="#explore">E</a><a href="#overview">S</a></div>
 
 		<?php global $except; the_custom_logo($except ? get_current_blog_id() : 1); ?>
 

@@ -80,6 +80,7 @@ class BibliosRedirect
 		'youth-doc' => 'https://docs.google.com/document/d/1zVd6qPowYaBraA4B4UH_3Oj-tCTJKbtaQU7N-hwrdRU',
 		'change-harmony' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
 		'change-big-program' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
+		'miu' => 'https://docs.google.com/document/d/1Ai67HEHVgfX9ZIpKBGA51oZjkjbjhNJnb1CGz_XzMHs',
 
 		'Sites', //and brochures
 		'b' => 'https://docs.google.com/document/d/1zGxuZiRvQTplhCReKnWZBFsfNKaQhYv4RBmUMNxwSDE',
