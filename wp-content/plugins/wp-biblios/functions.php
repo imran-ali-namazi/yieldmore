@@ -14,7 +14,7 @@ function tsv_to_array($data, &$cols = null)
 	{
     if ($lin == '' || $lin[0] == '#')
     {
-      if ($cols != null && $lin != '')
+      if ($cols === true && $lin != '')
         tsv_set_cols($lin, $cols);
       continue;
     }

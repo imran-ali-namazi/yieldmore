@@ -36,6 +36,10 @@ class BibliosRedirect
 		'help-doc' => 'https://docs.google.com/spreadsheets/d/1Cwc7pW80uHb5KBTYgxTKGITfvYIvFRT2TWL-r9erqMc',
 		'print' => 'http://yieldmore.org/wp-content/data/print',
 
+		'cards' => 'https://docs.google.com/presentation/d/1_rpZcsQRUVZYW5Ub--0Ut_mp1zw1oSnKcIWBUYJxwSI',
+		'tracks' => 'https://docs.google.com/presentation/d/1suPBA9r1EQerqLQBBuLQz6gYMovrqyezpykWoqhQVfc',
+		'stickers' => 'https://docs.google.com/presentation/d/1j0jMJnsZEsBSgEDl8JZ2kwPbwE2TEnNdNRoRsVBnMfY',
+
 		'Facebook',
 		'fb' => 'https://facebook.com/groups/YieldMore',
 		'fb-shasa' => 'https://facebook.com/shasa.ym',
@@ -64,7 +68,8 @@ class BibliosRedirect
 		'yt-tolle' => 'https://www.youtube.com/watch?v=dTFDfR47dl4&list=PLsuI89eMBnMH4JKkgy2Q_MGXsCHCJIUsV',
 		'yt-awakenings' => 'https://www.youtube.com/watch?v=6lsify2ml6E&list=PLsuI89eMBnMHoBX7GlG5BYjPUNxUk4P0X',
 		'yt-sama' => 'https://www.youtube.com/watch?v=XVF6edFgqqs&list=PLsuI89eMBnMGZab7xKLfGJ-JZ9H2126Q0',
-		
+
+/*
 		'Whatsapp Groups et al',
 		'wa-americas' => 'https://chat.whatsapp.com/CItx47G3tnr1eI1TeDaE74',
 		'wa-europe' => 'https://chat.whatsapp.com/KqVbKV2YuGe5pZSsMgUUAN',
@@ -75,12 +80,19 @@ class BibliosRedirect
 		'wa-forum' => 'https://chat.whatsapp.com/G2p8ytvH1NgBFt1hJXcWsv', //Better Living Forum YM
 		'wa-meet' => 'https://chat.whatsapp.com/9btOR0cGdPfDqQpvsretLy',
 		//'tl-iran' => 'https://web.telegram.org/#/im?p=g210063115',
+*/
 
 		'Ventures',
 		'youth-doc' => 'https://docs.google.com/document/d/1zVd6qPowYaBraA4B4UH_3Oj-tCTJKbtaQU7N-hwrdRU',
 		'change-harmony' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
 		'change-big-program' => 'https://www.change.org/p/indian-chief-ministers-promote-harmony-and-adopt-this-2-min-program-against-violence-throughout-india',
-		'miu' => 'https://docs.google.com/document/d/1Ai67HEHVgfX9ZIpKBGA51oZjkjbjhNJnb1CGz_XzMHs',
+
+		'Movements',
+		'miu' => 'http://yieldmore.org/movements/in-unison/',
+		'miu-doc' => 'https://docs.google.com/document/d/1Ai67HEHVgfX9ZIpKBGA51oZjkjbjhNJnb1CGz_XzMHs',
+		'miu-ppt' => 'https://docs.google.com/presentation/d/1zSeg0Tlll6MgCLmZxZK84Q02GxAu68bOYHKcYrC1oqc',
+		'auroville' => 'http://yieldmore.org/books/beyond-man/25-auroville/',
+		//also from below - gc, ulc
 
 		'Sites', //and brochures
 		'b' => 'https://docs.google.com/document/d/1zGxuZiRvQTplhCReKnWZBFsfNKaQhYv4RBmUMNxwSDE',

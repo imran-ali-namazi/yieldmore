@@ -268,19 +268,20 @@ class WorksShortcodes
 		$data = tsv_to_array(file_get_contents($fil), $cols);
 
 		$base = get_permalink();
-		echo '<table><th>Name</th><th>Focus</th><th>Founder</th><th>Founded</th><th>Sites</th></tr><tr><th colspan="5">Writeup</th></tr>' . PHP_EOL;
-		$row = '<tr><td class="name"><a href="http://%s" target="_blank">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr><tr><td colspan="5" class="writeup">%s</td></tr>' . PHP_EOL;
+		$r = '<table class="dir"><th width="250">Name</th><th>Focus</th><th>Founder</th><th>Founded</th><th>Sites</th></tr><tr><th colspan="5">Writeup</th></tr>' . PHP_EOL;
+		$row = '<tr><td class="name"><a href="https://%s" target="_blank">%s</a></td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr><tr><td colspan="5" class="writeup">%s</td></tr>' . PHP_EOL;
 		foreach($data as $d)
 		{
 			if ($cat && $d[$cols->Sites] != '*' && strpos($d[$cols->Sites], $cat) === false) continue;
 
-			$sites = explode(',', $d[$cols->Sites]); $siteLinks = array();
+			$sites = explode(',', str_replace(' ', '', $d[$cols->Sites])	); $siteLinks = array();
 			//TODO: Point to diff sites once all pages are in place
 			foreach ($sites as $s) $siteLinks[] = sprintf('<a href="%s%s">%s</a>', $base, $s == '*' ? '' : '?type=' . $s, $s);
-
-			echo sprintf($row, $d[$cols->Name], $d[$cols->Name], 	$d[$cols->Focus], $d[$cols->Founder], $d[$cols->Founded], implode(' ', $siteLinks), $d[$cols->Writeup]);
+			
+			$r .= sprintf($row, $d[$cols->Url], $d[$cols->Name], 	$d[$cols->Focus], $d[$cols->Founder], $d[$cols->Founded], implode(' ', $siteLinks), $d[$cols->Writeup]);
 		}
-		echo '</table>' . PHP_EOL;
+		$r .= '</table>' . PHP_EOL;
+		return $r;
 	}
 
 	static function do_versions($a, $c = null)
@@ -415,6 +416,8 @@ class WorksShortcodes
 
 	static function do_ads($a, $content = null)
 	{
+		//echo '<!--REQUEST_URI: ' . $_SERVER['REQUEST_URI'] . '-->';
+		if ($_SERVER['REQUEST_URI'] == '/' && !isset($a['id'])) return;
 		$syndUrl = 'http://yieldmore.org/';
 		$imgFol = $syndUrl . 'wp-content/data/print/';
 		$twitterHT = 'https://twitter.com/hashtag/';
