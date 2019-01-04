@@ -57,6 +57,9 @@ a.silent-external-link { background-image: none; padding-right: 0px; }
 blockquote { margin-left: 40px!important; border-left: 4px solid #666; padding-left: 10px!important; margin-bottom: 15px!important; }
 
 /* 2017 */
+#top-menu .sub-menu { max-height: calc(100vh - 100px); overflow: auto; overflow-y: scroll; overflow-x: hidden; }
+#top-menu .sub-menu::-webkit-scrollbar { width: 0px; } /* https://css-tricks.com/custom-scrollbars-in-webkit/ */
+
 .custom-header, .site-content, .site-footer, #omnibar { background-color: #2759A7!important; }
 .custom-header, .custom-header a, .site-description { color: #fff!important; }
 /*@media screen and(min-width: 768px) {*/

@@ -1,4 +1,6 @@
 <?php
+return;
+
 function cs_has_nav_menu($has_nav_menu, $location) {
   //echo 'DEBUGING:' . $location;
   if (true || $location === 'top') //die('poda');

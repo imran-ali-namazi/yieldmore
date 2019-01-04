@@ -27,3 +27,4 @@ wp-*.php
 /wp-content/data/topics/prayer/docs/*.mp4
 /wp-content/data/users/ethos/hans/docs/*.flv
 /wp-content/data/users/ethos/hans/docs/*.mp3
+/wp-content/themes/twentynineteen

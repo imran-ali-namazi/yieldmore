@@ -249,6 +249,7 @@ class BibliosRedirect
 	{
 		$url = untrailingslashit(substr($_SERVER['REQUEST_URI'], 1));
 		if (substr_count($url, '/') < 2) return false;
+		if (count($_GET)) return; //type in url for in-unison (dir)
 
 		$pos = strrpos($url, '/');
 		$node = substr($url, $pos + 1);
