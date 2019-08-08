@@ -423,10 +423,16 @@ class WorksShortcodes
 		$twitterHT = 'https://twitter.com/hashtag/';
 
 		$ads = [
+/*
 			'hst' => '<img src="' . $imgFol . 'logo-edlusion.png" width="200" />Our long term supporter, <a href="http://headstreamtech.com" target="_blank">Headstream Technologies</a>, is Launching it\'s <a href="https://groups.google.com/forum/#!topic/yieldmore/-R-SfqXsKwQ" target="_blank">Edlusion (Educator Effectiveness Platform)</a> in India at the <a href="http://edtechreview.in/news/2959-inspired-teaching-a-growing-need" target="_blank">edtechreview.in</a> conference on the 31st of August 2018.',
 			'big' => '<img src="' . $imgFol . 'logo-buildindiagroup.png" width="120" />The <a href="http://buildindiagroup.org" target="_blank">Build India Group</a>, begins its 11th year this August as it tries to <a href="' . $syndUrl . 'movements/loving-nature/" target="_blank">awaken people</a> everywhere to the cry <a href="' . $twitterHT . 'LoveOurNature" target="_blank">#LoveOurNature</a>.',
 			'spanda' => '<img src="' . $imgFol . 'logo-spanda.png" width="80" />The <a href="http://spanda.org" target="_blank">Spanda Foundation</a> is looking forward to the next 15 years of trying to achieve the <a href="www.un.org/millenniumgoals/" target="_blank">Millennium Development Goals</a> in this, its 14th year as it launches a fresh version of its website.',
 			'hnc' => '<img src="' . $imgFol . 'logo-hnc.png" width="80" />The <a href="http://humannetworkconnection.com" target="_blank">Human Network Connection</a>, based in California, tries to network businesses with media outlets and is working on promoting YM online.',
+			'' => '',
+*/
+			'iandeye' => '<img src="' . $imgFol . 'logo-iandeye.png" height="80" /><a href="http://iandeye.in" target="_blank"">I & Eye</a> An NGO that has adopted a few government hostels for the blind in Hyderabad, South India',
+			'samata' => '<img src="' . $imgFol . 'logo-samata.png" height="80" /><a href="http://samatabooks.in" target="_blank"">Samata Books</a> / The Personal Bookshop for all things inspiring from the Complete works of Adi Shankaracharya to Tantra/Aghora.',
+			'syt' => '<img src="' . $imgFol . 'logo-syt.jpg" height="80" /><a href="http://satyamyogatrust.net" target="_blank"">Satyananda Yoga Center</a> A Yoga centre thats inspires its students to give back to society, sharing our wisdom from the Vedic tradition that offers our best learnings from a Golden Age.',
 		];
 
 		$ad = isset($_GET['ad']) ? $_GET['ad'] : (isset($a['id']) ? $a['id'] : array_rand($ads));

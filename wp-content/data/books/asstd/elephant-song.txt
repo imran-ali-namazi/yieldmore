@@ -1,0 +1,12 @@
+[info]
+source: https://books.google.co.in/books?id=jxNDDwAAQBAJ&pg=PT529&lpg=PT529&dq=pirri+sang+the+song+of+the+elephant&source=bl&ots=19gBZ3dHeA&sig=ACfU3U1os-ruZJNbz3hmbKRTbY6NF1OIpw&hl=en&sa=X&ved=2ahUKEwiR8K_IiJLgAhWFXCsKHSp2CGgQ6AEwAHoECAcQAQ#v=onepage&q=pirri%20sang%20the%20song%20of%20the%20elephant&f=false|Google Books (Elephant Song)
+link: https://www.wilbursmithbooks.com/books/elephant-song
+[/info]
+
+<img src="images/pirri1.png" />
+
+<img src="images/pirri2.png" />
+
+<img src="images/pirri3.png" />
+
+<img src="images/pirri4.png" />

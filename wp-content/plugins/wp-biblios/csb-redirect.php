@@ -18,6 +18,7 @@ class BibliosRedirect
 		'm' => 'http://yieldmore.org/peaceworks/services/mentoring/',
 		'p' => 'http://yieldmore.org/peaceworks/',
 		'l' => 'https://docs.google.com/presentation/d/11w77dcnzNIRtzAJygL4Di7bwl4Dsk9LDs8xEF7GqifA', //launch
+		'interns' => 'http://yieldmore.org/cns/?node=interns',
 		//offerings
 		'o' => 'https://docs.google.com/document/d/12BgU1Ry9GAeQPnjCkkq1_1LCT9HYjDFyjThqF_ZDzYE',
 		'f' => 'http://yieldmore.org/forwards/',
@@ -39,6 +40,7 @@ class BibliosRedirect
 		'cards' => 'https://docs.google.com/presentation/d/1_rpZcsQRUVZYW5Ub--0Ut_mp1zw1oSnKcIWBUYJxwSI',
 		'tracks' => 'https://docs.google.com/presentation/d/1suPBA9r1EQerqLQBBuLQz6gYMovrqyezpykWoqhQVfc',
 		'stickers' => 'https://docs.google.com/presentation/d/1j0jMJnsZEsBSgEDl8JZ2kwPbwE2TEnNdNRoRsVBnMfY',
+		'notices' => 'https://docs.google.com/document/d/1ZezIZhnbHsQgLEByMdBR_q_8m4ZJFLMHtcSWMEVng6s',
 
 		'Facebook',
 		'fb' => 'https://facebook.com/groups/YieldMore',
@@ -92,6 +94,7 @@ class BibliosRedirect
 		'miu-doc' => 'https://docs.google.com/document/d/1Ai67HEHVgfX9ZIpKBGA51oZjkjbjhNJnb1CGz_XzMHs',
 		'miu-ppt' => 'https://docs.google.com/presentation/d/1zSeg0Tlll6MgCLmZxZK84Q02GxAu68bOYHKcYrC1oqc',
 		'auroville' => 'http://yieldmore.org/books/beyond-man/25-auroville/',
+		'one' => 'http://yieldmore.org/movements/one/',
 		//also from below - gc, ulc
 
 		'Sites', //and brochures
@@ -115,11 +118,22 @@ class BibliosRedirect
 		'swi' => 'https://docs.google.com/document/d/1fAhLcwftGnnmYCycoWfuEzhe9cY7ElaHDDq_R-RJGN0',
 		'swb' => 'https://docs.google.com/document/d/1bJq8_yLO1wLKFDn7pw0ZUbpSAtVJZaPxIz-qrTHNG7Y',
 
-		'Contributors',
+		'Contributors + Events',
 		'swan' => 'http://yieldmore.org/incubate/essays-to-a-swan/',
+			'swan-doc' => 'https://docs.google.com/document/d/1A2W3FtIHD525JDzd9nqgo8EuIZjGRXUF6zz6p7iqmro',
+			'swan-in' => 'https://www.amazon.in/dp/B07MJ3P9W1',
+			'swan-us' => 'https://www.amazon.com/dp/B07MJ3P9W1',
+			'swan-uk' => 'https://www.amazon.co.uk/dp/B07MJ3P9W1',
+			'swan-nl' => 'https://www.amazon.nl/dp/B07MJ3P9W1',
+			'swan-au' => 'https://www.amazon.com.au/dp/B07MJ3P9W1',
 		'imran' => 'http://yieldmore.org/speak/imran/',
 		'love' => 'http://yieldmore.org/incubate/spontaneous-love/',
+			'love-doc' => 'https://docs.google.com/document/d/1r6C-B040_MiUkLpJVroZCGtG7PqeE7xkgkPA26xfkzk',
 		'joint' => 'http://yieldmore.org/incubate/penned-in-joint/',
+		'vibha' => 'http://yieldmore.org/heal/columns/vibhas-corner/',
+		'neela' => 'http://yieldmore.org/heal/columns/intuitions-whispers/',
+		'consult-neela' => 'https://docs.google.com/forms/d/1nHKnvbBVdo3biEUjheu1P73sjm5QCiLSBOKmQH0UNHA',
+		'healing' => 'https://docs.google.com/forms/d/1n6nUIJTx_Fgzw13BK2oqVvoSp76nRLtGs8tWKPSYyBs',
 		//'imran-txt' => 'http://yieldmore.org/wp-content/data/users/shasa/swan/',
 		'imran-doc' => 'https://docs.google.com/document/d/1qU01Chgtuqw160D6KIpicyhALkXWU14xWZY8s4XhQV8',
 		'hans' => 'http://yieldmore.org/speak/hans-wilhelm/',
@@ -129,7 +143,8 @@ class BibliosRedirect
 		'mustafa' => 'http://yieldmore.org/peaceworks/people/mustafa/',
 		'srividya' => 'http://yieldmore.org/incubate/essays-to-a-swan/tether/',
 		'coco' => 'http://yieldmore.org/heal/helpers/coco_the_louder/',
-		//'mustafa' => '',
+		'itoo' => 'https://docs.google.com/forms/d/e/1FAIpQLScy6A6aJeOcD55mOZnKwPWKvFgMElZPUuVhZjlTN-l0_1L_ew/viewform?usp=sf_link',
+		'csa' => 'http://yieldmore.org/social-work/workshops/child-sexual-abuse/',
 
 		'Podcasts + Videos',
 		'p1' => 'http://yieldmore.org/media/2018/001',
@@ -151,10 +166,13 @@ class BibliosRedirect
 		'sa' => 'http://yieldmore.org/people/sri-aurobindo/',
 
 		'Content',
+		'a' => 'http://yieldmore.org/programs/affirmations/',
+		//'z' => 'http://yieldmore.org/programs/zeroing-in/',
 		'aghora' => 'https://archive.org/stream/AghoraAtTheLeftHandOfGod/Aghora+At+the+Left+Hand+of+God_djvu.txt',
 		'allah' => 'http://yieldmore.org/wp-content/data/pdfs/allah-99-names.pdf',
 		'anthem' => 'http://yieldmore.org/songs/short-and-sweet',
 		'brahman' => 'http://yieldmore.org/works/essays-on-the-gita/?find=brahman',
+		'brics' => 'http://yieldmore.org/programs/brics/',
 		'breath' => 'http://yieldmore.org/practices/yoga/breath/',
 		'chakras' => 'http://yieldmore.org/practices/meditation/chakras/',
 		'chakras-app' => 'https://play.google.com/store/apps/details?id=com.panagola.app.chakra',
@@ -176,6 +194,7 @@ class BibliosRedirect
 		'prayer' => 'http://yieldmore.org/practices/prayer/sivananda/',
 		'religion' => 'http://yieldmore.org/topics/religion',
 			'ulc' => 'http://yieldmore.org/topics/religion/universal-life-church/',
+		'siddha' => 'http://yieldmore.org/heal/glossary/herbs-and-spices/#siddha',
 		'spartacus' => 'http://yieldmore.org/books/various/four-times-in-life/',
 		'st' => 'http://yieldmore.org/curate/series/star-trek/',
 		'tolkien' => 'http://yieldmore.org/books/the-silmarillion/ainulindale/',
@@ -202,6 +221,7 @@ class BibliosRedirect
 		//'Content about events and projects',
 		//'trika' => 'http://learn.yieldmore.org/conferences/trika16/',
 		//'7s' => 'http://share.yieldmore.org/projects/seven-sisters/',
+		'inspire' => 'https://docs.google.com/forms/d/e/1FAIpQLSdzdKvWFAU6rPaJTRh21wkcHb3_0ij1ZfbtWD3dVsMxTux7aQ/viewform?usp=sf_link',
 
 		'Organizations Hosted',
 		//'mini' => 'http://sites.yieldmore.org/electronics/mini',
