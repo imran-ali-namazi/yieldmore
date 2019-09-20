@@ -1,0 +1,40 @@
+<style type="text/css">iframe.book { float: left; margin: 15px }</style>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51002W/Chancy/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51003W/Fallon/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51076W/Flint/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51045W/High_lonesome/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51047W/Kid_Rodelo/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51053W/Kilkenny/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51000W/The_burning_hills/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51006W/The_iron_marshal/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51056W/The_man_called_Noon/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51024W/Galloway/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL50968W/Guns_of_the_Timberlands/widget"></iframe>
+
+<iframe class="book" width="165" frameBorder="0" height="400" src="https://openlibrary.org/books/OL51011W/Mustang_Man/widget"></iframe>
+
+<!--
+Chancy
+Fallon
+Flint
+High Lonesome
+Kid Rodelo
+Kilkenny
+The Burning Hills
+The Iron Marshall
+The Man Called Noon
+Galloway
+Guns Of The Timberlands
+Mustang Man
+-->

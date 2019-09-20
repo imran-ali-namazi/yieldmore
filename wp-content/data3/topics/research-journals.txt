@@ -1,0 +1,39 @@
+[info]
+source:http://jsswindia.com/issues/2015/2/06-writing-articles-for-research-journals
+[/info]
+
+<h3>Introduction:</h3>
+<p>Some professionals require a certain number of articles published in their name in a specific period for staying afloat in the academic community.  Some researchers have found something very important and use journals to expose their findings to the scientific community.  Scholars have to prove their softskills and hence mandated to publish articles in reputed peer reviewed journals which are indexed. The author attempts here to provide a roadmap for writing articles in scientific journals.</p>
+<h3>Uniformity:</h3>
+<p>The scientific format which has a  rigid structure may frighten the writer initially.  But, the fear can be overcome by writing the first few articles with an expert or an experienced person as co-author. Main reason for the rigid structure is the scientific community wants a uniform structure so that the reader can go straight to the section he is interestred in and get what he requires. It increases the efficiency of communication for the writer. It also necessary for the scientific community to analyse the article in several levels. It is needless to say indexing and documentation will be lot more easier in a scientific format.  Some rapidly go through titles; some stop with a quick glance at the abstracts and only very few readers   who have definite stake in reading go through the entire article.  Some even rush to the citation first to check who have inspired or motivated or contributed in a way to the writer. So if we know the anatomy of a scintific  paper, half the work is accomplished.</p>
+<h3>Anatomy of an article:</h3>
+<p>Essential parts of a scientific paper are discussed hereunder:</p>
+<p>Every article has to have a title  and the author or authors, affiliation to the Department/ Institution/ University will form the first  part.  This is for identification purpose.</p> 
+<p>Then comes abstract which, in the words of Professor Visvesvaran P K, the former Principal of Madras School of Social Work, should be brief, crisp and to the point.</p>  
+<p>After the identification process is over the article as such, starts with introduction, review of literature/ methodology, results, discussion of results, conclusion or recommendations for further study and acknowledgments.  Finally all the books/ journals referred for writing the article listed in a particular format (style as the experts prefer to call) complertes the task in hand.</p>
+<h3>Purpose of each section:</h3>
+<p>The scientific community reads an article in the following way:</p>
+<p><h3>Title:</h3> What is this gentleman trying to say? What does this article contain?</p>
+  <p><h3>Abstract:</h3> What is this paper about in short?</p>
+  <p><h3>Introduction:</h3> What is the problem?</p>
+  <p><h3>Methodology: </h3>What are the materials used and what are the scientific tools or methods used?</p>
+  <p><h3>Review of literature:</h3> What books or authors have already thought about the same problem and what are their opinions or findings? How long is this problem being  investigated by the scientific community?</p>
+  <p><h3>Results and discussion:</h3> What did the author find out? How is he interpreting the finding?</p>
+  <p><h3>Acknowledgment: </h3>Who all helped him and how? (Sometimes this section does interest anyone other than those whose names figure there and so it is considered as optional and not mandatory).</p>
+  <p><h3>References/ Citation: </h3>Whose work did this gentleman refer to? Which journals were referred? How authoritative is the referred source?</p>
+  <p><h3>Addenda/ appendix:</h3> What are the extra information the gentleman is offering? (Like maps/ photographs)</p>
+
+<h3>The inner details:</h3>
+<p>The way the section headings are formatted differs from journal to journal.  Once again to quote Professor Visvesvaran P K, "there must be uniformity and consistency." Some journals prefer capitalising the section headings with space above and below. Some use a colon after main heading but some don’t. Some underline and many don’t. For subheadings some use title case or capitalise each word and many use sentence case. So check with them. the experimental procedures,  analysis (qualitiative analyses and/or statistical procedures used) will make the reader understand the scientific procedures you have employed.</p>
+<h3>Results:</h3>
+<p>In this section the empirical data is presented in a logical manner using tables, figures and text.  It begins with text and supported by tables and figures.  (Usually the title of  table goes above it and title of figures are placed below).  A true researcher never shies away from reporting the negative results.  The report is more objective. Active voice implies subjectivity creeping in and so passive voice is preferred. </p> 
+<h3>Finally the conclusion:</h3>
+<p>This section is the most essential part of the article or paper an author produces.  Here, all the findings are listed after tabulation of the data and analyses.  The reader wants to know what new information can be added to his knowledge base from your paper.  So in the conclusion all the findings and recommendations can be presentedin an organized form.</p>
+<h3>Last but not the least:</h3> 
+<p>The books referred and citred in the text have to be acknowledged in the references/ books cited section. (The term bibliography may please be avoided, for it refers to books read but not used in the article). The citation can be parenthetically included in the body text but must find a place in the references section n full: Authors, year, title of the book, place of publication and the publisher in that order in APA style. 
+Start writing and you will discover how easy it is!</p>
+
+<div class="references">
+<h3>References:</h3>
+<p>http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWsections.html 1 retrieved on 01-02-2015</p>
+</div>

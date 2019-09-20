@@ -1,0 +1,10 @@
+[info]
+link: https://twitter.com/bratman22
+[/info]
+
+https://www.youtube.com/watch?v=22DcEddCI1Y
+
+https://www.youtube.com/watch?v=V1eI3FK8ni4
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/50984662&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
