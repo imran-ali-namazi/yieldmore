@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Prayers</title>
+<script type="text/javascript" src="ghosts.js"></script>
+<script src="prayers.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+body { cursor: default; }
+li { padding: 2px; list-style-type: none; font-size: large; 
+/*border: 1px #CC99CC solid;*/ background-color: #80A5E1; 
+-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px; }
+//-->
+</style>
+
+</head>
+<body>
+<script type="text/javascript">
+
+Halloween.ghostImages = data[names[0]];
+Halloween.interval = 150;
+Halloween.offset = { X: 150, Y: 150 };
+Halloween.ghostOutput();
+Halloween.ghostLoad=window.onload;
+window.onload=Halloween.ghostStart;
+
+</script>
+
+</body> 
+</html>
+
