@@ -416,9 +416,10 @@ class WorksShortcodes
 
 	static function do_ads($a, $content = null)
 	{
+		return;
 		//echo '<!--REQUEST_URI: ' . $_SERVER['REQUEST_URI'] . '-->';
 		if ($_SERVER['REQUEST_URI'] == '/' && !isset($a['id'])) return;
-		$syndUrl = 'http://yieldmore.org/';
+		$syndUrl = 'http://legacy.yieldmore.org/';
 		$imgFol = $syndUrl . 'wp-content/data/print/';
 		$twitterHT = 'https://twitter.com/hashtag/';
 

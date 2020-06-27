@@ -14,11 +14,11 @@ function cs_pre_wp_nav_menu2($args) {
 		if ($s['deleted'] || $s['path'] == '/i/') continue;
 		switch_to_blog($s['blog_id']);
 		if ($id == $s['blog_id']) { $s['name'] = get_bloginfo('name'); $site = $s; }
-		$so[$s['path']] = sprintf('<li%s><a href="http://yieldmore.org%s">%s, <small>%s</small></a></li>',
+		$so[$s['path']] = sprintf('<li%s><a href="http://legacy.yieldmore.org%s">%s, <small>%s</small></a></li>',
 			$id == $s['blog_id'] ? ' class="current-menu-item"' : '', $s['path'], get_bloginfo('name'), get_bloginfo('description'));
 	}
 	sort($so);
-	$r .= '<li class="menu-item menu-item-has-children"><a href="http://yieldmore.org'.$site['path'].'">SITE: ' . $site['name'] . $down . '</a><ul class="sub-menu">';
+	$r .= '<li class="menu-item menu-item-has-children"><a href="http://legacy.yieldmore.org'.$site['path'].'">SITE: ' . $site['name'] . $down . '</a><ul class="sub-menu">';
 	$r .= implode(PHP_EOL, $so);
 	$r .= '</ul></li>';
 
