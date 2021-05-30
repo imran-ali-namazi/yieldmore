@@ -1,14 +1,16 @@
 <?php
 $books = [
 	'infuse' => [101, 'chaos', 'fly'],
+	'ante-up' => [201, 'ante-up'],
 ];
 
 $links = [
 	'chaos' => 'https://legacy.yieldmore.org/incubate/poetrusic-by-chaos/',
 	'fly' => 'http://legacy.yieldmore.org/incubate/fly-up/',
+	'ante-up' => 'http://legacy.yieldmore.org/incubate/ante-up/',
 ];
 
-$book = 'infuse';
+$book = 'ante-up';
 $export = 1;
 if ($export) echo '<textarea style="height: 100%; width: 100%">';
 
