@@ -9,4 +9,4 @@ For schools, there is also the <a href="/programs/school/pledge-festival">Pledge
 
 YieldMore, in 2015, compiled a <a href="http://english.yieldmore.org/songs/school/" target="_blank">list of songs</a> (non romantic) to be shared with children. You can also find some on <a href="https://www.youtube.com/watch?v=RwUGSYDKUxU&list=PLsuI89eMBnMGa5CNzT7g0HHBRfkFjnVH6" target="_blank">our youtube channel</a>.
 
-[work config fol=programs/school][/work]
+<!--[work config fol=programs/school][/work]-->

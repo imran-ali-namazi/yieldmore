@@ -9,4 +9,4 @@ In this section,  personal value (an individual's absolute or relative), and eth
 
 Following is a set of 50 exercises developed by Prof PJ Naidu which he has graciously allowed us to use. See the individual articles in the menu / download the whole document <a href="http://learn.yieldmore.org/wp-content/data3/docs/FiftyValues-LYM.doc">here</a>.
 
-[work config fol=students/values][/work]
+<!--[work config fol=students/values][/work]-->

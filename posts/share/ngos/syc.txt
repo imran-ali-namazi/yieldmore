@@ -6,7 +6,7 @@ link: https://www.facebook.com/pg/SatyamYogaTrust/events/|Facebook Events
 link: http://www.biharyoga.net/bihar-school-of-yoga/yoga-magazines/|BSY Yoga Magazine
 [/info]
 
-The Bihar School of Yoga was founded in 1963 by <a href="http://www.biharyoga.net/yoga-vision/sri-swami-satyananda-saraswati/" target="_blank">Swami Satyananda Saraswati</a> and is currently led by <a href="http://yieldmore.org/practices/yoga/?node=swan">Swami Niranjanananda Saraswati</a>. Satyananda Yoga Centre Mambalam has been taking free yoga classes for over 150 batches.
+The Bihar School of Yoga was founded in 1963 by <a href="http://www.biharyoga.net/yoga-vision/sri-swami-satyananda-saraswati/" target="_blank">Swami Satyananda Saraswati</a> and is currently led by <a href="[url]practices/yoga/?node=swan">Swami Niranjanananda Saraswati</a>. Satyananda Yoga Centre Mambalam has been taking free yoga classes for over 150 batches.
 
 We have the following centres:
 <ol>
@@ -19,4 +19,4 @@ Classes go from Mon to Saturday for 3 weeks and an optional advanced pranayama c
 
 For the benefit of students, weekly Havan is conducted at the Ashram in Mambalam. Address can be had by writing to syc@satyamyogatrust.net.
 
-[work config fol=helpers/syc][/work]
+<!--[work config fol=helpers/syc][/work]-->

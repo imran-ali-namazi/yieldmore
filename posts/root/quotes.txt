@@ -2,4 +2,4 @@
 Here are some quotes contributed by various users of this website.
 
 [quotes fol=quotes/submitted count=15][/quotes]
-[work config fol=quotes/submitted][/work]
+<!--[work config fol=quotes/submitted][/work]-->

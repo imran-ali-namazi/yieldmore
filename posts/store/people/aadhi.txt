@@ -3,4 +3,4 @@ A happy soul, wanderer, doodler, comic lover...
 
 https://www.instagram.com/p/BhTwAhNAS-M/?utm_source=ig_share_sheet&igshid=59a6369byjjy
 
-[work config fol=people/aadhi][/work]
+<!--[work config fol=people/aadhi][/work]-->

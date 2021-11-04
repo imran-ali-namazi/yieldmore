@@ -57,7 +57,10 @@ function write_posts($posts, $site_name) {
 		}
 		$fil = $subdir . $p['post_name'] . '.txt';
 		$id = '<!--post_id: ' . $p['id'] . '-->' . PHP_EOL;
-		file_put_contents($fil, $id . $p['post_content']);
+		$raw = $p['post_content'];
+		$raw = str_replace('http://yieldmore.org/', '[url]', $raw);
+		$raw = str_replace('[work', '<!--[work', str_replace('[/work]', '[/work]-->', $raw));
+		file_put_contents($fil, $id . $raw);
 		echo 'Wrote: ' . $fil . $br;
 		//	if ($ix == 5) break;
 	}

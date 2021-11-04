@@ -1,10 +1,10 @@
 <!--post_id: 52-->
 [info]
-link: http://yieldmore.org/speak/assorted/forgiveness/
-link: http://yieldmore.org/heal/topics/lessons/forgiveness/
+link: [url]speak/assorted/forgiveness/
+link: [url]heal/topics/lessons/forgiveness/
 [/info]
 
-http://yieldmore.org/talks/on-healing-and-forgiveness/
+[url]talks/on-healing-and-forgiveness/
 
 http://higher-selftherapy.com/mind/therapy-dolp-ludgrens-ted-talk/
 

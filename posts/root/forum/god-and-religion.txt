@@ -1,8 +1,8 @@
 <!--post_id: 93-->
 [info]
 Replies:
-link: http://yieldmore.org/speak/imran/?node=god-et-al|Imran
-link: http://yieldmore.org/speak/assorted/?node=thoughts-on-deity|Kavitha
+link: [url]speak/imran/?node=god-et-al|Imran
+link: [url]speak/assorted/?node=thoughts-on-deity|Kavitha
 [/info]
 
 Q) Does God exist? Whats god's function? If god exists, why does so much evil and injustice occur in the world? Especially in god's name?

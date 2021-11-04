@@ -1,4 +1,4 @@
 <!--post_id: 82-->
 For artists to showcase their work.
 
-[work config fol=songs/musicians][/work]
+<!--[work config fol=songs/musicians][/work]-->

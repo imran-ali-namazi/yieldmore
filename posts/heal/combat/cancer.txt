@@ -2,7 +2,7 @@
 <p>Cancer thrives in acidic bodies. We have identified 5 promising solutions to cancer.</p>
 <ul>
 <li>The resources at <a href="http://chrisbeatcancer.com" target="_blank" rel="noopener noreferrer">Chris Beat Cancer</a></li>
-<li>Forever Living Products and <a href="http://yieldmore.org/heal/systems/kangen-water/">Kangen Water</a> treatment (Vibha @ 9445267038)</li>
+<li>Forever Living Products and <a href="[url]heal/systems/kangen-water/">Kangen Water</a> treatment (Vibha @ 9445267038)</li>
 <li>Ozone Treatment (contact Ozone Generator Manufacturer Shyam @ 9176012476)</li>
 <li>Medical Marijuana</li>
 <li>Zero Medicine Wisdom (Saify @ 9884087860)</li>
@@ -10,5 +10,5 @@
 <p>An alternate healing center in Bangalore called <a href="https://www.wishingwellcare.com/" target="_blank" rel="noopener noreferrer">Wishing Well Healthcare</a> seem to be doing good work.</p>
 
 <!-- wp:paragraph -->
-<p>[work config fol=combat/cancer][/work]</p>
+<p><!--[work config fol=combat/cancer][/work]--></p>
 <!-- /wp:paragraph -->

@@ -1,6 +1,6 @@
 <!--post_id: 19-->
 This is a Google Groups Forum which is embedded below. You need to be signed in to Google to see it.
-<a href="http://yieldmore.org/pactg" target="_blank">http://yieldmore.org/pactg</a>
+<a href="[url]pactg" target="_blank">[url]pactg</a>
 
 <!--more-->
 <iframe id="forum_embed"

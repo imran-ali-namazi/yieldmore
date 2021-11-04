@@ -1,2 +1,2 @@
 <!--post_id: 19-->
-[work config fol=saakshi/truth][/work]
+<!--[work config fol=saakshi/truth][/work]-->

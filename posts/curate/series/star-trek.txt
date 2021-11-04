@@ -9,4 +9,4 @@ Until we expand this into subpages of some of the better TNG episodes and the hu
 youtube: ZESAxrv88j8&amp;list=PLsuI89eMBnMF0QO4wUsrCzU0ObiZkFJkg|03x04 - Who Watches The Watchers
 [/info]
 
-[work config fol=series/st][/work]
+<!--[work config fol=series/st][/work]-->

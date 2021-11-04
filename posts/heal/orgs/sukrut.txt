@@ -5,5 +5,5 @@ source: http://sukrutindia.com/
 
 Sukrut is a Psychotherapeutic Center guided by a group of Psychologists in Bangalore. Started in the year of 2008, the aim of the organization is to facilitate the development of potential capabilities of individuals and organizations.
 
-<a href="http://yieldmore.org/wp-content/data4/helpers/sukrut/Sukrut-ICC2018-Brochure.pdf" target="_blank" rel="noopener"><img src="http://yieldmore.org/wp-content/data4/helpers/sukrut/inward-change-conference.gif" alt="inward change" />
+<a href="[url]wp-content/data4/helpers/sukrut/Sukrut-ICC2018-Brochure.pdf" target="_blank" rel="noopener"><img src="[url]wp-content/data4/helpers/sukrut/inward-change-conference.gif" alt="inward change" />
 - Internal Change Conference 2018 (Brochure)</a>

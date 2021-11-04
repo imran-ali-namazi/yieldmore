@@ -12,4 +12,4 @@ Tolkien invented a mythology to replace the one England never had. A devout Cath
 
 An epic in its own right, some of our curators are undertaking to produce a comparison with other epics that have seeped into culture. Until then, <a href="https://muse.jhu.edu/journals/tolkien_studies/v002/2.1bolintineanu.html" target="_blank">this book by Anne C Petty</a> is a good discussion of its broad swathes and timelessness.
 
-[work config fol=books/quotes/silmarillion][/work]
+<!--[work config fol=books/quotes/silmarillion][/work]-->

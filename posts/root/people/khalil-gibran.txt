@@ -10,8 +10,8 @@ Born on 6 January 1883 and died on 10 April 1931, Khalil Gibran was an artist, p
 In truth, The Prophet is a work of such universal appeal that there is little to be gained from speculating on the identity of persons or places represented in it. For Gibran's purpose was a lofty one, and his belief in the 'unity of being', which led him to call for universal fellowship and the unification of the human race, is a message which retains its potency today as do the messages of all great poets. Inspired by his experiences in a country far from the land of his origins, he strove to resolve cultural and human conflict, in the process developing a unique genre of writing, and transcending the barriers of East and West as few have done before or since. He became not only Gibran of Lebanon, but Gibran of America, indeed Gibran the voice of global consciousness: a voice which increasingly demands to be heard in the continuing Age of Anxiety. - Dr. Suheil Bashrui
 - <a href="https://en.wikiquote.org/wiki/Khalil_Gibran#Quotes_about_Gibran" target="_blank">Quotes about Gibran</a></blockquote>
 
-Added to YieldMore in 2011, <a href="http://yieldmore.org/works/the-prophet/">The Prophet</a> is his best known book. See <a href="?node=gop">the Garden of the Prophet</a> which was a sequel. Don't miss the <a href="?node=quotes">quotes</a> and his piece on <a href="?node=liberty">liberty</a>.
+Added to YieldMore in 2011, <a href="[url]works/the-prophet/">The Prophet</a> is his best known book. See <a href="?node=gop">the Garden of the Prophet</a> which was a sequel. Don't miss the <a href="?node=quotes">quotes</a> and his piece on <a href="?node=liberty">liberty</a>.
 
 His chapters on <a href="/works/the-prophet/?node=chapter2&notabs=1">love</a> and <a href="/works/the-prophet/?node=chapter3&notabs=1">marriage</a> make a good read for weddings. Speaking of weddings, don't miss our very own Shasa's <a href="/incubate/essays-to-a-swan/?node=gratitude">Gratitude for Partners</a>.
 
-[work config fol=people/gibran][/work]
+<!--[work config fol=people/gibran][/work]-->

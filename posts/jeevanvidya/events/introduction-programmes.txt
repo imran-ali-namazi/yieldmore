@@ -1,7 +1,7 @@
 <!--post_id: 1-->
 [info]
 source: http://jeevanvidya.info/register/
-link: http://yieldmore.org/media/books/jeevan-vidya/jv-parichay-shivirs-2018/
+link: [url]media/books/jeevan-vidya/jv-parichay-shivirs-2018/
 [/info]
 
 Contact: Balmukund: 7089313341

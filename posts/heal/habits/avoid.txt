@@ -1,4 +1,4 @@
 <!--post_id: 11-->
 Some things it is better to avoid. Until we expand the habits category, <a href="https://www.mindbodygreen.com/0-18356/7-habits-that-will-get-you-healthy-fit-for-life.html" target="_blank">read this</a>.
 
-[work fol=pages/avoid config][/work]
+<!--[work fol=pages/avoid config][/work]-->

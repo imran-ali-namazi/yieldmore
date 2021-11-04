@@ -2,7 +2,7 @@
 [info]
 Artist: Pink Floyd
 source: https://www.azlyrics.com/lyrics/pinkfloyd/comingbacktolife.html
-link: http://yieldmore.org/curate/songs/pink-floyd
+link: [url]curate/songs/pink-floyd
 youtube: 0X_-SQ0sM40|Indian Fusion (curated by Mohan, Apr 2018)
 [/info]
 

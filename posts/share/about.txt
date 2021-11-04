@@ -1,7 +1,7 @@
 <!--post_id: 1-->
 Part of YieldMore.org, a collborative venture to share inspiring and useful information, Share YM is an initiative to help other people, advertise the operations of NGOs and individuals trying to make the world a better place.
 
-For a complete overview, please visit the <a href="http://yieldmore.org/about">parent site</a> / click the help link (logo) on the top.
+For a complete overview, please visit the <a href="[url]about">parent site</a> / click the help link (logo) on the top.
 
 <h2>Why - by a bookworm, Nov 2016</h2>
 

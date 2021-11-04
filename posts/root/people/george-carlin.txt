@@ -24,4 +24,4 @@ youtube:xSJRIKuNJBA&list=PLsuI89eMBnME_SlUib6SXpIj3ZQ2B1nns|YieldMore George Car
 
 <blockquote>I don't understand why prostitution is illegal. Selling is legal. Fucking is legal. Why isn't selling fucking legal? You know, why should it be illegal to sell something that's perfectly legal to give away? I can't follow the logic on that one at all! Of all the things you can do, giving someone an orgasm is hardly the worst thing in the world. In the army they give you a medal for spraying napalm on people! In civilian life you go to jail for giving someone an orgasm! Maybe I'm not supposed to understand it...</blockquote>
 
-[work config fol=people/carlin][/work]
+<!--[work config fol=people/carlin][/work]-->

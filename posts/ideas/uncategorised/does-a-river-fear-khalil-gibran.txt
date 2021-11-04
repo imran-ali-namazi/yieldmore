@@ -2,7 +2,7 @@
 <!-- wp:html -->
 [info]
 source: http://tennesonwoolf.com/fear-khalil-gibran/
-link: http://yieldmore.org/people/khalil-gibran/quotes/
+link: [url]people/khalil-gibran/quotes/
 [/info]
 <!-- /wp:html -->
 

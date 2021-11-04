@@ -19,4 +19,4 @@ youtube: dMHgm9C-sEU|Luciferian Doctrine (8 min)
 youtube: FryEJIMc0ho|Loneliness (7 min)
 [/info]
 
-[work config fol=users/ethos/hans][/work]
+<!--[work config fol=users/ethos/hans][/work]-->

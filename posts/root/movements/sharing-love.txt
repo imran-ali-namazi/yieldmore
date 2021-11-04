@@ -9,4 +9,4 @@ We encourage our members to think of their audience and not to say anything prov
 
 Its a part of the thousand loving movements, first mentioned in <a href="/incubate/essays-to-a-swan/?node=dear-brother">Dear Brother</a>
 
-[work config fol=movements/love][/work]
+<!--[work config fol=movements/love][/work]-->

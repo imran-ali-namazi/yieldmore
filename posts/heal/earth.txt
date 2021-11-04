@@ -2,4 +2,4 @@
 https://www.context.org/iclib/ic22/guide/
 https://healingearth.ijep.net/introduction
 
-[work config fol=pages/earth][/work]
+<!--[work config fol=pages/earth][/work]-->

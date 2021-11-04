@@ -1,7 +1,7 @@
 <!--post_id: 67-->
 [info]
-link: http://yieldmore.org/books/various/?node=your-sacred-self|Passage from Your Sacred Self on afterlife from the perspective of twins in the womb.
-link: http://yieldmore.org/speak/veena/?node=death|Veena's thoughts on death.
+link: [url]books/various/?node=your-sacred-self|Passage from Your Sacred Self on afterlife from the perspective of twins in the womb.
+link: [url]speak/veena/?node=death|Veena's thoughts on death.
 [/info]
 
 Death is the only certainty in life, and the one thing nobody prepares for until it overtakes them nor think about until it claims a loved one.
@@ -24,4 +24,4 @@ urvārukam-iva bandhanā mṛtyormukṣīya māmṛitāat
 Translation
 OM. We worship the Three-eyed Lord Who is fragrant and Who nourishes and nurtures all beings. As the ripened cucumber (with the intervention of the gardener) is freed from its bondage (to the creeper), may He liberate us from death for the sake of immortality.
 
-[work config fol=topics/death][/work]
+<!--[work config fol=topics/death][/work]-->

@@ -4,4 +4,4 @@ Assorted articles by contributors and well wishers.
 Also, articles by some famous people like
 * <a href="./?node=please-live>Prince EA (Richard Williams)</a>
 
-[work config fol=users/shasa/legion][/work]
+<!--[work config fol=users/shasa/legion][/work]-->

@@ -1,7 +1,7 @@
 <!--post_id: 56-->
 Prayer and Manthra are (seemingly) interchangeable. The idea is to regulate your breathing and focus on the Chit Akash (he inner space where thoughts and emotions come from. When you close your eyes – that is inner space.) This is naturally the location of the third eye where the 2 eyes focus when the eyelids are closed.
 
-[work config fol=topics/prayer][/work]
+<!--[work config fol=topics/prayer][/work]-->
 <h2>Hindu</h2>
 [info]
 youtube: gwPuuKPKI6w|Rudram Chamakam

@@ -6,4 +6,4 @@ youtube: YlusVXmSqlQ
 
 Begun in 2003 by Dr B Damodaran, the Thiruvika speakers park was begun to give stage-shy peeple and novice speakers a platform to develop their thinking and presentation skills.
 
-[work config fol=speakers/kural][/work]
+<!--[work config fol=speakers/kural][/work]-->

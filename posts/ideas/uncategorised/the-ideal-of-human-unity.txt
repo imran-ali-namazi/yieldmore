@@ -1,4 +1,4 @@
 <!--post_id: 34-->
-The Ideal of Human Unity is a book by Sri Aurobindo that can be found in <a href="http://yieldmore.org/media/books/sri-aurobindo/25TheHumanCycle/">Vol 25 - The Human Cycle</a> of his <a href="http://www.sriaurobindoashram.org/ashram/sriauro/writings.php" rel="noopener" target="_blank">Birth Centenary Library</a>.
+The Ideal of Human Unity is a book by Sri Aurobindo that can be found in <a href="[url]media/books/sri-aurobindo/25TheHumanCycle/">Vol 25 - The Human Cycle</a> of his <a href="http://www.sriaurobindoashram.org/ashram/sriauro/writings.php" rel="noopener" target="_blank">Birth Centenary Library</a>.
 
-[work config fol=intyoga/unity][/work]
+<!--[work config fol=intyoga/unity][/work]-->

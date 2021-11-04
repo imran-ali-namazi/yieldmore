@@ -8,7 +8,7 @@ Just look around
 There’s happiness there - <a href="https://www.azlyrics.com/lyrics/peterframpton/peopleallovertheworld.html" target="_blank">Peter Frampton</a></blockquote>
 
 I should take a minute to recall the Anthem:
-http://yieldmore.org/songs/short-and-sweet/
+[url]songs/short-and-sweet/
 
 <blockquote>Make me a channel of your peace,
 Where there’s despair in life let me bring hope,
@@ -19,6 +19,6 @@ And where there’s sadness, ever joy. - <a href="/practices/prayer/?node=peace"
 
 And <a href="/practices/prayer/?node=sivananda" target="_blank">Swami Sivananda's</a> Motto: Serve, Love, Give, Purify, Meditate and Realize.
 
-Which inspired me <a href="http://yieldmore.org/what" target="_blank">back in 2015</a> to say: Learn, Heal, Share, Express, Love & YieldMore.
+Which inspired me <a href="[url]what" target="_blank">back in 2015</a> to say: Learn, Heal, Share, Express, Love & YieldMore.
 
 With that began <a href="https://www.youtube.com/watch?v=aS1esgRV4Rc&list=PLsuI89eMBnMHeQvgPaHV23_t3xIUmbkKm" target="_blank">this verse</a>, a very passionately tended venture to which I dedicated the rest of my life[times] back in <a href="http://cselian.com/blog/yield/" rel="noopener" target="_blank">November 2013</a>.

@@ -7,4 +7,4 @@ youtube: RYEEEeEh5BY
 Please check back for resources and videos.
 
 <!--TODO: social type=hash-->
-[work config fol=against/abuse][/work]
+<!--[work config fol=against/abuse][/work]-->

@@ -1,4 +1,4 @@
 <!--post_id: 86-->
 Small nuggets on life by Veena. See the Nav for more
 
-[work fol=users/ethos/life config][/work]
+<!--[work fol=users/ethos/life config][/work]-->

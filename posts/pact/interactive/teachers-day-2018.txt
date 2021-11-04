@@ -1,4 +1,4 @@
 <!--post_id: 41-->
 A collection of articles, begun on Teachers day 2018 - Sep 5th from our supporters on the topic of teaching.
 
-[work config fol=interactive/td2018][/work]
+<!--[work config fol=interactive/td2018][/work]-->

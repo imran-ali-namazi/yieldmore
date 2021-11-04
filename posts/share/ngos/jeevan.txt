@@ -20,4 +20,4 @@ Stem Cells from donated cord blood can help children with a body weight less tha
 
 Bone Marrow Registry is a database of potential stem cell donors, whose Human Leucocyte Antigen (HLA) is typed by Jeevan and stored in a server. When a patient needs a donor, the matching donor is identified from the database. He / she is then counseled, medically examined and then encouraged to donate stem cells. These stem cells are used for the treatment of patients.
 
-[work config fol=helpers/jeevan][/work]
+<!--[work config fol=helpers/jeevan][/work]-->

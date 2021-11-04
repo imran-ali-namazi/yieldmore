@@ -7,4 +7,4 @@ Yoga is a psycho-physiological exercises including body postures, breathing tech
 
 There are other aspects of yoga which we will touch upon later.
 
-[work config fol=topics/yoga][/work]
+<!--[work config fol=topics/yoga][/work]-->

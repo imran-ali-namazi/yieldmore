@@ -9,4 +9,4 @@ The Good Country Movement is now a country! Its in the process of onboarding its
 
 https://www.youtube.com/watch?v=20dH0B0hOkk
 
-[work config fol=movements/gc][/work]
+<!--[work config fol=movements/gc][/work]-->

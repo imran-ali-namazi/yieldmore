@@ -6,4 +6,4 @@ link: http://ladyandalalumni.org
 link: https://www.facebook.com/groups/ladyandal/
 [/info]
 
-[work config fol=schools/ladyandal][/work]
+<!--[work config fol=schools/ladyandal][/work]-->

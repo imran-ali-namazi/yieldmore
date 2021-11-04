@@ -1,4 +1,4 @@
 <!--post_id: 4396-->
 A new series in 2018, after some 60 odd pieces of prose and poetry at <a href="/incubate/essays-to-a-swan/">Essays to a Swan</a>
 
-[work toc fol=users/shasa/love][/work]
+<!--[work toc fol=users/shasa/love][/work]-->

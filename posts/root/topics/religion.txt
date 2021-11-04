@@ -1,17 +1,17 @@
 <!--post_id: 54-->
-[work config fol=topics/religion][/work]
+<!--[work config fol=topics/religion][/work]-->
 
 Wikipedia: A <a href="https://en.wikiquote.org/wiki/Religion" target="_blank">religion</a> is an organized collection of beliefs, cultural systems, and world views that relate humanity to an order of existence. Many religions have narratives, symbols, and sacred histories that aim to explain the meaning of life, the origin of life, or the Universe.
 
 "Indian religion has always felt that since the minds, the temperaments and the intellectual affinities of men are unlimited in their variety, a perfect liberty of thought and of worship must be allowed to the individual in his approach to the Infinite." - <a href="/people/sri-aurobindo/?node=religion">Sri Aurobindo</a>.
 
-ENTHEOS - Enthuse about God (Theos), is a platform for <a href="http://spanda.org/new/our-work/jubilo/" rel="nofollow">interfaith dialogue</a> which accepts different <a href="/speak/imran/?node=religion">articles</a> from our contributors and viewers on the topic on our fundamental <a href="https://www.google.co.in/search?q=one+world+philosophy" target="_blank">oneness</a> and rediscovery of the <a href="http://yieldmore.org/?r=yt-awakenings" target="_blank">spirituality</a> within.
+ENTHEOS - Enthuse about God (Theos), is a platform for <a href="http://spanda.org/new/our-work/jubilo/" rel="nofollow">interfaith dialogue</a> which accepts different <a href="/speak/imran/?node=religion">articles</a> from our contributors and viewers on the topic on our fundamental <a href="https://www.google.co.in/search?q=one+world+philosophy" target="_blank">oneness</a> and rediscovery of the <a href="[url]?r=yt-awakenings" target="_blank">spirituality</a> within.
 
 <a href="/works/the-prophet/?node=chapter26&amp;notabs=1">Have I spoken this day of aught else? Is not religion all deeds and all reflection? - Kahlil Gibran</a>. <a href="/people/george-carlin/?node=commandments">Thou shalt keep thy religion to thyself - George Carlin</a>.
 
 [info]
 youtube: Tu50y4pF4WI&list=PLNEB1ItETG4XH2PZa901pXW7-Ypq3qFA_|What is Sanatana Dharma, Sri Aurobindo, 1909
-link: http://yieldmore.org/?r=yt-sama|God Without, God Within - Vrekham, Satprem, Dalal et al, SAMA Integral Yoga Playlist
+link: [url]?r=yt-sama|God Without, God Within - Vrekham, Satprem, Dalal et al, SAMA Integral Yoga Playlist
 youtube: 7G-7-ZiiM-o&list=PLsuI89eMBnMFSNMdjLH9sa5F0c5D9M0sv|Set Man Free - J Krishnamurthi Playlist
 youtube: BKgc3RtrZQA&list=PLsuI89eMBnMHJxvbO1gcC-gO2lpApULuG|Why So Many Gods, Who Am I - Hinduism Playlist
 [/info]

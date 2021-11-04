@@ -1,5 +1,5 @@
 <!--post_id: 22-->
-<img class="alignnone size-medium wp-image-24" src="http://yieldmore.org/express/wp-content/uploads/sites/9/2018/06/D550808E-F551-44E2-A09C-38FA799839D6-300x159.jpeg" alt="" width="300" height="159" />As I walk upon this road, I see no end, nor a beginning
+<img class="alignnone size-medium wp-image-24" src="[url]express/wp-content/uploads/sites/9/2018/06/D550808E-F551-44E2-A09C-38FA799839D6-300x159.jpeg" alt="" width="300" height="159" />As I walk upon this road, I see no end, nor a beginning
 But still I tread on, as do so many more of my ilk
 Looking ahead at the rising sun
 Which, at this very moment, is setting at another

@@ -4,5 +4,5 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p> [work toc config fol=users/shasa/ante-up][/work] </p>
+<p> <!--[work toc config fol=users/shasa/ante-up][/work]--> </p>
 <!-- /wp:paragraph -->

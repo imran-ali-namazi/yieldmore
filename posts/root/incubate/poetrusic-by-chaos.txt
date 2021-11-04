@@ -3,4 +3,4 @@ Named for a 8 month old PUPPY I met named Chaos, whose mother SIMBA I knew some 
 
 Here is my 3rd set of VERSE... Begun with "I Know YOU GOT SOUL" on 11th March 2019
 
-[work toc config fol=users/shasa/chaos][/work]
+<!--[work toc config fol=users/shasa/chaos][/work]-->

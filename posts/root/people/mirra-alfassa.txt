@@ -9,4 +9,4 @@ Mirra Alfassa or ‘The Mother’ of Auroville was the spiritual collaborator an
 
 <blockquote>“The end of a stage of evolution,” announced by Sri Aurobindo, “is usually marked by a powerful recrudescence of all that has to go out of the evolution.”6 Everywhere about us we see this paroxysmal shattering of all the old forms: our borders, our churches, our laws, our morals are collapsing on all sides. They are not collapsing because we are bad, immoral, irreligious, or because we are not sufficiently rational, scientific or human, but because we have come to the end of the human! To the end of the old mechanism – for we are on our way to SOMETHING ELSE. ~ <a href="/people/mirra-alfassa/evolution/">Evolution, Dec 11 1971</a></blockquote>
 
-[work config fol=auro/mirra][/work]
+<!--[work config fol=auro/mirra][/work]-->

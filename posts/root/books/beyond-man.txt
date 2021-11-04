@@ -29,4 +29,4 @@ The publishers, Harper Collins Publishers India, have done a fine job and produc
 
 Beyond Man is a standard work and a fount of information on the life and work of Sri Aurobindo and The Mother. It is a must for all those who aspire to live in their Light.
 
-[work config fol=auro/vrekhem/beyondman][/work]
+<!--[work config fol=auro/vrekhem/beyondman][/work]-->

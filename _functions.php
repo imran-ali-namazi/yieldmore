@@ -32,14 +32,16 @@ function before_render() {
 	if (cs_var('node') == 'go') { include_once 'resources.php'; exit; }
 
 	foreach (cs_var('sites') as $slug => $s) {
-		$path = cs_var('path') . '/posts/' . cs_var('all_page_parameters');
-		//echo $path . PHP_EOL;
-		if (is_dir($path)) {
-			cs_var('fol', $path . '/');
-			break;
-		} else if (file_exists($path . '.txt')) {
+		$path = cs_var('path') . '/posts/' . ($slug == 'root' ? 'root/' : '')
+			. (cs_var('all_page_parameters') ? cs_var('all_page_parameters') : cs_var('node'));
+
+		//file first
+		if (file_exists($path . '.txt')) {
 			cs_var('fil', $path . '.txt');
 			cs_var('fol', dirname($path));
+			break;
+		} else if (is_dir($path)) {
+			cs_var('fol', $path . '/');
 			break;
 		}
 	}
@@ -50,7 +52,7 @@ function before_render() {
 function did_render_page() {
 	$fol = cs_var('fol');
 	if ($fol) {
-		if (cs_var('fil')) echo wpautop( file_get_contents( cs_var('fil') ) );
+		if (cs_var('fil')) echo wpautop( str_replace('[url]', cs_var('url'), file_get_contents( cs_var('fil') ) ) );
 		return true;
 	}
 

@@ -1,5 +1,5 @@
 <!--post_id: 9908-->
-<iframe src="http://yieldmore.org/?o=2" style="height: 90vh; width: 100%"></iframe>
+<iframe src="[url]?o=2" style="height: 90vh; width: 100%"></iframe>
 
 <iframe id="forum_embed"
   src="javascript:void(0)"

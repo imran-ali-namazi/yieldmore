@@ -1,7 +1,7 @@
 <!--post_id: 201-->
 [info]
 youtube: 1c_vz_uiFjA|Hinduism is a Pluralist religion - Many pathways to God; not many Gods
-link: http://yieldmore.org/jay-yt
+link: [url]jay-yt
 source: https://youtube.com/hinduacademy
 source: https://www.speakingtree.in/jay-lakhani
 source: http://hinduacademy.org/
@@ -12,4 +12,4 @@ Jay Lakhani (Hindi:श्री जे लखानी; born December 5, 1948) i
 
 He presented several TED talks and television debates, challenging the paradigm of strict monotheism, materialism, and the connection between spiritual humanism and science.
 
-[work config fol=users/ethos/jay][/work]
+<!--[work config fol=users/ethos/jay][/work]-->

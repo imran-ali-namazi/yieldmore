@@ -8,4 +8,4 @@ SCHOOL LEADERSHIP - A SCOTTISH PERSPECTIVE
 
 This Blog is for anyone interested in Education, schools leadership and professional development. An ex-headteacher, I now write and talk about education, schools and leadership.. A Fellow of the Scottish College for Educational Leadership. Board member of SPTC. Committed to keeping it real for schools and teachers, using research to inform practice and development.
 
-[work config fol=users/ethos/george logo=george-gilchrist.png][/work]
+<!--[work config fol=users/ethos/george logo=george-gilchrist.png][/work]-->

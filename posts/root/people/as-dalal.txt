@@ -29,4 +29,4 @@ Moslem by birth, Dr. Dalal was born in Tanzania, moved to the Sri Aurobindo Ashr
 * Gifts of Grace - Five Aids for Inner Growth
 * Morality, Idealism, Religion and Yoga
 
-[work config fol=auro/dalal][/work]
+<!--[work config fol=auro/dalal][/work]-->

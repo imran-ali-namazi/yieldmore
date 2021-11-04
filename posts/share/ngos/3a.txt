@@ -7,4 +7,4 @@ Also planned is to digitize and publish books on <a href="https://en.wikipedia.o
 
 If your interested to know more, check back to this page for updates / contact Mr Anbarasu at <a href="mailto:ja62@hotmail.com" target="_blank">ja62@hotmail.com</a>.
 
-[work config slim fol=helpers/3a logo=logo.png][/work]
+<!--[work config slim fol=helpers/3a logo=logo.png][/work]-->

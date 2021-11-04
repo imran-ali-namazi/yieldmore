@@ -1,7 +1,7 @@
 <!--post_id: 2-->
 [info]
 source: http://madhyasth-darshan.info/introduction/brief/
-link: http://yieldmore.org/media/books/jeevan-vidya/
+link: [url]media/books/jeevan-vidya/
 [/info]
 
 Madhyasth Darshan or ‘Coexistential Thought’ is the name for a set of propositions about reality.  It has come about via original existential exploratory-research by (late) Shri A Nagraj of Amarkantak, India (originally from Hassan, Karnataka). It is a new discovery of the fundamental nature of the Universe, Human Being, Consciousness & Human purpose. It discusses the nature of matter, conscious, space & evolution and thus demystifies the human being and existence.

@@ -18,7 +18,7 @@ A religiously developed person makes a practice of referring everything to God, 
 I said before, the most beautiful and most profound religious emotion that we can experience is the sensation of the mystical. And this mysticality is the power of all true science. If there is any such concept as a God, it is a subtle spirit, not an image of a man that so many have fixed in their minds. In essence, my religion consists of a humble admiration for this illimitable superior spirit that reveals itself in the slight details that we are able to perceive with our frail and feeble minds. – Albert Einstein</blockquote>
 
 <!--more-->
-[work config fol=topics/devotion][/work]
+<!--[work config fol=topics/devotion][/work]-->
 <h2>Hinduism</h2>
 
 <h3>Brahman</h3>

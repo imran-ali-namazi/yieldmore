@@ -7,4 +7,4 @@ For more, see <a href="https://drive.google.com/drive/u/0/folders/1a9rlJ9ZrTJ273
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSWp24-etx3JzQn7PLINsx8Qp3I6tzd0vlOdQSq-r-D4eGI_PQbubU0jixss6rgebWPgAbFRBH2-2Yj/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<!--[work config fol=users/shasa/joint][/work]-->
+<!--<!--[work config fol=users/shasa/joint][/work]-->-->

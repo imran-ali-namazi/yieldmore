@@ -3,7 +3,7 @@
 [info]
 youtube: f8FliT43ZC4
 link: https://aurospaces.org/ideas/heart-race/
-link: http://yieldmore.org/incubate/essays-to-a-swan/teeming/
+link: [url]incubate/essays-to-a-swan/teeming/
 [/info]
 <!-- /wp:shortcode -->
 

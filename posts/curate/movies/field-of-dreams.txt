@@ -19,4 +19,4 @@ Imran, Sep 2017: I am rendered speechless in its vision and grandeur. I leave it
 
 Or browse through our selections from <a href="http://www.imsdb.com/scripts/Field-of-Dreams.html" rel="noopener" target="_blank">the script</a> in the menu.
 
-[work config fol=movies/field-of-dreams][/work]
+<!--[work config fol=movies/field-of-dreams][/work]-->

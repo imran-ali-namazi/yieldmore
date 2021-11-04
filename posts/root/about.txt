@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=MWAK3K7A6_Y
 <!--more-->
 https://www.youtube.com/watch?v=PTIqjpkF5Ss
 
-* See our <a href="http://yieldmore.org/b" target="_blank" rel="noopener">Brochure</a> or a list of all <a href="http://yieldmore.org/v">ventures</a>.
-* We meet every month on the last Sunday at <a href="http://yieldmore.org/devaragam" target="_blank" rel="noopener">home - Devaragam</a> on <a href="/meet" target="_blank" rel="noopener">hangouts</a> between 3 and 5pm Indian Standard Time (GMT + 5.30) and US/Europe call is at 8pm IST (10.30 EST). <a href="/meet-big" target="_blank" rel="noopener">Build India Group Meetings</a> are at 5.30pm. See our <a href="https://www.youtube.com/watch?list=PLNEB1ItETG4WdNT2bBTQs0GsvU39LKqQq&amp;v=EiJErn0LPYQ" target="_blank" rel="noopener">Launch recording</a> and <a href="http://yieldmore.org/l" target="_blank" rel="noopener">presentation</a>.
+* See our <a href="[url]b" target="_blank" rel="noopener">Brochure</a> or a list of all <a href="[url]v">ventures</a>.
+* We meet every month on the last Sunday at <a href="[url]devaragam" target="_blank" rel="noopener">home - Devaragam</a> on <a href="/meet" target="_blank" rel="noopener">hangouts</a> between 3 and 5pm Indian Standard Time (GMT + 5.30) and US/Europe call is at 8pm IST (10.30 EST). <a href="/meet-big" target="_blank" rel="noopener">Build India Group Meetings</a> are at 5.30pm. See our <a href="https://www.youtube.com/watch?list=PLNEB1ItETG4WdNT2bBTQs0GsvU39LKqQq&amp;v=EiJErn0LPYQ" target="_blank" rel="noopener">Launch recording</a> and <a href="[url]l" target="_blank" rel="noopener">presentation</a>.
 
-[work config fol=pages/about][/work]
+<!--[work config fol=pages/about][/work]-->

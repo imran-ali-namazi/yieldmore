@@ -1,4 +1,4 @@
 <!--post_id: 77-->
 A series of recipes by a Vegetarian living in South India.
 
-[work config fol=recipes/shakthi][/work]
+<!--[work config fol=recipes/shakthi][/work]-->

@@ -1,4 +1,4 @@
 <!--post_id: 28-->
 More content will follow. Until then, please look at what <a href="./?node=sivananda">Swami Sivananda</a> had to say.
 
-[work config fol=topics/diet][/work]
+<!--[work config fol=topics/diet][/work]-->

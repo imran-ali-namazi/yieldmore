@@ -12,4 +12,4 @@ This page <a href="mailto:shasa@cselian.com?subject=Islam means Peace" target="_
 	<li><a href="/speak/ethos/shasas-speeches/?node=3-unspoken" target="_blank">Prayer for world peace, by Imran</a> 22nd November 2015</li>
 </ul>
 
-[work fol=movements/islam config][/work]
+<!--[work fol=movements/islam config][/work]-->

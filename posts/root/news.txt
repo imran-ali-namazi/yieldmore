@@ -1,4 +1,4 @@
 <!--post_id: 236-->
 For tidbits of interesting and good news.
 
-[work config fol=pages/news][/work]
+<!--[work config fol=pages/news][/work]-->

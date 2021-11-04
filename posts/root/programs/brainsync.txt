@@ -25,4 +25,4 @@ Will expand this page shortly, one of our curators is working on it.
 	<li>Slim Naturally</li>
 </ul>
 
-[work config fol=topics/brainsync][/work]
+<!--[work config fol=topics/brainsync][/work]-->

@@ -3,4 +3,4 @@ Started in June 2017 with the exception of copyfight (2013) and tripping (2005),
 
 To see my poetry and older prose, <a href="/swan">click here</a>.
 
-[work config fol=users/shasa/essays][/work]
+<!--[work config fol=users/shasa/essays][/work]-->

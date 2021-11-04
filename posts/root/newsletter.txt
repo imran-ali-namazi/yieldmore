@@ -5,4 +5,4 @@ Launched on Sun, Aug 13 2017, ours is a monthly newsletter edited by Chief Curat
 
 https://www.youtube.com/watch?v=WW1KZuEKM4s&list=PLNEB1ItETG4VCgHMvXp-7BliYDpQW0EGW
 
-[work config fol=topics/newsletter][/work]
+<!--[work config fol=topics/newsletter][/work]-->

@@ -74,4 +74,4 @@ Shirly,Ac no-20240133301,
 Branch code-12246,Kutchery Road,
 IFSC-SBIN0012246.State bank of India, SBI.
 
-[work config fol=helpers/roottrust logo=root-trust.png][/work]
+<!--[work config fol=helpers/roottrust logo=root-trust.png][/work]-->

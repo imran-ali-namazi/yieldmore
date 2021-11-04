@@ -19,4 +19,4 @@ Founder, CHILD
 Arun Fernandez,
 Managing Director, BRS
 
-[work config slim fol=conferences/trika16 logo=child-brs.jpg][/work]
+<!--[work config slim fol=conferences/trika16 logo=child-brs.jpg][/work]-->

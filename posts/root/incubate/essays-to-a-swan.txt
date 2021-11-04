@@ -78,7 +78,7 @@ I also have now, 4 prayers.
   <li>One for weddings - <a target="_blank" href="/incubate/essays-to-a-swan/gratitude/">Gratitude for Partners</a></li>
   <li>One for <a target="_blank" href="/incubate/essays-to-a-swan/wishes/">birthdays</a></li>
   <li>One for <a target="_blank" href="/topics/death/?node=prayer-rebirth/">death</a></li>
-  <li>One for <a target="_blank" href="http://yieldmore.org/movements/harmony/">peace</a></li>
+  <li>One for <a target="_blank" href="[url]movements/harmony/">peace</a></li>
 </ul>
 
-[work config fol=users/shasa/swan][/work]
+<!--[work config fol=users/shasa/swan][/work]-->

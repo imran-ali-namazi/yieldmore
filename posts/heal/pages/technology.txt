@@ -1,4 +1,4 @@
 <!--post_id: 35-->
 For a list of gadgets and programs designed to help diagnose and help with mental health and physical conditions.
 
-[work config fol=pages/technology][/work]
+<!--[work config fol=pages/technology][/work]-->

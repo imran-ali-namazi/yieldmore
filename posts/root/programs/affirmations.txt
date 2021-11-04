@@ -2,8 +2,8 @@
 [info]
 link: https://brainsync.com-
 link: https://www.brainsync.com/the-secret-universal-mind-meditation.html
-link: http://yieldmore.org/heal/practices/affirmations/
-link: http://yieldmore.org/speak/imran/affirm/
+link: [url]heal/practices/affirmations/
+link: [url]speak/imran/affirm/
 link: https://docs.google.com/document/d/1t0yYYgVnAF4zaTK6Qb5dQm5FeR-gaDkLo-AkCh9mL6s|Self Development Presentation by Imran (Google Docs)
 [/info]
 

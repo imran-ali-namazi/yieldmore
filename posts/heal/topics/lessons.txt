@@ -3,4 +3,4 @@ Various mailinglist articles and whatsapp forwards.
 
 Many of these are from Reena Reiki. Meaning to get in touch with her for permission.
 
-[work config fol=topics/lessons][/work]
+<!--[work config fol=topics/lessons][/work]-->

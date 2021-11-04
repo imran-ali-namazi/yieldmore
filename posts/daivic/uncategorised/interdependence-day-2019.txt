@@ -1,6 +1,6 @@
 <!--post_id: 16-->
 <!-- wp:paragraph -->
-<p><a href="http://yieldmore.org/speak/shasa/7-id-2018/" target="_blank" rel="noreferrer noopener" aria-label="yieldmore.org/speak/shasa/7-id-2018/ (opens in a new tab)">yieldmore.org/speak/shasa/7-id-2018/</a></p>
+<p><a href="[url]speak/shasa/7-id-2018/" target="_blank" rel="noreferrer noopener" aria-label="yieldmore.org/speak/shasa/7-id-2018/ (opens in a new tab)">yieldmore.org/speak/shasa/7-id-2018/</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -8,11 +8,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We live in blessed magical times as I've stated here: http://yieldmore.org/express/imran/keep-smiling/</p>
+<p>We live in blessed magical times as I've stated here: [url]express/imran/keep-smiling/</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>It's a fine morning to ponder again Sri Aurobindo's five fold dream stated by him here: http://yieldmore.org/india which I summarize now:</p>
+<p>It's a fine morning to ponder again Sri Aurobindo's five fold dream stated by him here: [url]india which I summarize now:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

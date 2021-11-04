@@ -10,4 +10,4 @@ Louise Lynn Hay is an American motivational author and the founder of Hay House,
 
 Like her work? Contact us to expand this page.
 
-[work config fol=helpers/louise][/work]
+<!--[work config fol=helpers/louise][/work]-->

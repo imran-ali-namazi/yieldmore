@@ -2,7 +2,7 @@
 [info]
 source: http://somspiritualcenterla.org/education/affirmations
 link: http://somspiritualcenterla.org/about-us/declaration-of-principles
-link: http://yieldmore.org/wp-content/data/apps/AffirmationsYM.zip|Affirmations Windows App
+link: [url]wp-content/data/apps/AffirmationsYM.zip|Affirmations Windows App
 [/info]
 
 Repeating an affirmation is leading the mind to that state of consciousness where it accepts that which it wishes to believe. Affirmations can be used to change your thinking and change your life! Make up your own, or choose from the many affirmations available from the Science of Mind (source) website links below. Just make sure that whatever affirmation you choose, that you truly believe the words.
@@ -19,7 +19,7 @@ Repeating an affirmation is leading the mind to that state of consciousness wher
  	<li><a title="Love and Oneness" href="http://somspiritualcenterla.org/education/affirmations/love-and-oneness" target="_blank">LOVE AND ONENESS</a></li>
  	<li><a title="God in me is . . ." href="http://somspiritualcenterla.org/education/affirmations/god-in-me-is" target="_blank">GOD IN ME IS…</a></li>
 </ul>
-In 2013, Imran wrote <a href="http://yieldmore.org/wp-content/data/apps/AffirmationsYM.zip" target="_blank">a small windows application</a> that repeats custom affirmations on screen every few seconds. One theory states that subliminal messages enter the subconscious more easily. Some sample affirmations that come with the exe are:
+In 2013, Imran wrote <a href="[url]wp-content/data/apps/AffirmationsYM.zip" target="_blank">a small windows application</a> that repeats custom affirmations on screen every few seconds. One theory states that subliminal messages enter the subconscious more easily. Some sample affirmations that come with the exe are:
 
 I am calm and confident at all times
 I am healthy and fine in mind and body

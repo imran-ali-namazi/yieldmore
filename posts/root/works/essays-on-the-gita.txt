@@ -8,6 +8,6 @@ Translation alone: <a href="/wp-content/data/pdfs/sri-aurobindos-gita.pdf" targe
 youtube: UGow0z3btH0|18 Lessons - curejoy
 [/info]
 
-[work node=1 subnode=1]Our Demand and Need from the Gita[/work]
+<!--[work node=1 subnode=1]Our Demand and Need from the Gita[/work]-->
 
-[work node=1 subnode=1 page=1 para=1 endpage=7][/work]
+<!--[work node=1 subnode=1 page=1 para=1 endpage=7][/work]-->

@@ -15,4 +15,4 @@ He initiated a LOT of people, including:
 
 ^1 Swami Satyananda founded the Bihar School of Yoga in 1963 and in <a href="http://www.biharyoga.net/yoga-vision/sri-swami-satyananda-saraswati/4/" target="_blank">1994 gave a new message</a>, of Bhakti Yoga. He said that the purpose of human life is to realize God through love and to serve God by helping humanity. He prophesied that while Hatha Yoga and Raja Yoga were the panacea of the twentieth century, devotion to God and Bhakti Yoga would be the panacea of the twenty-first.
 
-[work config fol=people/sivananda][/work]
+<!--[work config fol=people/sivananda][/work]-->

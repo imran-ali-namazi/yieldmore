@@ -19,7 +19,7 @@ all. The Is doesn’t need me to tell anybody how it works.</blockquote>
 <h2>Chapter 9</h2>
 The days blurred one into another. We flew as always, but I had stopped counting summer by the names of towns or the money we earned from passengers. I began counting the summer by the things I learned, the talks we had when flying was done, and by the miracles that happened now and then along the way to the time I knew at last that they aren’t miracles at all.
 
-[work config fol=books/quotes/illusions][/work]<!--more-->
+<!--[work config fol=books/quotes/illusions][/work]--><!--more-->
 
 <h2>Intro</h2>
 13. “Each creature in its own manner clung tighty to the twigs and rocks of the river bottom, for clinging was their way of life, and resisting the current what each had learned from birth.

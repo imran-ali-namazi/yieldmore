@@ -15,4 +15,4 @@ His hardcover bestsellers include The Lonesome Gods, The Walking Drum (his twelf
 
 Louis L’Amour died on June 10, 1988. His wife, Kathy, and their two children, Beau and Angelique, carry the L’Amour tradition forward with new books written by the author during his lifetime to be published by Bantam well into the nineties — among them, four Hopalong Cassidy novels: The Rustlers of West Fork, The Trail to Seven Pines, The Riders of High Rock, and Trouble Shooter.</blockquote>
 
-[work config fol=authors/lamour][/work]
+<!--[work config fol=authors/lamour][/work]-->

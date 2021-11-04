@@ -7,4 +7,4 @@ pdf: https://www.pdfdrive.net/the-mindful-way-through-depression-e34880997.html
 
 content to follow... until then, see <a href="/heal/combat/depression/zindel-segal/">this talk by Zindel Segal</a>
 
-[work config fol=combat/depression][/work]
+<!--[work config fol=combat/depression][/work]-->

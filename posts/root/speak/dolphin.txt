@@ -3,4 +3,4 @@ Gleanings from an ardent seeker of Sophia everywhere. A student for the last 20 
 
 The picture is of his <a href="https://www.facebook.com/groups/300865783427015/" target="_blank">Guru, Vadapalani Paranjyothi Baba</a> and another seer <a href="https://www.facebook.com/Mooku-Podi-Siddhar-694670663945646/" target="_blank">Mooku Podi Siddhar</a>.
 
-[work config fol=users/ethos/dolphin logo=gurus.jpg][/work]
+<!--[work config fol=users/ethos/dolphin logo=gurus.jpg][/work]-->

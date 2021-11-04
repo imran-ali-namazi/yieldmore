@@ -4,7 +4,7 @@ youtube: XPPdpa7YPuQ|Why the Founder of The Joy of Giving is not finding joy in 
 link: http://www.speakingtree.in/article/beyond-just-giving
 source: https://twitter.com/jeroninio
 source: https://www.facebook.com/iCONGO.Just.Another.Volunteer
-link: http://yieldmore.org/wp-content/data/users/ethos/jeroninio/docs/201512-dec-tt-arrogant-charity.pdf|Think Tank Interview, Dec 2015 (pdf)
+link: [url]wp-content/data/users/ethos/jeroninio/docs/201512-dec-tt-arrogant-charity.pdf|Think Tank Interview, Dec 2015 (pdf)
 [/info]
 
 Why I find #NoJoy anymore in #TheJoyOfGiving mission I founded 15 years ago? kindly do read the piece and share it forward ( alongwith the attached article 👇to spread the message of what The Real Joy Of Giving truly means  so that people can understand and stop practicing it superficially. 
@@ -15,4 +15,4 @@ I have always said that it is not mindless, arrogant charity, but humble mindful
 
 Read the piece (speakingtree link above) to understand #THEREALJOYOFGIVING I wrote in speaking tree and a more detailed piece is attached below.👇 Kindly do share forward.
 
-[work config fol=users/ethos/jeroninio][/work]
+<!--[work config fol=users/ethos/jeroninio][/work]-->

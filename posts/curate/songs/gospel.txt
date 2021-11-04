@@ -9,4 +9,4 @@
  	<li>Take my hand precious lord - Jim Reeves</li>
  	<li>Were you there - Johnny Cash</li>
 </ol>
-[work config fol=songs/gospel][/work]
+<!--[work config fol=songs/gospel][/work]-->
