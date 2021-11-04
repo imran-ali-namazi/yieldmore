@@ -32,27 +32,36 @@ function before_render() {
 	if (cs_var('node') == 'go') { include_once 'resources.php'; exit; }
 
 	foreach (cs_var('sites') as $slug => $s) {
-		$path = cs_var('path') . '/posts/' . ($slug == 'root' ? 'root/' : '')
-			. (cs_var('all_page_parameters') ? cs_var('all_page_parameters') : cs_var('node'));
+		$work = 'posts/' . ($slug == 'root' ? 'root/' : '') . (cs_var('all_page_parameters') ? cs_var('all_page_parameters') : cs_var('node'));
+		$path = cs_var('path') . '/' . $work;
 
 		//file first
 		if (file_exists($path . '.txt')) {
 			cs_var('fil', $path . '.txt');
 			cs_var('fol', dirname($path));
+			cs_var('site', $slug);
 			break;
 		} else if (is_dir($path)) {
 			cs_var('fol', $path . '/');
+			cs_var('site', $slug);
 			break;
 		}
 	}
 
+	if (cs_var('fol')) {
+		cs_var('work-url', cs_var('url') . $work . '/');
+		$fol = cs_var('fol');
+		$fols = [basename($fol) => $fol];
+		while (($base = basename($fol = dirname($fol))) != 'posts') $fols[$base] = $fol;
+		cs_var('fols', $fols);
+	}
 	return cs_var('fol');
 }
 
 function did_render_page() {
 	$fol = cs_var('fol');
 	if ($fol) {
-		if (cs_var('fil')) echo wpautop( str_replace('[url]', cs_var('url'), file_get_contents( cs_var('fil') ) ) );
+		if (cs_var('fil')) echo wpautop( str_replace('[work-url]', cs_var('work-url'), str_replace('[url]', cs_var('url'), file_get_contents( cs_var('fil') ) ) ) );
 		return true;
 	}
 

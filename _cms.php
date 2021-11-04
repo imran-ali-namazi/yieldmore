@@ -22,7 +22,7 @@ bootstrap(array(
 
 	'theme' => 'tm-xtra',
 
-	//'styles' => ['styles'],
+	'styles' => ['styles'],
 	//'scripts' => ['contents'],
 	'head_hooks' => [__DIR__ . '/_ga.php'],
 
