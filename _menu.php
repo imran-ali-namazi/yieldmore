@@ -3,7 +3,8 @@ $site = cs_var('site');
 $fols = cs_var('fols');
 
 if ($site && $fols) {
-	//print_r($fols); die();
+	$params = cs_var('page_parameters');
+
 	foreach ($fols as $name => $fol) {
 		$slug = str_replace('\\', '/', substr($fol, strlen(cs_var('path')) + 1));
 		$slug = str_replace('/root', '', str_replace('posts/', '', $slug));
@@ -14,12 +15,15 @@ if ($site && $fols) {
 		$last = false;
 		$files = scandir($fol);
 		natsort($files);
+		
+		$param = count($params) ? array_pop($params) : '[nothing]';
 		foreach ($files as $fil) {
 			if ($fil == '.' || $fil == '..' || $fil == 'images') continue;
 			$fil = str_replace('.txt', '', $fil);
 			if ($fil == $last) continue;
 			$last = $fil;
-			echo sprintf('	<li><a href="%s">%s</a></li>' . PHP_EOL, cs_var('url') . ($slug ? $slug . '/' : '') . $fil . '/', $fil);
+			$sel = $param === $fil ? ' class="selected"' : '';
+			echo sprintf('	<li%s><a href="%s">%s</a></li>' . PHP_EOL, $sel, cs_var('url') . ($slug ? $slug . '/' : '') . $fil . '/', $fil);
 		}
 		echo '</ol>' . PHP_EOL . '<hr />';
 	}
