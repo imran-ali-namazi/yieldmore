@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 
-include_once '../../../amadeus/framework/core.php';
+include_once '../../amadeus/framework/core.php';
 include_once '_functions.php';
 
 //cs_var('live', endsWith(__DIR__,'-live'));
@@ -26,7 +26,7 @@ bootstrap(array(
 	'scripts' => ['main'/*, 'contents'*/],
 	'head_hooks' => [__DIR__ . '/_ga.php'],
 
-	'url' => $local ? 'http://localhost/yieldmore/old/legacy/' : 'https://yieldmore.org/',
+	'url' => $local ? 'http://localhost/yieldmore/legacy/' : 'https://legacy.yieldmore.org/',
 	'path' => __DIR__,
 ));
 

