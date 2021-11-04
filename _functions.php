@@ -41,7 +41,7 @@ function before_render() {
 			cs_var('fol', dirname($path));
 			cs_var('site', $slug);
 			break;
-		} else if (is_dir($path)) {
+		} else if (cs_var('node') == $slug && is_dir($path)) {
 			cs_var('fol', $path . '/');
 			cs_var('site', $slug);
 			break;
@@ -54,6 +54,8 @@ function before_render() {
 		$fols = [basename($fol) => $fol];
 		while (($base = basename($fol = dirname($fol))) != 'posts') $fols[$base] = $fol;
 		cs_var('fols', $fols);
+	} else {
+		cs_var('fols', ['root' => cs_var('path') . '/posts/root/']);
 	}
 	return cs_var('fol');
 }
