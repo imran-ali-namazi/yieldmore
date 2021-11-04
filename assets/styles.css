@@ -1,2 +1,7 @@
 p.byline { color: #fff; }
 .selected { background-color: cyan; }
+
+.tm-site-header { margin-top: 0; margin-bottom: 0; }
+.tm-nav { margin-left: 0; }
+.tm-nav ul { list-style-type: none; }
+nav select.menu { clear: both; width: 90%; margin: 10px 0 25px 20px; }

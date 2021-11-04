@@ -9,10 +9,10 @@ include_once '_functions.php';
 cs_var('local', $local = $_SERVER['HTTP_HOST'] ==='localhost');
 
 bootstrap(array(
-	'name' => 'Legacy YieldMore.org',
+	'name' => 'Legacy YM',
 	'safeName' => 'yieldmore-legacy',
 
-	'byline' => 'Peacefuness Quality Growth Sharing',
+	'byline' => 'Quality / Growth / Sharing',
 	'start_year' => 2013,
 
 	'version' => [ 'id' => '001', 'date' => '4 Nov 2021' ],
@@ -23,7 +23,7 @@ bootstrap(array(
 	'theme' => 'tm-xtra',
 
 	'styles' => ['styles'],
-	//'scripts' => ['contents'],
+	'scripts' => ['main'/*, 'contents'*/],
 	'head_hooks' => [__DIR__ . '/_ga.php'],
 
 	'url' => $local ? 'http://localhost/yieldmore/old/legacy/' : 'https://yieldmore.org/',
