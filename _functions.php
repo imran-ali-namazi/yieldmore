@@ -39,11 +39,11 @@ function before_render() {
 		//file first
 		if (file_exists($path . '.txt')) {
 			cs_var('fil', $path . '.txt');
-			cs_var('fol', dirname($path));
+			cs_var('fol', is_dir($path) ? $path : dirname($path));
 			cs_var('site', $slug);
 			break;
 		} else if (is_dir($path)) {
-			cs_var('fol', $path . '/');
+			cs_var('fol', $path);
 			cs_var('site', $slug);
 			break;
 		}
