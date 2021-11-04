@@ -31,8 +31,9 @@ cs_var('sites', [
 function before_render() {
 	if (cs_var('node') == 'go') { include_once 'resources.php'; exit; }
 
+	$all = cs_var('all_page_parameters') ? cs_var('all_page_parameters') : '';
 	foreach (cs_var('sites') as $slug => $s) {
-		$work = 'posts/' . ($slug == 'root' ? 'root/' : '') . (cs_var('all_page_parameters') ? cs_var('all_page_parameters') : cs_var('node'));
+		$work = 'posts/' . ($slug == 'root' ? 'root/' : '') . ($all ? $all : cs_var('node'));
 		$path = cs_var('path') . '/' . $work;
 
 		//file first
@@ -41,7 +42,7 @@ function before_render() {
 			cs_var('fol', dirname($path));
 			cs_var('site', $slug);
 			break;
-		} else if (cs_var('node') == $slug && is_dir($path)) {
+		} else if (is_dir($path)) {
 			cs_var('fol', $path . '/');
 			cs_var('site', $slug);
 			break;
@@ -51,9 +52,13 @@ function before_render() {
 	if (cs_var('fol')) {
 		cs_var('work-url', cs_var('url') . $work . '/');
 		$fol = cs_var('fol');
-		$fols = [basename($fol) => $fol];
-		while (($base = basename($fol = dirname($fol))) != 'posts') $fols[$base] = $fol;
+
+		$fols = [basename($fol) => $fol . '/'];
+
+		while (($base = basename($fol = dirname($fol))) != 'posts') $fols[$base] = $fol . '/';
+
 		cs_var('fols', $fols);
+		//print_r($fols); die();
 	} else {
 		cs_var('fols', ['root' => cs_var('path') . '/posts/root/']);
 	}
