@@ -1,0 +1,9 @@
+<!--post_id: 1-->
+<p>And... WERE OFF!</p>
+<p>Melian the Maia: <a href="https://lotr.fandom.com/wiki/Melian" target="_blank" rel="noopener noreferrer">https://lotr.fandom.com/wiki/Melian</a></p>
+<p>Before she came to Middle-earth, Melian served both Vána and Estë, and dwelt in Lórien tending the trees that grew in the Gardens of Irmo. Among all of her people none were wiser, (With the possible exception of Gandalf) more beautiful, or more skilled in singing enchanting songs than Melian. She loved the deep shadows of the great trees. When the light of the Two Trees would mingle Melian would sing and the Valar would stop their work and listen. Nightingales went with her wherever she went, and she taught them their song. Of all the Valar she was most akin to Yavanna. When the Elves awoke on the shore of Cuiviénen she departed from Valinor and went to Middle-earth, where she filled its silence with her singing and the singing of her birds.</p>
+<p>While in the forest of Nan Elmoth she met and fell in love with the Elven-king Elu Thingol, and later she ruled the kingdom of Doriath by his side. For thousands of years, she used her powers to guard and defend the city with a protection spell called the Girdle of Melian, but she predicted that one person would one day breach this defense.</p>
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->

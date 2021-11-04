@@ -1,0 +1,8 @@
+<!--post_id: 14-->
+<ol>
+ 	<li><a href="http://robertpirsig.org" target="_blank">robertpirsig.org</a></li>
+ 	<li><a href="http://pirsig.org" target="_blank">pirsig.org</a></li>
+ 	<li><a href="http://moq.org" target="_blank">moq.org</a></li>
+ 	<li><a href="https://philosophy.stackexchange.com/questions/30747/what-does-pirsig-mean-by-quality" target="_blank">philosophy.stackexchange.com</a></li>
+ 	<li><a href="http://wiki.c2.com/?TheMetaphysicsOfQuality" target="_blank">wiki.c2.com</a></li>
+</ol>

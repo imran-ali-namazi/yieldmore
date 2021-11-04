@@ -1,0 +1,10 @@
+<!--post_id: 65-->
+[info]
+link: https://docs.google.com/presentation/d/1JuWWnWVdQC4-Cd_9QmoeAW4lsSUm3ou0XaNJ0i9fb3I|Hatha Yoga Introduction Slides by Subramanian K
+[/info]
+
+Yoga is a psycho-physiological exercises including body postures, breathing techniques and meditation practices.
+
+There are other aspects of yoga which we will touch upon later.
+
+[work config fol=topics/yoga][/work]

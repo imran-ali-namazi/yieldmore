@@ -1,0 +1,15 @@
+<!--post_id: 72-->
+[info]
+youtube:DOQNGrUcK4c&amp;list=PLsuI89eMBnMELIq1_zkCyBuAUc3Wy2l2a|Tolkien in the Classroom
+pdf:http://cselian.com/d/books/jrrt/JRR%20Tolkien%20-%20The%20Silmarillion.pdf
+[/info]
+
+John Ronald Reuel Tolkien is the author of The Silmarillion. It tells of the history of Creation, the trials of the Gods of Ea or Earth, the deeds of Morgoth Bauglir (the Devil), the concept of Eru the Creator who is illimitable, the firstborn (Elves) and the afterborn (Men)
+
+Dubbed "The history of the Elves of the Lord of the Rings", the Silmarillion took its author almost 50 years to create. <a href="/works/leaf-by-niggle/">Leaf by Niggle</a> best reflects how Tolkien saw this, his life's work in the grand scale of things.
+
+Tolkien invented a mythology to replace the one England never had. A devout Catholic and scholar of various annals, his views uniquely lend to both schools of thought.
+
+An epic in its own right, some of our curators are undertaking to produce a comparison with other epics that have seeped into culture. Until then, <a href="https://muse.jhu.edu/journals/tolkien_studies/v002/2.1bolintineanu.html" target="_blank">this book by Anne C Petty</a> is a good discussion of its broad swathes and timelessness.
+
+[work config fol=books/quotes/silmarillion][/work]

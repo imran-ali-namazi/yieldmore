@@ -1,0 +1,7 @@
+<!--post_id: 16-->
+[info]
+wiki: Ramana Maharshi
+[/info]
+
+<h2>Forty Verses on Reality</h2>
+[work type=slide fol=quotes/ramana][/work]

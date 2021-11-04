@@ -1,0 +1,7 @@
+<!--post_id: 74-->
+Assorted articles by contributors and well wishers.
+
+Also, articles by some famous people like
+* <a href="./?node=please-live>Prince EA (Richard Williams)</a>
+
+[work config fol=users/shasa/legion][/work]

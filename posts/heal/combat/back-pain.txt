@@ -1,0 +1,19 @@
+<!--post_id: 95-->
+<!-- wp:html -->
+[info]
+source: https://gitanjaliforeverliving.wordpress.com/2017/07/31/back-pain-and-forever-living-products/
+source: https://in.pinterest.com/pin/540924605221684053/
+link: https://www.scribd.com/doc/59646105/Spinal-Emotional-Associations-Louise-Hay
+source: https://www.medindia.net/news/interviews/dr-krishna-raman-on-holistic-health-and-fitness-50059-1.htm
+source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4278133/
+source: http://mediyoga.co.in/meetdoctor.html
+link: https://www.scribd.com/doc/59646105/Spinal-Emotional-Associations-Louise-Hay
+source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4604560/
+link: http://www.brainsync.com/blog/alpha-waves-can-help-chronic-pain/
+link: https://www.brainsync.com/brainlab/research-findings.html
+[/info]
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>This used to plague me years ago. I will be back to expand on this later :)</p>
+<!-- /wp:paragraph -->

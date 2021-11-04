@@ -1,0 +1,17 @@
+<!--post_id: 32-->
+[info]
+youtube:YP9n7E0ESAk&amp;list=PLsuI89eMBnMHoBX7GlG5BYjPUNxUk4P0X&amp;index=1|Swami Niranjananda, Bihar School of Yoga
+link:http://suefitzmaurice.com/how-to-meditate-free-course|How to Meditate - Sue FitzMaurice
+link:http://www.onlinemeditation.org/|online meditation
+link:http://www.satyamyogatrust.net/yogasadhana.php|Satyam Yoga Trust, Chennai
+link:http://www.artofliving.org/in-en/meditation|artofliving.org
+link:http://www.wikihow.com/Meditate|wikihow
+link:http://www.how-to-meditate.org|Buddhist Meditations
+link:https://www.dhamma.org|Vipassana Meditation (10 day silence courses)
+link:https://www.quora.com/What-is-the-meaning-of-the-bija-mantra-om-hreem-shreem-namah|quora
+link:http://yieldmore.org/?r=chakras-app|Chakras Android App
+[/info]
+
+Everyone has atleast heard the word. We leave the links above to explain and the thoughts of people in the nav (on the left / top).
+
+[work config fol=topics/meditation][/work]

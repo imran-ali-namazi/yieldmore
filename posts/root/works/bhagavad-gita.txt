@@ -1,0 +1,21 @@
+<!--post_id: 12-->
+[info]
+Conversion: 8 June 2012
+Time: 8h, <span title="Aug 12 2013">3h</span>
+wiki: Bhagavad Gita
+source: http://www.hinduonline.co/AudioLibrary/Discources/CommentaryonBhagavadGitaParamarthananda.html
+source: http://arshaavinash.in/index.php/download/bhagavad-gita-swami-paramarthananda/?wpdmdl=853
+[/info]
+
+[tab start][/tab]
+[tab name=hm-1]About[/tab]
+[tab name=hm-2]Gita Dhyanam[/tab]
+[tab name=hm-3]Mahabharata Namaskar[/tab]
+[tab name=hm-4]Vyasacharya Namaskara[/tab]
+[tab name=hm-5.1]Krishna 1[/tab]
+[tab name=hm-5.2]Kr 2[/tab]
+[tab name=hm-5.3]Kr 3[/tab]
+[tab name=hm-5.4]Kr 4[/tab]
+[tab name=hm-5.5]Kr 5[/tab]
+[tab name=hm-6]Introduction[/tab]
+[tab end][/tab]

@@ -1,0 +1,52 @@
+<!--post_id: 21-->
+Sanskrit , a magical language
+
+1. There is no need of particular sentence structure for Sanskrit.
+Like, In English:- Subject +Verb + Object
+Ex:- I am writing an answer.
+
+But in Sanskrit there is no need for particular structure. 
+अहं उत्तरम् लिखामि (I am writing an Answer.)
+लिखामि अहं उत्तरम् (I am writing an Answer.)
+अहं लिखामि उत्तरम् (I am writing an Answer.) . 
+
+2. Elephant word has 4000 synonyms in Sanskrit. Here are some of them.
+कुञ्जरः,गजः,हस्तिन्, हस्तिपकः,द्विपः,द्विरदः,वारणः,करिन्,मतङ्गः,सुचिकाधरः, सुप्रतीकः, अङ्गूषः, अन्तेःस्वेदः, इभः, कञ्जरः, कञ्जारः, कटिन्, कम्बुः, करिकः, कालिङ्गः, कूचः, गर्जः, चदिरः, चक्रपादः, चन्दिरः, जलकाङ्क्षः, जर्तुः, दण्डवलधिः, दन्तावलः, दीर्घपवनः, दीर्घवक्त्रः, द्रुमारिः, द्विदन्तः, द्विरापः, नगजः, नगरघातः, नर्तकः, निर्झरः, पञ्चनखः, पिचिलः, पीलुः, पिण्डपादः, पिण्डपाद्यः, पृदाकुः, पृष्टहायनः, पुण्ड्रकेलिः, बृहदङ्गः, प्रस्वेदः, मदकलः, मदारः, महाकायः, महामृगः, महानादः, मातंगः, मतंगजः, मत्तकीशः, राजिलः, राजीवः, रक्तपादः, रणमत्तः, रसिकः, लम्बकर्णः, लतालकः, लतारदः, वनजः, वराङ्गः, वारीटः, वितण्डः, षष्टिहायनः, वेदण्डः, वेगदण्डः, वेतण्डः, विलोमजिह्वः, विलोमरसनः, विषाणकः।
+
+This is just one example. Have you seen any language with such rich vocabulary?
+
+3. Magha was a great Sanskrit Poet and Author. He was an expert in writing a whole Sloka with one-two-three-four consonants. Here is just an example from his book Shishupala Vadha:- 
+
+In 144th stanza, he writes whole sloka with only one consonant.
+दाददो दुद्ददुद्दादी दाददो दूददीददोः । 
+दुद्दादं दददे दुद्दे दादाददददोऽददः ॥
+
+(Translation:- Sri Krishna, the giver of every boon, the scourge of the evil-minded, the purifier, the one whose arms can annihilate the wicked who cause suffering to others, shot his pain-causing arrow at the enemy.)
+
+Also, he was an expert in writing palindromes. He writes in 44th stanza:-वारणागगभीरा सा साराभीगगणारवा । 
+कारितारिवधा सेना नासेधा वारितारिका ॥
+
+(Translation:- It is very difficult to face this army which is endowed with elephants as big as mountains. This is a very great army and the shouting of frightened people is heard. It has slain its enemies.)
+
+4. Have you heard about any book which can give you different story when you read it from backward? Here is a book Sri Raghava Yadhaveeyam. 
+
+This book is written in such a way that you will enjoy the story of Rama when you read it in forward way while you will enjoy the story of Krishna when you read it from backward.
+
+Forward:- 
+वन्देऽहं देवं तं श्रीतं रन्तारं कालं भासा यः ।
+रामो रामाधीराप्यागो लीलामारायोध्ये वासे ॥
+
+(Translation:- I pay my obeisance to Lord Shri Rama, who with his heart pining for Sita, travelled across the Sahyadri Hills and returned to Ayodhya after killing Ravana and sported with his consort, Sita, in Ayodhya for a long time.)
+
+Backward:-
+सेवाध्येयो रामालाली गोप्याराधी मारामोरा ।
+यस्साभालंकारं तारं तं श्रीतं वन्देहं देवं ॥
+
+(Translation:- I bow to Lord Shri Krishna, whose chest is the sporting resort of Shri Lakshmi; who is fit to be contemplated through penance and sacrifice, who fondles Rukmani and his other consorts and who is worshipped by the gopis, and who is decked with jewels radiating splendour.)
+
+5. NASA 
+scientist Rick Briggs said that Sanskrit is the only unambiguous language in existence. He also wrote some explanations about Sanskrit in his article.
+
+6. Sanskrit is a language which is used as Speech Therapy. Sanskrit has five different classes of word — Kanthya (Spoken from throat), Talavya (Spoken while touching tongue to jaw), Dantya (Spoken while touching tongue to teeth), Murdhanya (Spoken by twisting tongue), Ostya (Spoken by lips). 
+
+7. Sanskrit has been identified as the most suitable programming languages for computers to understand. Research is going on to make a programming language in Sanskrit which can be compiled and executed million times faster than other programming languages.

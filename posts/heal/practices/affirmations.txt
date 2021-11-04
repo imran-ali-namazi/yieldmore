@@ -1,0 +1,33 @@
+<!--post_id: 15-->
+[info]
+source: http://somspiritualcenterla.org/education/affirmations
+link: http://somspiritualcenterla.org/about-us/declaration-of-principles
+link: http://yieldmore.org/wp-content/data/apps/AffirmationsYM.zip|Affirmations Windows App
+[/info]
+
+Repeating an affirmation is leading the mind to that state of consciousness where it accepts that which it wishes to believe. Affirmations can be used to change your thinking and change your life! Make up your own, or choose from the many affirmations available from the Science of Mind (source) website links below. Just make sure that whatever affirmation you choose, that you truly believe the words.
+<ul>
+ 	<li><a title="Health" href="http://somspiritualcenterla.org/affirmations/health" target="_blank">HEALTH</a></li>
+ 	<li><a title="Peace and Harmony" href="http://somspiritualcenterla.org/affirmations/peace-and-harmony" target="_blank">PEACE AND HARMONY</a></li>
+ 	<li><a title="Creative Self-Expression and Success" href="http://somspiritualcenterla.org/education/affirmations/creative-self-expression-and-success" target="_blank">CREATIVE SELF-EXPRESSION AND SUCCESS</a></li>
+ 	<li><a title="Abundance and Prosperity" href="http://somspiritualcenterla.org/affirmations/abundance-and-prosperity" target="_blank">ABUNDANCE AND PROSPERITY</a></li>
+ 	<li><a title="Blessed Relationships" href="http://somspiritualcenterla.org/affirmations/blessed-relationships" target="_blank">BLESSED RELATIONSHIPS</a></li>
+ 	<li><a title="Faith and a Positive Outlook" href="http://somspiritualcenterla.org/affirmations/faith-and-a-positive-outlook" target="_blank">FAITH AND A POSITIVE OUTLOOK</a></li>
+ 	<li><a title="Love and Oneness" href="http://somspiritualcenterla.org/education/affirmations/trusting-the-universe" target="_blank">TRUSTING THE UNIVERSE</a></li>
+ 	<li><a title="Self-Love" href="http://somspiritualcenterla.org/education/affirmations/self-love" target="_blank">SELF-LOVE</a></li>
+ 	<li><a title="Safety and Protection" href="http://somspiritualcenterla.org/education/affirmations/safety-and-protection" target="_blank">SAFETY AND PROTECTION</a></li>
+ 	<li><a title="Love and Oneness" href="http://somspiritualcenterla.org/education/affirmations/love-and-oneness" target="_blank">LOVE AND ONENESS</a></li>
+ 	<li><a title="God in me is . . ." href="http://somspiritualcenterla.org/education/affirmations/god-in-me-is" target="_blank">GOD IN ME IS…</a></li>
+</ul>
+In 2013, Imran wrote <a href="http://yieldmore.org/wp-content/data/apps/AffirmationsYM.zip" target="_blank">a small windows application</a> that repeats custom affirmations on screen every few seconds. One theory states that subliminal messages enter the subconscious more easily. Some sample affirmations that come with the exe are:
+
+I am calm and confident at all times
+I am healthy and fine in mind and body
+I have the power within me to do whatever I want
+I have the will power to achieve anything I want
+I think positively at all times
+My posture is correct at all times
+Work is going smoothly and well
+I am happy and satisfied
+I am confident and able to learn quickly
+I can visualize things in great detail

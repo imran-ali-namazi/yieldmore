@@ -1,0 +1,14 @@
+<!--post_id: 46-->
+<!-- wp:core-embed/instagram {"url":"https://www.instagram.com/tv/B1jxx6cAUOV/?igshid=gccqiu4rpqzy","type":"rich","providerNameSlug":"instagram","className":""} -->
+<figure class="wp-block-embed-instagram wp-block-embed is-type-rich is-provider-instagram"><div class="wp-block-embed__wrapper">
+https://www.instagram.com/tv/B1jxx6cAUOV/?igshid=gccqiu4rpqzy
+</div></figure>
+<!-- /wp:core-embed/instagram -->
+
+<!-- wp:paragraph -->
+<p>Life is a battlefield boys and girls, and the casualties could be your hearts and souls...</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>So choose carefully what your studying or telling your children to study. I'm an Electrical Engineer turned programmer and I'm lucky that I love both, but now I wonder if a GAP YEAR would have done me better... Or and entrepreneurial incubator early in my career!</p>
+<!-- /wp:paragraph -->

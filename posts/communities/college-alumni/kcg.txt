@@ -1,0 +1,5 @@
+<!--post_id: 14-->
+[info]
+wiki: KCG College of Technology
+link: https://kcgcollege.ac.in/mega-alumni-meet-2017/
+[/info]

@@ -1,0 +1,22 @@
+<!--post_id: 44-->
+[info]
+source: http://www.rogerebert.com/reviews/field-of-dreams-1989
+source: https://www.youtube.com/channel/UC3gNmTGu-TTbFPpfSs5kNkg|MovieClips (Youtube User)
+youtube: 5Ay5GqJwHF8|Clip 1 - If you build it he will come
+youtube: HQv0WWhoZnI|Clip 2 - Cornfield to ballfield
+youtube: Yxzq9BLE5Hg|Clip 3 - Go the distance
+youtube: Y9yrupye7B0|Clip 4 - Moonlight Graham's (Burt Lancaster) wish
+youtube: 7SB16il97yw|Clip 5 - Poeple will come
+youtube: v6bD23vEigE|Clip 6 - Doc saves Karin
+youtube: 29nIXG5KJYw|Clip 7 - Ray is not invited
+youtube: cz1TJ4r7bOU|Clip 8 - Ray meets his father
+youtube: b_wnD6jxREU|Clip 9 - A catch with dad
+[/info]
+
+Field of Dreams is sentimental, but in the best way; it's a mix of fairy tale, baseball, and family togetherness.
+
+Imran, Sep 2017: I am rendered speechless in its vision and grandeur. I leave it to roger ebert and the clips to make a case in favour of you watching it - TODAY!
+
+Or browse through our selections from <a href="http://www.imsdb.com/scripts/Field-of-Dreams.html" rel="noopener" target="_blank">the script</a> in the menu.
+
+[work config fol=movies/field-of-dreams][/work]

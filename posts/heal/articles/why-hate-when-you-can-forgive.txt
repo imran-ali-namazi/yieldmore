@@ -1,0 +1,10 @@
+<!--post_id: 96-->
+<!-- wp:core-embed/facebook {"url":"https://www.facebook.com/jewishcarevictoria/videos/2038879093076743/?app=fbl","type":"video","providerNameSlug":"facebook","className":""} -->
+<figure class="wp-block-embed-facebook wp-block-embed is-type-video is-provider-facebook"><div class="wp-block-embed__wrapper">
+https://www.facebook.com/jewishcarevictoria/videos/2038879093076743/?app=fbl
+</div></figure>
+<!-- /wp:core-embed/facebook -->
+
+<!-- wp:paragraph -->
+<p>If forgiveness is the key to your own happiness, then hate must be like a cancer that eats you!</p>
+<!-- /wp:paragraph -->

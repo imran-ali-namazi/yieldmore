@@ -1,0 +1,18 @@
+<!--post_id: 53-->
+[info]
+wiki: Sivananda Saraswati
+link: http://dlshq.org/download/|Divine Life Society
+source: http://www.sivananda.org/toronto/about-yoga-centre/teachings.html
+source: https://www.sivananda.org/teachings/fourpaths.html
+source: http://www.biharyoga.net/yoga-vision/sri-swami-sivananda-saraswati/
+motto: Serve, Love, Give, Purify, Meditate and Realize
+[/info]
+
+He initiated a LOT of people, including:
+* Swami Satyananda^1 whose first mission was to spread yoga from door to door and shore to shore, second mission to Take care of your neighbours as I have taken care of you and third mission of Education.
+* Swami Chinmayananda who founded the Chinmaya Mission, a worldwide nonprofit organisation, to spread the knowledge of Advaita Vedanta, the nondual system of thought found in the Upanishads, which epitomizes the philosophical teachings of the Vedas and which operates schools.
+* <a href="/people/swami-shantanand-saraswati/">Swami Shantanand</a> whose mission was to promote the arts (music and dance) via the Temple of Fine Arts in Coimbatore, Malaysia and Singapore.
+
+^1 Swami Satyananda founded the Bihar School of Yoga in 1963 and in <a href="http://www.biharyoga.net/yoga-vision/sri-swami-satyananda-saraswati/4/" target="_blank">1994 gave a new message</a>, of Bhakti Yoga. He said that the purpose of human life is to realize God through love and to serve God by helping humanity. He prophesied that while Hatha Yoga and Raja Yoga were the panacea of the twentieth century, devotion to God and Bhakti Yoga would be the panacea of the twenty-first.
+
+[work config fol=people/sivananda][/work]

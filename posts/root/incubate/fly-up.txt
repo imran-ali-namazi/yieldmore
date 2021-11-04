@@ -1,0 +1,8 @@
+<!--post_id: 11114-->
+<!-- wp:paragraph -->
+<p>In <a rel="noreferrer noopener" aria-label="JLS (opens in a new tab)" href="https://en.wikipedia.org/wiki/Jonathan_Livingston_Seagull" target="_blank">JLS</a>, Chiang's last command to Jonathan was to "Fly Up, and find the meaning of love"... As calls to action go, this one is waaay out there. Join me as I fly up and find new verse.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[work toc config fol=users/shasa/fly][/work]</p>
+<!-- /wp:paragraph -->

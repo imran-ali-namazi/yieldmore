@@ -1,0 +1,6 @@
+<!--post_id: 14-->
+[info]
+link: http://gg1952.blogspot.in/2017/12/inside-black-box-revisted-again.html
+source: https://www.rdc.udel.edu/wp-content/uploads/2015/04/InsideBlackBox.pdf
+[/info]
+

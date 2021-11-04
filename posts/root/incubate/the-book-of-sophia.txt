@@ -1,0 +1,6 @@
+<!--post_id: 39-->
+Sophia is a fictitious being that lives on this website. Her name means Wisdom. She is the voice of our key contributors. This book is being collaboratively written by 4 people and will take a year to complete.
+
+If you are interested in contributing, please contact <a href="mailto:shasa@cselian.com?subject=YieldMore Sophia Project" target="_blank">shasa@cselian.com</a>.
+
+[work config fol=books/sophia]

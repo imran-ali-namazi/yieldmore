@@ -1,0 +1,8 @@
+<!--post_id: 42-->
+<!-- wp:paragraph -->
+<p>An educator for the past 21 years, <a rel="noreferrer noopener" aria-label="Vidya Shankar (opens in a new tab)" href="http://cascadefls.org/people/vidya-shankar/" target="_blank">Vidya Shankar</a> founded <a rel="noreferrer noopener" aria-label="CASCADE Family Learning Center (opens in a new tab)" href="http://cascadefls.org/about-cascade/" target="_blank">CASCADE Family Learning Center</a> that focuses more on the first 3 [critical] years of child development.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This illustrated story called "<a href="http://yieldmore.org/media/books/education/idac-danger-school/" target="_blank" rel="noreferrer noopener" aria-label="Danger School (opens in a new tab)">Danger School</a>" better sets the context from which her style / approach to Family Learning is derived.</p>
+<!-- /wp:paragraph -->

@@ -1,0 +1,11 @@
+<!--post_id: 5-->
+[info]
+wiki: Sex education
+link: http://sexetc.org/
+link: http://parentingteens.about.com/od/teensexuality/a/sex_education.htm
+[/info]
+
+[snippet id=stub]
+In this article, we will guide you to resources you can point your children to, give you tips on how/when to broach the subject and what are the special cases and extra support that your child may need.
+
+We will also discuss abuse and preventive / responsive measures.

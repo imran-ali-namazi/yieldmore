@@ -1,0 +1,22 @@
+<!--post_id: 92-->
+<!-- wp:paragraph -->
+<p>A goon or gunda is able to break into a woman's house, rape her and then she has to suspend her life in America to come here over 5 years and see him thrown in jail...</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Not much later she hears he's been let out on bail!!!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Fellow Indians, I ask you - what is wrong and how can we fix it? I would like for the following to happen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li>Someone write a letter to her apologizing for the scumbag's behaviour.</li><li>Gundas like her family are taken to task for threatening people.</li><li>An NGO take up the cause of rape and offer counselling to those who do it. New points of view such as https://yieldmore.org/incubate/spontaneous-love/miscreants/ are brought out.</li><li>Generally criminals are treated with a little dignity and wholeheartedly offered a chance at redemption and reform.</li><li></li></ul>
+<!-- /wp:list -->
+
+<!-- wp:core-embed/wordpress {"url":"https://www.shethepeople.tv/news/viral-video-angry-us-woman-slams-india-rapist-bail","type":"wp-embed","providerNameSlug":"shethepeople-tv","className":""} -->
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-shethepeople-tv"><div class="wp-block-embed__wrapper">
+https://www.shethepeople.tv/news/viral-video-angry-us-woman-slams-india-rapist-bail
+</div></figure>
+<!-- /wp:core-embed/wordpress -->

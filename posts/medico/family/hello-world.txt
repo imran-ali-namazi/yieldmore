@@ -1,0 +1,25 @@
+<!--post_id: 1-->
+[badge name=imran]pic: https://drive.google.com/uc?id=0B45xd3N1fLMoYVlzb2VzbXE2Y1U
+name: Imran Ali Namazi
+blood-group: O+ve
+contact: +91-9566166880 / imran@cselian.com
+emergency-contacts: Uma (mother) - 9840595808
+[/badge]
+
+<!--more-->
+
+[badge name=shayesteh]pic: https://drive.google.com/uc?id=0B45xd3N1fLMoTFB6Q1JPWHJsQzQ
+name: MMJ Namazi (Shayesteh)
+blood-group: O+ve
+contact: +91-9500001909 / namazi@ganiandsons.com
+emergency-contacts: Imran (son) - 9566166880 / Sukaina (wife) - 9840595808
+link: https://docs.google.com/document/d/1UalsUtYHfq4RdItF_CmPQb2nlHcq8_LHBBScKWHf8L0|Medical Details (public)
+link: https://drive.google.com/drive/u/1/folders/1GfnqBORD9CoVO3cRxECMzL3TsiB-i82f|Medical Records (request access from Google Drive)
+[/badge]
+
+[badge name=uma]pic: https://drive.google.com/uc?id=0B45xd3N1fLMocjE2alVNZFV6NDQ
+name: Sukaina Namazi (Uma)
+blood-group: O+ve
+contact: +91-9840595808
+emergency-contacts: Imran (son) - 9566166880 / Rani (sister) - 9952912041
+[/badge]

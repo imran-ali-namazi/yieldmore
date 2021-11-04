@@ -1,0 +1,35 @@
+<!--post_id: 51-->
+<!-- wp:html -->
+[info]
+source: http://tennesonwoolf.com/fear-khalil-gibran/
+link: http://yieldmore.org/people/khalil-gibran/quotes/
+[/info]
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>FEAR<br>Khalil Gibran</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It is said that before entering the sea<br>a river trembles with fear.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>She looks back at the path she has traveled,<br>from the peaks of the mountains,<br>the long winding road crossing forests and villages.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>And in front of her,<br>she sees an ocean so vast,<br>that to enter<br>there seems nothing more than to disappear forever.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>But there is no other way.<br>The river can not go back.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Nobody can go back.<br>To go back is impossible in existence.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The river needs to take the risk<br>of entering the ocean<br>because only then will fear disappear,<br>because that’s where the river will know<br>it’s not about disappearing into the ocean,<br>but of becoming the ocean.</p>
+<!-- /wp:paragraph -->

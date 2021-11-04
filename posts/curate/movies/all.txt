@@ -1,0 +1,4 @@
+<!--post_id: 11-->
+Until we build a searchable table, you can see <a href="/wp-content/data2/data/movies.txt" target="_blank">the raw list</a>
+
+Or see the <a href="https://docs.google.com/spreadsheets/d/1gU105PZZ6hE6RC_iEp06H1wlMcNyNapL5NGnx6RvMQY/edit" target="_blank">google doc</a> here (recommended 150 out of 400)

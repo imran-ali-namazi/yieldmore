@@ -1,0 +1,9 @@
+<!--post_id: 11-->
+[info]
+wiki: Lady Andal
+link: http://ladyandalschool.com
+link: http://ladyandalalumni.org
+link: https://www.facebook.com/groups/ladyandal/
+[/info]
+
+[work config fol=schools/ladyandal][/work]

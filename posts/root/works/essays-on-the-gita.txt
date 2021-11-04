@@ -1,0 +1,13 @@
+<!--post_id: 11-->
+[info]
+Conversion: 28 Apr 2012, 42h
+Google Books: <a href="https://books.google.co.in/books/about/Essays_on_the_Gita.html?id=2IMUuYi-pW0C&hl=en" target="_blank">Essays on the Gita</a>
+source:http://www.sriaurobindoashram.org/ashram/sriauro/writings.php
+source:http://intyoga.online.fr/the_gita.htm
+Translation alone: <a href="/wp-content/data/pdfs/sri-aurobindos-gita.pdf" target="_blank">Sri Aurobindo's Gita</a>, <a href="/wp-content/data/auro/eg/AurobindosGita.docx" target="_blank">docx</a>
+youtube: UGow0z3btH0|18 Lessons - curejoy
+[/info]
+
+[work node=1 subnode=1]Our Demand and Need from the Gita[/work]
+
+[work node=1 subnode=1 page=1 para=1 endpage=7][/work]

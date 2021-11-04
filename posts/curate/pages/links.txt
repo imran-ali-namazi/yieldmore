@@ -1,0 +1,20 @@
+<!--post_id: 5-->
+If you want to try learning English the old fashioned way, try one of these:
+<ul>
+	<li><a href="http://www.englishtown.com/" target="_blank">Englishtown (EF)</a></li>
+	<li><a href="http://ef.com" target="_blank">EF (Education First)</a></li>
+	<li><a href="http://livemocha.com" target="_blank">LiveMocha</a></li>
+	<li><a href="http://www.rosettastone.eu/" target="_blank">Rosetta Stone (immersive learning)</a></li>
+</ul>
+
+Good Content can be found at:
+<ul>
+	<li><a href="http://www.poetryfoundation.org" target="_blank">Poetry</a></li>
+	<li><a href="http://www.afi.com/100Years/cheers.aspx" target="_blank">American Film Institute - 100 most inspirational movies</a></li>
+	<li><a href="http://www.imdb.com/search/title?count=100&amp;groups=oscar_best_picture_winners&amp;sort=year,desc&amp;ref_=nv_ch_osc_3" target="_blank">Oscar winning movies</a></li>
+	<li><a href="http://www.imdb.com/genre/?ref_=nv_ch_gr_5" target="_blank">Imdb Movie Genres</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/List_of_songs_considered_the_best" target="_blank">Wikipedia Music Lists</a></li>
+	<li><a href="http://www.thetoptens.com/songs/" target="_blank">Top Tens - Songs</a></li>
+	<li><a href="http://Telegraph's Song List" target="_blank">http://www.telegraph.co.uk/culture/music/11621427/best-songs-of-all-time.html</a></li>
+</ul>
+

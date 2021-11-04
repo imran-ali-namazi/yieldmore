@@ -1,0 +1,6 @@
+<!--post_id: 13-->
+[badge name=ramji]name:ramji
+contact: +919900231047/ ram_raj_r@yahoo.com
+emergency-contacts: ramji 9900231047
+link: https://drive.google.com/drive/folders/1kIcdTzQOR0gMS_5j581HOFWhB_7h7J-p|Medical Records (request access from Google Drive)
+[/badge]

@@ -1,0 +1,6 @@
+<!--post_id: 35-->
+Started in June 2017 with the exception of copyfight (2013) and tripping (2005), this is a collection of essays written by me <a href="/imran-doc" target="_blank">Imran</a>.
+
+To see my poetry and older prose, <a href="/swan">click here</a>.
+
+[work config fol=users/shasa/essays][/work]

@@ -1,0 +1,7 @@
+<!--post_id: 8-->
+This is a Google Groups Forum which is embedded below. You need to be signed in to Google to see it.
+<a href="https://groups.google.com/forum/#!forum/journalofsocialwork" target="_blank" rel="noopener">https://groups.google.com/forum/#!forum/journalofsocialwork</a>
+
+<!--more-->
+<iframe id="forum_embed" src="https://groups.google.com/forum/embed/?place=forum/journalofsocialwork&amp;showsearch=true&amp;showpopout=true&amp;showtabs=true&amp;parenturl=http%3A%2F%2Fyieldmore.org%2Fjsw%2F" width="100%" height="600" frameborder="0" scrolling="no">
+</iframe>

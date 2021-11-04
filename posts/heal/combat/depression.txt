@@ -1,0 +1,10 @@
+<!--post_id: 58-->
+[info]
+link: https://www.psychiatry.org/patients-families/depression/what-is-depression
+wiki: Mindfulness-based cognitive therapy
+pdf: https://www.pdfdrive.net/the-mindful-way-through-depression-e34880997.html
+[/info]
+
+content to follow... until then, see <a href="/heal/combat/depression/zindel-segal/">this talk by Zindel Segal</a>
+
+[work config fol=combat/depression][/work]

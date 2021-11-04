@@ -1,0 +1,20 @@
+<!--post_id: 8-->
+A page listing all the systems of healing.
+
+<h3>Naturopathy</h3>
+a system of alternative medicine based on the theory that diseases can be successfully treated or prevented without the use of drugs, by techniques such as control of diet, exercise, and massage.
+
+<h3>AYUSH</h3>
+Ayurveda, <a href="http://cselian.com/blog/my/share/yoga/" target="_blank">Yoga</a>, Unani, <a href="http://dir.yieldmore.org/3a/" target="_blank">Siddha</a> and Homeopathy. In Sep 2014, Indian Prime Minister Narendra Modi <a href="http://www.narendramodi.in/launching-of-national-ayush-mission-6601" target="_blank">launched a National Ayush Mission</a>.
+
+<h3>Reiki</h3>
+<a href="http://www.reiki.org/" target="_blank">Reiki</a> is a Japanese technique for stress reduction and relaxation that also promotes healing. It’s administered by laying on hands and can be easily learned by anyone.
+
+<h3>Pranic Healing</h3>
+<a href="https://pranichealing.com/what-pranic-healing" target="_blank">Pranic Healing</a> is a highly evolved and tested system of energy medicine developed by GrandMaster Choa Kok Sui that utilizes prana to balance, harmonize and transform the body's energy processes. Prana is a Sanskrit word that means life-force.
+
+<h3>Vibrionics</h3>
+<a href="http://www.vibrionics.org/" target="_blank">Vibrionics</a> was founded in 1994 by Jitendra Aggarwal, PhD, under the direct guidance of Sri Sathya Sai Baba for the health, healing and welfare of all life. They have volunteer healers in 81 countries.
+
+<h3>Intent Healing</h3>
+Visit <a href="http://intenthealing.com/" target="_blank">the website</a> of Rajalakshmi Kandaswamy or watch the intro on <a href="https://www.youtube.com/watch?v=2TGAJCjzF54" target="_blank">youtube</a>.

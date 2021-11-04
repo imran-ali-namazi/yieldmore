@@ -1,0 +1,8 @@
+<!--post_id: 12-->
+<!-- wp:paragraph -->
+<p>This workshop can be organized on demand and is conducted by a team including Swapna Sundar. The materials used are given freely on the resources page of this minisite. There is no fee for the program and participants will receive a certificate.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We are currently planning a session with a focus on men, though all are welcome on Saturday, August 3rd. Venue and RSVP details to follow.  Also included will be an Energy Healing session for victims of domestic abuse.</p>
+<!-- /wp:paragraph -->

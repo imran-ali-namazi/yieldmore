@@ -1,0 +1,4 @@
+<!--post_id: 34-->
+Remedies and things to consider when treating diseases.
+
+[work config fol=topics/diseases][/work]

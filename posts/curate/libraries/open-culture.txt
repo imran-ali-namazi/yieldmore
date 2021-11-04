@@ -1,0 +1,11 @@
+<!--post_id: 83-->
+[info]
+link: http://www.openculture.com/free_ebooks
+link: http://www.openculture.com/free_textbooks
+link: http://www.openculture.com/freeaudiobooks
+link: http://www.openculture.com/2007/08/life-changing_books_your_picks.html
+link: http://www.gutenberg.org/files/1597/1597-h/1597-h.htm|Andersen's Fairy Tales
+link: http://www.cs.cmu.edu/~spok/grimmtmp/|Grimm's Fairy Tales
+link: https://archive.org/details/aesop_fables_volume_one_librivox/|Aesop Audio
+[/info]
+

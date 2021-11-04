@@ -1,0 +1,4 @@
+<!--post_id: 10-->
+An orphanage is a residential institution devoted to the care of orphans—children whose biological parents are deceased or otherwise unable or unwilling to care for them.
+
+[work fol=places/orphanages config][/work]

@@ -1,0 +1,30 @@
+<!--post_id: 93-->
+<!-- wp:core-embed/youtube {"url":"https://youtu.be/36zIvUmqVpk","type":"video","providerNameSlug":"youtube","className":"wp-embed-aspect-4-3 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://youtu.be/36zIvUmqVpk
+</div></figure>
+<!-- /wp:core-embed/youtube -->
+
+<!-- wp:paragraph -->
+<p>Talent</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tenacity</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Audacity</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Humanity</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Intelligence</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Courage</p>
+<!-- /wp:paragraph -->

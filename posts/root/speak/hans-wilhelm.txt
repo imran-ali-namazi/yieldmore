@@ -1,0 +1,22 @@
+<!--post_id: 191-->
+[info]
+source: http://lifeexplained.com/
+source: https://www.youtube.com/channel/UCIXfbprdX7gGLebgFfy5J7A
+[/info]
+
+Hans Wilhelm has written and illustrated over 200 books for all ages with total sales of over 42 million copies in 30 languages. He is a lifelong learner and teacher of the spiritual laws and he has inspired audiences around the world with his life-affirming concepts.
+
+Until we create pages per video with transcripts, here are his more popular ones
+
+[info]
+youtube: tUpmuqmeETk|Reincarnation (7 min)
+youtube: EA5HLuvZNek|How Karma Works (9 min)
+youtube: boiWnBlXJJA|Soulmates (5 min)
+youtube: qTZiddD_SM4|Life Before Birth (6 min)
+youtube: noGxBQBJYQY|Suicide (8 min)
+youtube: NBaDkZAGBKw|Death and Dying (5 min)
+youtube: dMHgm9C-sEU|Luciferian Doctrine (8 min)
+youtube: FryEJIMc0ho|Loneliness (7 min)
+[/info]
+
+[work config fol=users/ethos/hans][/work]

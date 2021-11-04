@@ -1,0 +1,12 @@
+<!--post_id: 94-->
+<!-- wp:shortcode -->
+[info]
+youtube: f8FliT43ZC4
+link: https://aurospaces.org/ideas/heart-race/
+link: http://yieldmore.org/incubate/essays-to-a-swan/teeming/
+[/info]
+<!-- /wp:shortcode -->
+
+<!-- wp:paragraph -->
+<p>Been working so hard<br>I'm punching my card<br>Eight hours for what?<br>Oh, tell me what I got<br>I've got this feeling<br>That time's just holding me down<br>I'll hit the ceiling<br>Or else I'll tear up this townNow I gotta cut loose<br>Footloose, kick off the Sunday shoes<br>Please, Louise, pull me off of my knees<br>Jack, get back, come on before we crack<br>Lose your blues, everybody cut footlooseYou're playing so cool, obeying every rule<br>Deep way down in your heart<br>You're burning, yearning for the some-somebody to tell you<br>That life ain't passing you by<br>I'm trying to tell you<br>It will if you don't even tryYou'll get by if you'd only cut loose<br>Footloose, kick off the Sunday shoes<br>Ooh-whee, Marie, shake it, shake it for me<br>Whoah, Milo come on, come on let's go<br>Lose your blues, everybody cut footlooseYou got to turn me around<br>And put your feet on the ground<br>Gotta take the hold of allI'm turning loose, footloose, kick off the Sunday shoes<br>Please, Louise, pull me off of my knees<br>Jack, get back, come on before we crack<br>Lose your blues, everybody cut footlooseFootloose, kick off the Sunday shoes<br>Please, Louise, pull me off of my knees<br>Jack, get back, come on before we crack<br>Lose your blues, everybody cut, everybody cut<br>Everybody cut, everybody cut<br>Everybody cut, everybody cut<br>Everybody, everybody cut footloose </p>
+<!-- /wp:paragraph -->

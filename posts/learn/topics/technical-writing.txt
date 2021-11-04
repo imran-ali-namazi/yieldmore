@@ -1,0 +1,6 @@
+<!--post_id: 7-->
+A vast subject, you can refer to these links for further information
+
+<a href="http://jsswindia.com/issues/2015/2/06-writing-articles-for-research-journals" target="_blank">Writing Articles for Research Journals</a>
+
+A presentation made by Messrs PJ Naidu and Imran at the Madras University can be <a href="https://docs.google.com/document/d/1Y5QOE-QDxbDjSyczh-Il_cUxfguB6z5XDO51vIRj3WQ/edit" target="_blank">seen here</a>.

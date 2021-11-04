@@ -1,0 +1,21 @@
+<!--post_id: 9476-->
+Classifieds / C9S (CNS) is a page on YieldMore.org where people can post (by writing into us) stuff along with their contact details.
+
+<h3>Fundraisers</h3>
+<a href="/cns/?node=give-life">WhoIsHussain is collecting money to fund heart operations for Iraqi children</a> with congenital problems. This was already done 2 years ago in Bangalore. Discover the "Joy of Giving" with then this Ramadan.
+
+
+<h3>Events</h3>
+<a href="/cns/?node=lrrs">2018 June 2 - A Day for the Elderly women and Widows - Loyola Relief and Rehabilitation Services</a>
+
+<h3>Ways to help our community</h3>
+We are looking for funds to
+* Pay people for supporting us with our podcasts.
+* Donate to the <a href="/b" target="_blank" rel="noopener">many not-for-profits</a> that we support, including spanda.org, buildindiagroup.org, ankuram-mandir.org, <a href="http://jobsfordyslexics.org" target="_blank" rel="noopener">jobsfordyslexics</a>, healingforhaiti, seamovement.org etc
+* Pay for time spent developing the <a href="https://docs.google.com/document/d/1eKEsLAJg7avVQWzVhhGnStj4gLeHbr9oumx21xlMMoc/edit?usp=sharing" rel="noopener" target="_blank">Guided Rejuvenation (Gaia Series)</a>.
+
+<h3>Job Seekers</h3>
+
+The following friends are looking for Jobs: <a href="https://www.linkedin.com/in/john-rajkumar-8823b715/" rel="noopener" target="_blank">John</a> (a trainer / ops lead), <a href="https://www.linkedin.com/in/bharath-m-81321015/" rel="noopener" target="_blank">Bharath</a> (a delivery / project manager), <a href="https://www.linkedin.com/in/adam-greenwood-5a40302/" rel="noopener" target="_blank">Adam</a>.
+
+[work config fol=pages/cns][/fol]

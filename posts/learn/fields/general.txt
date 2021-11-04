@@ -1,0 +1,6 @@
+<!--post_id: 8-->
+//TODO: Make a 2 page summary and move to a sub-page
+<ul>
+	<li><a href="https://docs.google.com/presentation/d/13VI5TEYa_PgKutxJ_j50gjyyhBZk6ryCuCYqlqydquY/embed?start=true&amp;loop=true&amp;delayms=5000" target="_blank">5 'S'es in the workplace (Sort / Systematize / Sweep, Shine, Scrub / Standardize / Self-Discipline)</a> by NS Hariharan</li>
+</ul>
+

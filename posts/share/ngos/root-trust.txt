@@ -1,0 +1,77 @@
+<!--post_id: 38-->
+[social fb=roottrust2005 type=button tel=+919445707140][/social]
+
+<h1><b>Vision</b></h1>
+an organization to improve the standard of life for women and children from poor socio-economic background
+
+<h1><b>How We Work</b></h1>
+<ul>
+ 	<li>We focus on the education needs of children from streets and slums who are school drop-outs</li>
+ 	<li>We assess the community needs and create a collaborative plan based on the community’s vision for its children</li>
+ 	<li>We work through programs focused on ensuring access to nutrition, clean water, proper sanitation for girl children, evening tuitions and motivational camps</li>
+ 	<li>We strive to build communities that are safe and fit for children thus ensuring a secure childhood which is paramount to ourwork</li>
+ 	<li>We assist in improving the quality of education and learning outcomes at different levels through infrastructure support, remedial education programs and through strengthening of school management committees</li>
+ 	<li>We strive to create lasting change in the lives of children, families, and communities from poor socio-economic background</li>
+</ul>
+
+<!--more-->
+<h1><b>CHALLENGES ADDRESSED BY US</b></h1>
+<ul>
+ 	<li>Child abuse</li>
+ 	<li>Child labor</li>
+ 	<li>Women’s empowerment</li>
+ 	<li>Community awareness program</li>
+</ul>
+
+<h1><b>What We Need</b></h1>
+<ul>
+ 	<li>Stipend for Tuition teachers</li>
+ 	<li>Education material for children</li>
+ 	<li>Financial support for social or awareness programs and educational events including food expenses</li>
+ 	<li>Clothing for underprivileged children</li>
+ 	<li>Resource support for Self-employment of women</li>
+ 	<li> need office room</li>
+ 	<li>Study Centre teacher salary</li>
+</ul>
+
+<h1><b>Volunteer work/support that we require</b></h1>
+<ul>
+ 	<li>Teaching basic English  and math skills </li>
+ 	<li>Workshops on basic life skills such as dressing, manners, health, and hygiene       </li>
+ 	<li>Workshop on creativity using art, paintings, music, and dance</li>
+ 	<li>Motivating students to attend school regularly and</li>
+</ul>
+
+<h1><b>Success stories              </b></h1>
+<ul>
+ 	<li>For current year 2018, 1680 children have benefitted from  school enrollment and re-admission of children.</li>
+ 	<li>On an average 60 women have benefitted from self-employment</li>
+ 	<li>Conducted 24 awareness programs per  year in slums, schools and communities</li>
+</ul>
+
+<h1><b>Contact</b></h1>
+Shirly Charles
+Root trust
+Reg no: 684/2005 
+email:roottrust@yahoo.com
+<ul>
+ 	<li>Mobile:9445707140</li>
+</ul>
+
+<h1><b>Donate</b></h1>
+Our current source of funding
+
+Until now we didn’t get any major/regular financial support
+
+We collect small funds from friends and volunteers
+
+ROOT,Account no-781010100007252,
+Branch code-SAIDAPET,CHENNAI.
+IFSC:UTIB0000781,AXIS BANK LTD.
+             (OR)
+
+Shirly,Ac no-20240133301,
+Branch code-12246,Kutchery Road,
+IFSC-SBIN0012246.State bank of India, SBI.
+
+[work config fol=helpers/roottrust logo=root-trust.png][/work]

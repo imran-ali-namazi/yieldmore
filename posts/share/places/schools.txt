@@ -1,0 +1,4 @@
+<!--post_id: 11-->
+Please pick one of the schools from the menu to know more about it.
+
+[work fol=places/schools config][/work]

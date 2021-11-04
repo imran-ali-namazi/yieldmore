@@ -1,0 +1,12 @@
+<!--post_id: 60-->
+<ol>
+ 	<li>Oceans - Hillsong United</li>
+ 	<li>Never Alone - BarlowGirl</li>
+ 	<li>Revelation Song - Kari Jobe</li>
+ 	<li>I'm Letting Go - Francesca Battestelli</li>
+ 	<li>East to West - Casting Crowns</li>
+ 	<li>Sing a song of freedom, throw down a line - Cliff Richard</li>
+ 	<li>Take my hand precious lord - Jim Reeves</li>
+ 	<li>Were you there - Johnny Cash</li>
+</ol>
+[work config fol=songs/gospel][/work]

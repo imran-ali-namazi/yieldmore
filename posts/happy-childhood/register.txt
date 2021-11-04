@@ -1,0 +1,20 @@
+<!--post_id: 4-->
+<!-- wp:paragraph -->
+<p>Those individuals  who are inspired to become active members and those Organizations/Educational Institutions/ Religious Congregations/ Communities/NGOs etc. that are inspired to be autonomous collaborating partners (organizational members) in the Happy Childhood Campaign are required to adopt the Happy Childhood Pledge and make it their own. In addition, they are also required to make the following three self-commitments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Three Self-Commitments:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>I commit myself to God and to all children in India that I will do my best from today to achieve the goal of making all children below the age of 18 years in India happy and healthy by the year 2030 inspired by the Happy Childhood Pledge adopted by the first Interreligious Parliament.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>I commit myself to God and to all children in India that I will not waste any food or eat more than what is essential for my good health from today.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>I commit myself to God and to all children in India that I will practice at least one act of Tyagarchana (voluntary sacrifice of something one likes) every day from today for the spiritual purification of my own life and use the time/energy/money thus saved for promoting the aim and objectives of  the Happy Childhood Campaign as presented in the Happy Childhood Pledge.</em></p>
+<!-- /wp:paragraph -->

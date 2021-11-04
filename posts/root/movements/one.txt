@@ -1,0 +1,10 @@
+<!--post_id: 10214-->
+<p>Join us for our retreat in Chennai from 31st May to 2nd June (Sunday) where we will deliver the ONE Program for our first batch of powerfully motivated social entrepreneurs. We welcome the first generation of trainers, organizers, umbrella social organizations, CSR Proponents and Civic Authorities to participate in this ONE WORLD MOVEMENT.</p>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScrms5MPyxE4awyH0RK-tVzShRnfWczyPldww11s3HmZOY3WQ/viewform?embedded=true" width="640" height="3239" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+[work config fol=movements/one][/work]
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->

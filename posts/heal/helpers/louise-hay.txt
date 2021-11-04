@@ -1,0 +1,13 @@
+<!--post_id: 22-->
+[info]
+source: http://louisehay.com/
+source: http://hayhouse.com/heal-your-body
+youtube: 8rO-TLDyg8o
+link: https://soundcloud.com/hypatia2013/sets/you-can-heal-your-life-audio
+[/info]
+
+Louise Lynn Hay is an American motivational author and the founder of Hay House, she has authored several New Thought self-help books, including the 1984 book, You Can Heal Your Life.
+
+Like her work? Contact us to expand this page.
+
+[work config fol=helpers/louise][/work]

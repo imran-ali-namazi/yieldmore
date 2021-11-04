@@ -1,0 +1,19 @@
+<!--post_id: 90-->
+[info]
+source: http://www.gallup.com/businessjournal/159080/create-culture-organizational-wellbeing.aspx
+[/info]
+
+<h3>The Five Essential Elements of Wellbeing</h3>
+For more than 50 years, Gallup scientists have been exploring the demands of a life well-lived. More recently, in partnership with leading economists, psychologists, and other acclaimed scientists, Gallup has uncovered the common elements of wellbeing that transcend countries and cultures. This research revealed the universal elements of wellbeing that differentiate a thriving life from one spent suffering. They represent five broad categories that are essential to most people:
+<ul>
+ 	<li>
+<a title="Career Wellbeing" href="http://www.gallup.com/businessjournal/127034/Career-Wellbeing-Identity.aspx" target="_blank">Career Wellbeing</a>:how you occupy your time -- or simply liking what you do every day</li>
+ 	<li>
+<a title="Social Wellbeing" href="http://www.gallup.com/businessjournal/127043/Friends-Social-Wellbeing.aspx" target="_blank">Social Wellbeing</a>: having strong relationships and love in your life</li>
+ 	<li>
+<a title="Financial Wellbeing" href="http://www.gallup.com/businessjournal/127193/Spending-Financial-Wellbeing.aspx" target="_blank">Financial Wellbeing</a>: effectively managing your economic life</li>
+ 	<li>
+<a title="Physical Wellbeing" href="http://www.gallup.com/businessjournal/127211/Exercise-Sleep-Physical-Wellbeing.aspx" target="_blank">Physical Wellbeing</a>: having good health and enough energy to get things done on a daily basis</li>
+ 	<li>
+<a title="Community Wellbeing" href="http://www.gallup.com/businessjournal/127217/Giving-Community-Wellbeing.aspx" target="_blank">Community Wellbeing</a>: the sense of engagement you have with the area where you live</li>
+</ul>

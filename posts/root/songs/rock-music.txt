@@ -1,0 +1,77 @@
+<!--post_id: 24-->
+Just select the text, right click and search for the song. azlyrics is good too.
+<ul>
+	<li>A great day for freedom - Pink Floyd
+<ul>
+	<li>Now frontiers shift like desert sands
+While nations wash their bloodied hands
+Of loyalty, of history, in shades of grey</li>
+</ul>
+</li>
+	<li>Closer to believing - Emerson Lake and Palmer
+<ul>
+	<li>Take me closer to believing
+Take me forward lead me on
+Through collision and confusion
+While there's life beneath the sun</li>
+</ul>
+</li>
+	<li>Don't let it show - Alan Parsons Project
+<ul>
+	<li>Even if you feel you've got nothing to hide,
+Keep it inside of you.
+Don't give in,
+Don't tell them anything.
+Don't let it-
+Don't let it show.</li>
+</ul>
+</li>
+	<li>I love a rainy night - Dan Seals
+<ul>
+	<li>I love to hear the thunder
+Watch the lightning
+When it lights up the sky
+You know it makes me feel good</li>
+</ul>
+</li>
+	<li>Imagine - John Lennon
+<ul>
+	<li>Imagine there's no countries
+It isn't hard to do
+Nothing to kill or die for
+And no religion too</li>
+</ul>
+</li>
+	<li>It's all right here - Jim Messina
+<ul>
+	<li>I've read of men who travel far within themselves
+They seek <span id="IL_AD2" class="IL_AD">the light</span> for their direction
+They spend their whole lives searching for that inner space
+To bring them closer to perfection.</li>
+</ul>
+</li>
+	<li>My life - Billy Joel
+<ul>
+	<li>I don't care what you say anymore, this is my life
+Go ahead with your own life and leave me alone</li>
+</ul>
+</li>
+	<li>Short and sweet - David Gilmour
+<ul>
+	<li>Be true and you will likely find
+A few building a vision new and justice to our time</li>
+</ul>
+</li>
+	<li>Teach your children - Crosby Stills Nash and Young
+<ul>
+	<li>And you, of the tender years can't know the fears that your elders grew by,
+And so please help them with your youth, they seek the truth before they can die.</li>
+</ul>
+</li>
+	<li>Wasted on the way - Crosby Stills Nash and Young
+<ul>
+	<li>So much love to make up everywhere you turn
+Love we have wasted on the way</li>
+</ul>
+</li>
+</ul>

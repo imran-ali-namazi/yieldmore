@@ -1,0 +1,15 @@
+<!--post_id: 5-->
+Until we work on / import the contents, you can see the glossary in <a href="https://docs.google.com/spreadsheets/d/1CWFk1VRaweAKjlvSm0KRGqvlQPKAA3yZnOE1-SXT0tg/edit?pli=1#gid=0" target="_blank">this shared google spreadsheet</a>
+
+<a name="siddha" />
+<h3>Siddha Powders</h3>
+For Stress and Depression, here is our mix:
+<ol>
+	<li><a href="https://www.healthline.com/nutrition/12-proven-ashwagandha-benefits" rel="noopener" target="_blank">Ashwagandha</a> - Withania somnifera, Indian ginseng and winter cherry - it can lower blood sugar levels, reduce cortisol, boost brain function and help fight symptoms of anxiety and depression.</li>
+	<li><a href="https://www.webmd.com/vitamins/ai/ingredientmono-1125/tree-turmeric" rel="noopener" target="_blank">Tree Turmeric</a> - People take tree turmeric for heart failure, liver disease, malaria, an eye infection called trachoma, skin diseases, heavy menstrual periods, swelling of the stomach and intestines (gastroenteritis), diarrhea, and yellowed skin (jaundice).</li>
+	<li><a href="https://www.naturalfoodseries.com/11-health-benefits-amla/" rel="noopener" target="_blank">Gooseberry</a> - Amla or Nellikkai - health benefits includes supporting eye health, keeping the body hydrated, supporting a healthy appetite, slowing down aging process, preventing infection, managing digestion, supporting healthy heart, reducing PMS symptoms, managing diabetes, improving hair properties and aiding metabolism.</li>
+	<li><a href="https://www.bimbima.com/herbs/vishnukranthi-evolvulus-alsinoides-information-benefits-and-uses/65/" rel="noopener" target="_blank">Vishnukranthi</a> - Evolvulus alsinoides -  is used to treat mental disorders, nervous weakness, insomnia, fever, cough, asthma, and skin diseases. It helps as a general tonic, and gives good health.</li>
+	<li><a href="https://www.naturalfoodseries.com/10-benefits-moringa-seeds/" rel="noopener" target="_blank">Drumstick (Moringa) Seed</a> - its benefits may include reducing blood sugar level, maintaining cholesterol and blood pressure, improving skin health, purifying water, improving sleep, improving digestion, preventing infection and illness, increasing energy level, improving eye vision, and detoxifying the body.</li>
+	<li><a href="https://www.webmd.com/vitamins/ai/ingredientmono-761/bacopa" rel="noopener" target="_blank">Brahmi</a> (Bacopa) - is commonly used for Alzheimer's disease, improving memory, anxiety, and attention deficit-hyperactivity disorder (ADHD) among many other uses</li>
+	<li><a href="https://www.healthline.com/nutrition/cocoa-powder-nutrition-benefits" rel="noopener" target="_blank">Bitter Cocoa Powder</a> - reduced inflammation, better blood flow, lower blood pressure and improved cholesterol and blood sugar levels</li>
+</ol>

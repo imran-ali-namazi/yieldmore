@@ -1,6 +1,48 @@
 <?php
 ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 
+$sites = [
+	'root' => 'wp_',
+	'curate' => 'wp_2_',
+	'learn' => 'wp_3_',
+	'heal' => 'wp_4_',
+	'share' => 'wp_5_',
+	'moq' => 'wp_6_',
+	'peaceworks' => 'wp_7_',
+	'pact' => 'wp_8_',
+	'express' => 'wp_9_',
+	'ideas' => 'wp_10_',
+	'saiva-siddantham' => 'wp_11_',
+	'social-work' => 'wp_12_',
+	'store' => 'wp_13_',
+	'communities' => 'wp_14_',
+	'medico' => 'wp_15_',
+	'daivic' => 'wp_16_',
+	'freestyle' => 'wp_17_',
+	'jeevanvidya' => 'wp_18_',
+	'vikasa' => 'wp_19_',
+	'joy-mission' => 'wp_20_',
+	'heroes' => 'wp_21_',
+	'melian' => 'wp_22_',
+	'happy-childhood' => 'wp_23_',
+	'animals' => 'wp_24_',
+	'nvc' => 'wp_25_',
+];
+
+if (false) {
+	$sites = db_select('SELECT blog_id as id, path FROM `wp_blogs`');
+	foreach ($sites as $s) echo "	'" . 
+		($s['id'] == 1 ? 'root' : str_replace('/', '', substr($s['path'], 1)))
+		. "' => 'wp_" . ($s['id'] != 1 ? $s['id'] . '_' : '') . "'," . PHP_EOL;
+	die();
+}
+
+foreach ($sites as $site_name => $db_prefix) {
+	write_posts(get_pages($db_prefix), $site_name);
+	write_posts(get_posts($db_prefix), $site_name);
+	write_posts(get_works($db_prefix), $site_name);
+}
+
 function write_posts($posts, $site_name) {
 	$br = '<br />' . PHP_EOL;
 	$dir = __DIR__ . '/posts/' . $site_name . '/';
@@ -9,24 +51,17 @@ function write_posts($posts, $site_name) {
 	echo 'Writing to ' .  $site_name . $br;
 	foreach ($posts as $ix => $p) {
 		$subdir = $dir . ($p['slug'] ? $p['slug'] . '/' : '');
-		if ($subdir != $dir && !is_dir($subdir)) mkdir($subdir);
+		if ($subdir != $dir) {
+			echo 'Writing to ' . $p['slug'] . $br;
+			if (!is_dir($subdir)) mkdir($subdir);
+		}
 		$fil = $subdir . $p['post_name'] . '.txt';
 		$id = '<!--post_id: ' . $p['id'] . '-->' . PHP_EOL;
 		file_put_contents($fil, $id . $p['post_content']);
 		echo 'Wrote: ' . $fil . $br;
-		if ($ix == 5) break;
+		//	if ($ix == 5) break;
 	}
 }
-
-
-$sites = ['root' => ''];
-foreach ($sites as $site_name => $db_prefix) {
-	write_posts(get_pages($db_prefix), $site_name);
-	write_posts(get_posts($db_prefix), $site_name);
-	write_posts(get_works($db_prefix), $site_name);
-}
-//print_r($posts);
-
 
 // #region db functions
 
@@ -52,7 +87,7 @@ select id, post_name, post_content, t.slug from %prefix%posts p
 function get_works($prefix)
 {
 	$sql = str_replace('%prefix%', $prefix, "
-select id, post_name, post_content, 'works' from %prefix%posts p
+select id, post_name, post_content, 'works' as slug from %prefix%posts p
 	where post_type in ('work') AND post_status = 'publish'");
 	return db_select($sql);
 }

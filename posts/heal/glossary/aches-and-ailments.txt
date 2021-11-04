@@ -1,0 +1,4 @@
+<!--post_id: 4-->
+Until we work on / import the contents, you can see the glossary in <a href="https://docs.google.com/spreadsheets/d/1CWFk1VRaweAKjlvSm0KRGqvlQPKAA3yZnOE1-SXT0tg/edit?pli=1#gid=25105972" target="_blank" rel="noopener">this shared google spreadsheet</a>
+
+[work config fol=glossary/aches-and-ailments][/work]

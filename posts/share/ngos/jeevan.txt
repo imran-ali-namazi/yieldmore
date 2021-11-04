@@ -1,0 +1,23 @@
+<!--post_id: 23-->
+[info]
+source: http://www.bethecure.in/
+source: http://www.jeevan.org/
+source: https://www.millioncells.in/
+link: https://www.youtube.com/channel/UC0g4gwPZuzgmGq9JuxkS4kQ|Jeevan Youtube Channel
+[/info]
+
+The Stem Cell Registry
+
+https://www.youtube.com/watch?v=tw_VcPnBiOE
+
+Stem Cells from adult donors help Indians with blood cancer, Thalassemia and immune deficiency diseases. See more about <a href="http://www.bethecure.in/about/" target="_blank">the eligibility</a>. To become a donor, first <a href="http://www.bethecure.in/your-commitment/" target="_blank">join the registry through this online form</a>.
+
+If you know of anyone organizing a blood camp, <a href="mailto:stemcell@jeevan.org" target="_blank">write to Jeevan</a> or call +91 44 4350 4246 and ask them to send their team over to collect blood and DNA samples for their registry. Sponsors are always welcome and earn the undying gratitude of the many people whose lives can be saved.
+
+Every year over 120,000 Indians are diagnosed with blood cancers and another 10000 children are born with diseases like Thalassemia. They can hope for a 60 to 80% chance of cure, if they find matching stem cell donors. The chance of finding a donor in the family is less than 30%. The match is highly ethnicity dependent and hence the chance of finding a match in an Indian registry is over 70%..
+
+Stem Cells from donated cord blood can help children with a body weight less than 30 Kg. Other patients will need a larger number of cells and that can only be obtained from a donor either as Peripheral Blood Stem Cell (PBSC) donation or Bone Marrow Donation.
+
+Bone Marrow Registry is a database of potential stem cell donors, whose Human Leucocyte Antigen (HLA) is typed by Jeevan and stored in a server. When a patient needs a donor, the matching donor is identified from the database. He / she is then counseled, medically examined and then encouraged to donate stem cells. These stem cells are used for the treatment of patients.
+
+[work config fol=helpers/jeevan][/work]

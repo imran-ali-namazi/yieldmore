@@ -1,0 +1,8 @@
+<!--post_id: 11371-->
+<!-- wp:paragraph -->
+<p>Imran's 5th Volume of Verse, Ante Up (and kick in) was begun in March 2020 and is inspired by this <a rel="noreferrer noopener" aria-label="line from Glory (opens in a new tab)" href="https://www.youtube.com/watch?v=N6l2rWa_mrw" target="_blank">line from Glory</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p> [work toc config fol=users/shasa/ante-up][/work] </p>
+<!-- /wp:paragraph -->

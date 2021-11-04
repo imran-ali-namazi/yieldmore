@@ -1,0 +1,9 @@
+<!--post_id: 85-->
+[info]
+source: https://openlibrary.org/about/vision
+link: https://openlibrary.org/authors/OL19482A/Louis_L'Amour
+[/info]
+
+The ultimate goal of the Open Library is to make all the published works of humankind available to everyone in the world. While large in scope and ambition, this goal is within our grasp. Achieving it will require the participation of librarians, authors, government officials and technologists.
+
+Imagine what a comprehensive, open library could be! A talented math whiz who lives in a rural community can explore the works of high math. An elderly person can have a large print edition of any book ever published. An innovative young scholar can publish a book directly to this great library on subjects that might not otherwise make it through the long and difficult publication process.
