@@ -3,10 +3,10 @@ source: https://books.google.co.in/books?id=jxNDDwAAQBAJ&pg=PT529&lpg=PT529&dq=p
 link: https://www.wilbursmithbooks.com/books/elephant-song
 [/info]
 
-<img src="images/pirri1.png" />
+<img src="[work-url]images/pirri1.png" />
 
-<img src="images/pirri2.png" />
+<img src="[work-url]images/pirri2.png" />
 
-<img src="images/pirri3.png" />
+<img src="[work-url]images/pirri3.png" />
 
-<img src="images/pirri4.png" />
+<img src="[work-url]images/pirri4.png" />
