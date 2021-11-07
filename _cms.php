@@ -30,7 +30,7 @@ bootstrap(array(
 	'path' => __DIR__,
 ));
 
-load_amadeus_module('markdown');
+//load_amadeus_module('markdown');
 
 render();
 ?>

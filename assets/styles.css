@@ -5,3 +5,5 @@ p.byline { color: #fff; }
 .tm-nav { margin-left: 0; }
 .tm-nav ul { list-style-type: none; }
 nav select.menu { clear: both; width: 90%; margin: 10px 0 25px 20px; }
+
+.amadeus-credits img { vertical-align: middle!important; } /* TODO: how to change in theme */

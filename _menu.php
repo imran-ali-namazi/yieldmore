@@ -46,4 +46,6 @@ if ($site && $fols) {
 		echo '		</select></li>' . PHP_EOL . '';
 	}
 }
+
 ?>
+See <a href="<?php echo cs_var('url'); ?>resources/">redirects</a> or <a href="<?php echo cs_var('url'); ?>sitemap/">sitemap</a>.
