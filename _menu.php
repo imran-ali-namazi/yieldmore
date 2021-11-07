@@ -9,7 +9,7 @@ echo sprintf('	<li>%s: <a href="%s">%s</a>' . PHP_EOL, $type, cs_var('url'), 'YM
 echo '		<select class="menu">' . PHP_EOL;
 foreach (cs_var('sites') as $slug => $s) {
 	$sel = $site === $slug ? ' selected="selected"' : '';
-	echo sprintf('			<option%s value="%s">%s</option>' . PHP_EOL, $sel, cs_var('url') . ($slug == 'root' ? '' : $slug .'/'), $slug);
+	echo sprintf('			<option%s value="%s">%s</option>' . PHP_EOL, $sel, cs_var('url') . ($slug == 'root' ? '' : $slug .'/'), humanize($slug));
 }
 echo '		</select></li>' . PHP_EOL;
 
@@ -40,7 +40,7 @@ if ($site && $fols) {
 			$last = $fil;
 			
 			$sel = ''; if ($param == $fil) { $sel = ' selected="true"'; $anySel = true; }
-			echo sprintf('			<option%s value="%s">%s</option>' . PHP_EOL, $sel, cs_var('url') . ($slug ? $slug . '/' : '') . $fil . '/', $fil);
+			echo sprintf('			<option%s value="%s">%s</option>' . PHP_EOL, $sel, cs_var('url') . ($slug ? $slug . '/' : '') . $fil . '/', humanize($fil));
 		}
 		if (!$anySel) echo '			<option selected="selected"></option>';
 		echo '		</select></li>' . PHP_EOL . '';
