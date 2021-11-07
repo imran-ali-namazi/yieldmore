@@ -23,7 +23,7 @@ bootstrap(array(
 	'theme' => 'tm-xtra',
 
 	'styles' => ['styles'],
-	'scripts' => ['main'/*, 'contents'*/],
+	'scripts' => ['main', 'contents'],
 	'head_hooks' => [__DIR__ . '/_ga.php'],
 
 	'url' => $local ? 'http://localhost/yieldmore/legacy/' : 'https://legacy.yieldmore.org/',

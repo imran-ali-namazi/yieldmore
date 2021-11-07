@@ -6,4 +6,12 @@ p.byline { color: #fff; }
 .tm-nav ul { list-style-type: none; }
 nav select.menu { clear: both; width: 90%; margin: 10px 0 25px 20px; }
 
+.holds-menu-contents ul.contents { background-color: #ff8; color: #A36DA9; }
+ul.contents { list-style-type: none; margin-bottom: 40px; border: 3px solid #A46EAA; cursor: pointer; }
+ul.contents li:hover { text-decoration: underline; }
+ul.contents .selected { background-color: #FAF05A; }
+ul.contents .indent-h1 { padding-left: 20px; }
+ul.contents .indent-h2 { padding-left: 40px; }
+ul.contents .indent-h3 { padding-left: 60px; }
+
 .amadeus-credits img { vertical-align: middle!important; } /* TODO: how to change in theme */
