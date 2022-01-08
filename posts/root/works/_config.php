@@ -360,7 +360,7 @@ type:book
 fol:books/ay
 #Config
 heading:Chapter %s
-nodeFormat:Chapter %s: %s
+nodeFormat:Chapter %s
 slug:chapter
 keyFormat:c%s
 #Titles
@@ -421,7 +421,7 @@ fol:buddhism/bb
 #Config
 heading:Sutra %s
 heading2:Chapter %s
-nodeFormat:Sutra %s, Chapter %s: %s
+nodeFormat:Sutra %s, Chapter %s
 slug:sutra
 slug2:chapter
 keyFormat:s%sc%s

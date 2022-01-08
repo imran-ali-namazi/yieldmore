@@ -434,11 +434,9 @@ $data['s4c2'][95] = array('',
 $data['s4c2'][96] = array('',
 'And it must be a surrender and an opening to the Divine alone and to no other. For it is possible for an obscure mind or an impure life force in us to surrender to undivine and hostile forces and even to mistake them for the Divine. There can be no more calamitous error. Therefore our surrender must be no blind and inert passivity to all influences or any influence, but sincere, conscious, vigilant, pointed to the One and the Highest alone.',
 'Self-surrender to the divine and infinite Mother, however difficult, remains our only effective means and our sole abiding refuge. Self-surrender to her means that our nature must be an instrument in her hands, the soul a child in the arms of the Mother.');
-$data['s4c2'][97] = array('',
-);
 
 $titles['s4c3'] = 'Notes on the Texts';
-$data['s4c3'] = array('',
+$data['s4c3'][97] = array('',
 'The pieces collected together in this book were written by Sri Aurobindo between 1910 and 1940. None of them were published during his lifetime; none received the final revision he gave to his major works. Most of the pieces were first printed in various journals published by the Ashram, and subsequently in the different editions of The Hour of God, beginning with the first edition (1959).',
 'The essays and diagrams published here are only a selection from the many prose writings produced by Sri Aurobindo at Pondicherry between 1910 and 1950. Those chosen for inclusion are the most complete, fully developed, and clear of his later, posthumously published prose writings.',
 'The pieces collected here were of course never intended by Sri Aurobindo to be parts of a single work. A number were written in groups of two, three or four, but several are separate essays with no textual, as opposed to thematic, relationship to any others. The selection and arrangement of the pieces is the work of the editors.',
@@ -485,11 +483,9 @@ $data['s4c3'][104] = array('',
 'The Path. This essay is one of several pieces written around 1930 on the supramental Yoga. Three of these were published together under the editorial title “The Supramental Yoga” in The Advent in November 1955. The present piece, the most completely developed of them, is the only one that has a title in the manuscript.',
 'EDITIONS OF THE HOUR OF GOD',
 'In 1959 many of the pieces described above, along with others not included in the present edition, were collected together and published under the title The Hour of God. A second impression of this edition was issued in 1964. A second edition was brought out in 1970. (It is not possible to determine with certainty whether 1964 was recomposed or not, i.e. whether it was an impression or edition. At any rate both 1964 and 1970 are textually identical to the first edition.) In 1972 all the pieces in The Hour of God, slightly reorganised, were included in The Hour of God and Other Writings, Volume 17 of the Sri Aurobindo Birth Centenary Library. In 1973, the 1972 texts were reproduced photographically in the old order (but with one omission) as the third edition of The Hour of God. The fourth edition (1982) was thoroughly reorganised: several pieces included in the first three editions were replaced by later versions of the same pieces, some pieces were omitted entirely, and some others were added. Six impressions of the fourth edition were printed between 1982 and 2002. The present (fifth) edition has the same contents as the fourth. The texts are taken from two volumes of the Complete Works of Sri Aurobindo: volume 12, Essays in Philosophy and Yoga (1997) and volume 11, Record of Yoga-II (2001).');
-$data['s4c3'][105] = array('',
-);
 
 $titles['s4c4'] = 'Glossary of Sanskrit Terms';
-$data['s4c4'] = array('',
+$data['s4c4'][105] = array('',
 'Most Sanskrit words and phrases occurring in this book are defined below. All words are transliterated according to the international system; where this transliteration differs significantly from the easier (English-orthographic) transliteration sometimes used by Sri Aurobindo, the easier spelling is given within parentheses and a cross- reference is provided.',
 'For Sanskrit words written in devanāgañ script see Notes on the Texts under the text concerned.',
 'adhama – lowest.',
