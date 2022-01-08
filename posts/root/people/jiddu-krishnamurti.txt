@@ -6,7 +6,7 @@ quote: Jiddu Krishnamurti
 
 To have compassion means to have passion for all things, not just between two people, but for all human beings, for all things of the earth, the animals, the trees, everything the earth contains. When we have such compassion we will not despoil the earth as we are doing now, and we will have no wars.
 
-<a href="/people/jiddu-krishnamurti/?node=dissolution-speech">Truth is a pathless land (dissolution speech)</a>:
+<a href="./dissolution-speech/">Truth is a pathless land (dissolution speech)</a>:
 You may remember the story of how the devil and a friend of his were walking down the street, when they saw ahead of them a man stoop down and pick up something from the ground, look at it, and put it away in his pocket. The friend said to the devil, "What did that man pick up?" "He picked up a piece of Truth," said the devil. "That is a very bad business for you, then," said his friend. "Oh, not at all," the devil replied, "I am going to let him organize it.
 
 Truth cannot be brought down, rather the individual must make the effort to ascend to it.

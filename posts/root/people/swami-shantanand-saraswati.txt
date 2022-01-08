@@ -6,7 +6,7 @@ link: http://satsangwithswamiji.com
 [/info]
 
 <h2>Meditation</h2>
-His thoughts on meditation have been moved under the <a href="/topics/meditation/?node=shantanand">topic meditation</a>
+His thoughts on meditation have been moved under the <a href="../topics/meditation/shantanand/">topic meditation</a>
 
 <h2>Atman and Param-Atman</h2>
 Atman is universal, constant, all pervasive, light and conscious. All that is not Atman is limited, unstable or transitory, partial, heavy, dark and not conscious. With Viveka (discrimination between what is real and unreal, between the permanent and the impermanent) one sees Atman everywhere in everything at all times. A wise man, one with Viveka, treats everyone as himself and sees the Self in everyone. He is always awake, just, full of love and happiness all the time.

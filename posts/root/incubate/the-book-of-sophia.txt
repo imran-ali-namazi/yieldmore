@@ -3,4 +3,4 @@ Sophia is a fictitious being that lives on this website. Her name means Wisdom. 
 
 If you are interested in contributing, please contact <a href="mailto:shasa@cselian.com?subject=YieldMore Sophia Project" target="_blank">shasa@cselian.com</a>.
 
-<!--[work config fol=books/sophia]
+<!--[work config fol=books/sophia] -->
