@@ -15,6 +15,11 @@ echo '		</select></li>' . PHP_EOL;
 
 if ($site && $fols) {
 	$params = cs_var('page_parameters') ? cs_var('page_parameters') : [];
+
+	if (cs_var('node') == 'works' && count($params) > 0) {
+		cs_var('replace_exact', include __DIR__ . '/posts/root/works/' . $params[0] . '/_titles.php');
+	}
+
 	if (cs_var('node') != 'index') array_splice($params, 0, 0, cs_var('node'));
 	if (cs_var('also_fol')) $params[] = '[[something]]';
 
@@ -47,5 +52,12 @@ if ($site && $fols) {
 	}
 }
 
+function site_humanize($text) {
+	if ($match = cs_var('replace_exact')) {
+		$key = urlize($text);
+		if (isset($match[$key])) return $text . ' - ' . $match[$key];
+	}
+	return $text;
+}
 ?>
 See <a href="<?php echo cs_var('url'); ?>resources/">redirects</a> or <a href="<?php echo cs_var('url'); ?>sitemap/">sitemap</a>.

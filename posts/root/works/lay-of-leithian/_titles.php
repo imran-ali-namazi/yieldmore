@@ -1,0 +1,26 @@
+<?php
+return [
+	'canto1' => 'OF THINGOL IN DORIATH',
+	'canto2' => 'OF LÚTHIEN THE BELOVED',
+	'canto3' => 'OF DAERON MINSTREL OF THINGOL',
+	'canto4' => 'OF MORGOTH & THE SNARING OF GORLIM',
+	'canto5' => 'OF THE SAVING OF KING FINROD FELAGUND BY THE XII BËORINGS',
+	'canto6' => 'OF TARN AELUIN THE BLESSED',
+	'canto7' => 'OF GORLIM UNHAPPY',
+	'canto8' => 'OF BEREN SON OF BARAHIR AND HIS ESCAPE',
+	'canto9' => 'OF THE COMING OF BEREN TO DORIATH; BUT FIRST IS TOLD OF THE MEETING OF MELIAN AND THINGOL',
+	'canto10' => 'Canto 10',
+	'canto11' => 'Canto 11',
+	'canto12' => 'Canto 12',
+	'canto13' => 'Canto 13',
+	'canto14' => 'Canto 14',
+	'canto15' => 'Canto 15',
+	'canto16' => 'Canto 16',
+	'canto17' => 'Canto 17',
+	'canto18' => 'Canto 18',
+	'canto19' => 'Canto 19',
+	'canto20' => 'Canto 20',
+	'canto21' => 'Canto 21',
+	'canto22' => 'Canto 22',
+];
+?>

@@ -1,0 +1,28 @@
+<?php
+return [
+	'sutra1-chapter1' => 'The Lankavatara Sutra - Discrimination',
+	'sutra1-chapter2' => 'The Lankavatara Sutra - False-Imagination and Knowledge of Appearances',
+	'sutra1-chapter3' => 'The Lankavatara Sutra - Right Knowledge or Knowledge of Relations',
+	'sutra1-chapter4' => 'The Lankavatara Sutra - Perfect Knowledge, or Knowledge of Reality',
+	'sutra1-chapter5' => 'The Lankavatara Sutra - The Mind System',
+	'sutra1-chapter6' => 'The Lankavatara Sutra - Transcendental Intelligence',
+	'sutra1-chapter7' => 'The Lankavatara Sutra - Self-Realisation',
+	'sutra1-chapter8' => 'The Lankavatara Sutra - The Attainment of Self- Realisation',
+	'sutra1-chapter9' => 'The Lankavatara Sutra - The Fruit of Self- Realisation',
+	'sutra1-chapter10' => 'The Lankavatara Sutra - Discipleship: Lineage of the Arhats',
+	'sutra1-chapter11' => 'The Lankavatara Sutra - Bodhisattvahood and Its Stages',
+	'sutra1-chapter12' => 'The Lankavatara Sutra - Tathagatahood Which Is Noble Wisdom',
+	'sutra1-chapter13' => 'The Lankavatara Sutra - Nirvana',
+	'sutra2-chapter1' => 'The Diamond Sutra - The Diamond Scripture',
+	'sutra3-chapter1' => 'Sutra of Transcendental Wisdom - Sutra of Transcendental Wisdom',
+	'sutra4-chapter1' => 'Sutra of the Sixth Patriarch - Autobiography of Hui-Neng',
+	'sutra4-chapter2' => 'Sutra of the Sixth Patriarch - Discourse on Prajna',
+	'sutra4-chapter3' => 'Sutra of the Sixth Patriarch - Discourse on Dhyana and Samadhi',
+	'sutra4-chapter4' => 'Sutra of the Sixth Patriarch - Discourse on Repentance',
+	'sutra4-chapter5' => 'Sutra of the Sixth Patriarch - Discourse on the Three-Bodies of Buddha',
+	'sutra4-chapter6' => 'Sutra of the Sixth Patriarch - Dialogues Suggested by Various Temperaments and Circumstances ',
+	'sutra4-chapter7' => 'Sutra of the Sixth Patriarch - Sudden Enlightenment and Gradual Attainment',
+	'sutra4-chapter8' => 'Sutra of the Sixth Patriarch - Royal Patronage',
+	'sutra4-chapter9' => 'Sutra of the Sixth Patriarch - Final Words and Death of the Patriarch',
+];
+?>

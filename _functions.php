@@ -83,12 +83,18 @@ function list_fol($fol) {
 	natsort($files);
 	$last = false;
 	echo '<hr /><hr />';
+
+	$params = cs_var('page_parameters') ? cs_var('page_parameters') : [];
+	$param = count($params) > 0 ? $params[count($params) - 1] : '[nothing]';
+
 	foreach ($files as $fil) {
 		if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil[0] == '_') continue;
 		$fil = str_replace('.txt', '', $fil);
 		if ($fil == $last) continue;
 		$last = $fil;
-		echo sprintf('<a href="%s">%s</a><br />' . PHP_EOL, $fil . '/', humanize($fil));
+		//if ($fil == )
+		$sel = $param == $fil ? ' class="emphasize"' : '';
+		echo sprintf('<a%s href="%s">%s</a><br />' . PHP_EOL, $sel, $fil . '/', humanize($fil));
 	}
 }
 

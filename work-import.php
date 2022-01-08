@@ -31,7 +31,7 @@ return [' . PHP_EOL;
 	foreach ($works as $item) {
 		if ($item['name'] === 'bhagavad-gita' OR $item['name'] === 'quran'
 			OR $item['name'] === 'illusions' OR $item['name'] === 'vishnu-sahasranamam') continue;
-		if ($item['name'] !== 'hour-of-god') continue;
+		//if ($item['name'] !== 'essays-on-the-gita') continue;
 		$cfg = read_config($config[$item['name']]);
 		//print_r($cfg); continue;
 
@@ -47,13 +47,17 @@ return [' . PHP_EOL;
 		$data = array();
 		include $content;
 		$subIndex = 0;
+		$titles = ['<?php
+return ['];
 		for ($i = 1; $i < 1000; $i++) {
 			if (!$slug2 && !isset($data[sprintf($keyFormat, $i)])) break;
 			
 			if (!$slug2) {
 				$node = sprintf($keyFormat, $i);
-				$title = sprintf($nodeFormat, $i) . ' - ' . $cfg['titles'][$i];
-				write_node($fol, $data, $node, $slug . $i, $title, $br);
+				$nodeSlug = $slug . $i;
+				$title = sprintf($nodeFormat, $i) . ' - ' . ($nodeName = $cfg['titles'][$i]);
+				$titles[] .= "	'" . $nodeSlug . "' => '" . str_replace("'", "\'", $nodeName) . "',";
+				write_node($fol, $data, $node, $nodeSlug, $title, $br);
 			} else {
 				for ($j = 1; $j < 1000; $j++) {
 					if (!isset($data[sprintf($keyFormat, $i, $j)])) break;
@@ -61,11 +65,18 @@ return [' . PHP_EOL;
 					$nodeSlug = $slug . $i . '-' . $slug2 . $j;
 					$subIndex++;
 					if ($exclude && array_search($nodeSlug, $exclude) !== false) continue; //savitri
-					$title = sprintf($nodeFormat, $i, $j) . ' - ' . $cfg['titles'][$i] . ' - ' . $cfg['subtitles'][$subIndex];
+					$title = sprintf($nodeFormat, $i, $j) . ' - ' . ($nodeName = $cfg['titles'][$i] . ' - ' . $cfg['subtitles'][$subIndex]);
+
+					$titles[] .= "	'" . $nodeSlug . "' => '" . $nodeName . "',";
 					write_node($fol, $data, $node, $nodeSlug, $title, $br);
 				}
 			}
 		}
+		
+		$titles[] = '];' . PHP_EOL . '?' . '>';
+		file_put_contents($fol . '_titles.php', implode(PHP_EOL, $titles));
+		echo 'Wrote file: ' . $fol . '_titles.php' . PHP_EOL . $br;
+
 	}
 }
 

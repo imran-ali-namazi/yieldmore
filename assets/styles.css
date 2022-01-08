@@ -15,3 +15,5 @@ ul.contents .indent-h2 { padding-left: 40px; }
 ul.contents .indent-h3 { padding-left: 60px; }
 
 .amadeus-credits img { vertical-align: middle!important; } /* TODO: how to change in theme */
+
+a.emphasize { background-color: #00CCCC; font-weight: bold; padding: 8px; line-height: 3em; }
