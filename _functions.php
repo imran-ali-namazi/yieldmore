@@ -13,18 +13,15 @@ cs_var('sites', [
 	'ideas' => 'wp_10_',
 	'saiva-siddantham' => 'wp_11_',
 	'social-work' => 'wp_12_',
-	'store' => 'wp_13_',
+	//'store' => 'wp_13_', TODO resurrect
 	'communities' => 'wp_14_',
 	'medico' => 'wp_15_',
 	'daivic' => 'wp_16_',
 	'freestyle' => 'wp_17_',
-	'jeevanvidya' => 'wp_18_',
-	'vikasa' => 'wp_19_',
 	'joy-mission' => 'wp_20_',
 	'heroes' => 'wp_21_',
 	'melian' => 'wp_22_',
 	'happy-childhood' => 'wp_23_',
-	'animals' => 'wp_24_',
 	'nvc' => 'wp_25_',
 ]);
 
@@ -71,14 +68,14 @@ function did_render_page() {
 	if ($fol) {
 		$replaces = ['[work-url]' => cs_var('work-url')];
 		if (cs_var('fil')) render_txt_or_md(cs_var('fil'), $replaces);
-		list_fol($fol);
+		list_fol($fol, !!cs_var('fil'));
 		return true;
 	}
 
 	return false;
 }
 
-function list_fol($fol) {
+function list_fol($fol, $hasFile = false) {
 	$files = scandir($fol);
 	natsort($files);
 	$last = false;
@@ -94,7 +91,7 @@ function list_fol($fol) {
 		$last = $fil;
 		//if ($fil == )
 		$sel = $param == $fil ? ' class="emphasize"' : '';
-		echo sprintf('<a%s href="%s">%s</a><br />' . PHP_EOL, $sel, $fil . '/', humanize($fil));
+		echo sprintf('<a%s href="%s">%s</a><br />' . PHP_EOL, $sel, ($hasFile ? '../' : '') . $fil . '/', humanize($fil));
 	}
 }
 

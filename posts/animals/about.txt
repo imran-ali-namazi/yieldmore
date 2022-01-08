@@ -1,8 +1,0 @@
-<!--post_id: 2-->
-<!-- wp:paragraph -->
-<p>Animals are beautiful people!</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->

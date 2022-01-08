@@ -1,6 +1,0 @@
-<!--post_id: 2-->
-<!-- wp:paragraph -->
-<p><strong>Humanism</strong>&nbsp;is a philosophical and ethical stance that emphasizes the value and agency of human beings, individually and collectively, and generally prefers critical thinking and evidence (rationalism and empiricism) over acceptance of dogma or superstition.
-
-</p>
-<!-- /wp:paragraph -->
