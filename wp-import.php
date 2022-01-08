@@ -37,11 +37,12 @@ if (false) {
 	die();
 }
 
+if (!DEFINED('WORK_IMPORT')) {
 foreach ($sites as $site_name => $db_prefix) {
 	write_posts(get_pages($db_prefix), $site_name);
 	write_posts(get_posts($db_prefix), $site_name);
 	write_posts(get_works($db_prefix), $site_name);
-}
+} }
 
 function write_posts($posts, $site_name) {
 	$br = '<br />' . PHP_EOL;
