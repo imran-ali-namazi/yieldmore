@@ -69,7 +69,8 @@ function before_render() {
 function did_render_page() {
 	$fol = cs_var('fol');
 	if ($fol) {
-		if (cs_var('fil')) echo wpautop( str_replace('[work-url]', cs_var('work-url'), str_replace('[url]', cs_var('url'), file_get_contents( cs_var('fil') ) ) ) );
+		$replaces = ['[work-url]' => cs_var('work-url')];
+		if (cs_var('fil')) render_txt_or_md(cs_var('fil'), $replaces);
 		return true;
 	}
 

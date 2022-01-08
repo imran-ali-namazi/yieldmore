@@ -28,6 +28,7 @@ bootstrap(array(
 
 	'url' => $local ? 'http://localhost/yieldmore/legacy/' : 'https://legacy.yieldmore.org/',
 	'path' => __DIR__,
+	'stats' => true,
 ));
 
 //load_amadeus_module('markdown');

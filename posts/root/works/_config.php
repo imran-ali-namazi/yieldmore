@@ -1,8 +1,7 @@
+<?php
 return [
-	[
-		'post_id' => '15'
-		'name:' => 'leaf-by-niggle'
-		'config:' => "#Basic
+	'leaf-by-niggle' => //id:15
+	"#Basic
 type:short-story
 fol:stories/niggle
 #Config
@@ -11,12 +10,10 @@ slug:content
 keyFormat:p%s
 itemName:Para
 title:Content
-type:"
-	],
-	[
-		'post_id' => '5'
-		'name:' => 'savitri'
-		'config:' => "#Basic
+type:",
+
+	'savitri' => //id:5
+	"#Basic
 type:poem
 fol:auro/sav
 #Settings
@@ -99,12 +96,10 @@ subtitle:The Eternal Day: The Soul's Choice and the Supreme Consummation
 title:Epilogue
 subtitle:The Return to Earth
 type:
-type:"
-	],
-	[
-		'post_id' => '13'
-		'name:' => 'jonathan-livingston-seagull'
-		'config:' => "#Basic
+type:",
+
+	'jonathan-livingston-seagull' => //id:13
+	"#Basic
 type:book
 fol:books/jls
 copyrighted:yes
@@ -118,12 +113,10 @@ itemName:Para
 title:Part One
 title:Part Two
 title:Part Three
-type:"
-	],
-	[
-		'post_id' => '12'
-		'name:' => 'bhagavad-gita'
-		'config:' => "#Basic
+type:",
+
+	'bhagavad-gita' => //id:12
+	"#Basic
 type:book
 fol:hindu/gita
 copyrighted:yes
@@ -160,12 +153,10 @@ title:Faith and The Three Gunas
 title:Renunciation and Moksha
 type:
 type:
-type:"
-	],
-	[
-		'post_id' => '14'
-		'name:' => 'vishnu-sahasranamam'
-		'config:' => "type:poem
+type:",
+
+	'vishnu-sahasranamam' => //id:14
+	"type:poem
 fol:hindu/stotrams/vs
 subtype:Stotram
 renderer:self
@@ -178,12 +169,10 @@ title:verse
 links:2
 link1:lyrics|Vishnu Sahasranamam.lrc
 link2:booklet|names of vishnu booklet.doc
-type:"
-	],
-	[
-		'post_id' => '11'
-		'name:' => 'essays-on-the-gita'
-		'config:' => "type:book
+type:",
+
+	'essays-on-the-gita' => //id:11
+	"type:book
 fol:auro/eg
 #Config
 heading:Series %s
@@ -263,12 +252,10 @@ subtitle:The Supreme Divine
 subtitle:Deva and Asura
 subtitle:Faith and The Three Gunas
 subtitle:Renunciation and Moksha
-type:"
-	],
-	[
-		'post_id' => '9'
-		'name:' => 'the-prophet'
-		'config:' => "type:book
+type:",
+
+	'the-prophet' => //id:9
+	"type:book
 fol:books/prophet
 #Config
 slug:chapter
@@ -304,12 +291,10 @@ title:Pleasure
 title:Beauty
 title:Religion
 title:Death
-title:The Farewell"
-	],
-	[
-		'post_id' => '8'
-		'name:' => 'prometheus-unbound'
-		'config:' => "type:poem
+title:The Farewell",
+
+	'prometheus-unbound' => //id:8
+	"type:poem
 fol:poems/prometheus
 #Config
 slug:act
@@ -334,12 +319,10 @@ subtitle:Scene 2
 subtitle:Scene 3
 subtitle:Scene 4
 title:Act IV
-subtitle:Scene 1"
-	],
-	[
-		'post_id' => '18'
-		'name:' => 'problem-of-rebirth'
-		'config:' => "type:book
+subtitle:Scene 1",
+
+	'problem-of-rebirth' => //id:18
+	"type:book
 fol:auro/por
 #Config
 slug:section
@@ -369,12 +352,10 @@ subtitle:The Terrestrial Law
 subtitle:Mind Nature and Law of Karma
 subtitle:The Higher Lines of Karma
 subtitle:APPENDIX I: The Tangle of Karma
-subtitle:APPENDIX II: A Clarification"
-	],
-	[
-		'post_id' => '6'
-		'name:' => 'autobiography-of-a-yogi'
-		'config:' => "#Basic
+subtitle:APPENDIX II: A Clarification",
+
+	'autobiography-of-a-yogi' => //id:6
+	"#Basic
 type:book
 fol:books/ay
 #Config
@@ -387,7 +368,7 @@ title:My Parents and Early Life
 title:My Mother's Death and the Mystic Amulet
 title:The Saint With Two Bodies
 title:My Interrupted Flight Toward the Himalayas
-title:A "Perfume Saint" Displays His Wonders
+title:A \"Perfume Saint\" Displays His Wonders
 title:The Tiger Swami
 title:The Levitating Saint
 title:India's Great Scientist, J.C. Bose
@@ -427,16 +408,14 @@ title:An Idyll in South India
 title:Last Days With My Guru
 title:The Resurrection of Sri Yukteswar
 title:With Mahatma Gandhi in Wardha
-title:The Bengali "Joy-Permeated" Mother
+title:The Bengali \"Joy-Permeated\" Mother
 title:The Woman Yogi Who Never Eats
 title:I Return to the West
 title:At Encinitas in California
-title:The Years - 1940 - 1951"
-	],
-	[
-		'post_id' => '7'
-		'name:' => 'a-buddhist-bible'
-		'config:' => "#Basic
+title:The Years - 1940 - 1951",
+
+	'a-buddhist-bible' => //id:7
+	"#Basic
 type:book
 fol:buddhism/bb
 #Config
@@ -474,12 +453,10 @@ subtitle:Discourse on the Three-Bodies of Buddha
 subtitle:Dialogues Suggested by Various Temperaments and Circumstances 
 subtitle:Sudden Enlightenment and Gradual Attainment
 subtitle:Royal Patronage
-subtitle:Final Words and Death of the Patriarch"
-	],
-	[
-		'post_id' => '10'
-		'name:' => 'mahabharata'
-		'config:' => "#Basic
+subtitle:Final Words and Death of the Patriarch",
+
+	'mahabharata' => //id:10
+	"#Basic
 type:book
 fol:hindu/mb
 #Config
@@ -597,12 +574,10 @@ title:Yudhishthira Rules
 title:Dhritarashtra
 title:The Passing Away Of The Three
 title:Krishna Passes Away
-title:Yudhishthira's Final Trial"
-	],
-	[
-		'post_id' => '20'
-		'name:' => 'illusions'
-		'config:' => "type:book
+title:Yudhishthira's Final Trial",
+
+	'illusions' => //id:20
+	"type:book
 fol:
 type:
 type:
@@ -610,12 +585,10 @@ type:
 type:
 type:
 type:
-type:"
-	],
-	[
-		'post_id' => '42'
-		'name:' => 'i-am-that'
-		'config:' => "type:book
+type:",
+
+	'i-am-that' => //id:42
+	"type:book
 fol:books/iat
 #Config
 slug:chapter
@@ -730,12 +703,10 @@ title:The Perceived can not be the Perceiver
 title:Understanding leads to Freedom
 title:Jnani does not Grasp, nor Hold
 title:Appendix-1: Nisarga Yoga
-title:Appendix-2: Navnath Sampradaya"
-	],
-	[
-		'post_id' => '64'
-		'name:' => 'quran'
-		'config:' => "#Basic
+title:Appendix-2: Navnath Sampradaya",
+
+	'quran' => //id:64
+	"#Basic
 type:book
 fol:scriptures/quran
 #Config
@@ -866,12 +837,10 @@ title:Mankind
 type:
 type:
 type:
-type:"
-	],
-	[
-		'post_id' => '76'
-		'name:' => 'lay-of-leithian'
-		'config:' => "type:poem
+type:",
+
+	'lay-of-leithian' => //id:76
+	"type:poem
 fol:poems/leithian
 copyrighted:yes
 #Settings
@@ -909,12 +878,10 @@ title:Canto 19
 title:Canto 20
 title:Canto 21
 title:Canto 22
-type:"
-	],
-	[
-		'post_id' => '79'
-		'name:' => 'hour-of-god'
-		'config:' => "#Basic
+type:",
+
+	'hour-of-god' => //id:79
+	"#Basic
 type:book
 fol:auro/hog
 #Config
@@ -952,6 +919,7 @@ subtitle:Man and Superman
 subtitle:The Path
 subtitle:Notes on the Texts
 subtitle:Glossary of Sanskrit Terms
-type:"
-	],
+type:",
+
 ];
+?>
