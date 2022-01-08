@@ -34,7 +34,7 @@ if ($site && $fols) {
 		echo '		<select class="menu">' . PHP_EOL;
 		$anySel = false;
 		foreach ($files as $fil) {
-			if ($fil == '.' || $fil == '..' || $fil == 'images') continue;
+			if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil[0] == '_') continue;
 			$fil = str_replace('.txt', '', $fil);
 			if ($fil == $last) continue;
 			$last = $fil;

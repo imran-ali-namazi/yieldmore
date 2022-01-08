@@ -62,7 +62,7 @@ function before_render() {
 		//print_r($fols); die();
 	} else {
 		cs_var('fols', ['root' => cs_var('path') . '/posts/root/']);
-	}
+	} 
 	return cs_var('fol');
 }
 
@@ -71,10 +71,25 @@ function did_render_page() {
 	if ($fol) {
 		$replaces = ['[work-url]' => cs_var('work-url')];
 		if (cs_var('fil')) render_txt_or_md(cs_var('fil'), $replaces);
+		list_fol($fol);
 		return true;
 	}
 
 	return false;
+}
+
+function list_fol($fol) {
+	$files = scandir($fol);
+	natsort($files);
+	$last = false;
+	echo '<hr /><hr />';
+	foreach ($files as $fil) {
+		if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil[0] == '_') continue;
+		$fil = str_replace('.txt', '', $fil);
+		if ($fil == $last) continue;
+		$last = $fil;
+		echo sprintf('<a href="%s">%s</a><br />' . PHP_EOL, $fil . '/', humanize($fil));
+	}
 }
 
 ?>
