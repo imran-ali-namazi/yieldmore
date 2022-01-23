@@ -68,21 +68,23 @@ function did_render_page() {
 	if ($fol) {
 		$replaces = ['[work-url]' => cs_var('work-url')];
 		if (cs_var('fil')) render_txt_or_md(cs_var('fil'), $replaces);
-		list_fol($fol, !!cs_var('fil'));
+		list_fol($fol);
 		return true;
 	}
 
 	return false;
 }
 
-function list_fol($fol, $hasFile = false) {
+function list_fol($fol) {
 	$files = scandir($fol);
 	natsort($files);
 	$last = false;
-	echo '<hr /><hr />';
+
+	echo '<hr />';
 
 	$params = cs_var('page_parameters') ? cs_var('page_parameters') : [];
-	$param = count($params) > 0 ? $params[count($params) - 1] : '[nothing]';
+	$param = count($params) > 0 ? $params[count($params) - 1] : false;
+	$base = cs_var('url') . ($param ? cs_var('node') . '/' . $params[0] . '/' : (basename($fol) == 'root' ? '' : cs_var('node') . '/'));
 
 	foreach ($files as $fil) {
 		if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil[0] == '_') continue;
@@ -91,7 +93,7 @@ function list_fol($fol, $hasFile = false) {
 		$last = $fil;
 		//if ($fil == )
 		$sel = $param == $fil ? ' class="emphasize"' : '';
-		echo sprintf('<a%s href="%s">%s</a><br />' . PHP_EOL, $sel, ($hasFile ? '../' : '') . $fil . '/', humanize($fil));
+		echo sprintf('<a%s href="%s">%s</a><br />' . PHP_EOL, $sel, $base . $fil . '/', humanize($fil));
 	}
 }
 
