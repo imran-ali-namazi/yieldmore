@@ -1,8 +1,10 @@
 <!--post_id: 7355-->
 [info]
-source: http://www.kylenull.com/keep-talking/
-youtube: iCA_XaSXn_M
+<a href="http://www.kylenull.com/keep-talking/">source: kyle null</a>
+<a href="https://www.youtube.com/watch?v=iCA_XaSXn_M" target="_blank">youtube: iCA_XaSXn_M</a>
 [/info]
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/iCA_XaSXn_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 For millions of years, mankind lived just like the animals. Then something happened which unleashed the power of our imagination. We learned to talk and we learned to listen. Speech has allowed the communication of ideas, enabling human beings to work together to build the impossible. Mankind’s greatest achievements have come about by talking and its greatest failures by not talking. It doesn’t have to be like this. Our greatest hopes could become reality in the future. With the technology at our disposal, the possibilities are unbounded. All we need to do is make sure we keep talking.
 -Stephen Hawking

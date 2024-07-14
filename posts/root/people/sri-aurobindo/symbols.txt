@@ -2,11 +2,11 @@
 source: http://www.sriaurobindoashram.org/ashram/mother/symbol.php
 [/info]
 
-<img src="images/symbols.gif" alt="symbols.gif, 14kB" title="symbols" height="278" width="670" />
+<img src="../../../posts/root/people/sri-aurobindo/images/symbols.gif" alt="symbols.gif, 14kB" title="symbols" height="278" width="670" />
 
 <hr />
 
-<img src="images/sriauro_writing.gif" alt="sriauro_writing.gif, 20kB" title="sriauro_writing" height="454" width="670" />
+<img src="../../../posts/root/people/sri-aurobindo/images/sriauro_writing.gif" alt="sriauro_writing.gif, 20kB" title="sriauro_writing" height="454" width="670" />
 
 <p>The descending triangle represents Sat-Chit-Ananda. The ascending triangle represents the aspiring answer from matter under the form of life, light and love.</p>
 
@@ -16,7 +16,7 @@ source: http://www.sriaurobindoashram.org/ashram/mother/symbol.php
 
 <hr />
 
-<img src="images/mother_writing.gif" alt="mother_writing.gif, 12kB" title="mother_writing" height="298" width="670" />
+<img src="../../../posts/root/people/sri-aurobindo/images/mother_writing.gif" alt="mother_writing.gif, 12kB" title="mother_writing" height="298" width="670" />
 
 <p>The central circle represents the Divine consciousness</p>
 

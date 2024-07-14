@@ -15,7 +15,7 @@ bootstrap(array(
 	'byline' => 'Quality / Growth / Sharing',
 	'start_year' => 2013,
 
-	'version' => [ 'id' => '002', 'date' => '9 Jan 2022' ],
+	'version' => [ 'id' => '002b', 'date' => '9 Jan 2022' ],
 
 	'support_page_parameters' => true,
 	'menu_active_class' => 'active', //TODO: 
