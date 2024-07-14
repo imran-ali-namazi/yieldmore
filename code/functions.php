@@ -1,6 +1,6 @@
 <?php
 
-cs_var('sites', [
+am_var('sites', [
 	'root' => 'wp_',
 	'curate' => 'wp_2_',
 	'learn' => 'wp_3_',
@@ -25,49 +25,60 @@ cs_var('sites', [
 	'nvc' => 'wp_25_',
 ]);
 
-function before_render() {
-	if (cs_var('node') == 'go') { include_once 'resources.php'; exit; }
+function before_file() {
+	echo '<hr class="above-header-content" />' . am_var('nl');
+	echo '<div id="content" class="content container node-' . am_var('node') . ' site-' . am_var('safeName') . '">';
+	if (function_exists('site_before_file')) site_before_file();
+}
 
-	$all = cs_var('all_page_parameters') ? cs_var('all_page_parameters') : '';
-	foreach (cs_var('sites') as $slug => $s) {
-		$work = 'posts/' . ($slug == 'root' ? 'root/' : '') . ($all ? $all : cs_var('node'));
-		$path = cs_var('path') . '/' . $work;
+function after_file() {
+	if (function_exists('site_after_file')) site_after_file();
+	echo '</div>';
+}
+
+function before_render() {
+	if (am_var('node') == 'go') { include_once 'resources.php'; exit; }
+
+	$all = am_var('all_page_parameters') ? am_var('all_page_parameters') : '';
+	foreach (am_var('sites') as $slug => $s) {
+		$work = 'posts/' . ($slug == 'root' ? 'root/' : '') . ($all ? $all : am_var('node'));
+		$path = am_var('path') . '/' . $work;
 
 		//file first
 		if (file_exists($path . '.txt')) {
-			cs_var('fil', $path . '.txt');
-			cs_var('also_fol', $also_fol = is_dir($path));
-			cs_var('fol', $also_fol ? $path : dirname($path));
-			cs_var('site', $slug);
+			am_var('fil', $path . '.txt');
+			am_var('also_fol', $also_fol = is_dir($path));
+			am_var('fol', $also_fol ? $path : dirname($path));
+			am_var('site', $slug);
 			break;
 		} else if (is_dir($path)) {
-			cs_var('fol', $path);
-			cs_var('site', $slug);
+			am_var('fol', $path);
+			am_var('site', $slug);
 			break;
 		}
 	}
 
-	if (cs_var('fol')) {
-		cs_var('work-url', cs_var('url') . $work . '/');
-		$fol = cs_var('fol');
+	if (am_var('fol')) {
+		am_var('work-url', am_var('url') . $work . '/');
+		$fol = am_var('fol');
 
 		$fols = [basename($fol) => $fol . '/'];
 
 		while (($base = basename($fol = dirname($fol))) != 'posts') $fols[$base] = $fol . '/';
 
-		cs_var('fols', $fols);
+		am_var('fols', $fols);
 		//print_r($fols); die();
 	} else {
-		cs_var('fols', ['root' => cs_var('path') . '/posts/root/']);
+		am_var('fols', ['root' => am_var('path') . '/posts/root/']);
 	} 
-	return cs_var('fol');
+	return am_var('fol');
 }
 
 function did_render_page() {
-	$fol = cs_var('fol');
+	$fol = am_var('fol');
 	if ($fol) {
-		$replaces = ['[work-url]' => cs_var('work-url')];
-		if (cs_var('fil')) render_txt_or_md(cs_var('fil'), $replaces);
+		$replaces = ['[work-url]' => am_var('work-url')];
+		if (am_var('fil')) renderAny(am_var('fil'), $replaces);
 		list_fol($fol);
 		return true;
 	}
@@ -82,9 +93,9 @@ function list_fol($fol) {
 
 	echo '<hr />';
 
-	$params = cs_var('page_parameters') ? cs_var('page_parameters') : [];
+	$params = am_var('page_parameters') ? am_var('page_parameters') : [];
 	$param = count($params) > 0 ? $params[count($params) - 1] : false;
-	$base = cs_var('url') . ($param ? cs_var('node') . '/' . $params[0] . '/' : (basename($fol) == 'root' ? '' : cs_var('node') . '/'));
+	$base = am_var('url') . ($param ? am_var('node') . '/' . $params[0] . '/' : (basename($fol) == 'root' ? '' : am_var('node') . '/'));
 
 	foreach ($files as $fil) {
 		if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil[0] == '_') continue;

@@ -3,13 +3,13 @@
 <ol class="sitemap">
 <?php
 
-$sites = cs_var('sites');
+$sites = am_var('sites');
 
 $tpl = '<li>%s<a href="%s">%s</a>%s';
 foreach ($sites as $s => $noop) {
 	$slug = $s == 'root' ? '' : $s . '/';
-	echo sprintf($tpl, '<h2>', cs_var('url') . $slug, humanize($s), '</h2>');
-	link_recursively(__DIR__ . '/posts/' . $s, $slug, 3, $tpl);
+	echo sprintf($tpl, '<h2>', am_var('url') . $slug, humanize($s), '</h2>');
+	link_recursively(SITEPATH . '/posts/' . $s, $slug, 3, $tpl);
 	echo '</li>';
 }
 echo '</ol>';
@@ -30,7 +30,7 @@ function link_recursively($fol, $rel, $level, $tpl) {
 		if ($last == $name) continue;
 
 		$thisRel = $rel . $name . '/';
-		echo sprintf($tpl, $soh, cs_var('url') . $thisRel, humanize($name), $eoh);
+		echo sprintf($tpl, $soh, am_var('url') . $thisRel, humanize($name), $eoh);
 		$path = $fol . '/' . $name;
 
 		if (is_dir($path)) link_recursively($path, $thisRel, $level + 1, $tpl);

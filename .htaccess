@@ -3,7 +3,7 @@
 </IfModule>
 
 <IfModule mod_rewrite.c>
-RewriteCond $1 !^(_cms\.php|assets|wp-content|wp-import.php|work-import.php|posts)
+RewriteCond $1 !^(index\.php|assets|wp-content|wp-import.php|work-import.php|posts)
 RewriteCond %{REQUEST_URI} !\.(pdf|mp4|mp3|jpg|png)$
-RewriteRule ^(.*)$ _cms.php/?%{QUERY_STRING}&node=$1 [L]
+RewriteRule ^(.*)$ index.php/?%{QUERY_STRING}&node=$1 [L]
 </IfModule>

@@ -1,3 +1,8 @@
-Welcome - see our <a href="./home/">pre 2021 home page</a> or <a href="./sitemap/">browse the sitemap</a> / see one of the sections below
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
 
-<?php list_fol(cs_var('path') . '/posts/root/'); ?>
+include_once '../../../amadeus/framework/entry.php';
+define('SITEPATH', __DIR__);
+include_once 'code/cms.php';
+?>
