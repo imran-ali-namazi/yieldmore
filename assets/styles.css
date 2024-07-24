@@ -1,3 +1,8 @@
+.above-header-content { margin: 190px 0 0 0;  }
+@media screen and (max-width: 994px) { /* responsive snap */
+	.above-header-content { margin: 70px 0 0 0; }
+}
+
 p.byline { color: #fff; }
 .selected { background-color: cyan; }
 
@@ -21,4 +26,3 @@ a.emphasize { background-color: #00CCCC; font-weight: bold; padding: 8px; line-h
 /* https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed */
 .video-container { position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-bottom: 20px; }
 .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-

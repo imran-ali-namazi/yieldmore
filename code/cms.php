@@ -25,7 +25,7 @@ bootstrap(array(
 	'phone' => '+919841223313',
 	'social' => [],
 
-	'url' => $local ? 'http://localhost/subdomains/yieldmore/legacy/' : 'https://legacy.yieldmore.org/',
+	'url' => $local ? 'http://localhost/yieldmore/legacy/' : 'https://legacy.yieldmore.org/',
 	'path' => SITEPATH,
 	'stats' => true,
 ));

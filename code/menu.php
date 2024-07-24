@@ -2,16 +2,17 @@
 $site = am_var('site');
 $fols = am_var('fols');
 
+echo '<ul class="nav-menu">';
 $types = ['Site', 'Section', 'Post', 'Sub-post'];
 
 $type = array_shift($types);
-echo sprintf('	<li>%s: <a href="%s">%s</a>' . PHP_EOL, $type, am_var('url'), 'YM Legacy');
-echo '		<select class="menu">' . PHP_EOL;
+echo sprintf('	<li class="drop-down">%s: <a href="%s">%s</a>' . PHP_EOL, $type, am_var('url'), 'YM Legacy');
+echo '		<ul>' . PHP_EOL;
 foreach (am_var('sites') as $slug => $s) {
-	$sel = $site === $slug ? ' selected="selected"' : '';
-	echo sprintf('			<option%s value="%s">%s</option>' . PHP_EOL, $sel, am_var('url') . ($slug == 'root' ? '' : $slug .'/'), humanize($slug));
+	$sel = $site === $slug ? ' class="selected"' : '';
+	echo sprintf('			<li%s><a href="%s">%s</a></li>' . PHP_EOL, $sel, am_var('url') . ($slug == 'root' ? '' : $slug .'/'), humanize($slug));
 }
-echo '		</select></li>' . PHP_EOL;
+echo '		</ul></li>' . PHP_EOL;
 
 if ($site && $fols) {
 	$params = am_var('page_parameters') ? am_var('page_parameters') : [];
@@ -29,14 +30,14 @@ if ($site && $fols) {
 		if (endsWith($slug, '/')) $slug = substr($slug, 0, -1);
 
 		$type = array_shift($types);
-		echo sprintf('	<li>%s: <a href="%s">%s</a>' . PHP_EOL, $type, am_var('url') . ($slug == 'root' || $slug == '' ? '' : $slug .'/'), $name == 'root' ? 'home' : $name);
+		echo sprintf('	<li class="drop-down">%s: <a href="%s">%s</a>' . PHP_EOL, $type, am_var('url') . ($slug == 'root' || $slug == '' ? '' : $slug .'/'), $name == 'root' ? 'home' : $name);
 		$last = false;
 		$files = scandir($fol);
 		natsort($files);
 
 		$param = count($params) > 0 ? array_shift($params) : '[nothing]';
 
-		echo '		<select class="menu">' . PHP_EOL;
+		echo '		<ul>' . PHP_EOL;
 		$anySel = false;
 		foreach ($files as $fil) {
 			if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil[0] == '_') continue;
@@ -44,11 +45,10 @@ if ($site && $fols) {
 			if ($fil == $last) continue;
 			$last = $fil;
 			
-			$sel = ''; if ($param == $fil) { $sel = ' selected="true"'; $anySel = true; }
-			echo sprintf('			<option%s value="%s">%s</option>' . PHP_EOL, $sel, am_var('url') . ($slug ? $slug . '/' : '') . $fil . '/', humanize($fil));
+			$sel = ''; if ($param == $fil) { $sel = ' class="selected"'; $anySel = true; }
+			echo sprintf('			<li%s><a href="%s">%s</a></li>' . PHP_EOL, $sel, am_var('url') . ($slug ? $slug . '/' : '') . $fil . '/', humanize($fil));
 		}
-		if (!$anySel) echo '			<option selected="selected"></option>';
-		echo '		</select></li>' . PHP_EOL . '';
+		echo '		</ul></li>' . PHP_EOL . '';
 	}
 }
 
@@ -59,5 +59,7 @@ function site_humanize($text) {
 	}
 	return $text;
 }
+echo '<li><a href="' . am_var('url') . 'resources/">Redirects</a></li>';
+echo '<li><a href="' . am_var('url') . 'sitemap/">Sitemap</a></li>';
+echo '</ul>';
 ?>
-See <a href="<?php echo am_var('url'); ?>resources/">redirects</a> or <a href="<?php echo am_var('url'); ?>sitemap/">sitemap</a>.
