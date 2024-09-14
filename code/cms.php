@@ -17,6 +17,7 @@ bootstrap(array(
 	'folder' => 'content/',
 
 	'theme' => 'biz-land',
+	'image-in-logo' => '-rectangle.jpg',
 
 	'styles' => ['styles'],
 	'scripts' => ['%app%themes/biz-land/assets/vendor/jquery/jquery.min', 'main', 'contents'],
@@ -27,7 +28,6 @@ bootstrap(array(
 
 	'url' => $local ? 'http://localhost/yieldmore/legacy/' : 'https://legacy.yieldmore.org/',
 	'path' => SITEPATH,
-	'stats' => true,
 ));
 
 render();

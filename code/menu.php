@@ -40,7 +40,7 @@ if ($site && $fols) {
 		echo '		<ul>' . PHP_EOL;
 		$anySel = false;
 		foreach ($files as $fil) {
-			if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil[0] == '_') continue;
+			if ($fil[0] == '.' || $fil == 'images' || $fil[0] == '_') continue;
 			$fil = str_replace('.txt', '', $fil);
 			if ($fil == $last) continue;
 			$last = $fil;

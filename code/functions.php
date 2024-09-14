@@ -98,7 +98,7 @@ function list_fol($fol) {
 	$base = am_var('url') . ($param ? am_var('node') . '/' . $params[0] . '/' : (basename($fol) == 'root' ? '' : am_var('node') . '/'));
 
 	foreach ($files as $fil) {
-		if ($fil == '.' || $fil == '..' || $fil == 'images' || $fil[0] == '_') continue;
+		if ($fil[0] == '.' || $fil == 'images' || $fil[0] == '_') continue;
 		$fil = str_replace('.txt', '', $fil);
 		if ($fil == $last) continue;
 		$last = $fil;
