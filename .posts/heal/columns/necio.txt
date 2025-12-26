@@ -1,7 +1,0 @@
-<!--post_id: 73-->
-Necio Health is a <a href="https://twinybots.ch" target="_blank">twinybot</a> made with love by the people at <a href="http://necio.ch" target="_blank">NECIO</a>.
-
-Click this page to see their fantastic (bot based) twitter feed.
-<!--more-->
-
-[social tw=HealthNecio type=mention,timeline]

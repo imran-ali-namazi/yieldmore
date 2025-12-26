@@ -1,0 +1,25 @@
+<!--post_id: 56-->
+[info]
+link: http://cocothelouder.com
+link: http://cocothelouder.com/resources
+link: https://www.twitch.tv/coco_the_louder
+link: https://www.twitch.tv/coco_the_louder/videos/all
+[/info]
+
+<blockquote>There is an interestin gamer on twitch who has her own psychology Q/A stream. Her name is Coco The Louder - twitch.tv/coco_the_louder - She has her own website now and she has been compililng these amazing resources in the form of pdfs which are a great reference of things to know if your in stress, if your tring to deal with grief, if your trying to bring your life back together. - <a href="http://media.yieldmore.org/2018/001/" target="_blank" rel="noopener">001</a></blockquote>
+Coco the Louder's work revolves around empowering, educating, and supporting people's mental health and advocating for people with mental health diagnoses.
+
+Her work includes:
+<ul>
+ 	<li><strong>Providing</strong> free mental health resources and PDF's</li>
+ 	<li><strong>Writing</strong> practical articles about mental health topics, like emotions, relationships, and coping</li>
+ 	<li><strong>Broadcasting</strong> live mental health streams where she presents on popular mental health concerns</li>
+ 	<li><strong>Advocates</strong> for mental health and wellness by answering hundreds of mental health and psychology-related questions on stream, in emails, and in direct messages</li>
+ 	<li><strong>Educating</strong> people about effective and healthy mental health strategies</li>
+ 	<li><strong>Creating</strong> mental health infographics, designs, and visual guides</li>
+ 	<li><strong>Maintaining</strong> constant uplifting and empowering mental health and wellness reminders on Twitter and Instagram</li>
+ 	<li><strong>Collaborates</strong> with other mental health and fitness content creators to integrate areas of expertise for more integrative wellness</li>
+ 	<li><strong>Supports</strong> other content creators focused on wellness and positive social change</li>
+ 	<li><strong>Publishes</strong> articles from guest authors to amplify and celebrate their knowledge</li>
+</ul>
+Coco's advocacy work focuses on providing mental health strategies and tools that make sense, even if you've never sat through a single minute of a psych class. Her work focuses on practical approaches to self-care and wellness, whether you are functioning at your near best or struggling to function at all. Most of all, she makes sure no one is left alone or unhelped by forming a bridge between "does mental health treatment even work?" and the first steps to set up an initial therapy session.

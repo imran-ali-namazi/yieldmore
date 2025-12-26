@@ -10,7 +10,7 @@ Guru Nanak Sahib meanwhile spontaneously gave words to the wonderful arti which 
 
 <hr />
 
-<div class="video-container"><video style="width: 100%;" preload="none" controls><source src="http://legacy.yieldmore.org/posts/root/practices/prayer/docs/sikh-arti.mp4" type="video/mp4" /></video></div>
+[video]%url%%section%/%nodeSlug%/%nodeItem%/assets/%nodeItem2%.mp4[/video]
 
 <hr />
 

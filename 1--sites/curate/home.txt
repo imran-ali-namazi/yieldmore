@@ -1,0 +1,10 @@
+<!--post_id: 1-->
+Welcome to english.yieldmore.org a website for improving your English and for the English enthusiast. Our purpose is to bring you the best content that will interest you in learning the nuances of the language.
+
+We believe English is best learnt through Music, Movies, Books, Poems and Short Stories. We classify these into levels.
+
+In time, we plan to have lessons and a proper course structure with exercises you can take and also target sharing this in schools.
+
+If you are interested in contributing content, becoming a teacher, feel free to register with us by sending a mail to <a href="mailto:%email%?subject=YieldMore English Contact" target="_blank">%email%</a> with a mention of your background.
+
+In time we wish to provide the tools for teachers to conduct classes online and also collect money from the students.

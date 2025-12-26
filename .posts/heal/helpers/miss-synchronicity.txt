@@ -1,9 +1,0 @@
-<!--post_id: 69-->
-[info]
-link: https://www.twitch.tv/misssynchronicity
-link: https://www.twitch.tv/misssynchronicity/videos/all
-[/info]
-
-<iframe class="embed-responsive-item" src="http://player.twitch.tv/?channel=misssynchronicity&amp;data-paused=true" width="720" height="400" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
-
-<!--[work config fol=helpers/kim][/work]-->

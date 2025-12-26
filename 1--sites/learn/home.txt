@@ -1,0 +1,10 @@
+<!--post_id: 1-->
+Welcome to Learn YM, a project of yieldmore.org for learning subjects like math, science, history etc. Our purpose is to bring teachers and students together and provide a platform for our teachers to spread their learning. We are in the process of building our own content, but link to other online content when possible.
+
+Our teachers section is for content targeting teachers (by teacher trainers). And we also disseminate information for parents. We hope to build a network of teachers of schools and colleges and engage in collaboration, quality improvements in the education system and sharing resources with the needy.
+
+We are based in Chennai, India and are focusing our efforts there for the moment, but if you are interested in facilitating/coordinating similar activity in any city in the world, please do not hesitate to contact us.
+
+Feel free to contact us by sending a mail to <a href="mailto:%email%?subject=YieldMore Learn Contact" target="_blank">%email%</a> with a slight background and how you can contribute / engage with us. You can also join the <a href="https://www.facebook.com/groups/LearnYM/" target="_blank">Facebook Group</a>.
+
+In time we also wish to provide the tools for teachers to conduct classes online, manage libraries esp for government school students, distribute pamphlets etc.
