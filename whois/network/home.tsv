@@ -1,0 +1,12 @@
+|is-table
+||cloneAt: amadeusweb/initiatives/yieldmore/
+||renderWith: repos.php
+||Description: Seeding an Internet of Missions
+||Primary Keyword: DAWN
+||Keywords: Internet of Missions, Dynamic AmadeusWeb Network
+#at	from
+	https://github.com/imran-ali-namazi/yieldmore.git
+archives/2007	https://github.com/imran-ali-namazi/2007.git
+archives/2021	https://github.com/imran-ali-namazi/2021.git
+archives/2022	https://github.com/imran-ali-namazi/2022.git
+archives/2023	https://github.com/imran-ali-namazi/2023.git

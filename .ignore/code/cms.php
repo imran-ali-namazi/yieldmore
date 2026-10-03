@@ -2,7 +2,7 @@
 include_once 'functions.php';
 
 //am_var('live', endsWith(__DIR__,'-live'));
-am_var('local', $local = $_SERVER['HTTP_HOST'] ==='localhost');
+am_var(VARLocal, $local = $_SERVER['HTTP_HOST'] ==='localhost');
 
 bootstrap(array(
 	'name' => 'Legacy YM',
@@ -22,8 +22,8 @@ bootstrap(array(
 	'styles' => ['styles'],
 	'scripts' => ['%app%themes/biz-land/assets/vendor/jquery/jquery.min', 'main', 'contents'],
 
-	'email' => 'team@yieldmore.org',
-	'phone' => '+919841223313',
+	VAREmail => 'team@yieldmore.org',
+	VARPhone => '+919841223313',
 	'social' => [],
 
 	'url' => $local ? 'http://localhost/yieldmore/legacy/' : 'https://legacy.yieldmore.org/',

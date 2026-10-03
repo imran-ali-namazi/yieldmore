@@ -1,0 +1,22 @@
+#key	value
+name	2013 YieldMore
+byline	A YM Site
+year	2013
+
+|labels and messages
+iconName	YieldMore.org
+siteMenuName	YM Home
+description	YieldMore.org from 2013 to 2025
+notes	Also, Imran's Blog from 2005/2007
+welcome-message	This is a DAWN Site
+footer-message	DAWN
+
+|img and styles
+safeName	yield-more-2013	//NOTE: used in getLogoOr
+mediakit	?palette=default
+|fonts	cursive=Eagle+Lake&menu=Quintessential&menu-size=1.3rem
+
+|technical
+sections	from-tsv
+local-url	http://localhost/amadeusweb/initiatives/yieldmore/
+live-url	https://yieldmore.amadeusweb.in/
