@@ -1,49 +1,82 @@
 <!--post_id: 54-->
 <!--[work config fol=topics/religion][/work]-->
 
-Wikipedia: A <a href="https://en.wikiquote.org/wiki/Religion" target="_blank">religion</a> is an organized collection of beliefs, cultural systems, and world views that relate humanity to an order of existence. Many religions have narratives, symbols, and sacred histories that aim to explain the meaning of life, the origin of life, or the Universe.
+Wikipedia: A [religion](https://en.wikiquote.org/wiki/Religion) is an organized collection of beliefs, cultural systems, and world views that relate humanity to an order of existence. Many religions have narratives, symbols, and sacred histories that aim to explain the meaning of life, the origin of life, or the Universe.
 
-"Indian religion has always felt that since the minds, the temperaments and the intellectual affinities of men are unlimited in their variety, a perfect liberty of thought and of worship must be allowed to the individual in his approach to the Infinite." - <a href="/people/sri-aurobindo/?node=religion">Sri Aurobindo</a>.
+"Indian religion has always felt that since the minds, the temperaments and the intellectual affinities of men are unlimited in their variety, a perfect liberty of thought and of worship must be allowed to the individual in his approach to the Infinite." - [Sri Aurobindo](%url%sri-aurobindo/religion/BTNINFO).
 
-ENTHEOS - Enthuse about God (Theos), is a platform for <a href="http://spanda.org/new/our-work/jubilo/" rel="nofollow">interfaith dialogue</a> which accepts different <a href="/speak/imran/?node=religion">articles</a> from our contributors and viewers on the topic on our fundamental <a href="https://www.google.co.in/search?q=one+world+philosophy" target="_blank">oneness</a> and rediscovery of the <a href="[url]?r=yt-awakenings" target="_blank">spirituality</a> within.
+ENTHEOS - Enthuse about God (Theos), is a platform for [interfaith dialogue](http://spanda.org/our-work/jubilo/) which accepts different <a href="%urlOf-imran%religion/">articles</a> from our contributors and viewers on the topic on our fundamental [oneness](https://www.google.co.in/search?q=one+world+philosophy) and rediscovery of the spirituality within.
 
-<a href="/works/the-prophet/?node=chapter26&amp;notabs=1">Have I spoken this day of aught else? Is not religion all deeds and all reflection? - Kahlil Gibran</a>. <a href="/people/george-carlin/?node=commandments">Thou shalt keep thy religion to thyself - George Carlin</a>.
+> Have I spoken this day of aught else? Is not religion all deeds and all reflection? - [Kahlil Gibran](%url%the-prophet/chapter26/)
 
-[info]
-youtube: Tu50y4pF4WI&list=PLNEB1ItETG4XH2PZa901pXW7-Ypq3qFA_|What is Sanatana Dharma, Sri Aurobindo, 1909
-link: [url]?r=yt-sama|God Without, God Within - Vrekham, Satprem, Dalal et al, SAMA Integral Yoga Playlist
-youtube: 7G-7-ZiiM-o&list=PLsuI89eMBnMFSNMdjLH9sa5F0c5D9M0sv|Set Man Free - J Krishnamurthi Playlist
-youtube: BKgc3RtrZQA&list=PLsuI89eMBnMHJxvbO1gcC-gO2lpApULuG|Why So Many Gods, Who Am I - Hinduism Playlist
-[/info]
+> Thou shalt keep thy religion to thyself - [George Carlin](%url%george-carlin/commandments/)
 
-<blockquote>See the Hindu religion is the only one that allows you to think of God in a variety of different ways. Not just father in heaven, like Christianity. Mommy in heaven. Why not mommy? Mommies are sweeter, kinder, cuddlier - <a href="/speak/jay-lakhani/?node=spiritual-democracy">Jay Lakhani</a>
+[spacer]YouTube[/spacer]
+[cb-close]
 
-Christianity taught us love, Buddhism spiritual discipline, Hinduism spiritual democracy and Islam social order. - <a href="/speak/imran/?node=religion">Religion, Shasa, 2017</a>
+ALLARTICLES
 
-Grant him the understanding that each man is free to choose his religion, that none is superior to the other, that each man understands the will of God according to his own nature and the truth of his being.<a href="/?r=harmony">Harmony Movement Prayer - Shasa, Nov 2015</a>
+ARTICLE-BOX
 
-Dear Theist, I hope someday you'll understand my love for God. It's no different than my love for Life, and all that is in it. My religion is no different from yours – it's just that I can understand yours, but you can't mine. And because you can't understand it, you don't think its the same as yours. And since your so sure your's is correct, you think mine is wrong. Sweetheart, its all the same - religion just means love of life! - Shasa, 2005
+**What is Sanatana Dharma, Sri Aurobindo, 1909**
 
-We can either approach this new world understanding by clearing away the encrustations of religion, or ignoring it altogether and coming up with new paradigms – Spirituality instead of Religion, and a Cosmic Divine instead of a God. Whatever we call it, man has discovered Liberty, Equality and Freedom and no-one has forgotten the universal message of Love, borne by Krishna, Buddha, Christ and Mohammed. We all have a value system that is becoming more and more accepting and tolerant of one another. - <a href="/incubate/essays-to-a-swan/?node=reconciling-quality">Reconciling Quality, Shasa, Aug 2015</a>
+[youtube]Tu50y4pF4WI&list=PLNEB1ItETG4XH2PZa901pXW7-Ypq3qFA_[/youtube]
 
-What with the fast-pacedness and our inability to have wholistic, meaningful lives, we’ve allowed ourselves to be influenced by forces we should have heeded not. Let’s unblock ourselves, focus on connecting with the primal forces, the healing energies, the cosmic love. Let’s all agree to leave the bodies of our Churches, Temples and Mosques, when necessary, but to cling more tightly to the spirit of that universal message. - <a href="/incubate/essays-to-a-swan/?node=islam">Islam Not Atheism, Shasa, Oct 2013</a>
+ARTICLE-CLOSE ARTICLE-BOX
 
-And this guy has had enough. and he yells at us to stop. But they’ve got him lock stock and barrel. For now he becomes the devil, come to play tricks on us and cheat us of our place in Heaven. at least so they make us believe. - <a href="/incubate/essays-to-a-swan/?node=appeal">Religious Appeal, Shasa, Feb 2005</a>
+**God Without, God Within - Vrekhem**
 
+[youtube]XVF6edFgqqs[/youtube]
 
-</blockquote>
+ARTICLE-CLOSE ARTICLE-BOX
 
-At the core of our website is a belief in the universality that exists in all religions. As they passed through the dark ages, these all became encrusted with untruths and have been diluted by unscrupulous people with ulterior motives. As we <strong>become one world and continue living in a new Age of Illumination</strong>, it falls upon us to remove the crud and learn to live in peace and harmony. Or, to put it in the <a href="/works/essays-on-the-gita/">words of Aurobindo</a>:
+**Set Man Free - J Krishnamurthi**
 
-<blockquote>THE WORLD abounds with scriptures sacred and profane, with revelations and half-revelations, with religions and philosophies, sects and schools and systems. To these the many minds of a half-ripe knowledge or no knowledge at all attach themselves with exclusiveness and passion and will have it that this or the other book is alone the eternal Word of God and all others are either impostures or at best imperfectly inspired, that this or that philosophy is the last word of the reasoning intellect and other systems are either errors or saved only by such partial truth in them as links them to the one true philosophical cult.</blockquote>
+[youtube]7G-7-ZiiM-o&list=PLsuI89eMBnMFSNMdjLH9sa5F0c5D9M0sv[/youtube]
 
-The major surviving religions are (in order of appearance): Hinduism (Vedic Belief or Sanatana Dharma, read as knowledge), <a href="http://www.paganfederation.org/what-is-paganism/" target="_blank">Paganism <span title="Pagans pursue their own vision of the Divine as a direct and personal experience.">?</span></a>, Judaism, Buddhism, Christianity (read as love) and Islam (read as peace).
+ARTICLE-CLOSE ARTICLE-BOX
 
-There are also smaller religions like Sikhism and Jainism which are thought of more as offshoots of Hinduism. Please read <a href="https://auromere.wordpress.com/2015/04/07/hinduism-and-the-caste-system/" target="_blank">this article</a> which throws some light on the caste system in Hinduism.
+**Why So Many Gods, Who Am I - Hinduism Playlist**
 
-Our writing is aimed at expounding the core beliefs and helping others understand it from an integration perspective, as Swami Vivekananda <a href="/people/swami-vivekananda/?node=wpr-conclusion">puts it</a>: upon the banner of every religion will soon be written in spite of resistance: “Help and not fight,” “Assimilation and not Destruction,” “Harmony and Peace and not Dissension.”
+[youtube]BKgc3RtrZQA&list=PLsuI89eMBnMHJxvbO1gcC-gO2lpApULuG[/youtube]
 
-We leave you with some quotes (all prefixed by * are from wikiquote).
+ARTICLE-CLOSE ALLARTICLES-CLOSE
+
+[spacer]Passages[/spacer]
+
+> See the Hindu religion is the only one that allows you to think of God in a variety of different ways. Not just father in heaven, like Christianity. Mommy in heaven. Why not mommy? Mommies are sweeter, kinder, cuddlier - [Jay Lakhani](#google=jay+lakhani+spiritual+democracy)
+
+## Shasa - Imran's Pseudonym since 2013
+
+> Christianity taught us love, Buddhism spiritual discipline, Hinduism spiritual democracy and Islam social order. ~ [Religion, Shasa, 2017](%urlOf-imran%religion/)
+
+> Grant him the understanding that each man is free to choose his religion, that none is superior to the other, that each man understands the will of God according to his own nature and the truth of his being. ~ [Harmony Movement Prayer - Shasa, Nov 2015](%urlOf-imran%harmony/)
+
+> Dear Theist, I hope someday you'll understand my love for God. It's no different than my love for Life, and all that is in it. My religion is no different from yours – it's just that I can understand yours, but you can't mine. And because you can't understand it, you don't think its the same as yours. And since your so sure your's is correct, you think mine is wrong. Sweetheart, its all the same - religion just means love of life! - [Shasa, 2005](%urlOf-imran%love-letter/)
+
+> We can either approach this new world understanding by clearing away the encrustations of religion, or ignoring it altogether and coming up with new paradigms – Spirituality instead of Religion, and a Cosmic Divine instead of a God. Whatever we call it, man has discovered Liberty, Equality and Freedom and no-one has forgotten the universal message of Love, borne by Krishna, Buddha, Christ and Mohammed. We all have a value system that is becoming more and more accepting and tolerant of one another. ~ [Reconciling Quality, Shasa, Aug 2015](%urlOf-imran%reconciling-quality/)
+
+> What with the fast-pacedness and our inability to have wholistic, meaningful lives, we’ve allowed ourselves to be influenced by forces we should have heeded not. Let’s unblock ourselves, focus on connecting with the primal forces, the healing energies, the cosmic love. Let’s all agree to leave the bodies of our Churches, Temples and Mosques, when necessary, but to cling more tightly to the spirit of that universal message. ~ [Islam Not Atheism, Shasa, Oct 2013](%urlOf-imran%islam/)
+
+> And this guy has had enough. and he yells at us to stop. But they’ve got him lock stock and barrel. For now he becomes the devil, come to play tricks on us and cheat us of our place in Heaven. at least so they make us believe. ~ [Religious Appeal, Shasa, Feb 2005](%urlOf-imran%religious-appeal/)
+
+[spacer]Introduction[/spacer]
+
+At the core of our website is a belief in the universality that exists in all religions. As they passed through the dark ages, these all became encrusted with untruths and have been diluted by unscrupulous people with ulterior motives. As we <strong>become one world and continue living in a new Age of Illumination</strong>, it falls upon us to remove the crud and learn to live in peace and harmony. Or, to put it in the words of Sri Aurobindo:
+
+> THE WORLD abounds with scriptures sacred and profane, with revelations and half-revelations, with religions and philosophies, sects and schools and systems. To these the many minds of a half-ripe knowledge or no knowledge at all attach themselves with exclusiveness and passion and will have it that this or the other book is alone the eternal Word of God and all others are either impostures or at best imperfectly inspired, that this or that philosophy is the last word of the reasoning intellect and other systems are either errors or saved only by such partial truth in them as links them to the one true philosophical cult. [~Sri Aurobindo](%url%essays-on-the-gita/)
+
+The major surviving religions are (in order of appearance): Hinduism (Vedic Belief or Sanatana Dharma, read as knowledge), [Paganism](http://www.paganfederation.org/what-is-paganism/) <span title="Pagans pursue their own vision of the Divine as a direct and personal experience.">?</span>, Judaism, Buddhism, Christianity (read as love) and Islam (read as peace).
+
+There are also smaller religions like Sikhism and Jainism which are thought of more as offshoots of Hinduism. Please read [this article](#todo-reinstate) from [AuroMere](https://auromere.wordpress.com/2015/04/07/hinduism-and-the-caste-system/) which throws some light on the caste system in Hinduism.
+
+Our writing is aimed at expounding the core beliefs and helping others understand it from an integration perspective, as [Swami Vivekananda puts it](%url%swami-vivekananda/wpr-conclusion/)
+
+> Upon the banner of every religion will soon be written in spite of resistance: “Help and not fight,” “Assimilation and not Destruction,” “Harmony and Peace and not Dissension.”
+
+[spacer]Quotes[/spacer]
+
+We leave you with some quotes - all bullet points are from [wikiquote](https://en.wikiquote.org/wiki/Religion) and compiled by Imran in Sep 2015.
 
 * Religion is a great force — the only real motive force in the world; but what you fellows don't understand is that you must get at a man through his own religion and not through yours. - George Bernard Shaw
 * All religions, arts and sciences are branches of the same tree. All these aspirations are directed toward ennobling man's life, lifting it from the sphere of mere physical existence and leading the individual towards freedom. - Albert Einstein
@@ -57,22 +90,27 @@ We leave you with some quotes (all prefixed by * are from wikiquote).
 * Human things must be known to be loved; but Divine things must be loved to be known. - Blaise Pascal
 
 <!--more-->
-<h2>Dear Atheist / Agnost</h2>
+
+[spacer]Dear Atheist / Agnost[/spacer]
+
 * You may call me an agnostic, but I do not share the crusading spirit of the professional atheist whose fervor is mostly due to a painful act of liberation from the fetters of religious indoctrination received in youth. I prefer an attitude of humility corresponding to the weakness of our intellectual understanding of nature and of our own being. - Albert Einstein
 
 The mark of your ignorance is your belief in tragedy and injustice
 'What the caterpillar calls the end of the world, the master calls a butterfly.' - Richard Bach
 
-God uses atheism as a stone to break the encrustations of religion - paraphrasing Aurobindo. Atheism is a non-prophet organization - <a href="/people/george-carlin/?node=quotes">George Carlin</a>.
+> God uses atheism as a stone to break the encrustations of religion - paraphrasing Aurobindo.
+
+> Atheism is a non-prophet organization ~ [George Carlin](%url%george-carlin/quotes/).
 
 There are primarily 3 causes for Atheism viz
-<ul>
-	<li>Too much religion</li>
-	<li>Disbelief that a God can allow so much evil (see <a href="https://en.wikipedia.org/wiki/Theodicy" target="_blank">Theodicy</a>)</li>
-	<li>Requiring proof (science) to explain a God</li>
-</ul>
 
-<h2>Sets you thinking</h2>
+1. Too much religion
+2. Disbelief that a God can allow so much evil - see [Theodicy](https://en.wikipedia.org/wiki/Theodicy)
+3. Requiring proof (science) to explain a God
+
+
+[spacer]Sets you thinking[/spacer]
+
 * All Faith is false, all Faith is true: Truth is the shattered mirror strewn In myriad bits; while each believes his little bit the whole to own.
 * The true office of religion is to bring out the whole nature of man in harmonious activity
 * Men will wrangle for religion; write for it; fight for it; die for it; anything but — live for it.
@@ -99,7 +137,8 @@ I hope some day you'll join us, And the world will be as one. - John Lennon, Ima
 * All religions, with their gods, demigods, prophets, messiahs and saints, are the product of the fancy and credulity of men who have not yet reached the full development and complete possession of their intellectual powers.
 * You humans, most of you, subscribe to this policy of an eye for an eye, a life for a life, which is known throughout the universe for its… stupidity. Even your Buddha and your Christ had quite a different vision; but nobody's paid much attention to them, not even the Buddhists or the Christians. (Prot in KPax)
 
-<h2>Plainly in Praise</h2>
+[spacer]Plainly in Praise[/spacer]
+
 * There was never law, or sect, or opinion did so much magnify goodness, as the Christian religion doth.
 * By religion I do not mean outward things, but inward states, I mean perfected manhood. I mean the quickening of the soul by the beatific influence of the divine Spirit in truth, and love, and sympathy, and confidence, and trust.
 * The spirit of true religion breathes gentleness and affability; it gives a native, unaffected ease to the behavior. It is social, kind, cheerful; far removed from the cloudy and illiberal superstition which clouds the brow, sharpens the temper, and dejects the spirit.
@@ -126,10 +165,10 @@ I hope some day you'll join us, And the world will be as one. - John Lennon, Ima
 * The ground of all religion, that which makes it possible, is the relation in which the human soul stands to God.
 * The best way to obtain truth and wisdom is not to ask from books, but to go to God in prayer, and obtain divine teaching.
 * Religion is the tie that connects man with his Creator, and holds him to His throne.
-<h2>Hinduism</h2>
-[info]
-quote: Sri_Aurobindo
-[/info]
+
+[spacer]Hinduism[/spacer]
+
+SOURCE: [Sri Aurobindo, Wikiquote](https://en.wikiquote.org/wiki/Sri_Aurobindo)
 
 * Indian religion has always felt that since the minds, the temperaments and the intellectual affinities of men are unlimited in their variety, a perfect liberty of thought and of worship must be allowed to the individual in his approach to the Infinite.
 * Evolution is not finished; reason is not the last word nor the reasoning animal the supreme figure of Nature. As man emerged out of the animal, so out of man the superman emerges.
@@ -140,9 +179,9 @@ quote: Sri_Aurobindo
 * We speak often of the Hindu religion, of the Sanatan Dharma, but few of us really know what that religion is. Other religions are preponderatingly religions of faith and profession, but the Sanatan Dharma is life itself; it is a thing that has not so much to be believed as lived. This is the Dharma that for the salvation of humanity was cherished in the seclusion of this peninsula from of old. It is to give this religion that India is rising. She does not rise as other countries do, for self or when she is strong, to trample on the weak. She is rising to shed the eternal light entrusted to her over the world. India has always existed for humanity and not for herself and it is for humanity and not for herself that she must be great.
 * If a religion is not universal, it cannot be eternal. A narrow religion, a sectarian religion, an exclusive religion can live only for a limited time and a limited purpose. This is the one religion that can triumph over materialism by including and anticipating the discoveries of science and the speculations of philosophy. It is the one religion which impresses on mankind the closeness of God to us and embraces in its compass all the possible means by which man can approach God. It is the one religion which insists every moment on the truth which all religions acknowledge that He is in all men and all things and that in Him we move and have our being.
 
-[info]
-quote: Hinduism
-[/info]
+[spacer]Hinduism[/spacer]
+
+SOURCE: [Hinduism, Wikiquote](https://en.wikiquote.org/wiki/Hinduism)
 
 * Hinduism is not just a faith. It is the union of reason and intuition that can not be defined but is only to be experienced. Evil and error are not ultimate. There is no Hell, for that means there is a place where God is not, and there are sins which exceed his love.
 * I am proud to belong to a religion which has taught the world both tolerance and universal acceptance. We believe not only in universal toleration, but we accept all religions as true.
@@ -165,6 +204,9 @@ quote: Hinduism
 * It is, indeed, a remarkable circumstance that when Western civilization discovers Relativity it applies it to the manufacture of atom-bombs, whereas this Oriental civilization applies it to the development of new states of consciousness.
 * I owed a magnificent day to the Bhagavad-Gita. It was as if an empire spoke to us, nothing small or unworthy, but large, serene, consistent, the voice of an old intelligence which in another age and climate had pondered and thus disposed of the same questions which exercise us. - Emerson
 
-^1 At this point, we wish to point out that Hinduism is a term coined by the English. There was only the Sanatana Dharma or Eternal Law. Hinduism has countless seers and prophets each adding to the overall splendour. It was the least centralised religion and therefore the most subject to corruptions and encrustations as we (all) passed through the dark <a href="/topics/ages">ages</a>.
-^2 Going back to the <a href="/topics/ages">ages</a>
-^3 Have no fear, believe in the <a href="/incubate/essays-to-a-swan/?node=dear-brother">effulgence of the mother</a>
+[cb-close]
+[cb-open-with-container]
+
+1. At this point, we wish to point out that Hinduism is a term coined by the English. There was only the Sanatana Dharma or Eternal Law. Hinduism has countless seers and prophets each adding to the overall splendour. It was the least centralised religion and therefore the most subject to corruptions and encrustations as we (all) passed through the [dark ages](%url%ages/) JUSTBR
+2. Going back to the ages JUSTBR
+3. Have no fear, believe in the [effulgence of the mother](%urlOf-imran%dear-brother/)
